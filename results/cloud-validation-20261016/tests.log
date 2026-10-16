@@ -1,0 +1,14 @@
+test_endpoint_gradients (test_core.CoreTests.test_endpoint_gradients) ... ok
+test_noise_amplification (test_core.CoreTests.test_noise_amplification) ... ok
+test_noiseless_residual (test_core.CoreTests.test_noiseless_residual) ... ok
+test_simulation_analytic (test_core.CoreTests.test_simulation_analytic) ... ok
+test_window_alignment_and_causality (test_core.CoreTests.test_window_alignment_and_causality) ... ok
+test_discrete_stability (closed_loop.test_core.ClosedTests.test_discrete_stability) ... ok
+test_measurement_control_alignment (closed_loop.test_core.ClosedTests.test_measurement_control_alignment) ... ok
+test_no_future_truth_leak (closed_loop.test_core.ClosedTests.test_no_future_truth_leak) ... ok
+test_pulse_area (closed_loop.test_core.ClosedTests.test_pulse_area) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.146s
+
+OK
