@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "torch": "2.5.1+cpu",
+  "numpy": "2.2.6",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "device": "cpu",
+  "threads": 2,
+  "base_git_commit": "3d7ee6dd03ccbb22d983fb0c282f4023313f560d"
+}

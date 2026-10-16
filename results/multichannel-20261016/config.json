@@ -1,0 +1,13 @@
+{
+  "out": "results/multichannel-20261016",
+  "steps": 3000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "train_trajectories": 72,
+  "val_trajectories": 18,
+  "test_trajectories": 24,
+  "threads": 2
+}

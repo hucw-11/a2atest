@@ -1,0 +1,128 @@
+[
+  {
+    "scenario": "clean",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.0020379387990766273,
+    "paired_trajectory_bootstrap_95": [
+      -0.0011189163223946906,
+      0.004931562210707831
+    ]
+  },
+  {
+    "scenario": "clean",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.009701084639841845,
+    "paired_trajectory_bootstrap_95": [
+      0.004468157298078891,
+      0.014904814801543485
+    ]
+  },
+  {
+    "scenario": "x_1pct",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.0020268500942750844,
+    "paired_trajectory_bootstrap_95": [
+      -0.0011135803106110133,
+      0.0049005356895366085
+    ]
+  },
+  {
+    "scenario": "x_1pct",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.009695789124450127,
+    "paired_trajectory_bootstrap_95": [
+      0.004483905857585099,
+      0.01485509060000638
+    ]
+  },
+  {
+    "scenario": "v_1pct",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.002545661134521343,
+    "paired_trajectory_bootstrap_95": [
+      -0.00039363767519901417,
+      0.005222388066716975
+    ]
+  },
+  {
+    "scenario": "v_1pct",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.00953699835508437,
+    "paired_trajectory_bootstrap_95": [
+      0.004210766031516713,
+      0.014846951538079262
+    ]
+  },
+  {
+    "scenario": "xv_1pct",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.002551320687444014,
+    "paired_trajectory_bootstrap_95": [
+      -0.00039067806530087423,
+      0.005210318419104497
+    ]
+  },
+  {
+    "scenario": "xv_1pct",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.009538896146758985,
+    "paired_trajectory_bootstrap_95": [
+      0.004251385354907453,
+      0.014821824137947323
+    ]
+  },
+  {
+    "scenario": "x_5pct",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.002260844812048496,
+    "paired_trajectory_bootstrap_95": [
+      -0.0007967779055252803,
+      0.005057160620118998
+    ]
+  },
+  {
+    "scenario": "x_5pct",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.009614166829097104,
+    "paired_trajectory_bootstrap_95": [
+      0.004492873732595183,
+      0.014704586271126377
+    ]
+  },
+  {
+    "scenario": "v_5pct",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.01093284670718056,
+    "paired_trajectory_bootstrap_95": [
+      0.007612458104809554,
+      0.014676294769760076
+    ]
+  },
+  {
+    "scenario": "v_5pct",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.00736810545721911,
+    "paired_trajectory_bootstrap_95": [
+      0.0017896014164942285,
+      0.013518078244979342
+    ]
+  },
+  {
+    "scenario": "xv_5pct",
+    "training": "frozen",
+    "regression_minus_a2afm": 0.01126957595931552,
+    "paired_trajectory_bootstrap_95": [
+      0.007965427584494311,
+      0.015040231379475914
+    ]
+  },
+  {
+    "scenario": "xv_5pct",
+    "training": "mixed",
+    "regression_minus_a2afm": 0.007424699358612091,
+    "paired_trajectory_bootstrap_95": [
+      0.0019072961922803043,
+      0.013502584442653957
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "unit_tests": 13,
+  "scenarios": 7,
+  "trained_models": 6,
+  "training_steps_each": 3000,
+  "metric_rows_recomputed": 112,
+  "trajectory_rows": 2688,
+  "evaluated_windows_per_scenario": 9072,
+  "source_and_frozen_weight_hashes": "matched",
+  "frozen_clean_predictions": "match_original_within_2e-6",
+  "online_inference_vs_saved_predictions": "18_checks_passed_atol_2e-5",
+  "smoke_resume": "all_prediction_arrays_identical_in_7_scenarios"
+}
