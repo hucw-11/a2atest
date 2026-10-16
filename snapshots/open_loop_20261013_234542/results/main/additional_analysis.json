@@ -1,0 +1,83 @@
+{
+  "bootstrap": [
+    {
+      "baseline": "raw",
+      "rmse_baseline_minus_a2afm": 0.33119921969252936,
+      "paired_trajectory_bootstrap_95": [
+        0.3097184870723201,
+        0.3529696827446004
+      ]
+    },
+    {
+      "baseline": "ema",
+      "rmse_baseline_minus_a2afm": 0.08926615364179447,
+      "paired_trajectory_bootstrap_95": [
+        0.07061653880216885,
+        0.10776670786133068
+      ]
+    },
+    {
+      "baseline": "local_poly",
+      "rmse_baseline_minus_a2afm": 0.13955679230925627,
+      "paired_trajectory_bootstrap_95": [
+        0.12778604202042643,
+        0.15165494197971122
+      ]
+    },
+    {
+      "baseline": "kalman",
+      "rmse_baseline_minus_a2afm": 0.10620018260474717,
+      "paired_trajectory_bootstrap_95": [
+        0.09480795302360356,
+        0.11812831105441281
+      ]
+    },
+    {
+      "baseline": "physics_backward",
+      "rmse_baseline_minus_a2afm": -0.12008509329136324,
+      "paired_trajectory_bootstrap_95": [
+        -0.13143116938524046,
+        -0.11076259648758806
+      ]
+    },
+    {
+      "baseline": "regression",
+      "rmse_baseline_minus_a2afm": 0.0020379383543082386,
+      "paired_trajectory_bootstrap_95": [
+        -0.001121749245933773,
+        0.004983841418214377
+      ]
+    },
+    {
+      "baseline": "fm_only",
+      "rmse_baseline_minus_a2afm": 0.06835856587870903,
+      "paired_trajectory_bootstrap_95": [
+        0.060893255060819704,
+        0.0759190411924112
+      ]
+    }
+  ],
+  "latency": [
+    {
+      "method": "a2afm",
+      "parameters": 86296,
+      "median_ms_batch1": 2.040499997747247,
+      "p95_ms_batch1": 2.5804649991187034,
+      "scope": "CPU network plus flow integration only; excludes preprocessing and sensor IO"
+    },
+    {
+      "method": "regression",
+      "parameters": 82712,
+      "median_ms_batch1": 0.21780000133730937,
+      "p95_ms_batch1": 0.2797249999275664,
+      "scope": "CPU network plus flow integration only; excludes preprocessing and sensor IO"
+    },
+    {
+      "method": "fm_only",
+      "parameters": 86296,
+      "median_ms_batch1": 2.0510000013018725,
+      "p95_ms_batch1": 2.5081050014705397,
+      "scope": "CPU network plus flow integration only; excludes preprocessing and sensor IO"
+    }
+  ]
+}

@@ -1,0 +1,1154 @@
+[
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.19976484070404385,
+    "mae": 0.15606817866959288,
+    "snr_db": 10.36158652180298
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.17492620771491835,
+    "mae": 0.13946815617425692,
+    "snr_db": 11.449191081642232
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.19973851308364524,
+    "mae": 0.15377332849151387,
+    "snr_db": 9.958475715616284
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.22186329797906584,
+    "mae": 0.17496305134300796,
+    "snr_db": 9.879523669503932
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.19193033952783983,
+    "mae": 0.1398851855787254,
+    "snr_db": 10.709094956245993
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.21835110195865123,
+    "mae": 0.16518817232537625,
+    "snr_db": 9.523180941543995
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.2013419978001133,
+    "mae": 0.16749370927517204,
+    "snr_db": 9.889024495176322
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.14931832402326745,
+    "mae": 0.08697367513562791,
+    "snr_db": 13.318970824947257
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.13505287197999102,
+    "mae": 0.10353395629232294,
+    "snr_db": 13.761891104737355
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.1095945189032798,
+    "mae": 0.08941810382594835,
+    "snr_db": 15.510512011418406
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.12626082598196933,
+    "mae": 0.10003484580219496,
+    "snr_db": 13.942339444189507
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.16360036656083948,
+    "mae": 0.12114891924882552,
+    "snr_db": 12.525547510315091
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.12983766555351575,
+    "mae": 0.10055461706504167,
+    "snr_db": 14.10395362000614
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.11353915908831824,
+    "mae": 0.08993740752808799,
+    "snr_db": 15.203375234909291
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.13116153614803544,
+    "mae": 0.10433333532305594,
+    "snr_db": 13.611582077536655
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.1431047482719039,
+    "mae": 0.10739310834398107,
+    "snr_db": 13.688152077317849
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.03836034409623488,
+    "mae": 0.003313203165453149,
+    "snr_db": 24.69431770415605
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0024521665108195485,
+    "mae": 0.0017712716490853556,
+    "snr_db": 48.51528956240152
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0022519490222166374,
+    "mae": 0.0017430383227562524,
+    "snr_db": 48.916540864433415
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0663585985577542,
+    "mae": 0.006425299524517838,
+    "snr_db": 20.36328884881714
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.22062987089157104,
+    "mae": 0.17554478347301483,
+    "snr_db": 9.49868106842041
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.21879547834396362,
+    "mae": 0.174825519323349,
+    "snr_db": 9.505521774291992
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.21997424960136414,
+    "mae": 0.1727743148803711,
+    "snr_db": 9.120275497436523
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.2230975180864334,
+    "mae": 0.1790345162153244,
+    "snr_db": 9.831337928771973
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.2028740495443344,
+    "mae": 0.1654369980096817,
+    "snr_db": 10.227437973022461
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.17767341434955597,
+    "mae": 0.14516276121139526,
+    "snr_db": 11.31383991241455
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.18929563462734222,
+    "mae": 0.15509763360023499,
+    "snr_db": 10.42490005493164
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.2367972731590271,
+    "mae": 0.19605062901973724,
+    "snr_db": 9.313698768615723
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "all",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.3343813717365265,
+    "mae": 0.25517407059669495,
+    "snr_db": 5.8871259689331055
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "multisine",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.34176206588745117,
+    "mae": 0.2604799270629883,
+    "snr_db": 5.631811618804932
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "chirp",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.39911994338035583,
+    "mae": 0.3213357925415039,
+    "snr_db": 3.9456429481506348
+  },
+  {
+    "scenario": "gaussian_low",
+    "family": "steps",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.24358715116977692,
+    "mae": 0.18370658159255981,
+    "snr_db": 9.068144798278809
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.4994121008433099,
+    "mae": 0.390170446119758,
+    "snr_db": 2.4027863643074197
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.43731551903239024,
+    "mae": 0.34867039049217274,
+    "snr_db": 3.490390913264374
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.49934628276533655,
+    "mae": 0.38443332156491344,
+    "snr_db": 1.9996755411975522
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.5546582426215776,
+    "mae": 0.43740762630218777,
+    "snr_db": 1.9207235324894572
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.25160465744485006,
+    "mae": 0.19589303244416909,
+    "snr_db": 8.357594066655668
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.257399684045152,
+    "mae": 0.20450076851964694,
+    "snr_db": 8.094128512570947
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.26812543585139725,
+    "mae": 0.2148265119100754,
+    "snr_db": 7.400951656228575
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.22752772193026324,
+    "mae": 0.16835181690278497,
+    "snr_db": 9.660546587210103
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.2973582529418543,
+    "mae": 0.23715649655208385,
+    "snr_db": 6.90636765779077
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.2537669382154646,
+    "mae": 0.2055260771314138,
+    "snr_db": 8.217587906123539
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.305250696999239,
+    "mae": 0.24377013022555225,
+    "snr_db": 6.274578680735886
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.32816176624970006,
+    "mae": 0.26217328229928555,
+    "snr_db": 6.479473348265092
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.266399162716156,
+    "mae": 0.21093701225826594,
+    "snr_db": 7.861310477260592
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.2354854827903134,
+    "mae": 0.18775797662540136,
+    "snr_db": 8.867005924070732
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.2775905207755255,
+    "mae": 0.22209208786240903,
+    "snr_db": 7.099619333188734
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.283541234846349,
+    "mae": 0.22296097228698739,
+    "snr_db": 7.748908430180767
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.03836034409623488,
+    "mae": 0.003313203165453149,
+    "snr_db": 24.69431770415605
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0024521665108195485,
+    "mae": 0.0017712716490853556,
+    "snr_db": 48.51528956240152
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0022519490222166374,
+    "mae": 0.0017430383227562524,
+    "snr_db": 48.916540864433415
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0663585985577542,
+    "mae": 0.006425299524517838,
+    "snr_db": 20.36328884881714
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.2674126625061035,
+    "mae": 0.21244890987873077,
+    "snr_db": 7.8283281326293945
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.2543373703956604,
+    "mae": 0.20775949954986572,
+    "snr_db": 8.198084831237793
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.27278438210487366,
+    "mae": 0.215439572930336,
+    "snr_db": 7.251321792602539
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.2746448218822479,
+    "mae": 0.21414761245250702,
+    "snr_db": 8.02580451965332
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.25300630927085876,
+    "mae": 0.20103135704994202,
+    "snr_db": 8.30933952331543
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.21913272142410278,
+    "mae": 0.1796419620513916,
+    "snr_db": 9.492143630981445
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.24968577921390533,
+    "mae": 0.1967746615409851,
+    "snr_db": 8.019835472106934
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.285787433385849,
+    "mae": 0.22667743265628815,
+    "snr_db": 7.680370330810547
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "all",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.3535076677799225,
+    "mae": 0.2777520418167114,
+    "snr_db": 5.403991222381592
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "multisine",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.3476478159427643,
+    "mae": 0.27390992641448975,
+    "snr_db": 5.4834980964660645
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "chirp",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.389388769865036,
+    "mae": 0.3134976029396057,
+    "snr_db": 4.160043716430664
+  },
+  {
+    "scenario": "gaussian_mid",
+    "family": "steps",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.3200318515300751,
+    "mae": 0.24584858119487762,
+    "snr_db": 6.697368621826172
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.8989417810289985,
+    "mae": 0.7023068027199781,
+    "snr_db": -2.7026637330342056
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.7871679341223532,
+    "mae": 0.6276067029160606,
+    "snr_db": -1.615059187301636
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.8988233090075919,
+    "mae": 0.691979978996113,
+    "snr_db": -3.1057745611583436
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.9983848354782603,
+    "mae": 0.787333726247761,
+    "snr_db": -3.184726558783697
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.3614031684184172,
+    "mae": 0.2873882267761877,
+    "snr_db": 5.212128473851524
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.3388839146388466,
+    "mae": 0.2730718132998828,
+    "snr_db": 5.705269597397865
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.3848126749432031,
+    "mae": 0.3077157447155379,
+    "snr_db": 4.2627245986834
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.3590454679155832,
+    "mae": 0.28137712231314227,
+    "snr_db": 5.698243975018093
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.5253065243008898,
+    "mae": 0.4199508626893988,
+    "snr_db": 1.9637116924222382
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.45158407903274667,
+    "mae": 0.364697413360364,
+    "snr_db": 3.2115162598352183
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.5479547089491813,
+    "mae": 0.43806346757345876,
+    "snr_db": 1.1928186967103924
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.5689097379407454,
+    "mae": 0.45709170713437364,
+    "snr_db": 1.700365606864713
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.4230538647616493,
+    "mae": 0.3384819473566573,
+    "snr_db": 3.8440542507296893
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.37267089882393695,
+    "mae": 0.2984959425351931,
+    "snr_db": 4.879779085504587
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.44473326422506276,
+    "mae": 0.35980294595057266,
+    "snr_db": 3.0057196839520888
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.4474957456007632,
+    "mae": 0.35714695358420595,
+    "snr_db": 3.785454742965153
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.03836034409623488,
+    "mae": 0.003313203165453149,
+    "snr_db": 24.69431770415605
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0024521665108195485,
+    "mae": 0.0017712716490853556,
+    "snr_db": 48.51528956240152
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0022519490222166374,
+    "mae": 0.0017430383227562524,
+    "snr_db": 48.916540864433415
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0663585985577542,
+    "mae": 0.006425299524517838,
+    "snr_db": 20.36328884881714
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.37931346893310547,
+    "mae": 0.30065643787384033,
+    "snr_db": 4.7920026779174805
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.3402825593948364,
+    "mae": 0.27517786622047424,
+    "snr_db": 5.669494152069092
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.392609566450119,
+    "mae": 0.31130552291870117,
+    "snr_db": 4.088494300842285
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.4021214246749878,
+    "mae": 0.31548601388931274,
+    "snr_db": 4.714088439941406
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.34766703844070435,
+    "mae": 0.27277451753616333,
+    "snr_db": 5.548696994781494
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.30138421058654785,
+    "mae": 0.2421194463968277,
+    "snr_db": 6.723879814147949
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.35982832312583923,
+    "mae": 0.28062674403190613,
+    "snr_db": 4.845805644989014
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.3772376775741577,
+    "mae": 0.29557740688323975,
+    "snr_db": 5.268931865692139
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "all",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.5186402201652527,
+    "mae": 0.4048498570919037,
+    "snr_db": 2.074643611907959
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "multisine",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.4447908401489258,
+    "mae": 0.356588214635849,
+    "snr_db": 3.3431718349456787
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "chirp",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.5619096755981445,
+    "mae": 0.4367557168006897,
+    "snr_db": 0.974382221698761
+  },
+  {
+    "scenario": "gaussian_high",
+    "family": "steps",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.5416472554206848,
+    "mae": 0.4212055504322052,
+    "snr_db": 2.126901626586914
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.4907713583096533,
+    "mae": 0.31440792885492086,
+    "snr_db": 2.5543834052779086
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.41972135768065005,
+    "mae": 0.276287736540623,
+    "snr_db": 3.847067321857814
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.5376503459510354,
+    "mae": 0.3280024172544153,
+    "snr_db": 1.3577133744419878
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "raw",
+    "seed": -1,
+    "rmse": 0.5072826291297091,
+    "mae": 0.3389336327697241,
+    "snr_db": 2.6962331378617304
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.2362953758476141,
+    "mae": 0.17559438920046888,
+    "snr_db": 8.902863130907106
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.2458942563821114,
+    "mae": 0.19405507040292103,
+    "snr_db": 8.491321010692921
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.24882672340739317,
+    "mae": 0.18667347623843944,
+    "snr_db": 8.049771551488599
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "ema",
+    "seed": -1,
+    "rmse": 0.21243302553398977,
+    "mae": 0.14605462096004623,
+    "snr_db": 10.256792268515769
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.30106275643758423,
+    "mae": 0.21165972373611688,
+    "snr_db": 6.798826916209292
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.24570334800589677,
+    "mae": 0.1872979889881141,
+    "snr_db": 8.498067215944287
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.35176732741494493,
+    "mae": 0.23080760258463337,
+    "snr_db": 5.0426019824618065
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "local_poly",
+    "seed": -1,
+    "rmse": 0.2963207081582869,
+    "mae": 0.21687357963560325,
+    "snr_db": 7.3659929006087665
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.27009391401634436,
+    "mae": 0.18798680236877877,
+    "snr_db": 7.741671619632244
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.2289085864126254,
+    "mae": 0.17247064910494367,
+    "snr_db": 9.113047032847517
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.31073817626576067,
+    "mae": 0.2017133403874238,
+    "snr_db": 6.119819715805109
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "kalman",
+    "seed": -1,
+    "rmse": 0.2643762698193767,
+    "mae": 0.18977641761396882,
+    "snr_db": 8.35678354506101
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.03836034409623488,
+    "mae": 0.003313203165453149,
+    "snr_db": 24.69431770415605
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0024521665108195485,
+    "mae": 0.0017712716490853556,
+    "snr_db": 48.51528956240152
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0022519490222166374,
+    "mae": 0.0017430383227562524,
+    "snr_db": 48.916540864433415
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "physics_backward",
+    "seed": -1,
+    "rmse": 0.0663585985577542,
+    "mae": 0.006425299524517838,
+    "snr_db": 20.36328884881714
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.32544049620628357,
+    "mae": 0.21268615126609802,
+    "snr_db": 6.122535705566406
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.24451392889022827,
+    "mae": 0.1932685673236847,
+    "snr_db": 8.540216445922852
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.43186572194099426,
+    "mae": 0.23862455785274506,
+    "snr_db": 3.260737419128418
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "a2afm",
+    "seed": 11,
+    "rmse": 0.2672816812992096,
+    "mae": 0.20616532862186432,
+    "snr_db": 8.261849403381348
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.2524486780166626,
+    "mae": 0.19509001076221466,
+    "snr_db": 8.328505516052246
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.21220862865447998,
+    "mae": 0.16561472415924072,
+    "snr_db": 9.771028518676758
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.26654157042503357,
+    "mae": 0.20227642357349396,
+    "snr_db": 7.4524126052856445
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "regression",
+    "seed": 11,
+    "rmse": 0.27406951785087585,
+    "mae": 0.2173788845539093,
+    "snr_db": 8.044017791748047
+  },
+  {
+    "scenario": "student_ood",
+    "family": "all",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.41224637627601624,
+    "mae": 0.2870968282222748,
+    "snr_db": 4.068830490112305
+  },
+  {
+    "scenario": "student_ood",
+    "family": "multisine",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.3616929054260254,
+    "mae": 0.28578072786331177,
+    "snr_db": 5.13948917388916
+  },
+  {
+    "scenario": "student_ood",
+    "family": "chirp",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.539999783039093,
+    "mae": 0.3489406406879425,
+    "snr_db": 1.3198399543762207
+  },
+  {
+    "scenario": "student_ood",
+    "family": "steps",
+    "method": "fm_only",
+    "seed": 11,
+    "rmse": 0.29566827416419983,
+    "mae": 0.22656916081905365,
+    "snr_db": 7.385138511657715
+  }
+]

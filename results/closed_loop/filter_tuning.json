@@ -1,0 +1,63 @@
+{
+  "selected": {
+    "dob": 24.0,
+    "kalman": 100000.0
+  },
+  "grid": [
+    {
+      "method": "dob",
+      "value": 3.0,
+      "score": 6.005555445577669e-05
+    },
+    {
+      "method": "dob",
+      "value": 6.0,
+      "score": 3.680252510652681e-05
+    },
+    {
+      "method": "dob",
+      "value": 12.0,
+      "score": 2.6126139341367245e-05
+    },
+    {
+      "method": "dob",
+      "value": 24.0,
+      "score": 2.3352062918465745e-05
+    },
+    {
+      "method": "dob",
+      "value": 48.0,
+      "score": 2.421532814381445e-05
+    },
+    {
+      "method": "dob",
+      "value": 96.0,
+      "score": 2.7199101247851593e-05
+    },
+    {
+      "method": "kalman",
+      "value": 100.0,
+      "score": 4.150686058496388e-05
+    },
+    {
+      "method": "kalman",
+      "value": 1000.0,
+      "score": 2.766958710242453e-05
+    },
+    {
+      "method": "kalman",
+      "value": 10000.0,
+      "score": 2.4013136348098013e-05
+    },
+    {
+      "method": "kalman",
+      "value": 100000.0,
+      "score": 2.3601790143106248e-05
+    },
+    {
+      "method": "kalman",
+      "value": 1000000.0,
+      "score": 2.5011030598199845e-05
+    }
+  ]
+}

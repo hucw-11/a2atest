@@ -1,0 +1,17 @@
+{
+  "out": "results/smoke",
+  "steps": 100,
+  "seeds": [
+    11
+  ],
+  "length": 24,
+  "width": 128,
+  "batch": 128,
+  "lr": 0.001,
+  "flow_steps": 4,
+  "train_trajectories": 6,
+  "test_trajectories": 6,
+  "threads": 4,
+  "resume": false,
+  "ablation": true
+}

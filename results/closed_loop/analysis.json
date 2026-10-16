@@ -1,0 +1,742 @@
+{
+  "grouped": [
+    {
+      "stage": "open_frozen",
+      "family": "smooth",
+      "method": "none",
+      "d_rmse": 0.2124404341419666,
+      "shock_rmse": null,
+      "tracking_rmse": 0.3818197375039223,
+      "peak_error": 0.7878669163269519,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "open_frozen",
+      "family": "smooth",
+      "method": "dob",
+      "d_rmse": 0.23954999006893407,
+      "shock_rmse": null,
+      "tracking_rmse": 0.3818197375039223,
+      "peak_error": 0.7878669163269519,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "open_frozen",
+      "family": "smooth",
+      "method": "kalman",
+      "d_rmse": 0.3175935301729314,
+      "shock_rmse": null,
+      "tracking_rmse": 0.3818197375039223,
+      "peak_error": 0.7878669163269519,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "open_frozen",
+      "family": "smooth",
+      "method": "regression",
+      "d_rmse": 0.10180022504241498,
+      "shock_rmse": null,
+      "tracking_rmse": 0.38181973750392223,
+      "peak_error": 0.787866916326952,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "open_frozen",
+      "family": "smooth",
+      "method": "a2afm",
+      "d_rmse": 0.09824555846965977,
+      "shock_rmse": null,
+      "tracking_rmse": 0.38181973750392223,
+      "peak_error": 0.787866916326952,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_1",
+      "method": "none",
+      "d_rmse": 0.8259323868526045,
+      "shock_rmse": 13.254583115363017,
+      "tracking_rmse": 0.42322011280467686,
+      "peak_error": 0.9201733771825075,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_1",
+      "method": "dob",
+      "d_rmse": 0.5976535733905776,
+      "shock_rmse": 8.283304901670435,
+      "tracking_rmse": 0.42322011280467686,
+      "peak_error": 0.9201733771825075,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_1",
+      "method": "kalman",
+      "d_rmse": 0.5852898832676952,
+      "shock_rmse": 6.406628983142855,
+      "tracking_rmse": 0.42322011280467686,
+      "peak_error": 0.9201733771825075,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_1",
+      "method": "regression",
+      "d_rmse": 0.7933317716653998,
+      "shock_rmse": 12.54744610531233,
+      "tracking_rmse": 0.42322011280467686,
+      "peak_error": 0.9201733771825074,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_1",
+      "method": "a2afm",
+      "d_rmse": 0.9659695676006204,
+      "shock_rmse": 12.922871896375815,
+      "tracking_rmse": 0.42322011280467686,
+      "peak_error": 0.9201733771825074,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_4",
+      "method": "none",
+      "d_rmse": 0.4194716281390263,
+      "shock_rmse": 3.012726429546045,
+      "tracking_rmse": 0.481826911280914,
+      "peak_error": 0.9800655988556057,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_4",
+      "method": "dob",
+      "d_rmse": 0.29412413535434034,
+      "shock_rmse": 1.2089977708069783,
+      "tracking_rmse": 0.481826911280914,
+      "peak_error": 0.9800655988556057,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_4",
+      "method": "kalman",
+      "d_rmse": 0.3401292840550134,
+      "shock_rmse": 0.7893589377814284,
+      "tracking_rmse": 0.481826911280914,
+      "peak_error": 0.9800655988556057,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_4",
+      "method": "regression",
+      "d_rmse": 0.3562817071787653,
+      "shock_rmse": 2.2526293342353116,
+      "tracking_rmse": 0.481826911280914,
+      "peak_error": 0.9800655988556054,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_4",
+      "method": "a2afm",
+      "d_rmse": 0.3695872982646979,
+      "shock_rmse": 2.34595318208756,
+      "tracking_rmse": 0.481826911280914,
+      "peak_error": 0.9800655988556054,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_10",
+      "method": "none",
+      "d_rmse": 0.3446257289182362,
+      "shock_rmse": 1.4447507230515593,
+      "tracking_rmse": 0.4286246208447375,
+      "peak_error": 0.841715418390587,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_10",
+      "method": "dob",
+      "d_rmse": 0.26687573109150453,
+      "shock_rmse": 0.46203880672289294,
+      "tracking_rmse": 0.4286246208447375,
+      "peak_error": 0.841715418390587,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_10",
+      "method": "kalman",
+      "d_rmse": 0.33606846899512494,
+      "shock_rmse": 0.4052834791880499,
+      "tracking_rmse": 0.4286246208447375,
+      "peak_error": 0.841715418390587,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_10",
+      "method": "regression",
+      "d_rmse": 0.21917586135818834,
+      "shock_rmse": 0.6944670276656124,
+      "tracking_rmse": 0.4286246208447375,
+      "peak_error": 0.841715418390587,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "open_frozen",
+      "family": "pulse_10",
+      "method": "a2afm",
+      "d_rmse": 0.22144124983317195,
+      "shock_rmse": 0.6891763127969702,
+      "tracking_rmse": 0.4286246208447375,
+      "peak_error": 0.841715418390587,
+      "recovery_s": null,
+      "recovery_fail_fraction": 1.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "smooth",
+      "method": "none",
+      "d_rmse": 0.2124404341419666,
+      "shock_rmse": null,
+      "tracking_rmse": 0.008612836412681846,
+      "peak_error": 0.013998729186903628,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "smooth",
+      "method": "dob",
+      "d_rmse": 0.2395499900689341,
+      "shock_rmse": null,
+      "tracking_rmse": 0.004616157466065655,
+      "peak_error": 0.012257185473430415,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "smooth",
+      "method": "kalman",
+      "d_rmse": 0.31759353017293146,
+      "shock_rmse": null,
+      "tracking_rmse": 0.004628466138841145,
+      "peak_error": 0.012644908693716093,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "smooth",
+      "method": "regression",
+      "d_rmse": 0.2777845060900053,
+      "shock_rmse": null,
+      "tracking_rmse": 0.004263333028132015,
+      "peak_error": 0.01032764923692919,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "smooth",
+      "method": "a2afm",
+      "d_rmse": 0.1346122221578817,
+      "shock_rmse": null,
+      "tracking_rmse": 0.003776273941088387,
+      "peak_error": 0.009032148099008715,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_1",
+      "method": "none",
+      "d_rmse": 0.8259323868526045,
+      "shock_rmse": 13.254583115363017,
+      "tracking_rmse": 0.012168891037426896,
+      "peak_error": 0.03535188063982343,
+      "recovery_s": 0.3,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_1",
+      "method": "dob",
+      "d_rmse": 0.5976535733905777,
+      "shock_rmse": 8.283304901670435,
+      "tracking_rmse": 0.004780384821878838,
+      "peak_error": 0.012228105871210664,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_1",
+      "method": "kalman",
+      "d_rmse": 0.5852898832676953,
+      "shock_rmse": 6.406628983142856,
+      "tracking_rmse": 0.004796486656639744,
+      "peak_error": 0.01228811682301472,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_1",
+      "method": "regression",
+      "d_rmse": 0.8342550623867199,
+      "shock_rmse": 12.595263490973748,
+      "tracking_rmse": 0.0065480211902193605,
+      "peak_error": 0.01980279636552729,
+      "recovery_s": 0.08777777777777779,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_1",
+      "method": "a2afm",
+      "d_rmse": 0.9958819439277565,
+      "shock_rmse": 12.950795945237369,
+      "tracking_rmse": 0.0065554396185505265,
+      "peak_error": 0.02165382941062816,
+      "recovery_s": 0.21444444444444444,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_4",
+      "method": "none",
+      "d_rmse": 0.4194716281390263,
+      "shock_rmse": 3.012726429546045,
+      "tracking_rmse": 0.012617134982213922,
+      "peak_error": 0.035752639721142836,
+      "recovery_s": 0.3416666666666666,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_4",
+      "method": "dob",
+      "d_rmse": 0.29412413535434034,
+      "shock_rmse": 1.2089977708069786,
+      "tracking_rmse": 0.005017932307175305,
+      "peak_error": 0.012918978323082295,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_4",
+      "method": "kalman",
+      "d_rmse": 0.3401292840550134,
+      "shock_rmse": 0.7893589377814284,
+      "tracking_rmse": 0.005015202957977334,
+      "peak_error": 0.012559067190746601,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_4",
+      "method": "regression",
+      "d_rmse": 0.4041187183794709,
+      "shock_rmse": 2.293980154227608,
+      "tracking_rmse": 0.005500140791822833,
+      "peak_error": 0.016133540103271546,
+      "recovery_s": 0.007777777777777778,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_4",
+      "method": "a2afm",
+      "d_rmse": 0.36439559860237825,
+      "shock_rmse": 2.3785575115958144,
+      "tracking_rmse": 0.0046368930435572225,
+      "peak_error": 0.01545864530137638,
+      "recovery_s": 0.005555555555555556,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_10",
+      "method": "none",
+      "d_rmse": 0.3446257289182362,
+      "shock_rmse": 1.4447507230515593,
+      "tracking_rmse": 0.011002273865529728,
+      "peak_error": 0.03260806836525438,
+      "recovery_s": 0.38666666666666666,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_10",
+      "method": "dob",
+      "d_rmse": 0.26687573109150453,
+      "shock_rmse": 0.46203880672289294,
+      "tracking_rmse": 0.004693193624931731,
+      "peak_error": 0.012262772804963453,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_10",
+      "method": "kalman",
+      "d_rmse": 0.3360684689951249,
+      "shock_rmse": 0.4052834791880499,
+      "tracking_rmse": 0.004635426218840338,
+      "peak_error": 0.011803982456917666,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_10",
+      "method": "regression",
+      "d_rmse": 0.3583008218396921,
+      "shock_rmse": 0.7903852592719283,
+      "tracking_rmse": 0.004678597176216028,
+      "peak_error": 0.013136302565565318,
+      "recovery_s": 0.0016666666666666666,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_frozen",
+      "family": "pulse_10",
+      "method": "a2afm",
+      "d_rmse": 0.22134342558467474,
+      "shock_rmse": 0.7121224407611076,
+      "tracking_rmse": 0.004432106433582902,
+      "peak_error": 0.013476286792730715,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "smooth",
+      "method": "none",
+      "d_rmse": 0.2124404341419666,
+      "shock_rmse": null,
+      "tracking_rmse": 0.008612836412681846,
+      "peak_error": 0.013998729186903628,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "smooth",
+      "method": "dob",
+      "d_rmse": 0.2395499900689341,
+      "shock_rmse": null,
+      "tracking_rmse": 0.004616157466065655,
+      "peak_error": 0.012257185473430415,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "smooth",
+      "method": "kalman",
+      "d_rmse": 0.31759353017293146,
+      "shock_rmse": null,
+      "tracking_rmse": 0.004628466138841145,
+      "peak_error": 0.012644908693716093,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "smooth",
+      "method": "regression",
+      "d_rmse": 0.06326242250503707,
+      "shock_rmse": null,
+      "tracking_rmse": 0.0025689258978079336,
+      "peak_error": 0.007323642281146094,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "smooth",
+      "method": "a2afm",
+      "d_rmse": 0.06541478659067,
+      "shock_rmse": null,
+      "tracking_rmse": 0.0024867048602883668,
+      "peak_error": 0.007455609343803073,
+      "recovery_s": null,
+      "recovery_fail_fraction": null
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_1",
+      "method": "none",
+      "d_rmse": 0.8259323868526045,
+      "shock_rmse": 13.254583115363017,
+      "tracking_rmse": 0.012168891037426896,
+      "peak_error": 0.03535188063982343,
+      "recovery_s": 0.3,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_1",
+      "method": "dob",
+      "d_rmse": 0.5976535733905777,
+      "shock_rmse": 8.283304901670435,
+      "tracking_rmse": 0.004780384821878838,
+      "peak_error": 0.012228105871210664,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_1",
+      "method": "kalman",
+      "d_rmse": 0.5852898832676953,
+      "shock_rmse": 6.406628983142856,
+      "tracking_rmse": 0.004796486656639744,
+      "peak_error": 0.01228811682301472,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_1",
+      "method": "regression",
+      "d_rmse": 0.1809010013426646,
+      "shock_rmse": 2.4519884352741284,
+      "tracking_rmse": 0.003598123370800813,
+      "peak_error": 0.011493007256897232,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_1",
+      "method": "a2afm",
+      "d_rmse": 0.16621275887049966,
+      "shock_rmse": 1.5696427425210266,
+      "tracking_rmse": 0.003431829886438205,
+      "peak_error": 0.010889723697956294,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_4",
+      "method": "none",
+      "d_rmse": 0.4194716281390263,
+      "shock_rmse": 3.012726429546045,
+      "tracking_rmse": 0.012617134982213922,
+      "peak_error": 0.035752639721142836,
+      "recovery_s": 0.3416666666666666,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_4",
+      "method": "dob",
+      "d_rmse": 0.29412413535434034,
+      "shock_rmse": 1.2089977708069786,
+      "tracking_rmse": 0.005017932307175305,
+      "peak_error": 0.012918978323082295,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_4",
+      "method": "kalman",
+      "d_rmse": 0.3401292840550134,
+      "shock_rmse": 0.7893589377814284,
+      "tracking_rmse": 0.005015202957977334,
+      "peak_error": 0.012559067190746601,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_4",
+      "method": "regression",
+      "d_rmse": 0.13011561600243182,
+      "shock_rmse": 0.8011750610430887,
+      "tracking_rmse": 0.0032941506997090056,
+      "peak_error": 0.008890353454751053,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_4",
+      "method": "a2afm",
+      "d_rmse": 0.12367243691871348,
+      "shock_rmse": 0.6874981073176645,
+      "tracking_rmse": 0.003223276763944903,
+      "peak_error": 0.00882296948783222,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_10",
+      "method": "none",
+      "d_rmse": 0.3446257289182362,
+      "shock_rmse": 1.4447507230515593,
+      "tracking_rmse": 0.011002273865529728,
+      "peak_error": 0.03260806836525438,
+      "recovery_s": 0.38666666666666666,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_10",
+      "method": "dob",
+      "d_rmse": 0.26687573109150453,
+      "shock_rmse": 0.46203880672289294,
+      "tracking_rmse": 0.004693193624931731,
+      "peak_error": 0.012262772804963453,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_10",
+      "method": "kalman",
+      "d_rmse": 0.3360684689951249,
+      "shock_rmse": 0.4052834791880499,
+      "tracking_rmse": 0.004635426218840338,
+      "peak_error": 0.011803982456917666,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_10",
+      "method": "regression",
+      "d_rmse": 0.15553405734691056,
+      "shock_rmse": 0.6994041815277805,
+      "tracking_rmse": 0.003378997753218582,
+      "peak_error": 0.010154792336456176,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    },
+    {
+      "stage": "closed_adapted",
+      "family": "pulse_10",
+      "method": "a2afm",
+      "d_rmse": 0.15435305537725852,
+      "shock_rmse": 0.6924723459643044,
+      "tracking_rmse": 0.0032422076188927435,
+      "peak_error": 0.009871063732138141,
+      "recovery_s": 0.0,
+      "recovery_fail_fraction": 0.0
+    }
+  ],
+  "bootstrap": [
+    {
+      "method": "none",
+      "metric": "tracking_rmse",
+      "delta": 0.008091318513706886,
+      "ci": [
+        0.0071354003041194485,
+        0.009020066263187564
+      ]
+    },
+    {
+      "method": "dob",
+      "metric": "tracking_rmse",
+      "delta": 0.0016623035191833256,
+      "ci": [
+        0.0013164282923069193,
+        0.0020103967953939376
+      ]
+    },
+    {
+      "method": "kalman",
+      "metric": "tracking_rmse",
+      "delta": 0.0016544957881011939,
+      "ci": [
+        0.001273497844200116,
+        0.0020296575698941213
+      ]
+    },
+    {
+      "method": "regression",
+      "metric": "tracking_rmse",
+      "delta": 0.00011623013679951544,
+      "ci": [
+        5.5899617670749605e-06,
+        0.00022240612403984762
+      ]
+    },
+    {
+      "method": "none",
+      "metric": "d_rmse",
+      "delta": 0.3722216135080782,
+      "ci": [
+        0.27223437041297444,
+        0.4640884949317273
+      ]
+    },
+    {
+      "method": "dob",
+      "metric": "d_rmse",
+      "delta": 0.2450013688850553,
+      "ci": [
+        0.18295408620484876,
+        0.3025746908189531
+      ]
+    },
+    {
+      "method": "kalman",
+      "metric": "d_rmse",
+      "delta": 0.27664321983556944,
+      "ci": [
+        0.23347599483971132,
+        0.32001601436195964
+      ]
+    },
+    {
+      "method": "regression",
+      "metric": "d_rmse",
+      "delta": 0.0062534111698400174,
+      "ci": [
+        -0.0011637394328295452,
+        0.0157192279081681
+      ]
+    }
+  ],
+  "raw": {
+    "d_rmse": 0.4863186662448296,
+    "shock_rmse": 0.45240910112694643
+  }
+}

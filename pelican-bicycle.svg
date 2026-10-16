@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800" role="img" aria-labelledby="title description">
+  <title id="title">鹈鹕骑自行车</title>
+  <desc id="description">一只长着橙色大嘴的白色鹈鹕，骑着青绿色自行车，悠闲地穿过海边小路。</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#edf7f4"/>
+      <stop offset="1" stop-color="#fff8e9"/>
+    </linearGradient>
+    <linearGradient id="feathers" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#fffef8"/>
+      <stop offset="1" stop-color="#e0e9e2"/>
+    </linearGradient>
+    <linearGradient id="bill" x2="0" y2="1">
+      <stop stop-color="#ffc65e"/>
+      <stop offset="1" stop-color="#f49a42"/>
+    </linearGradient>
+    <linearGradient id="pouch" x2="0" y2="1">
+      <stop stop-color="#f7b17a"/>
+      <stop offset="1" stop-color="#e98a69"/>
+    </linearGradient>
+    <g id="wheel">
+      <circle r="126" fill="#fffaf0" stroke="#304e51" stroke-width="15"/>
+      <circle r="113" fill="none" stroke="#c4d3c9" stroke-width="3"/>
+      <g stroke="#b2c8c1" stroke-width="2.5">
+        <path d="M-110 0H110M0-110V110M-78-78 78 78M-78 78 78-78M-102-42 102 42M-102 42 102-42M-42-102 42 102M-42 102 42-102"/>
+      </g>
+      <circle r="11" fill="#f4ba61" stroke="#304e51" stroke-width="4"/>
+    </g>
+  </defs>
+
+  <!-- Soft sea air and a sandy coastal path. -->
+  <rect width="1000" height="800" rx="36" fill="url(#sky)"/>
+  <circle cx="779" cy="147" r="62" fill="#f8d98a" opacity=".75"/>
+  <g fill="#fffdf6" opacity=".9">
+    <path d="M119 164c-8-22 10-39 29-31 1-32 48-39 59-9 28-10 48 16 35 37Z"/>
+    <path d="M703 300c-5-17 9-30 24-24 4-27 41-31 50-7 21-5 35 14 25 29Z"/>
+  </g>
+  <path d="M0 496c159-25 257 21 398 1s260-22 397 0 165 6 205-2v125H0Z" fill="#cde4dc"/>
+  <path d="M0 543c164-32 244 32 407 0s263-12 406 4 147-4 187-2v93H0Z" fill="#b8d8d0" opacity=".65"/>
+  <path d="M0 620c223-43 368 19 526 1s316-21 474 17v162H0Z" fill="#f2e5c9"/>
+  <path d="M0 685c238-22 379 25 561-2s303-9 439 4" fill="none" stroke="#e5d6b7" stroke-width="4"/>
+  <ellipse cx="500" cy="724" rx="360" ry="19" fill="#b7ad91" opacity=".2"/>
+  <g fill="none" stroke="#8eafa0" stroke-width="4" stroke-linecap="round">
+    <path d="M115 626q-2-34-16-45m16 45q6-27 20-35M858 652q-2-30-13-41m13 41q7-25 20-34"/>
+  </g>
+  <g fill="#d3be94">
+    <ellipse cx="156" cy="709" rx="8" ry="3"/>
+    <ellipse cx="812" cy="752" rx="11" ry="3"/>
+    <ellipse cx="874" cy="699" rx="6" ry="2"/>
+  </g>
+
+  <!-- Bicycle: the wheels, far pedal, then the diamond frame. -->
+  <use href="#wheel" x="290" y="590"/>
+  <use href="#wheel" x="708" y="590"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m477 585-51-42" stroke="#304e51" stroke-width="8"/>
+    <path d="M409 543h34" stroke="#304e51" stroke-width="9"/>
+    <path d="m290 590 131-160 57 155H290l154-124h182L478 585m148-124 82 129" stroke="#234f50" stroke-width="14"/>
+    <path d="m290 590 131-160 57 155H290l154-124h182L478 585m148-124 82 129" stroke="#3c9e95" stroke-width="8"/>
+    <path d="m421 430-11-34m216 65-17-60q-7-25 16-27h31" stroke="#304e51" stroke-width="10"/>
+    <path d="M639 374h24" stroke="#bd7250" stroke-width="13"/>
+    <path d="M623 391q36 34 47 91" stroke="#567673" stroke-width="3"/>
+  </g>
+  <path d="M376 392q27-13 63-4 10 3 8 12-3 8-20 7h-48q-14-1-11-8 2-5 8-7Z" fill="#875e4c" stroke="#304e51" stroke-width="4"/>
+  <path d="M182 530a128 128 0 0 1 206-24M602 514a128 128 0 0 1 203 10" fill="none" stroke="#e9b75c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="478" cy="585" r="25" fill="#f4d291" stroke="#304e51" stroke-width="5"/>
+  <circle cx="478" cy="585" r="8" fill="#304e51"/>
+  <path d="m478 585 45 30" stroke="#304e51" stroke-width="8" stroke-linecap="round"/>
+  <path d="M508 618h39" stroke="#304e51" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Far leg and the bird's fanned tail. -->
+  <path d="m416 389-47 81 52 62" fill="none" stroke="#b97143" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m420 522 19 17-33 6-15-8Z" fill="#e7a24d" stroke="#805d43" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m360 326-78-29 35 45-51-8 66 49 51-16Z" fill="#f3f4e9" stroke="#365456" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Round body, tall curved neck, and a very pelican-shaped head. -->
+  <path d="M346 280c33-29 88-22 121-1 18 11 27 27 38 26 13-2 14-17 10-36-7-29-17-48-11-74 6-27 28-43 53-42 33 0 54 23 51 50-2 23-18 37-38 42-5 22 18 57 11 96-6 36-34 65-75 73-38 7-111 2-145-23-42-31-53-79-15-111Z" fill="url(#feathers)" stroke="#365456" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M520 206q-4-31 21-40m-6-7-9-17m22 13-1-21" fill="none" stroke="#365456" stroke-width="4" stroke-linecap="round"/>
+  <path d="M552 249c2 32 24 62 13 93" fill="none" stroke="#c7d8ce" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- The lower bill stretches into the characteristic hanging pouch. -->
+  <path d="M587 197 761 217c-19 14-42 31-68 42-37 17-75 10-89-9-10-14-13-34-17-53Z" fill="url(#pouch)" stroke="#365456" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M616 222q18 38 58 29" fill="none" stroke="#f8c29a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M588 179c50 3 130 18 185 34 9 3 10 9-1 11l-177-15q-12-12-7-30Z" fill="url(#bill)" stroke="#365456" stroke-width="4" stroke-linejoin="round"/>
+  <path d="m604 195 151 22" fill="none" stroke="#da813b" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="578" cy="182" rx="12" ry="14" fill="#e9cb79"/>
+  <circle cx="580" cy="181" r="6.5" fill="#273e42"/>
+  <circle cx="582" cy="178" r="2" fill="#fff"/>
+  <path d="M562 164q9-6 19-1" fill="none" stroke="#365456" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="571" cy="210" rx="10" ry="6" fill="#f1bd9b" opacity=".7"/>
+
+  <!-- Near leg rests on the forward pedal. -->
+  <path d="m465 403 56 72-25 88" fill="none" stroke="#805d43" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m465 403 56 72-25 88" fill="none" stroke="#eba84f" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m497 556 17 26 29 23q6 6-3 8l-40-6-17-20Z" fill="#f1b258" stroke="#805d43" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="m514 590 13 15m-24-10 10 10" fill="none" stroke="#cc8743" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- The near wing reaches naturally toward the handlebars. -->
+  <path d="M367 303c31-14 70-8 101 15 25 19 34 37 58 45 32 11 66-1 89 5 8 2 12 9 5 14-14 9-47 22-78 20-44-3-72-21-102-30-26-7-63-15-73-36" fill="#edf1e7" stroke="#365456" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke="#bbcfc4" stroke-width="4" stroke-linecap="round">
+    <path d="M388 325q37 1 65 23t62 35"/>
+    <path d="M386 341q34 5 60 23"/>
+    <path d="M541 386q37 3 61-9"/>
+  </g>
+
+  <!-- A little breeze and two distant gulls. -->
+  <g fill="none" stroke="#7eaaa2" stroke-width="4" stroke-linecap="round">
+    <path d="M179 379h72m-92 26h50m-7 25h41"/>
+    <path d="M330 153q13-13 25 0 13-13 25 0M817 388q10-11 20 0 10-11 20 0"/>
+  </g>
+</svg>
