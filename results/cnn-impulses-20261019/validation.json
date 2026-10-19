@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "unit_tests": 18,
+  "trained_models": 12,
+  "steps_per_model": 3000,
+  "trajectory_metric_rows_independently_recomputed": 2160,
+  "summary_rows_checked": 98,
+  "complete_pulse_events_checked": 240,
+  "online_vs_batch_at_impulse_onsets": 72,
+  "online_tolerance": 3e-05,
+  "identical_minibatch_generator_states": true,
+  "identical_flow_time_generator_states": true,
+  "source_hashes": "all_match",
+  "smoke_resume": "all four models, both measurement conditions: identical prediction arrays",
+  "latency_observations_per_model": 1154
+}

@@ -1,0 +1,23 @@
+test_endpoint_gradients (test_core.CoreTests.test_endpoint_gradients) ... ok
+test_noise_amplification (test_core.CoreTests.test_noise_amplification) ... ok
+test_noiseless_residual (test_core.CoreTests.test_noiseless_residual) ... ok
+test_simulation_analytic (test_core.CoreTests.test_simulation_analytic) ... ok
+test_window_alignment_and_causality (test_core.CoreTests.test_window_alignment_and_causality) ... ok
+test_discrete_stability (closed_loop.test_core.ClosedTests.test_discrete_stability) ... ok
+test_measurement_control_alignment (closed_loop.test_core.ClosedTests.test_measurement_control_alignment) ... ok
+test_no_future_truth_leak (closed_loop.test_core.ClosedTests.test_no_future_truth_leak) ... ok
+test_pulse_area (closed_loop.test_core.ClosedTests.test_pulse_area) ... ok
+test_kalman_causal_and_truth_independent (multichannel.test_core.MeasurementTests.test_kalman_causal_and_truth_independent) ... ok
+test_kalman_constant_disturbance_recovery (multichannel.test_core.MeasurementTests.test_kalman_constant_disturbance_recovery) ... ok
+test_paired_channel_noise_and_clean_identity (multichannel.test_core.MeasurementTests.test_paired_channel_noise_and_clean_identity) ... ok
+test_residual_uses_same_measurements_and_preserves_truth (multichannel.test_core.MeasurementTests.test_residual_uses_same_measurements_and_preserves_truth) ... ok
+test_all_pulse_samples_scored_and_unseen_widths (cnn_experiment.test_core.CNNTests.test_all_pulse_samples_scored_and_unseen_widths) ... ok
+test_causal_convolution_prefix (cnn_experiment.test_core.CNNTests.test_causal_convolution_prefix) ... ok
+test_measurement_consistency_and_no_future_inputs (cnn_experiment.test_core.CNNTests.test_measurement_consistency_and_no_future_inputs) ... ok
+test_midpoint_network_evaluation_count (cnn_experiment.test_core.CNNTests.test_midpoint_network_evaluation_count) ... ok
+test_model_shapes_and_endpoint_gradients (cnn_experiment.test_core.CNNTests.test_model_shapes_and_endpoint_gradients) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.292s
+
+OK

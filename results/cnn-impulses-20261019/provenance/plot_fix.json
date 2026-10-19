@@ -1,0 +1,6 @@
+{
+  "change": "Plot current target[:,0] only, instead of all 24 future target columns. Training, model, loss, data and metrics code unchanged.",
+  "training_driver_sha256": "15386f8231fa774a23d0a7f7d6a6e7bbb9ee2e9878d8b5354594feb2db5138fd",
+  "final_driver_sha256": "c2d05e2745c9eea0cdaf52dd4ec942ce548d89934262c4cae6462fc1ac682b1a",
+  "verification": "The sole source change is the target plot slice. Completed checkpoints were reused; every saved prediction array in both conditions is exactly equal before and after regeneration."
+}

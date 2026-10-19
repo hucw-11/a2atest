@@ -1,0 +1,110 @@
+[
+  {
+    "method": "mlp_a2afm",
+    "seed": 11,
+    "best_step": 3000,
+    "validation_rmse": 0.13763454800936523,
+    "parameters": 86296,
+    "training_seconds": 50.14874057901034,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "mlp_regression",
+    "seed": 11,
+    "best_step": 2500,
+    "validation_rmse": 0.1494450755127665,
+    "parameters": 82712,
+    "training_seconds": 8.218948975991225,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "cnn_a2afm",
+    "seed": 11,
+    "best_step": 2500,
+    "validation_rmse": 0.16015835504776677,
+    "parameters": 82888,
+    "training_seconds": 350.1675113160163,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "cnn_regression",
+    "seed": 11,
+    "best_step": 3000,
+    "validation_rmse": 0.16094427349132395,
+    "parameters": 82728,
+    "training_seconds": 42.93479264699272,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "mlp_a2afm",
+    "seed": 22,
+    "best_step": 3000,
+    "validation_rmse": 0.14749337149128214,
+    "parameters": 86296,
+    "training_seconds": 49.587844485999085,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "mlp_regression",
+    "seed": 22,
+    "best_step": 3000,
+    "validation_rmse": 0.1543266955664119,
+    "parameters": 82712,
+    "training_seconds": 8.283508719992824,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "cnn_a2afm",
+    "seed": 22,
+    "best_step": 2500,
+    "validation_rmse": 0.14967137040776882,
+    "parameters": 82888,
+    "training_seconds": 352.718137363001,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "cnn_regression",
+    "seed": 22,
+    "best_step": 2500,
+    "validation_rmse": 0.15913488775669257,
+    "parameters": 82728,
+    "training_seconds": 43.284383915000944,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "mlp_a2afm",
+    "seed": 33,
+    "best_step": 3000,
+    "validation_rmse": 0.13493084799831978,
+    "parameters": 86296,
+    "training_seconds": 50.88475320699217,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "mlp_regression",
+    "seed": 33,
+    "best_step": 3000,
+    "validation_rmse": 0.13641052242680074,
+    "parameters": 82712,
+    "training_seconds": 8.399151822013664,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "cnn_a2afm",
+    "seed": 33,
+    "best_step": 3000,
+    "validation_rmse": 0.14523629323216855,
+    "parameters": 82888,
+    "training_seconds": 359.7586258599913,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  },
+  {
+    "method": "cnn_regression",
+    "seed": 33,
+    "best_step": 3000,
+    "validation_rmse": 0.15607071962469118,
+    "parameters": 82728,
+    "training_seconds": 43.103300857997965,
+    "scope": "one training thread; up to three concurrent seed workers; includes validation/checkpoint IO"
+  }
+]

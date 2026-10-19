@@ -1,0 +1,13 @@
+{
+  "out": "results/cnn-impulses-20261019",
+  "steps": 3000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "train_trajectories": 96,
+  "val_trajectories": 24,
+  "test_trajectories": 72,
+  "workers": 3
+}

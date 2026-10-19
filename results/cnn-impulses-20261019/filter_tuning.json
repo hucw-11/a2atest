@@ -1,0 +1,128 @@
+{
+  "clean": {
+    "selected": {
+      "ema": 0.5,
+      "augmented_kalman": 10000.0
+    },
+    "grid": [
+      {
+        "method": "ema",
+        "value": 0.05,
+        "mse": 0.22409904972205313
+      },
+      {
+        "method": "ema",
+        "value": 0.1,
+        "mse": 0.1964986604685085
+      },
+      {
+        "method": "ema",
+        "value": 0.2,
+        "mse": 0.1682330957326031
+      },
+      {
+        "method": "ema",
+        "value": 0.35,
+        "mse": 0.14709611086085803
+      },
+      {
+        "method": "ema",
+        "value": 0.5,
+        "mse": 0.1398037536898878
+      },
+      {
+        "method": "ema",
+        "value": 0.7,
+        "mse": 0.15086198865373862
+      },
+      {
+        "method": "ema",
+        "value": 0.9,
+        "mse": 0.19233521520634006
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 0.01,
+        "mse": 0.25307187677978954
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 1.0,
+        "mse": 0.25307179178065986
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 100.0,
+        "mse": 0.25306329219984713
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 10000.0,
+        "mse": 0.25221665386443287
+      }
+    ]
+  },
+  "xv_5pct": {
+    "selected": {
+      "ema": 0.5,
+      "augmented_kalman": 10000.0
+    },
+    "grid": [
+      {
+        "method": "ema",
+        "value": 0.05,
+        "mse": 0.22411428968400932
+      },
+      {
+        "method": "ema",
+        "value": 0.1,
+        "mse": 0.19655199406440355
+      },
+      {
+        "method": "ema",
+        "value": 0.2,
+        "mse": 0.16837565527321138
+      },
+      {
+        "method": "ema",
+        "value": 0.35,
+        "mse": 0.14738804565348065
+      },
+      {
+        "method": "ema",
+        "value": 0.5,
+        "mse": 0.14025791313793898
+      },
+      {
+        "method": "ema",
+        "value": 0.7,
+        "mse": 0.15155948170237996
+      },
+      {
+        "method": "ema",
+        "value": 0.9,
+        "mse": 0.19332930671589477
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 0.01,
+        "mse": 0.32964024552213733
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 1.0,
+        "mse": 0.25310217127290346
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 100.0,
+        "mse": 0.20587276633285995
+      },
+      {
+        "method": "augmented_kalman",
+        "value": 10000.0,
+        "mse": 0.17562463555504243
+      }
+    ]
+  }
+}

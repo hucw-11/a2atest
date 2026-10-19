@@ -1,0 +1,62 @@
+[
+  {
+    "method": "mlp_a2afm",
+    "seed": 11,
+    "calls": 1154,
+    "threads": 2,
+    "batch_size": 1,
+    "parameters": 86296,
+    "network_evaluations_per_estimate": 8,
+    "median_ms": 0.908671,
+    "p95_ms": 1.2642551999999991,
+    "p99_ms": 2.06027144,
+    "max_ms": 6.571972,
+    "fraction_over_20ms": 0.0,
+    "scope": "history update, residual, normalization, network/integration, output; excludes sensor/actuator IO and model load"
+  },
+  {
+    "method": "mlp_regression",
+    "seed": 11,
+    "calls": 1154,
+    "threads": 2,
+    "batch_size": 1,
+    "parameters": 82712,
+    "network_evaluations_per_estimate": 1,
+    "median_ms": 0.166966,
+    "p95_ms": 0.3029441999999999,
+    "p99_ms": 0.4331419300000002,
+    "max_ms": 19.74432,
+    "fraction_over_20ms": 0.0,
+    "scope": "history update, residual, normalization, network/integration, output; excludes sensor/actuator IO and model load"
+  },
+  {
+    "method": "cnn_a2afm",
+    "seed": 11,
+    "calls": 1154,
+    "threads": 2,
+    "batch_size": 1,
+    "parameters": 82888,
+    "network_evaluations_per_estimate": 8,
+    "median_ms": 4.855587,
+    "p95_ms": 6.039585949999999,
+    "p99_ms": 8.105089640000006,
+    "max_ms": 18.344848,
+    "fraction_over_20ms": 0.0,
+    "scope": "history update, residual, normalization, network/integration, output; excludes sensor/actuator IO and model load"
+  },
+  {
+    "method": "cnn_regression",
+    "seed": 11,
+    "calls": 1154,
+    "threads": 2,
+    "batch_size": 1,
+    "parameters": 82728,
+    "network_evaluations_per_estimate": 1,
+    "median_ms": 0.6370830000000001,
+    "p95_ms": 0.9962383499999999,
+    "p99_ms": 2.387234130000007,
+    "max_ms": 7.008279,
+    "fraction_over_20ms": 0.0,
+    "scope": "history update, residual, normalization, network/integration, output; excludes sensor/actuator IO and model load"
+  }
+]

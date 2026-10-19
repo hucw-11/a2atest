@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-19T02:43:37.571577+00:00",
+  "models": 12,
+  "trajectory_metric_rows": 2160,
+  "windows_per_condition": 39960
+}

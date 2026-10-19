@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "torch": "2.5.1+cpu",
+  "numpy": "2.2.6",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "device": "cpu",
+  "training_threads_per_worker": 1,
+  "evaluation_threads": 2,
+  "parent_commit": "ac441dc0a4c92fc8b6f2856d861ef6a6d8f25e71"
+}

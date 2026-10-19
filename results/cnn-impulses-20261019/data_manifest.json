@@ -1,0 +1,3223 @@
+{
+  "train": [
+    {
+      "trajectory_id": "91000:0",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:1",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 153,
+          "end": 154,
+          "amplitude": 7.785170321331907,
+          "area": 0.15570340642663813,
+          "width_s": 0.02
+        },
+        {
+          "start": 338,
+          "end": 339,
+          "amplitude": -8.238392413481991,
+          "area": -0.16476784826963983,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:2",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 165,
+          "end": 169,
+          "amplitude": 1.895731849168127,
+          "area": 0.15165854793345016,
+          "width_s": 0.08
+        },
+        {
+          "start": 374,
+          "end": 378,
+          "amplitude": -2.595002783211662,
+          "area": -0.20760022265693295,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:3",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 174,
+          "end": 184,
+          "amplitude": 1.6987873553942057,
+          "area": 0.33975747107884113,
+          "width_s": 0.2
+        },
+        {
+          "start": 332,
+          "end": 342,
+          "amplitude": -1.590054110894904,
+          "area": -0.3180108221789808,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:4",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:5",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 127,
+          "end": 128,
+          "amplitude": 10.743706498996113,
+          "area": 0.21487412997992228,
+          "width_s": 0.02
+        },
+        {
+          "start": 370,
+          "end": 371,
+          "amplitude": -10.292313932092249,
+          "area": -0.205846278641845,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:6",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 164,
+          "end": 168,
+          "amplitude": 2.7521826584371936,
+          "area": 0.22017461267497548,
+          "width_s": 0.08
+        },
+        {
+          "start": 330,
+          "end": 334,
+          "amplitude": -2.5566125140767255,
+          "area": -0.20452900112613803,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:7",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 162,
+          "end": 172,
+          "amplitude": 0.8949928146828958,
+          "area": 0.17899856293657918,
+          "width_s": 0.2
+        },
+        {
+          "start": 325,
+          "end": 335,
+          "amplitude": -1.6632989089484618,
+          "area": -0.33265978178969235,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:8",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:9",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 131,
+          "end": 132,
+          "amplitude": 16.537719527748955,
+          "area": 0.3307543905549791,
+          "width_s": 0.02
+        },
+        {
+          "start": 355,
+          "end": 356,
+          "amplitude": -10.72265271782197,
+          "area": -0.2144530543564394,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:10",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 166,
+          "end": 170,
+          "amplitude": 3.5145005817545623,
+          "area": 0.28116004654036497,
+          "width_s": 0.08
+        },
+        {
+          "start": 368,
+          "end": 372,
+          "amplitude": -1.8927458415690621,
+          "area": -0.15141966732552498,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:11",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 158,
+          "end": 168,
+          "amplitude": 1.2798507104765429,
+          "area": 0.2559701420953086,
+          "width_s": 0.2
+        },
+        {
+          "start": 335,
+          "end": 345,
+          "amplitude": -0.7855447844557573,
+          "area": -0.15710895689115145,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:12",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:13",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 126,
+          "end": 127,
+          "amplitude": 11.184317113631959,
+          "area": 0.2236863422726392,
+          "width_s": 0.02
+        },
+        {
+          "start": 344,
+          "end": 345,
+          "amplitude": -17.388198230292183,
+          "area": -0.3477639646058437,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:14",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 134,
+          "end": 138,
+          "amplitude": 2.220371561270179,
+          "area": 0.1776297249016143,
+          "width_s": 0.08
+        },
+        {
+          "start": 337,
+          "end": 341,
+          "amplitude": -4.226070201909332,
+          "area": -0.33808561615274657,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:15",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 131,
+          "end": 141,
+          "amplitude": 1.2501011108895002,
+          "area": 0.25002022217790004,
+          "width_s": 0.2
+        },
+        {
+          "start": 356,
+          "end": 366,
+          "amplitude": -0.9226455629786458,
+          "area": -0.18452911259572916,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:16",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:17",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 171,
+          "end": 172,
+          "amplitude": 8.167317780365744,
+          "area": 0.1633463556073149,
+          "width_s": 0.02
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "amplitude": -12.275118975118772,
+          "area": -0.24550237950237544,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:18",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 139,
+          "end": 143,
+          "amplitude": 2.1029649873296177,
+          "area": 0.16823719898636944,
+          "width_s": 0.08
+        },
+        {
+          "start": 367,
+          "end": 371,
+          "amplitude": -3.8318657921834616,
+          "area": -0.3065492633746769,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:19",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 155,
+          "end": 165,
+          "amplitude": 1.4435925942229395,
+          "area": 0.28871851884458793,
+          "width_s": 0.2
+        },
+        {
+          "start": 331,
+          "end": 341,
+          "amplitude": -1.0415042233857414,
+          "area": -0.20830084467714832,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:20",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:21",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 144,
+          "end": 145,
+          "amplitude": 11.122546433267024,
+          "area": 0.2224509286653405,
+          "width_s": 0.02
+        },
+        {
+          "start": 365,
+          "end": 366,
+          "amplitude": -7.62979446073226,
+          "area": -0.1525958892146452,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:22",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 127,
+          "end": 131,
+          "amplitude": 1.9734005307082298,
+          "area": 0.1578720424566584,
+          "width_s": 0.08
+        },
+        {
+          "start": 345,
+          "end": 349,
+          "amplitude": -2.6869616540467547,
+          "area": -0.21495693232374039,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:23",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 130,
+          "end": 140,
+          "amplitude": 0.9231474731966016,
+          "area": 0.18462949463932032,
+          "width_s": 0.2
+        },
+        {
+          "start": 336,
+          "end": 346,
+          "amplitude": -0.9490793179075625,
+          "area": -0.1898158635815125,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:24",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:25",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 151,
+          "end": 152,
+          "amplitude": 8.021054784305496,
+          "area": 0.16042109568610993,
+          "width_s": 0.02
+        },
+        {
+          "start": 373,
+          "end": 374,
+          "amplitude": -14.773847176881228,
+          "area": -0.29547694353762455,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:26",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 166,
+          "end": 170,
+          "amplitude": 3.1499839678107024,
+          "area": 0.2519987174248562,
+          "width_s": 0.08
+        },
+        {
+          "start": 346,
+          "end": 350,
+          "amplitude": -2.9903813119613853,
+          "area": -0.23923050495691084,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:27",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 163,
+          "end": 173,
+          "amplitude": 1.1615659707318213,
+          "area": 0.23231319414636428,
+          "width_s": 0.2
+        },
+        {
+          "start": 330,
+          "end": 340,
+          "amplitude": -0.9246244453018119,
+          "area": -0.1849248890603624,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:28",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:29",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 167,
+          "end": 168,
+          "amplitude": 10.172891873268586,
+          "area": 0.20345783746537172,
+          "width_s": 0.02
+        },
+        {
+          "start": 357,
+          "end": 358,
+          "amplitude": -9.21303144301814,
+          "area": -0.18426062886036282,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:30",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 149,
+          "end": 153,
+          "amplitude": 2.4692646657582524,
+          "area": 0.1975411732606602,
+          "width_s": 0.08
+        },
+        {
+          "start": 328,
+          "end": 332,
+          "amplitude": -3.1801872379226133,
+          "area": -0.25441497903380905,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:31",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 165,
+          "end": 175,
+          "amplitude": 1.6030546849985787,
+          "area": 0.32061093699971577,
+          "width_s": 0.2
+        },
+        {
+          "start": 357,
+          "end": 367,
+          "amplitude": -1.7187568821110137,
+          "area": -0.34375137642220277,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:32",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:33",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 168,
+          "end": 169,
+          "amplitude": 13.288921473702933,
+          "area": 0.26577842947405866,
+          "width_s": 0.02
+        },
+        {
+          "start": 368,
+          "end": 369,
+          "amplitude": -11.21223645340062,
+          "area": -0.2242447290680124,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:34",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 140,
+          "end": 144,
+          "amplitude": 2.424158612550012,
+          "area": 0.19393268900400096,
+          "width_s": 0.08
+        },
+        {
+          "start": 347,
+          "end": 351,
+          "amplitude": -1.9661374408288623,
+          "area": -0.157290995266309,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:35",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 152,
+          "end": 162,
+          "amplitude": 1.31383537527352,
+          "area": 0.262767075054704,
+          "width_s": 0.2
+        },
+        {
+          "start": 374,
+          "end": 384,
+          "amplitude": -0.82731879174693,
+          "area": -0.165463758349386,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:36",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:37",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 11.341663936273038,
+          "area": 0.22683327872546077,
+          "width_s": 0.02
+        },
+        {
+          "start": 339,
+          "end": 340,
+          "amplitude": -15.614475109550074,
+          "area": -0.3122895021910015,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:38",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 170,
+          "end": 174,
+          "amplitude": 3.1127957547269145,
+          "area": 0.24902366037815316,
+          "width_s": 0.08
+        },
+        {
+          "start": 367,
+          "end": 371,
+          "amplitude": -2.8688086716041687,
+          "area": -0.22950469372833351,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:39",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 147,
+          "end": 157,
+          "amplitude": 0.9079244388756946,
+          "area": 0.18158488777513893,
+          "width_s": 0.2
+        },
+        {
+          "start": 326,
+          "end": 336,
+          "amplitude": -1.3602601170954156,
+          "area": -0.27205202341908313,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:40",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:41",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 15.203610042852771,
+          "area": 0.30407220085705544,
+          "width_s": 0.02
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "amplitude": -16.790210803640484,
+          "area": -0.3358042160728097,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:42",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 135,
+          "end": 139,
+          "amplitude": 3.791534495478915,
+          "area": 0.30332275963831323,
+          "width_s": 0.08
+        },
+        {
+          "start": 356,
+          "end": 360,
+          "amplitude": -4.044782684251837,
+          "area": -0.323582614740147,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:43",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 169,
+          "end": 179,
+          "amplitude": 0.8121103021362371,
+          "area": 0.16242206042724744,
+          "width_s": 0.2
+        },
+        {
+          "start": 348,
+          "end": 358,
+          "amplitude": -1.4148986367788496,
+          "area": -0.2829797273557699,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:44",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:45",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 152,
+          "end": 153,
+          "amplitude": 9.468560311876617,
+          "area": 0.18937120623753234,
+          "width_s": 0.02
+        },
+        {
+          "start": 355,
+          "end": 356,
+          "amplitude": -13.39705291034725,
+          "area": -0.267941058206945,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:46",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 137,
+          "end": 141,
+          "amplitude": 1.9568623774962857,
+          "area": 0.15654899019970286,
+          "width_s": 0.08
+        },
+        {
+          "start": 343,
+          "end": 347,
+          "amplitude": -2.2658337442174186,
+          "area": -0.1812666995373935,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:47",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 142,
+          "end": 152,
+          "amplitude": 1.3268622910522823,
+          "area": 0.26537245821045646,
+          "width_s": 0.2
+        },
+        {
+          "start": 355,
+          "end": 365,
+          "amplitude": -0.9403083415699381,
+          "area": -0.18806166831398763,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:48",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:49",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 168,
+          "end": 169,
+          "amplitude": 17.252963486733936,
+          "area": 0.3450592697346787,
+          "width_s": 0.02
+        },
+        {
+          "start": 327,
+          "end": 328,
+          "amplitude": -7.991621618945303,
+          "area": -0.15983243237890607,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:50",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 134,
+          "end": 138,
+          "amplitude": 4.359634829485843,
+          "area": 0.3487707863588675,
+          "width_s": 0.08
+        },
+        {
+          "start": 337,
+          "end": 341,
+          "amplitude": -4.154328039830253,
+          "area": -0.3323462431864203,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:51",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 169,
+          "end": 179,
+          "amplitude": 1.4684611770773248,
+          "area": 0.29369223541546496,
+          "width_s": 0.2
+        },
+        {
+          "start": 333,
+          "end": 343,
+          "amplitude": -0.9107524250037569,
+          "area": -0.18215048500075137,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:52",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:53",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 172,
+          "end": 173,
+          "amplitude": 12.07335570411785,
+          "area": 0.241467114082357,
+          "width_s": 0.02
+        },
+        {
+          "start": 372,
+          "end": 373,
+          "amplitude": -13.973677373343918,
+          "area": -0.27947354746687836,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:54",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 160,
+          "end": 164,
+          "amplitude": 2.0786804512385926,
+          "area": 0.1662944360990874,
+          "width_s": 0.08
+        },
+        {
+          "start": 358,
+          "end": 362,
+          "amplitude": -2.9650437283225655,
+          "area": -0.23720349826580525,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:55",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 150,
+          "end": 160,
+          "amplitude": 1.0969187520828276,
+          "area": 0.21938375041656555,
+          "width_s": 0.2
+        },
+        {
+          "start": 369,
+          "end": 379,
+          "amplitude": -0.8838287806104494,
+          "area": -0.1767657561220899,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:56",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:57",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 167,
+          "end": 168,
+          "amplitude": 10.989875294936093,
+          "area": 0.21979750589872188,
+          "width_s": 0.02
+        },
+        {
+          "start": 344,
+          "end": 345,
+          "amplitude": -15.21099025389598,
+          "area": -0.3042198050779196,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:58",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 152,
+          "end": 156,
+          "amplitude": 2.7033769698999928,
+          "area": 0.2162701575919994,
+          "width_s": 0.08
+        },
+        {
+          "start": 363,
+          "end": 367,
+          "amplitude": -1.9968950975933308,
+          "area": -0.15975160780746647,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:59",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 163,
+          "end": 173,
+          "amplitude": 1.3765508615681123,
+          "area": 0.2753101723136225,
+          "width_s": 0.2
+        },
+        {
+          "start": 338,
+          "end": 348,
+          "amplitude": -1.5093683298182388,
+          "area": -0.3018736659636478,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:60",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:61",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 160,
+          "end": 161,
+          "amplitude": 15.0970157552029,
+          "area": 0.301940315104058,
+          "width_s": 0.02
+        },
+        {
+          "start": 368,
+          "end": 369,
+          "amplitude": -11.811681236055488,
+          "area": -0.23623362472110976,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:62",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 163,
+          "end": 167,
+          "amplitude": 2.2420611588657615,
+          "area": 0.17936489270926093,
+          "width_s": 0.08
+        },
+        {
+          "start": 333,
+          "end": 337,
+          "amplitude": -3.3206978716565483,
+          "area": -0.2656558297325239,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:63",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 163,
+          "end": 173,
+          "amplitude": 1.0236378909999184,
+          "area": 0.2047275781999837,
+          "width_s": 0.2
+        },
+        {
+          "start": 334,
+          "end": 344,
+          "amplitude": -1.2949310682746564,
+          "area": -0.2589862136549313,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:64",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:65",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 142,
+          "end": 143,
+          "amplitude": 17.03629371411348,
+          "area": 0.3407258742822696,
+          "width_s": 0.02
+        },
+        {
+          "start": 329,
+          "end": 330,
+          "amplitude": -9.499414521113986,
+          "area": -0.18998829042227972,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:66",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 156,
+          "end": 160,
+          "amplitude": 3.8266925319605045,
+          "area": 0.30613540255684035,
+          "width_s": 0.08
+        },
+        {
+          "start": 351,
+          "end": 355,
+          "amplitude": -2.0113070312796637,
+          "area": -0.16090456250237312,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:67",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 162,
+          "end": 172,
+          "amplitude": 1.7063100407717136,
+          "area": 0.3412620081543427,
+          "width_s": 0.2
+        },
+        {
+          "start": 357,
+          "end": 367,
+          "amplitude": -1.0580020791509464,
+          "area": -0.2116004158301893,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:68",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:69",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 172,
+          "end": 173,
+          "amplitude": 8.260020876011788,
+          "area": 0.1652004175202358,
+          "width_s": 0.02
+        },
+        {
+          "start": 372,
+          "end": 373,
+          "amplitude": -12.406374222704928,
+          "area": -0.24812748445409855,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:70",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 157,
+          "end": 161,
+          "amplitude": 4.044776137708496,
+          "area": 0.3235820910166797,
+          "width_s": 0.08
+        },
+        {
+          "start": 362,
+          "end": 366,
+          "amplitude": -2.2175101924950242,
+          "area": -0.17740081539960195,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:71",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 139,
+          "end": 149,
+          "amplitude": 1.3876140895739126,
+          "area": 0.27752281791478256,
+          "width_s": 0.2
+        },
+        {
+          "start": 328,
+          "end": 338,
+          "amplitude": -1.4607025590896827,
+          "area": -0.29214051181793654,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:72",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:73",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 15.186367687851126,
+          "area": 0.30372735375702253,
+          "width_s": 0.02
+        },
+        {
+          "start": 338,
+          "end": 339,
+          "amplitude": -14.76939114892197,
+          "area": -0.2953878229784394,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:74",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 159,
+          "end": 163,
+          "amplitude": 2.970625428932933,
+          "area": 0.23765003431463463,
+          "width_s": 0.08
+        },
+        {
+          "start": 356,
+          "end": 360,
+          "amplitude": -2.8022296403974365,
+          "area": -0.22417837123179493,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:75",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 166,
+          "end": 176,
+          "amplitude": 0.7767080473538529,
+          "area": 0.15534160947077058,
+          "width_s": 0.2
+        },
+        {
+          "start": 370,
+          "end": 380,
+          "amplitude": -0.8105731728567651,
+          "area": -0.16211463457135303,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:76",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:77",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 142,
+          "end": 143,
+          "amplitude": 10.049105958849644,
+          "area": 0.20098211917699288,
+          "width_s": 0.02
+        },
+        {
+          "start": 365,
+          "end": 366,
+          "amplitude": -17.31669209912876,
+          "area": -0.34633384198257516,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:78",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 167,
+          "end": 171,
+          "amplitude": 3.556793999252873,
+          "area": 0.28454351994022986,
+          "width_s": 0.08
+        },
+        {
+          "start": 328,
+          "end": 332,
+          "amplitude": -2.378377778016434,
+          "area": -0.1902702222413147,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:79",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 128,
+          "end": 138,
+          "amplitude": 1.1633577264644261,
+          "area": 0.23267154529288522,
+          "width_s": 0.2
+        },
+        {
+          "start": 337,
+          "end": 347,
+          "amplitude": -1.4212725788692904,
+          "area": -0.2842545157738581,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:80",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:81",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 171,
+          "end": 172,
+          "amplitude": 16.48277276944438,
+          "area": 0.32965545538888763,
+          "width_s": 0.02
+        },
+        {
+          "start": 334,
+          "end": 335,
+          "amplitude": -16.03187230970097,
+          "area": -0.3206374461940194,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:82",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 155,
+          "end": 159,
+          "amplitude": 1.9547347592216133,
+          "area": 0.15637878073772907,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -2.5485600931876657,
+          "area": -0.20388480745501325,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:83",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 149,
+          "end": 159,
+          "amplitude": 0.9255076719446701,
+          "area": 0.18510153438893404,
+          "width_s": 0.2
+        },
+        {
+          "start": 369,
+          "end": 379,
+          "amplitude": -1.0153753793407116,
+          "area": -0.20307507586814233,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:84",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:85",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 134,
+          "end": 135,
+          "amplitude": 11.508043289019332,
+          "area": 0.23016086578038664,
+          "width_s": 0.02
+        },
+        {
+          "start": 363,
+          "end": 364,
+          "amplitude": -16.59579728185576,
+          "area": -0.3319159456371152,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:86",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 139,
+          "end": 143,
+          "amplitude": 2.8172439519329293,
+          "area": 0.22537951615463436,
+          "width_s": 0.08
+        },
+        {
+          "start": 346,
+          "end": 350,
+          "amplitude": -3.4074422845401906,
+          "area": -0.27259538276321527,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:87",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 141,
+          "end": 151,
+          "amplitude": 1.5091113385280046,
+          "area": 0.30182226770560094,
+          "width_s": 0.2
+        },
+        {
+          "start": 326,
+          "end": 336,
+          "amplitude": -1.3613147632440172,
+          "area": -0.27226295264880346,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:88",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:89",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 154,
+          "end": 155,
+          "amplitude": 12.830559576284351,
+          "area": 0.256611191525687,
+          "width_s": 0.02
+        },
+        {
+          "start": 366,
+          "end": 367,
+          "amplitude": -13.741351592544634,
+          "area": -0.2748270318508927,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:90",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 144,
+          "end": 148,
+          "amplitude": 4.184657303787616,
+          "area": 0.33477258430300927,
+          "width_s": 0.08
+        },
+        {
+          "start": 365,
+          "end": 369,
+          "amplitude": -1.9163024427851956,
+          "area": -0.15330419542281565,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:91",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 131,
+          "end": 141,
+          "amplitude": 1.0504390943375481,
+          "area": 0.21008781886750963,
+          "width_s": 0.2
+        },
+        {
+          "start": 328,
+          "end": 338,
+          "amplitude": -0.9155451862752295,
+          "area": -0.1831090372550459,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:92",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "91000:93",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 152,
+          "end": 153,
+          "amplitude": 13.736860327932519,
+          "area": 0.27473720655865036,
+          "width_s": 0.02
+        },
+        {
+          "start": 336,
+          "end": 337,
+          "amplitude": -9.624495908707111,
+          "area": -0.19248991817414224,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:94",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 172,
+          "end": 176,
+          "amplitude": 3.524451151998064,
+          "area": 0.28195609215984513,
+          "width_s": 0.08
+        },
+        {
+          "start": 367,
+          "end": 371,
+          "amplitude": -2.826831620020998,
+          "area": -0.22614652960167986,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "91000:95",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 145,
+          "end": 155,
+          "amplitude": 0.8866624963943595,
+          "area": 0.1773324992788719,
+          "width_s": 0.2
+        },
+        {
+          "start": 347,
+          "end": 357,
+          "amplitude": -1.7149627021184037,
+          "area": -0.34299254042368077,
+          "width_s": 0.2
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "trajectory_id": "92000:0",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "92000:1",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 149,
+          "end": 150,
+          "amplitude": 17.41668341312625,
+          "area": 0.348333668262525,
+          "width_s": 0.02
+        },
+        {
+          "start": 347,
+          "end": 348,
+          "amplitude": -11.616479108341496,
+          "area": -0.23232958216682992,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:2",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 160,
+          "end": 164,
+          "amplitude": 3.074630559345733,
+          "area": 0.24597044474765864,
+          "width_s": 0.08
+        },
+        {
+          "start": 346,
+          "end": 350,
+          "amplitude": -4.289046034845764,
+          "area": -0.34312368278766114,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:3",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 151,
+          "end": 161,
+          "amplitude": 1.436948377985902,
+          "area": 0.2873896755971804,
+          "width_s": 0.2
+        },
+        {
+          "start": 335,
+          "end": 345,
+          "amplitude": -0.8242440233136069,
+          "area": -0.1648488046627214,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:4",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "92000:5",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 127,
+          "end": 128,
+          "amplitude": 8.603655001125311,
+          "area": 0.17207310002250623,
+          "width_s": 0.02
+        },
+        {
+          "start": 337,
+          "end": 338,
+          "amplitude": -17.2846433772933,
+          "area": -0.34569286754586603,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:6",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 172,
+          "end": 176,
+          "amplitude": 3.0322817806756044,
+          "area": 0.24258254245404837,
+          "width_s": 0.08
+        },
+        {
+          "start": 343,
+          "end": 347,
+          "amplitude": -4.023736610753765,
+          "area": -0.32189892886030125,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:7",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 140,
+          "end": 150,
+          "amplitude": 1.613257123336716,
+          "area": 0.3226514246673432,
+          "width_s": 0.2
+        },
+        {
+          "start": 354,
+          "end": 364,
+          "amplitude": -1.5909192079250494,
+          "area": -0.3181838415850099,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:8",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "92000:9",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 172,
+          "end": 173,
+          "amplitude": 13.493913727594048,
+          "area": 0.26987827455188096,
+          "width_s": 0.02
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "amplitude": -13.990621781886153,
+          "area": -0.27981243563772307,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:10",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 175,
+          "end": 179,
+          "amplitude": 4.201952748328018,
+          "area": 0.3361562198662414,
+          "width_s": 0.08
+        },
+        {
+          "start": 370,
+          "end": 374,
+          "amplitude": -2.2759611042980423,
+          "area": -0.1820768883438434,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:11",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 139,
+          "end": 149,
+          "amplitude": 1.4809574363526845,
+          "area": 0.2961914872705369,
+          "width_s": 0.2
+        },
+        {
+          "start": 363,
+          "end": 373,
+          "amplitude": -0.8777419712424284,
+          "area": -0.17554839424848567,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:12",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "92000:13",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 174,
+          "end": 175,
+          "amplitude": 10.361776802281659,
+          "area": 0.2072355360456332,
+          "width_s": 0.02
+        },
+        {
+          "start": 364,
+          "end": 365,
+          "amplitude": -17.281949628361534,
+          "area": -0.3456389925672307,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:14",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 161,
+          "end": 165,
+          "amplitude": 3.7603391027532362,
+          "area": 0.3008271282202589,
+          "width_s": 0.08
+        },
+        {
+          "start": 372,
+          "end": 376,
+          "amplitude": -2.4327784811463613,
+          "area": -0.1946222784917089,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:15",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 160,
+          "end": 170,
+          "amplitude": 0.785968409934686,
+          "area": 0.1571936819869372,
+          "width_s": 0.2
+        },
+        {
+          "start": 347,
+          "end": 357,
+          "amplitude": -1.1351687245715119,
+          "area": -0.2270337449143024,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:16",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "92000:17",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 128,
+          "end": 129,
+          "amplitude": 14.667003823100542,
+          "area": 0.2933400764620108,
+          "width_s": 0.02
+        },
+        {
+          "start": 365,
+          "end": 366,
+          "amplitude": -8.533496747010897,
+          "area": -0.17066993494021795,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:18",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 168,
+          "end": 172,
+          "amplitude": 2.8814084188120774,
+          "area": 0.2305126735049662,
+          "width_s": 0.08
+        },
+        {
+          "start": 339,
+          "end": 343,
+          "amplitude": -3.0476159593608902,
+          "area": -0.24380927674887123,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:19",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 144,
+          "end": 154,
+          "amplitude": 1.266021218664544,
+          "area": 0.25320424373290884,
+          "width_s": 0.2
+        },
+        {
+          "start": 349,
+          "end": 359,
+          "amplitude": -1.5646934126231409,
+          "area": -0.3129386825246282,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:20",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "92000:21",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 11.303302064489028,
+          "area": 0.22606604128978056,
+          "width_s": 0.02
+        },
+        {
+          "start": 343,
+          "end": 344,
+          "amplitude": -8.80782862473113,
+          "area": -0.1761565724946226,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:22",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 136,
+          "end": 140,
+          "amplitude": 3.7403588524584364,
+          "area": 0.2992287081966749,
+          "width_s": 0.08
+        },
+        {
+          "start": 375,
+          "end": 379,
+          "amplitude": -4.100903391830113,
+          "area": -0.32807227134640904,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "92000:23",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 136,
+          "end": 146,
+          "amplitude": 0.9880984465637294,
+          "area": 0.19761968931274587,
+          "width_s": 0.2
+        },
+        {
+          "start": 350,
+          "end": 360,
+          "amplitude": -1.5830802007021274,
+          "area": -0.3166160401404255,
+          "width_s": 0.2
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "trajectory_id": "93000:0",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:1",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 15.236608123865574,
+          "area": 0.3047321624773115,
+          "width_s": 0.02
+        },
+        {
+          "start": 357,
+          "end": 358,
+          "amplitude": -10.357716642416754,
+          "area": -0.2071543328483351,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:2",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 170,
+          "end": 172,
+          "amplitude": 4.168619070528834,
+          "area": 0.16674476282115336,
+          "width_s": 0.04
+        },
+        {
+          "start": 367,
+          "end": 369,
+          "amplitude": -5.763591200755087,
+          "area": -0.2305436480302035,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:3",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 162,
+          "end": 166,
+          "amplitude": 2.1607104451530086,
+          "area": 0.1728568356122407,
+          "width_s": 0.08
+        },
+        {
+          "start": 354,
+          "end": 358,
+          "amplitude": -3.214933672566992,
+          "area": -0.25719469380535936,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:4",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 160,
+          "end": 166,
+          "amplitude": 2.4650042590039196,
+          "area": 0.29580051108047034,
+          "width_s": 0.12
+        },
+        {
+          "start": 373,
+          "end": 379,
+          "amplitude": -2.628388064861202,
+          "area": -0.3154065677833442,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:5",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 132,
+          "end": 142,
+          "amplitude": 1.2472027149934288,
+          "area": 0.2494405429986858,
+          "width_s": 0.2
+        },
+        {
+          "start": 372,
+          "end": 382,
+          "amplitude": -1.147533219306846,
+          "area": -0.2295066438613692,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:6",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:7",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 142,
+          "end": 143,
+          "amplitude": 15.318341407287743,
+          "area": 0.3063668281457549,
+          "width_s": 0.02
+        },
+        {
+          "start": 331,
+          "end": 332,
+          "amplitude": -8.205012469960224,
+          "area": -0.16410024939920448,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:8",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 137,
+          "end": 139,
+          "amplitude": 4.942229287369348,
+          "area": 0.19768917149477394,
+          "width_s": 0.04
+        },
+        {
+          "start": 357,
+          "end": 359,
+          "amplitude": -4.864634540440531,
+          "area": -0.19458538161762126,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:9",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 144,
+          "end": 148,
+          "amplitude": 2.869758795852765,
+          "area": 0.22958070366822123,
+          "width_s": 0.08
+        },
+        {
+          "start": 367,
+          "end": 371,
+          "amplitude": -2.689938835628494,
+          "area": -0.21519510685027954,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:10",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 164,
+          "end": 170,
+          "amplitude": 1.9954620680184076,
+          "area": 0.2394554481622089,
+          "width_s": 0.12
+        },
+        {
+          "start": 346,
+          "end": 352,
+          "amplitude": -2.653770415946379,
+          "area": -0.31845244991356547,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:11",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 161,
+          "end": 171,
+          "amplitude": 0.9884442801431688,
+          "area": 0.19768885602863376,
+          "width_s": 0.2
+        },
+        {
+          "start": 359,
+          "end": 369,
+          "amplitude": -0.7744312803714398,
+          "area": -0.15488625607428796,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:12",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:13",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 160,
+          "end": 161,
+          "amplitude": 9.992608756645017,
+          "area": 0.19985217513290035,
+          "width_s": 0.02
+        },
+        {
+          "start": 340,
+          "end": 341,
+          "amplitude": -16.583709724586374,
+          "area": -0.33167419449172747,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:14",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 153,
+          "end": 155,
+          "amplitude": 6.482180313223977,
+          "area": 0.2592872125289591,
+          "width_s": 0.04
+        },
+        {
+          "start": 365,
+          "end": 367,
+          "amplitude": -7.642432017224834,
+          "area": -0.3056972806889934,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:15",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 127,
+          "end": 131,
+          "amplitude": 3.1599562015096208,
+          "area": 0.25279649612076965,
+          "width_s": 0.08
+        },
+        {
+          "start": 356,
+          "end": 360,
+          "amplitude": -4.111704400099817,
+          "area": -0.3289363520079853,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:16",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 156,
+          "end": 162,
+          "amplitude": 2.072817584888111,
+          "area": 0.24873811018657332,
+          "width_s": 0.12
+        },
+        {
+          "start": 332,
+          "end": 338,
+          "amplitude": -1.2611614148514712,
+          "area": -0.15133936978217652,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:17",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 142,
+          "end": 152,
+          "amplitude": 1.1948699525620945,
+          "area": 0.2389739905124189,
+          "width_s": 0.2
+        },
+        {
+          "start": 371,
+          "end": 381,
+          "amplitude": -0.940026802783098,
+          "area": -0.18800536055661962,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:18",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:19",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 139,
+          "end": 140,
+          "amplitude": 17.01134295553773,
+          "area": 0.3402268591107546,
+          "width_s": 0.02
+        },
+        {
+          "start": 360,
+          "end": 361,
+          "amplitude": -9.772700484298856,
+          "area": -0.19545400968597712,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:20",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 139,
+          "end": 141,
+          "amplitude": 5.570431809394133,
+          "area": 0.22281727237576532,
+          "width_s": 0.04
+        },
+        {
+          "start": 346,
+          "end": 348,
+          "amplitude": -6.893584381519122,
+          "area": -0.27574337526076487,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:21",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 152,
+          "end": 156,
+          "amplitude": 4.0530531066199265,
+          "area": 0.32424424852959416,
+          "width_s": 0.08
+        },
+        {
+          "start": 349,
+          "end": 353,
+          "amplitude": -2.460279404884755,
+          "area": -0.1968223523907804,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:22",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 174,
+          "end": 180,
+          "amplitude": 2.7723403113944616,
+          "area": 0.3326808373673354,
+          "width_s": 0.12
+        },
+        {
+          "start": 351,
+          "end": 357,
+          "amplitude": -2.718371520494035,
+          "area": -0.3262045824592842,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:23",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 165,
+          "end": 175,
+          "amplitude": 0.8624976166364778,
+          "area": 0.17249952332729557,
+          "width_s": 0.2
+        },
+        {
+          "start": 334,
+          "end": 344,
+          "amplitude": -0.8357169467830123,
+          "area": -0.16714338935660247,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:24",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:25",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 154,
+          "end": 155,
+          "amplitude": 17.473822775693737,
+          "area": 0.34947645551387474,
+          "width_s": 0.02
+        },
+        {
+          "start": 370,
+          "end": 371,
+          "amplitude": -8.87904236785995,
+          "area": -0.177580847357199,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:26",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 135,
+          "end": 137,
+          "amplitude": 4.365684888183485,
+          "area": 0.17462739552733939,
+          "width_s": 0.04
+        },
+        {
+          "start": 342,
+          "end": 344,
+          "amplitude": -8.459470997835027,
+          "area": -0.33837883991340106,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:27",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 160,
+          "end": 164,
+          "amplitude": 3.59109171134329,
+          "area": 0.2872873369074632,
+          "width_s": 0.08
+        },
+        {
+          "start": 338,
+          "end": 342,
+          "amplitude": -1.917379437483606,
+          "area": -0.15339035499868847,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:28",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 158,
+          "end": 164,
+          "amplitude": 1.6912764209003894,
+          "area": 0.20295317050804673,
+          "width_s": 0.12
+        },
+        {
+          "start": 372,
+          "end": 378,
+          "amplitude": -2.324258827669856,
+          "area": -0.27891105932038274,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:29",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 134,
+          "end": 144,
+          "amplitude": 0.9470881001732123,
+          "area": 0.18941762003464246,
+          "width_s": 0.2
+        },
+        {
+          "start": 349,
+          "end": 359,
+          "amplitude": -1.0317085891335265,
+          "area": -0.2063417178267053,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:30",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:31",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 149,
+          "end": 150,
+          "amplitude": 13.025901906063144,
+          "area": 0.2605180381212629,
+          "width_s": 0.02
+        },
+        {
+          "start": 353,
+          "end": 354,
+          "amplitude": -12.49640734911614,
+          "area": -0.2499281469823228,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:32",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 142,
+          "end": 144,
+          "amplitude": 7.9887241746038695,
+          "area": 0.3195489669841548,
+          "width_s": 0.04
+        },
+        {
+          "start": 326,
+          "end": 328,
+          "amplitude": -8.71822622137423,
+          "area": -0.34872904885496925,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:33",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 133,
+          "end": 137,
+          "amplitude": 2.9901405131373258,
+          "area": 0.23921124105098607,
+          "width_s": 0.08
+        },
+        {
+          "start": 353,
+          "end": 357,
+          "amplitude": -2.6658822346804394,
+          "area": -0.21327057877443517,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:34",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 143,
+          "end": 149,
+          "amplitude": 1.4211611075683783,
+          "area": 0.1705393329082054,
+          "width_s": 0.12
+        },
+        {
+          "start": 339,
+          "end": 345,
+          "amplitude": -2.8413291463978188,
+          "area": -0.34095949756773825,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:35",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 168,
+          "end": 178,
+          "amplitude": 0.9934309905963795,
+          "area": 0.1986861981192759,
+          "width_s": 0.2
+        },
+        {
+          "start": 325,
+          "end": 335,
+          "amplitude": -1.319025383463565,
+          "area": -0.263805076692713,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:36",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:37",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 134,
+          "end": 135,
+          "amplitude": 17.388542704459585,
+          "area": 0.3477708540891917,
+          "width_s": 0.02
+        },
+        {
+          "start": 367,
+          "end": 368,
+          "amplitude": -9.766159484995734,
+          "area": -0.1953231896999147,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:38",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 168,
+          "end": 170,
+          "amplitude": 6.325350461243708,
+          "area": 0.25301401844974836,
+          "width_s": 0.04
+        },
+        {
+          "start": 360,
+          "end": 362,
+          "amplitude": -5.501873169543054,
+          "area": -0.22007492678172216,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:39",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 145,
+          "end": 149,
+          "amplitude": 4.026236861053552,
+          "area": 0.3220989488842842,
+          "width_s": 0.08
+        },
+        {
+          "start": 356,
+          "end": 360,
+          "amplitude": -1.9489157417566998,
+          "area": -0.155913259340536,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:40",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 137,
+          "end": 143,
+          "amplitude": 1.8931807802049299,
+          "area": 0.22718169362459156,
+          "width_s": 0.12
+        },
+        {
+          "start": 356,
+          "end": 362,
+          "amplitude": -1.368963246214333,
+          "area": -0.16427558954571997,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:41",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 169,
+          "end": 179,
+          "amplitude": 1.1649177367657169,
+          "area": 0.2329835473531434,
+          "width_s": 0.2
+        },
+        {
+          "start": 333,
+          "end": 343,
+          "amplitude": -0.9232939856507919,
+          "area": -0.1846587971301584,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:42",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:43",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 169,
+          "end": 170,
+          "amplitude": 11.322030406493932,
+          "area": 0.22644060812987865,
+          "width_s": 0.02
+        },
+        {
+          "start": 340,
+          "end": 341,
+          "amplitude": -9.07372100765516,
+          "area": -0.18147442015310322,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:44",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 169,
+          "end": 171,
+          "amplitude": 7.706811717392423,
+          "area": 0.3082724686956969,
+          "width_s": 0.04
+        },
+        {
+          "start": 353,
+          "end": 355,
+          "amplitude": -8.302711474921733,
+          "area": -0.3321084589968693,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:45",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 168,
+          "end": 172,
+          "amplitude": 1.907480615155216,
+          "area": 0.15259844921241728,
+          "width_s": 0.08
+        },
+        {
+          "start": 340,
+          "end": 344,
+          "amplitude": -4.077528815046962,
+          "area": -0.326202305203757,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:46",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 170,
+          "end": 176,
+          "amplitude": 1.6081181070476498,
+          "area": 0.19297417284571797,
+          "width_s": 0.12
+        },
+        {
+          "start": 374,
+          "end": 380,
+          "amplitude": -1.9187702000669007,
+          "area": -0.23025242400802806,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:47",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 126,
+          "end": 136,
+          "amplitude": 1.6367723445585591,
+          "area": 0.3273544689117118,
+          "width_s": 0.2
+        },
+        {
+          "start": 334,
+          "end": 344,
+          "amplitude": -1.5031353083258192,
+          "area": -0.30062706166516384,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:48",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:49",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 12.764264500716008,
+          "area": 0.25528529001432015,
+          "width_s": 0.02
+        },
+        {
+          "start": 339,
+          "end": 340,
+          "amplitude": -17.452476054695666,
+          "area": -0.3490495210939133,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:50",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 152,
+          "end": 154,
+          "amplitude": 8.738300759059063,
+          "area": 0.3495320303623625,
+          "width_s": 0.04
+        },
+        {
+          "start": 366,
+          "end": 368,
+          "amplitude": -6.775381950832035,
+          "area": -0.2710152780332814,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:51",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 163,
+          "end": 167,
+          "amplitude": 4.021483269867008,
+          "area": 0.32171866158936063,
+          "width_s": 0.08
+        },
+        {
+          "start": 363,
+          "end": 367,
+          "amplitude": -2.935988267575244,
+          "area": -0.2348790614060195,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:52",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 142,
+          "end": 148,
+          "amplitude": 2.7159952134381906,
+          "area": 0.32591942561258286,
+          "width_s": 0.12
+        },
+        {
+          "start": 328,
+          "end": 334,
+          "amplitude": -2.16597679028542,
+          "area": -0.2599172148342504,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:53",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 152,
+          "end": 162,
+          "amplitude": 1.2082065000980897,
+          "area": 0.24164130001961795,
+          "width_s": 0.2
+        },
+        {
+          "start": 371,
+          "end": 381,
+          "amplitude": -1.3264573869376033,
+          "area": -0.2652914773875207,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:54",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:55",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 159,
+          "end": 160,
+          "amplitude": 12.90733668056682,
+          "area": 0.2581467336113364,
+          "width_s": 0.02
+        },
+        {
+          "start": 349,
+          "end": 350,
+          "amplitude": -11.053536683318226,
+          "area": -0.22107073366636454,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:56",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 134,
+          "end": 136,
+          "amplitude": 7.649589227200774,
+          "area": 0.305983569088031,
+          "width_s": 0.04
+        },
+        {
+          "start": 329,
+          "end": 331,
+          "amplitude": -6.137178749802986,
+          "area": -0.24548714999211946,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:57",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 130,
+          "end": 134,
+          "amplitude": 3.6737988593706956,
+          "area": 0.29390390874965566,
+          "width_s": 0.08
+        },
+        {
+          "start": 334,
+          "end": 338,
+          "amplitude": -3.6864086432613963,
+          "area": -0.2949126914609117,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:58",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 156,
+          "end": 162,
+          "amplitude": 2.9053184625959347,
+          "area": 0.34863821551151214,
+          "width_s": 0.12
+        },
+        {
+          "start": 369,
+          "end": 375,
+          "amplitude": -2.2265300228454383,
+          "area": -0.2671836027414526,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:59",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 171,
+          "end": 181,
+          "amplitude": 1.7151891520118394,
+          "area": 0.3430378304023679,
+          "width_s": 0.2
+        },
+        {
+          "start": 367,
+          "end": 377,
+          "amplitude": -1.4985012946983758,
+          "area": -0.29970025893967517,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:60",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:61",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 145,
+          "end": 146,
+          "amplitude": 9.232139493478694,
+          "area": 0.1846427898695739,
+          "width_s": 0.02
+        },
+        {
+          "start": 345,
+          "end": 346,
+          "amplitude": -9.980032539999401,
+          "area": -0.199600650799988,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:62",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 174,
+          "end": 176,
+          "amplitude": 4.591561357043032,
+          "area": 0.1836624542817213,
+          "width_s": 0.04
+        },
+        {
+          "start": 355,
+          "end": 357,
+          "amplitude": -3.994945033600788,
+          "area": -0.15979780134403151,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:63",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 164,
+          "end": 168,
+          "amplitude": 3.417561701265377,
+          "area": 0.2734049361012302,
+          "width_s": 0.08
+        },
+        {
+          "start": 353,
+          "end": 357,
+          "amplitude": -3.608692349535727,
+          "area": -0.28869538796285815,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:64",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 126,
+          "end": 132,
+          "amplitude": 2.731789030702213,
+          "area": 0.32781468368426553,
+          "width_s": 0.12
+        },
+        {
+          "start": 354,
+          "end": 360,
+          "amplitude": -1.2946908173557217,
+          "area": -0.1553628980826866,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:65",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 173,
+          "end": 183,
+          "amplitude": 1.1808099266967902,
+          "area": 0.23616198533935806,
+          "width_s": 0.2
+        },
+        {
+          "start": 336,
+          "end": 346,
+          "amplitude": -1.0635154639264706,
+          "area": -0.21270309278529415,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:66",
+      "kind": "smooth",
+      "events": []
+    },
+    {
+      "trajectory_id": "93000:67",
+      "kind": "pulse_1",
+      "events": [
+        {
+          "start": 137,
+          "end": 138,
+          "amplitude": 16.623525535952023,
+          "area": 0.33247051071904044,
+          "width_s": 0.02
+        },
+        {
+          "start": 344,
+          "end": 345,
+          "amplitude": -9.424206786790352,
+          "area": -0.18848413573580702,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:68",
+      "kind": "pulse_2",
+      "events": [
+        {
+          "start": 137,
+          "end": 139,
+          "amplitude": 8.104919774935137,
+          "area": 0.3241967909974055,
+          "width_s": 0.04
+        },
+        {
+          "start": 340,
+          "end": 342,
+          "amplitude": -4.7054952323259815,
+          "area": -0.18821980929303928,
+          "width_s": 0.04
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:69",
+      "kind": "pulse_4",
+      "events": [
+        {
+          "start": 157,
+          "end": 161,
+          "amplitude": 3.1361764524543316,
+          "area": 0.25089411619634655,
+          "width_s": 0.08
+        },
+        {
+          "start": 351,
+          "end": 355,
+          "amplitude": -3.3238533242227466,
+          "area": -0.26590826593781974,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:70",
+      "kind": "pulse_6",
+      "events": [
+        {
+          "start": 161,
+          "end": 167,
+          "amplitude": 1.6778353702315005,
+          "area": 0.20134024442778006,
+          "width_s": 0.12
+        },
+        {
+          "start": 368,
+          "end": 374,
+          "amplitude": -1.5815618496378199,
+          "area": -0.1897874219565384,
+          "width_s": 0.12
+        }
+      ]
+    },
+    {
+      "trajectory_id": "93000:71",
+      "kind": "pulse_10",
+      "events": [
+        {
+          "start": 163,
+          "end": 173,
+          "amplitude": 1.4771442983774252,
+          "area": 0.29542885967548504,
+          "width_s": 0.2
+        },
+        {
+          "start": 343,
+          "end": 353,
+          "amplitude": -1.1170910125874982,
+          "area": -0.22341820251749966,
+          "width_s": 0.2
+        }
+      ]
+    }
+  ],
+  "sensor_seed_bases": {
+    "train": 101000,
+    "validation": 102000,
+    "test": 103000
+  }
+}
