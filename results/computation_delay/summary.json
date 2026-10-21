@@ -1,0 +1,326 @@
+[
+  {
+    "stage": "frozen",
+    "method": "single_fm",
+    "condition": "zero",
+    "tracking_rmse": 0.008969730255282908,
+    "delay_ms": 0.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 5.0505050505050505e-05
+  },
+  {
+    "stage": "frozen",
+    "method": "single_fm",
+    "condition": "measured_p50",
+    "tracking_rmse": 0.008990566407403786,
+    "delay_ms": 0.10863333333333333,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 5.0505050505050505e-05
+  },
+  {
+    "stage": "frozen",
+    "method": "single_fm",
+    "condition": "measured_p95",
+    "tracking_rmse": 0.008998720123556424,
+    "delay_ms": 0.12754333333333334,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 5.0505050505050505e-05
+  },
+  {
+    "stage": "frozen",
+    "method": "single_fm",
+    "condition": "fixed_5ms",
+    "tracking_rmse": 0.009835236271170602,
+    "delay_ms": 5.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 5.0505050505050505e-05
+  },
+  {
+    "stage": "frozen",
+    "method": "single_fm",
+    "condition": "fixed_20ms",
+    "tracking_rmse": 0.009831797735425645,
+    "delay_ms": 20.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 2.5252525252525253e-05
+  },
+  {
+    "stage": "frozen",
+    "method": "single_fm",
+    "condition": "fixed_40ms",
+    "tracking_rmse": 0.011260285514493918,
+    "delay_ms": 40.0,
+    "skipped_fraction": 0.5,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "condition": "zero",
+    "tracking_rmse": 0.003937782965970913,
+    "delay_ms": 0.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "condition": "measured_p50",
+    "tracking_rmse": 0.004193592692805659,
+    "delay_ms": 0.6526666666666665,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "condition": "measured_p95",
+    "tracking_rmse": 0.004216066225343825,
+    "delay_ms": 0.7332350000000002,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "condition": "fixed_5ms",
+    "tracking_rmse": 0.005984822126670048,
+    "delay_ms": 5.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "condition": "fixed_20ms",
+    "tracking_rmse": 0.008964600961467464,
+    "delay_ms": 20.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "condition": "fixed_40ms",
+    "tracking_rmse": 0.014488991012393107,
+    "delay_ms": 40.0,
+    "skipped_fraction": 0.5,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "regression",
+    "condition": "zero",
+    "tracking_rmse": 0.004679133238164178,
+    "delay_ms": 0.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "regression",
+    "condition": "measured_p50",
+    "tracking_rmse": 0.004687870415746829,
+    "delay_ms": 0.09268333333333331,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "regression",
+    "condition": "measured_p95",
+    "tracking_rmse": 0.004688599396396224,
+    "delay_ms": 0.10151166666666668,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "regression",
+    "condition": "fixed_5ms",
+    "tracking_rmse": 0.0048002689653193755,
+    "delay_ms": 5.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "regression",
+    "condition": "fixed_20ms",
+    "tracking_rmse": 0.006863842820621446,
+    "delay_ms": 20.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "frozen",
+    "method": "regression",
+    "condition": "fixed_40ms",
+    "tracking_rmse": 0.006295495931328265,
+    "delay_ms": 40.0,
+    "skipped_fraction": 0.5,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "condition": "zero",
+    "tracking_rmse": 0.001911629482541101,
+    "delay_ms": 0.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.00017676767676767674
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "condition": "measured_p50",
+    "tracking_rmse": 0.001912078880713477,
+    "delay_ms": 0.1091,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.00017676767676767674
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "condition": "measured_p95",
+    "tracking_rmse": 0.0019121089410173472,
+    "delay_ms": 0.11604333333333335,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.00017676767676767674
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "condition": "fixed_5ms",
+    "tracking_rmse": 0.0019383124307554179,
+    "delay_ms": 5.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.00017676767676767674
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "condition": "fixed_20ms",
+    "tracking_rmse": 0.002279815768293688,
+    "delay_ms": 20.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.00017676767676767674
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "condition": "fixed_40ms",
+    "tracking_rmse": 0.004166106131996207,
+    "delay_ms": 40.0,
+    "skipped_fraction": 0.5,
+    "saturation_fraction": 0.00015151515151515152
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "condition": "zero",
+    "tracking_rmse": 0.0018940274094979266,
+    "delay_ms": 0.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0002777777777777777
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "condition": "measured_p50",
+    "tracking_rmse": 0.0018986085262305233,
+    "delay_ms": 0.6544166666666668,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0002777777777777777
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "condition": "measured_p95",
+    "tracking_rmse": 0.0018988454320660745,
+    "delay_ms": 0.73362,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0002777777777777777
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "condition": "fixed_5ms",
+    "tracking_rmse": 0.0019331506980108963,
+    "delay_ms": 5.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0002777777777777777
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "condition": "fixed_20ms",
+    "tracking_rmse": 0.0024113838240894495,
+    "delay_ms": 20.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0002777777777777777
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "condition": "fixed_40ms",
+    "tracking_rmse": 0.004269297228439771,
+    "delay_ms": 40.0,
+    "skipped_fraction": 0.5,
+    "saturation_fraction": 0.0002525252525252525
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "condition": "zero",
+    "tracking_rmse": 0.0020308858154427342,
+    "delay_ms": 0.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "condition": "measured_p50",
+    "tracking_rmse": 0.0020311261764808775,
+    "delay_ms": 0.0927,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "condition": "measured_p95",
+    "tracking_rmse": 0.002031145507383339,
+    "delay_ms": 0.09973833333333333,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "condition": "fixed_5ms",
+    "tracking_rmse": 0.0020496437879944673,
+    "delay_ms": 5.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "condition": "fixed_20ms",
+    "tracking_rmse": 0.002317441917751513,
+    "delay_ms": 20.0,
+    "skipped_fraction": 0.0,
+    "saturation_fraction": 0.0
+  },
+  {
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "condition": "fixed_40ms",
+    "tracking_rmse": 0.003985119005000788,
+    "delay_ms": 40.0,
+    "skipped_fraction": 0.5,
+    "saturation_fraction": 0.0
+  }
+]

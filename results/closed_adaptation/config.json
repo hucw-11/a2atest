@@ -1,0 +1,19 @@
+{
+  "out": "results/closed_adaptation",
+  "initial": "results/single_step_mixed",
+  "train_trajectories": 360,
+  "round_steps": 2500,
+  "validation_every": 500,
+  "test_mixed": 56,
+  "test_shock": 24,
+  "batch": 128,
+  "lr": 0.0002,
+  "source_noise_std": 0.01,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "threads": 4,
+  "resume": false
+}

@@ -1,0 +1,7 @@
+{
+  "device": "cpu",
+  "torch": "2.5.1+cpu",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 4
+}

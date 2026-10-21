@@ -1,5 +1,21 @@
 # 二阶系统扰动估计：无隐空间 A2A Flow Matching
 
+## 闭环适配与计算延时复核
+
+新增[闭环适配报告](results/closed_adaptation/REPORT.md)：比较冻结权重、仅闭环状态适配、闭环并加入冲击适配。
+单步FM、多步FM和直接回归各3个种子，共享两轮360条闭环采集数据；每模型额外更新5000次。
+按独立闭环验证集的跟踪误差选择权重，另用全新的混合/冲击测试轨迹评估。
+
+[延时报告](results/computation_delay/REPORT.md)在上述训练完成后单独复核软件计算延时。
+计算期间植物继续受旧控制驱动；小于周期的延时采用分段精确ZOH推进，超周期按单工作线程跳过新任务处理。
+
+```powershell
+.\.venv\Scripts\python.exe adaptation_experiment.py
+.\.venv\Scripts\python.exe delay_experiment.py
+.\.venv\Scripts\python.exe analyze_adaptation.py
+.\.venv\Scripts\python.exe -m unittest test_adaptation test_delayed test_single_step test_core closed_loop.test_core -v
+```
+
 ## 本分支：单次调用 FM 与五倍混合训练集
 
 本分支新增独立实验 `single_step_experiment.py`。正式结果与完整报告位于

@@ -4763,3 +4763,551 @@
 - [2026-10-21 18:11:00 UTC+8] 单步混合实验完成：E:\Desktop\MyCode\A2AFM\results\single_step_mixed\REPORT.md
 
 - 2026-10-21: 单步混合实验完成：360条训练轨迹、136080窗口；4种网络各3种子、每模型15000次CPU更新。17项测试通过；12个检查点审计通过，公开接口778次估计/778次前向；报告与图表已核对。单步相对多步预测路径加速8.62倍，中噪声RMSE增大1.16%，直接回归更准确；闭环冲击跟踪性能仍需改进。文件锁恢复及训练计时缺失已记录。
+
+- [2026-10-21 19:49:10 UTC+8] adapt shared pool state_only round=1: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:11 UTC+8] adapt state_only single_fm/11 round=1 step=2 val_tracking=0.004761 best=0.003868
+
+- [2026-10-21 19:49:11 UTC+8] adapt completed state_only single_fm/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:12 UTC+8] adapt state_only midpoint_fm/11 round=1 step=2 val_tracking=0.005390 best=0.003952
+
+- [2026-10-21 19:49:12 UTC+8] adapt completed state_only midpoint_fm/11 round=1, seconds=0.5
+
+- [2026-10-21 19:49:12 UTC+8] adapt state_only regression/11 round=1 step=2 val_tracking=0.004479 best=0.003560
+
+- [2026-10-21 19:49:12 UTC+8] adapt completed state_only regression/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:13 UTC+8] adapt shared pool state_only round=2: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:13 UTC+8] adapt state_only single_fm/11 round=2 step=2 val_tracking=0.004399 best=0.003868
+
+- [2026-10-21 19:49:13 UTC+8] adapt completed state_only single_fm/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:14 UTC+8] adapt state_only midpoint_fm/11 round=2 step=2 val_tracking=0.004053 best=0.003952
+
+- [2026-10-21 19:49:14 UTC+8] adapt completed state_only midpoint_fm/11 round=2, seconds=0.5
+
+- [2026-10-21 19:49:15 UTC+8] adapt state_only regression/11 round=2 step=2 val_tracking=0.003898 best=0.003560
+
+- [2026-10-21 19:49:15 UTC+8] adapt completed state_only regression/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:15 UTC+8] adapt shared pool state_and_pulses round=1: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:15 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=2 val_tracking=0.004829 best=0.003868
+
+- [2026-10-21 19:49:15 UTC+8] adapt completed state_and_pulses single_fm/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:16 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=2 val_tracking=0.005177 best=0.003952
+
+- [2026-10-21 19:49:16 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=1, seconds=0.5
+
+- [2026-10-21 19:49:17 UTC+8] adapt state_and_pulses regression/11 round=1 step=2 val_tracking=0.004115 best=0.003560
+
+- [2026-10-21 19:49:17 UTC+8] adapt completed state_and_pulses regression/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:17 UTC+8] adapt shared pool state_and_pulses round=2: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:18 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=2 val_tracking=0.004429 best=0.003868
+
+- [2026-10-21 19:49:18 UTC+8] adapt completed state_and_pulses single_fm/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:19 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=2 val_tracking=0.004900 best=0.003952
+
+- [2026-10-21 19:49:19 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=2, seconds=0.5
+
+- [2026-10-21 19:49:19 UTC+8] adapt state_and_pulses regression/11 round=2 step=2 val_tracking=0.004134 best=0.003560
+
+- [2026-10-21 19:49:19 UTC+8] adapt completed state_and_pulses regression/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:21 UTC+8] adaptation held-out test completed: mixed
+
+- [2026-10-21 19:49:23 UTC+8] adaptation held-out test completed: shock
+
+- [2026-10-21 19:49:23 UTC+8] adaptation experiment complete: E:\Desktop\MyCode\A2AFM\results\adaptation_smoke\REPORT.md
+
+- [2026-10-21 19:50:48 UTC+8] adapt shared pool state_only round=1: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:50:49 UTC+8] adapt state_only single_fm/11 round=1 step=500 val_tracking=0.003045 best=0.003045
+
+- [2026-10-21 19:50:50 UTC+8] adapt state_only single_fm/11 round=1 step=1000 val_tracking=0.003361 best=0.003045
+
+- [2026-10-21 19:50:51 UTC+8] adapt state_only single_fm/11 round=1 step=1500 val_tracking=0.002938 best=0.002938
+
+- [2026-10-21 19:50:53 UTC+8] adapt state_only single_fm/11 round=1 step=2000 val_tracking=0.003023 best=0.002938
+
+- [2026-10-21 19:50:54 UTC+8] adapt state_only single_fm/11 round=1 step=2500 val_tracking=0.003046 best=0.002938
+
+- [2026-10-21 19:50:54 UTC+8] adapt completed state_only single_fm/11 round=1, seconds=5.4
+
+- [2026-10-21 19:50:55 UTC+8] adapt state_only single_fm/22 round=1 step=500 val_tracking=0.003354 best=0.003354
+
+- [2026-10-21 19:50:56 UTC+8] adapt state_only single_fm/22 round=1 step=1000 val_tracking=0.003510 best=0.003354
+
+- [2026-10-21 19:50:57 UTC+8] adapt state_only single_fm/22 round=1 step=1500 val_tracking=0.003259 best=0.003259
+
+- [2026-10-21 19:50:58 UTC+8] adapt state_only single_fm/22 round=1 step=2000 val_tracking=0.003220 best=0.003220
+
+- [2026-10-21 19:50:59 UTC+8] adapt state_only single_fm/22 round=1 step=2500 val_tracking=0.002979 best=0.002979
+
+- [2026-10-21 19:50:59 UTC+8] adapt completed state_only single_fm/22 round=1, seconds=5.4
+
+- [2026-10-21 19:51:00 UTC+8] adapt state_only single_fm/33 round=1 step=500 val_tracking=0.003425 best=0.003425
+
+- [2026-10-21 19:51:01 UTC+8] adapt state_only single_fm/33 round=1 step=1000 val_tracking=0.003864 best=0.003425
+
+- [2026-10-21 19:51:03 UTC+8] adapt state_only single_fm/33 round=1 step=1500 val_tracking=0.003543 best=0.003425
+
+- [2026-10-21 19:51:04 UTC+8] adapt state_only single_fm/33 round=1 step=2000 val_tracking=0.003122 best=0.003122
+
+- [2026-10-21 19:51:05 UTC+8] adapt state_only single_fm/33 round=1 step=2500 val_tracking=0.003546 best=0.003122
+
+- [2026-10-21 19:51:05 UTC+8] adapt completed state_only single_fm/33 round=1, seconds=5.4
+
+- [2026-10-21 19:51:09 UTC+8] adapt state_only midpoint_fm/11 round=1 step=500 val_tracking=0.002779 best=0.002779
+
+- [2026-10-21 19:51:12 UTC+8] adapt state_only midpoint_fm/11 round=1 step=1000 val_tracking=0.003370 best=0.002779
+
+- [2026-10-21 19:51:15 UTC+8] adapt state_only midpoint_fm/11 round=1 step=1500 val_tracking=0.003072 best=0.002779
+
+- [2026-10-21 19:51:19 UTC+8] adapt state_only midpoint_fm/11 round=1 step=2000 val_tracking=0.003283 best=0.002779
+
+- [2026-10-21 19:51:22 UTC+8] adapt state_only midpoint_fm/11 round=1 step=2500 val_tracking=0.002816 best=0.002779
+
+- [2026-10-21 19:51:22 UTC+8] adapt completed state_only midpoint_fm/11 round=1, seconds=17.0
+
+- [2026-10-21 19:51:26 UTC+8] adapt state_only midpoint_fm/22 round=1 step=500 val_tracking=0.003221 best=0.003221
+
+- [2026-10-21 19:51:29 UTC+8] adapt state_only midpoint_fm/22 round=1 step=1000 val_tracking=0.003531 best=0.003221
+
+- [2026-10-21 19:51:33 UTC+8] adapt state_only midpoint_fm/22 round=1 step=1500 val_tracking=0.003329 best=0.003221
+
+- [2026-10-21 19:51:36 UTC+8] adapt state_only midpoint_fm/22 round=1 step=2000 val_tracking=0.003644 best=0.003221
+
+- [2026-10-21 19:51:40 UTC+8] adapt state_only midpoint_fm/22 round=1 step=2500 val_tracking=0.002951 best=0.002951
+
+- [2026-10-21 19:51:40 UTC+8] adapt completed state_only midpoint_fm/22 round=1, seconds=17.0
+
+- [2026-10-21 19:51:44 UTC+8] adapt state_only midpoint_fm/33 round=1 step=500 val_tracking=0.003415 best=0.003415
+
+- [2026-10-21 19:51:47 UTC+8] adapt state_only midpoint_fm/33 round=1 step=1000 val_tracking=0.003543 best=0.003415
+
+- [2026-10-21 19:51:50 UTC+8] adapt state_only midpoint_fm/33 round=1 step=1500 val_tracking=0.003515 best=0.003415
+
+- [2026-10-21 19:51:54 UTC+8] adapt state_only midpoint_fm/33 round=1 step=2000 val_tracking=0.003365 best=0.003365
+
+- [2026-10-21 19:51:57 UTC+8] adapt state_only midpoint_fm/33 round=1 step=2500 val_tracking=0.003192 best=0.003192
+
+- [2026-10-21 19:51:57 UTC+8] adapt completed state_only midpoint_fm/33 round=1, seconds=17.0
+
+- [2026-10-21 19:51:58 UTC+8] adapt state_only regression/11 round=1 step=500 val_tracking=0.003156 best=0.003156
+
+- [2026-10-21 19:51:59 UTC+8] adapt state_only regression/11 round=1 step=1000 val_tracking=0.002929 best=0.002929
+
+- [2026-10-21 19:52:00 UTC+8] adapt state_only regression/11 round=1 step=1500 val_tracking=0.002996 best=0.002929
+
+- [2026-10-21 19:52:00 UTC+8] adapt state_only regression/11 round=1 step=2000 val_tracking=0.003117 best=0.002929
+
+- [2026-10-21 19:52:01 UTC+8] adapt state_only regression/11 round=1 step=2500 val_tracking=0.002886 best=0.002886
+
+- [2026-10-21 19:52:01 UTC+8] adapt completed state_only regression/11 round=1, seconds=3.9
+
+- [2026-10-21 19:52:02 UTC+8] adapt state_only regression/22 round=1 step=500 val_tracking=0.003380 best=0.003380
+
+- [2026-10-21 19:52:03 UTC+8] adapt state_only regression/22 round=1 step=1000 val_tracking=0.002888 best=0.002888
+
+- [2026-10-21 19:52:04 UTC+8] adapt state_only regression/22 round=1 step=1500 val_tracking=0.002716 best=0.002716
+
+- [2026-10-21 19:52:04 UTC+8] adapt state_only regression/22 round=1 step=2000 val_tracking=0.003734 best=0.002716
+
+- [2026-10-21 19:52:05 UTC+8] adapt state_only regression/22 round=1 step=2500 val_tracking=0.002881 best=0.002716
+
+- [2026-10-21 19:52:05 UTC+8] adapt completed state_only regression/22 round=1, seconds=3.8
+
+- [2026-10-21 19:52:06 UTC+8] adapt state_only regression/33 round=1 step=500 val_tracking=0.003135 best=0.003135
+
+- [2026-10-21 19:52:07 UTC+8] adapt state_only regression/33 round=1 step=1000 val_tracking=0.003094 best=0.003094
+
+- [2026-10-21 19:52:08 UTC+8] adapt state_only regression/33 round=1 step=1500 val_tracking=0.003174 best=0.003094
+
+- [2026-10-21 19:52:08 UTC+8] adapt state_only regression/33 round=1 step=2000 val_tracking=0.003119 best=0.003094
+
+- [2026-10-21 19:52:09 UTC+8] adapt state_only regression/33 round=1 step=2500 val_tracking=0.003044 best=0.003044
+
+- [2026-10-21 19:52:09 UTC+8] adapt completed state_only regression/33 round=1, seconds=3.9
+
+- [2026-10-21 19:52:12 UTC+8] adapt shared pool state_only round=2: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:52:13 UTC+8] adapt state_only single_fm/11 round=2 step=500 val_tracking=0.002797 best=0.002797
+
+- [2026-10-21 19:52:14 UTC+8] adapt state_only single_fm/11 round=2 step=1000 val_tracking=0.003225 best=0.002797
+
+- [2026-10-21 19:52:15 UTC+8] adapt state_only single_fm/11 round=2 step=1500 val_tracking=0.003708 best=0.002797
+
+- [2026-10-21 19:52:16 UTC+8] adapt state_only single_fm/11 round=2 step=2000 val_tracking=0.003613 best=0.002797
+
+- [2026-10-21 19:52:17 UTC+8] adapt state_only single_fm/11 round=2 step=2500 val_tracking=0.003127 best=0.002797
+
+- [2026-10-21 19:52:17 UTC+8] adapt completed state_only single_fm/11 round=2, seconds=5.4
+
+- [2026-10-21 19:52:18 UTC+8] adapt state_only single_fm/22 round=2 step=500 val_tracking=0.003191 best=0.002979
+
+- [2026-10-21 19:52:19 UTC+8] adapt state_only single_fm/22 round=2 step=1000 val_tracking=0.003342 best=0.002979
+
+- [2026-10-21 19:52:21 UTC+8] adapt state_only single_fm/22 round=2 step=1500 val_tracking=0.003344 best=0.002979
+
+- [2026-10-21 19:52:22 UTC+8] adapt state_only single_fm/22 round=2 step=2000 val_tracking=0.003384 best=0.002979
+
+- [2026-10-21 19:52:23 UTC+8] adapt state_only single_fm/22 round=2 step=2500 val_tracking=0.003133 best=0.002979
+
+- [2026-10-21 19:52:23 UTC+8] adapt completed state_only single_fm/22 round=2, seconds=5.4
+
+- [2026-10-21 19:52:24 UTC+8] adapt state_only single_fm/33 round=2 step=500 val_tracking=0.003164 best=0.003122
+
+- [2026-10-21 19:52:25 UTC+8] adapt state_only single_fm/33 round=2 step=1000 val_tracking=0.003442 best=0.003122
+
+- [2026-10-21 19:52:26 UTC+8] adapt state_only single_fm/33 round=2 step=1500 val_tracking=0.003377 best=0.003122
+
+- [2026-10-21 19:52:27 UTC+8] adapt state_only single_fm/33 round=2 step=2000 val_tracking=0.004155 best=0.003122
+
+- [2026-10-21 19:52:28 UTC+8] adapt state_only single_fm/33 round=2 step=2500 val_tracking=0.003401 best=0.003122
+
+- [2026-10-21 19:52:28 UTC+8] adapt completed state_only single_fm/33 round=2, seconds=5.4
+
+- [2026-10-21 19:52:32 UTC+8] adapt state_only midpoint_fm/11 round=2 step=500 val_tracking=0.002859 best=0.002779
+
+- [2026-10-21 19:52:36 UTC+8] adapt state_only midpoint_fm/11 round=2 step=1000 val_tracking=0.003397 best=0.002779
+
+- [2026-10-21 19:52:39 UTC+8] adapt state_only midpoint_fm/11 round=2 step=1500 val_tracking=0.003087 best=0.002779
+
+- [2026-10-21 19:52:42 UTC+8] adapt state_only midpoint_fm/11 round=2 step=2000 val_tracking=0.003577 best=0.002779
+
+- [2026-10-21 19:52:46 UTC+8] adapt state_only midpoint_fm/11 round=2 step=2500 val_tracking=0.003048 best=0.002779
+
+- [2026-10-21 19:52:46 UTC+8] adapt completed state_only midpoint_fm/11 round=2, seconds=17.0
+
+- [2026-10-21 19:52:50 UTC+8] adapt state_only midpoint_fm/22 round=2 step=500 val_tracking=0.003153 best=0.002951
+
+- [2026-10-21 19:52:53 UTC+8] adapt state_only midpoint_fm/22 round=2 step=1000 val_tracking=0.003285 best=0.002951
+
+- [2026-10-21 19:52:56 UTC+8] adapt state_only midpoint_fm/22 round=2 step=1500 val_tracking=0.003546 best=0.002951
+
+- [2026-10-21 19:53:00 UTC+8] adapt state_only midpoint_fm/22 round=2 step=2000 val_tracking=0.003439 best=0.002951
+
+- [2026-10-21 19:53:03 UTC+8] adapt state_only midpoint_fm/22 round=2 step=2500 val_tracking=0.003348 best=0.002951
+
+- [2026-10-21 19:53:03 UTC+8] adapt completed state_only midpoint_fm/22 round=2, seconds=17.0
+
+- [2026-10-21 19:53:07 UTC+8] adapt state_only midpoint_fm/33 round=2 step=500 val_tracking=0.003047 best=0.003047
+
+- [2026-10-21 19:53:11 UTC+8] adapt state_only midpoint_fm/33 round=2 step=1000 val_tracking=0.003525 best=0.003047
+
+- [2026-10-21 19:53:14 UTC+8] adapt state_only midpoint_fm/33 round=2 step=1500 val_tracking=0.003056 best=0.003047
+
+- [2026-10-21 19:53:17 UTC+8] adapt state_only midpoint_fm/33 round=2 step=2000 val_tracking=0.004020 best=0.003047
+
+- [2026-10-21 19:53:21 UTC+8] adapt state_only midpoint_fm/33 round=2 step=2500 val_tracking=0.003303 best=0.003047
+
+- [2026-10-21 19:53:21 UTC+8] adapt completed state_only midpoint_fm/33 round=2, seconds=17.0
+
+- [2026-10-21 19:53:22 UTC+8] adapt state_only regression/11 round=2 step=500 val_tracking=0.003038 best=0.002886
+
+- [2026-10-21 19:53:22 UTC+8] adapt state_only regression/11 round=2 step=1000 val_tracking=0.002873 best=0.002873
+
+- [2026-10-21 19:53:23 UTC+8] adapt state_only regression/11 round=2 step=1500 val_tracking=0.002758 best=0.002758
+
+- [2026-10-21 19:53:24 UTC+8] adapt state_only regression/11 round=2 step=2000 val_tracking=0.002708 best=0.002708
+
+- [2026-10-21 19:53:25 UTC+8] adapt state_only regression/11 round=2 step=2500 val_tracking=0.002915 best=0.002708
+
+- [2026-10-21 19:53:25 UTC+8] adapt completed state_only regression/11 round=2, seconds=3.8
+
+- [2026-10-21 19:53:26 UTC+8] adapt state_only regression/22 round=2 step=500 val_tracking=0.002720 best=0.002716
+
+- [2026-10-21 19:53:26 UTC+8] adapt state_only regression/22 round=2 step=1000 val_tracking=0.002953 best=0.002716
+
+- [2026-10-21 19:53:27 UTC+8] adapt state_only regression/22 round=2 step=1500 val_tracking=0.002935 best=0.002716
+
+- [2026-10-21 19:53:28 UTC+8] adapt state_only regression/22 round=2 step=2000 val_tracking=0.002975 best=0.002716
+
+- [2026-10-21 19:53:29 UTC+8] adapt state_only regression/22 round=2 step=2500 val_tracking=0.002629 best=0.002629
+
+- [2026-10-21 19:53:29 UTC+8] adapt completed state_only regression/22 round=2, seconds=3.9
+
+- [2026-10-21 19:53:30 UTC+8] adapt state_only regression/33 round=2 step=500 val_tracking=0.003543 best=0.003044
+
+- [2026-10-21 19:53:30 UTC+8] adapt state_only regression/33 round=2 step=1000 val_tracking=0.003168 best=0.003044
+
+- [2026-10-21 19:53:31 UTC+8] adapt state_only regression/33 round=2 step=1500 val_tracking=0.002561 best=0.002561
+
+- [2026-10-21 19:53:32 UTC+8] adapt state_only regression/33 round=2 step=2000 val_tracking=0.002912 best=0.002561
+
+- [2026-10-21 19:53:33 UTC+8] adapt state_only regression/33 round=2 step=2500 val_tracking=0.002625 best=0.002561
+
+- [2026-10-21 19:53:33 UTC+8] adapt completed state_only regression/33 round=2, seconds=3.8
+
+- [2026-10-21 19:53:35 UTC+8] adapt shared pool state_and_pulses round=1: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:53:36 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=500 val_tracking=0.002908 best=0.002908
+
+- [2026-10-21 19:53:38 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=1000 val_tracking=0.003019 best=0.002908
+
+- [2026-10-21 19:53:39 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=1500 val_tracking=0.002816 best=0.002816
+
+- [2026-10-21 19:53:40 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=2000 val_tracking=0.002586 best=0.002586
+
+- [2026-10-21 19:53:41 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=2500 val_tracking=0.003123 best=0.002586
+
+- [2026-10-21 19:53:41 UTC+8] adapt completed state_and_pulses single_fm/11 round=1, seconds=5.4
+
+- [2026-10-21 19:53:42 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=500 val_tracking=0.003066 best=0.003066
+
+- [2026-10-21 19:53:43 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=1000 val_tracking=0.003471 best=0.003066
+
+- [2026-10-21 19:53:44 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=1500 val_tracking=0.003032 best=0.003032
+
+- [2026-10-21 19:53:45 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=2000 val_tracking=0.002845 best=0.002845
+
+- [2026-10-21 19:53:46 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=2500 val_tracking=0.002404 best=0.002404
+
+- [2026-10-21 19:53:46 UTC+8] adapt completed state_and_pulses single_fm/22 round=1, seconds=5.4
+
+- [2026-10-21 19:53:47 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=500 val_tracking=0.003302 best=0.003302
+
+- [2026-10-21 19:53:49 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=1000 val_tracking=0.002910 best=0.002910
+
+- [2026-10-21 19:53:50 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=1500 val_tracking=0.003476 best=0.002910
+
+- [2026-10-21 19:53:51 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=2000 val_tracking=0.003057 best=0.002910
+
+- [2026-10-21 19:53:52 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=2500 val_tracking=0.003566 best=0.002910
+
+- [2026-10-21 19:53:52 UTC+8] adapt completed state_and_pulses single_fm/33 round=1, seconds=5.4
+
+- [2026-10-21 19:53:56 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=500 val_tracking=0.002858 best=0.002858
+
+- [2026-10-21 19:53:59 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=1000 val_tracking=0.003158 best=0.002858
+
+- [2026-10-21 19:54:03 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=1500 val_tracking=0.003280 best=0.002858
+
+- [2026-10-21 19:54:06 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=2000 val_tracking=0.002659 best=0.002659
+
+- [2026-10-21 19:54:09 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=2500 val_tracking=0.003025 best=0.002659
+
+- [2026-10-21 19:54:09 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=1, seconds=17.0
+
+- [2026-10-21 19:54:13 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=500 val_tracking=0.002897 best=0.002897
+
+- [2026-10-21 19:54:17 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=1000 val_tracking=0.003127 best=0.002897
+
+- [2026-10-21 19:54:20 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=1500 val_tracking=0.003497 best=0.002897
+
+- [2026-10-21 19:54:23 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=2000 val_tracking=0.002683 best=0.002683
+
+- [2026-10-21 19:54:27 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=2500 val_tracking=0.002769 best=0.002683
+
+- [2026-10-21 19:54:27 UTC+8] adapt completed state_and_pulses midpoint_fm/22 round=1, seconds=16.9
+
+- [2026-10-21 19:54:31 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=500 val_tracking=0.003528 best=0.003528
+
+- [2026-10-21 19:54:34 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=1000 val_tracking=0.003142 best=0.003142
+
+- [2026-10-21 19:54:37 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=1500 val_tracking=0.003002 best=0.003002
+
+- [2026-10-21 19:54:41 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=2000 val_tracking=0.002968 best=0.002968
+
+- [2026-10-21 19:54:44 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=2500 val_tracking=0.002759 best=0.002759
+
+- [2026-10-21 19:54:44 UTC+8] adapt completed state_and_pulses midpoint_fm/33 round=1, seconds=16.9
+
+- [2026-10-21 19:54:45 UTC+8] adapt state_and_pulses regression/11 round=1 step=500 val_tracking=0.003388 best=0.003388
+
+- [2026-10-21 19:54:46 UTC+8] adapt state_and_pulses regression/11 round=1 step=1000 val_tracking=0.002917 best=0.002917
+
+- [2026-10-21 19:54:47 UTC+8] adapt state_and_pulses regression/11 round=1 step=1500 val_tracking=0.003202 best=0.002917
+
+- [2026-10-21 19:54:47 UTC+8] adapt state_and_pulses regression/11 round=1 step=2000 val_tracking=0.003081 best=0.002917
+
+- [2026-10-21 19:54:48 UTC+8] adapt state_and_pulses regression/11 round=1 step=2500 val_tracking=0.003011 best=0.002917
+
+- [2026-10-21 19:54:48 UTC+8] adapt completed state_and_pulses regression/11 round=1, seconds=3.9
+
+- [2026-10-21 19:54:49 UTC+8] adapt state_and_pulses regression/22 round=1 step=500 val_tracking=0.003166 best=0.003166
+
+- [2026-10-21 19:54:50 UTC+8] adapt state_and_pulses regression/22 round=1 step=1000 val_tracking=0.003117 best=0.003117
+
+- [2026-10-21 19:54:51 UTC+8] adapt state_and_pulses regression/22 round=1 step=1500 val_tracking=0.002779 best=0.002779
+
+- [2026-10-21 19:54:51 UTC+8] adapt state_and_pulses regression/22 round=1 step=2000 val_tracking=0.003089 best=0.002779
+
+- [2026-10-21 19:54:52 UTC+8] adapt state_and_pulses regression/22 round=1 step=2500 val_tracking=0.002917 best=0.002779
+
+- [2026-10-21 19:54:52 UTC+8] adapt completed state_and_pulses regression/22 round=1, seconds=3.9
+
+- [2026-10-21 19:54:53 UTC+8] adapt state_and_pulses regression/33 round=1 step=500 val_tracking=0.003295 best=0.003295
+
+- [2026-10-21 19:54:54 UTC+8] adapt state_and_pulses regression/33 round=1 step=1000 val_tracking=0.003193 best=0.003193
+
+- [2026-10-21 19:54:55 UTC+8] adapt state_and_pulses regression/33 round=1 step=1500 val_tracking=0.003282 best=0.003193
+
+- [2026-10-21 19:54:55 UTC+8] adapt state_and_pulses regression/33 round=1 step=2000 val_tracking=0.002999 best=0.002999
+
+- [2026-10-21 19:54:56 UTC+8] adapt state_and_pulses regression/33 round=1 step=2500 val_tracking=0.002847 best=0.002847
+
+- [2026-10-21 19:54:56 UTC+8] adapt completed state_and_pulses regression/33 round=1, seconds=3.9
+
+- [2026-10-21 19:54:59 UTC+8] adapt shared pool state_and_pulses round=2: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:55:00 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=500 val_tracking=0.002757 best=0.002586
+
+- [2026-10-21 19:55:01 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=1000 val_tracking=0.003030 best=0.002586
+
+- [2026-10-21 19:55:02 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=1500 val_tracking=0.002871 best=0.002586
+
+- [2026-10-21 19:55:03 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=2000 val_tracking=0.002795 best=0.002586
+
+- [2026-10-21 19:55:04 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=2500 val_tracking=0.002690 best=0.002586
+
+- [2026-10-21 19:55:04 UTC+8] adapt completed state_and_pulses single_fm/11 round=2, seconds=5.4
+
+- [2026-10-21 19:55:05 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=500 val_tracking=0.002441 best=0.002404
+
+- [2026-10-21 19:55:06 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=1000 val_tracking=0.003262 best=0.002404
+
+- [2026-10-21 19:55:08 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=1500 val_tracking=0.002589 best=0.002404
+
+- [2026-10-21 19:55:09 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=2000 val_tracking=0.003165 best=0.002404
+
+- [2026-10-21 19:55:10 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=2500 val_tracking=0.002511 best=0.002404
+
+- [2026-10-21 19:55:10 UTC+8] adapt completed state_and_pulses single_fm/22 round=2, seconds=5.4
+
+- [2026-10-21 19:55:11 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=500 val_tracking=0.002723 best=0.002723
+
+- [2026-10-21 19:55:12 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=1000 val_tracking=0.002893 best=0.002723
+
+- [2026-10-21 19:55:13 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=1500 val_tracking=0.002436 best=0.002436
+
+- [2026-10-21 19:55:14 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=2000 val_tracking=0.003114 best=0.002436
+
+- [2026-10-21 19:55:15 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=2500 val_tracking=0.002328 best=0.002328
+
+- [2026-10-21 19:55:15 UTC+8] adapt completed state_and_pulses single_fm/33 round=2, seconds=5.4
+
+- [2026-10-21 19:55:19 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=500 val_tracking=0.002435 best=0.002435
+
+- [2026-10-21 19:55:23 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=1000 val_tracking=0.002605 best=0.002435
+
+- [2026-10-21 19:55:26 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=1500 val_tracking=0.003657 best=0.002435
+
+- [2026-10-21 19:55:29 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=2000 val_tracking=0.002919 best=0.002435
+
+- [2026-10-21 19:55:33 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=2500 val_tracking=0.002903 best=0.002435
+
+- [2026-10-21 19:55:33 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=2, seconds=17.2
+
+- [2026-10-21 19:55:37 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=500 val_tracking=0.002571 best=0.002571
+
+- [2026-10-21 19:55:40 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=1000 val_tracking=0.003078 best=0.002571
+
+- [2026-10-21 19:55:44 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=1500 val_tracking=0.002547 best=0.002547
+
+- [2026-10-21 19:55:47 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=2000 val_tracking=0.003315 best=0.002547
+
+- [2026-10-21 19:55:50 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=2500 val_tracking=0.002613 best=0.002547
+
+- [2026-10-21 19:55:50 UTC+8] adapt completed state_and_pulses midpoint_fm/22 round=2, seconds=16.9
+
+- [2026-10-21 19:55:54 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=500 val_tracking=0.002753 best=0.002753
+
+- [2026-10-21 19:55:58 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=1000 val_tracking=0.002499 best=0.002499
+
+- [2026-10-21 19:56:01 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=1500 val_tracking=0.002562 best=0.002499
+
+- [2026-10-21 19:56:05 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=2000 val_tracking=0.002929 best=0.002499
+
+- [2026-10-21 19:56:08 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=2500 val_tracking=0.002597 best=0.002499
+
+- [2026-10-21 19:56:08 UTC+8] adapt completed state_and_pulses midpoint_fm/33 round=2, seconds=17.0
+
+- [2026-10-21 19:56:09 UTC+8] adapt state_and_pulses regression/11 round=2 step=500 val_tracking=0.002890 best=0.002890
+
+- [2026-10-21 19:56:10 UTC+8] adapt state_and_pulses regression/11 round=2 step=1000 val_tracking=0.002711 best=0.002711
+
+- [2026-10-21 19:56:10 UTC+8] adapt state_and_pulses regression/11 round=2 step=1500 val_tracking=0.003083 best=0.002711
+
+- [2026-10-21 19:56:11 UTC+8] adapt state_and_pulses regression/11 round=2 step=2000 val_tracking=0.002566 best=0.002566
+
+- [2026-10-21 19:56:12 UTC+8] adapt state_and_pulses regression/11 round=2 step=2500 val_tracking=0.002526 best=0.002526
+
+- [2026-10-21 19:56:12 UTC+8] adapt completed state_and_pulses regression/11 round=2, seconds=3.9
+
+- [2026-10-21 19:56:13 UTC+8] adapt state_and_pulses regression/22 round=2 step=500 val_tracking=0.003289 best=0.002779
+
+- [2026-10-21 19:56:14 UTC+8] adapt state_and_pulses regression/22 round=2 step=1000 val_tracking=0.002946 best=0.002779
+
+- [2026-10-21 19:56:14 UTC+8] adapt state_and_pulses regression/22 round=2 step=1500 val_tracking=0.003052 best=0.002779
+
+- [2026-10-21 19:56:15 UTC+8] adapt state_and_pulses regression/22 round=2 step=2000 val_tracking=0.002613 best=0.002613
+
+- [2026-10-21 19:56:16 UTC+8] adapt state_and_pulses regression/22 round=2 step=2500 val_tracking=0.002649 best=0.002613
+
+- [2026-10-21 19:56:16 UTC+8] adapt completed state_and_pulses regression/22 round=2, seconds=3.8
+
+- [2026-10-21 19:56:17 UTC+8] adapt state_and_pulses regression/33 round=2 step=500 val_tracking=0.003018 best=0.002847
+
+- [2026-10-21 19:56:18 UTC+8] adapt state_and_pulses regression/33 round=2 step=1000 val_tracking=0.002615 best=0.002615
+
+- [2026-10-21 19:56:18 UTC+8] adapt state_and_pulses regression/33 round=2 step=1500 val_tracking=0.002777 best=0.002615
+
+- [2026-10-21 19:56:19 UTC+8] adapt state_and_pulses regression/33 round=2 step=2000 val_tracking=0.002763 best=0.002615
+
+- [2026-10-21 19:56:20 UTC+8] adapt state_and_pulses regression/33 round=2 step=2500 val_tracking=0.002538 best=0.002538
+
+- [2026-10-21 19:56:20 UTC+8] adapt completed state_and_pulses regression/33 round=2, seconds=3.9
+
+- [2026-10-21 19:56:28 UTC+8] adaptation held-out test completed: mixed
+
+- [2026-10-21 19:56:35 UTC+8] adaptation held-out test completed: shock
+
+- [2026-10-21 19:56:35 UTC+8] adaptation experiment complete: E:\Desktop\MyCode\A2AFM\results\closed_adaptation\REPORT.md
+
+- [2026-10-21 19:57:39 UTC+8] delay check frozen/single_fm/11, software p50=0.1072ms
+
+- [2026-10-21 19:57:40 UTC+8] delay check frozen/single_fm/22, software p50=0.1104ms
+
+- [2026-10-21 19:57:40 UTC+8] delay check frozen/single_fm/33, software p50=0.1083ms
+
+- [2026-10-21 19:57:44 UTC+8] delay check frozen/midpoint_fm/11, software p50=0.6566ms
+
+- [2026-10-21 19:57:47 UTC+8] delay check frozen/midpoint_fm/22, software p50=0.6497ms
+
+- [2026-10-21 19:57:50 UTC+8] delay check frozen/midpoint_fm/33, software p50=0.6517ms
+
+- [2026-10-21 19:57:50 UTC+8] delay check frozen/regression/11, software p50=0.0921ms
+
+- [2026-10-21 19:57:51 UTC+8] delay check frozen/regression/22, software p50=0.0933ms
+
+- [2026-10-21 19:57:52 UTC+8] delay check frozen/regression/33, software p50=0.0926ms
+
+- [2026-10-21 19:57:52 UTC+8] delay check state_and_pulses/single_fm/11, software p50=0.1084ms
+
+- [2026-10-21 19:57:53 UTC+8] delay check state_and_pulses/single_fm/22, software p50=0.1095ms
+
+- [2026-10-21 19:57:54 UTC+8] delay check state_and_pulses/single_fm/33, software p50=0.1094ms
+
+- [2026-10-21 19:57:57 UTC+8] delay check state_and_pulses/midpoint_fm/11, software p50=0.6572ms
+
+- [2026-10-21 19:58:00 UTC+8] delay check state_and_pulses/midpoint_fm/22, software p50=0.6536ms
+
+- [2026-10-21 19:58:03 UTC+8] delay check state_and_pulses/midpoint_fm/33, software p50=0.6525ms
+
+- [2026-10-21 19:58:04 UTC+8] delay check state_and_pulses/regression/11, software p50=0.0924ms
+
+- [2026-10-21 19:58:04 UTC+8] delay check state_and_pulses/regression/22, software p50=0.0930ms
+
+- [2026-10-21 19:58:05 UTC+8] delay check state_and_pulses/regression/33, software p50=0.0927ms
+
+- [2026-10-21 19:58:05 UTC+8] computation delay check complete: E:\Desktop\MyCode\A2AFM\results\computation_delay\REPORT.md
+
+- 2026-10-21: 完成两轮闭环适配实验：单步FM/多步FM/直接回归各3种子，state_only与state_and_pulses两组，每轮360轨迹/2500更新，第二轮共享回放。新冲击测试单步跟踪RMSE从0.00897降至0.00265及0.00191，多步对应0.00394/0.00234/0.00189；适配后跟踪接近但冲击估计仍有差距。另完成软件延时P50/P95与5/20/40ms动力学复核。26项测试、36个最佳检查点前向次数、来源哈希及零延时一致性核验通过；报告与图表已核对。

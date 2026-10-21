@@ -1,0 +1,164 @@
+[
+  {
+    "suite": "mixed",
+    "stage": "frozen",
+    "method": "single_fm",
+    "tracking_rmse": 0.009940026764854292,
+    "d_rmse": 0.6496056783720436,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "tracking_rmse": 0.005136422962135941,
+    "d_rmse": 0.5719516193895268,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "frozen",
+    "method": "regression",
+    "tracking_rmse": 0.006531773179179723,
+    "d_rmse": 0.4124754976777133,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "state_only",
+    "method": "single_fm",
+    "tracking_rmse": 0.003192769907966829,
+    "d_rmse": 0.10426397086827752,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "state_only",
+    "method": "midpoint_fm",
+    "tracking_rmse": 0.0032586490626939153,
+    "d_rmse": 0.1083373740100816,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "state_only",
+    "method": "regression",
+    "tracking_rmse": 0.0031271874049686858,
+    "d_rmse": 0.09953918686235001,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "tracking_rmse": 0.0033502145203454037,
+    "d_rmse": 0.10740485685592634,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "tracking_rmse": 0.0034487324097697654,
+    "d_rmse": 0.10655443377237668,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "mixed",
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "tracking_rmse": 0.0033200953415894693,
+    "d_rmse": 0.10280496128759282,
+    "shock_rmse": null,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "shock",
+    "stage": "frozen",
+    "method": "single_fm",
+    "tracking_rmse": 0.008969730255282908,
+    "d_rmse": 0.7961991515412511,
+    "shock_rmse": 6.620140565578924,
+    "saturation_fraction": 5.0413389796329905e-05
+  },
+  {
+    "suite": "shock",
+    "stage": "frozen",
+    "method": "midpoint_fm",
+    "tracking_rmse": 0.003937782965970913,
+    "d_rmse": 0.7768234272666097,
+    "shock_rmse": 6.634746548948199,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "shock",
+    "stage": "frozen",
+    "method": "regression",
+    "tracking_rmse": 0.004679133238164178,
+    "d_rmse": 0.5885142858779341,
+    "shock_rmse": 6.618554074135286,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "shock",
+    "stage": "state_only",
+    "method": "single_fm",
+    "tracking_rmse": 0.0026478315124610474,
+    "d_rmse": 0.4545874415732474,
+    "shock_rmse": 6.359550921751024,
+    "saturation_fraction": 2.5206694898164952e-05
+  },
+  {
+    "suite": "shock",
+    "stage": "state_only",
+    "method": "midpoint_fm",
+    "tracking_rmse": 0.002335956642682224,
+    "d_rmse": 0.45463188084274064,
+    "shock_rmse": 6.54118492387883,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "shock",
+    "stage": "state_only",
+    "method": "regression",
+    "tracking_rmse": 0.0023004445003269557,
+    "d_rmse": 0.39528717917995954,
+    "shock_rmse": 6.511983542650128,
+    "saturation_fraction": 0.0
+  },
+  {
+    "suite": "shock",
+    "stage": "state_and_pulses",
+    "method": "single_fm",
+    "tracking_rmse": 0.001911629482541101,
+    "d_rmse": 0.15398761352547588,
+    "shock_rmse": 1.3390453736302073,
+    "saturation_fraction": 0.00017644686428715465
+  },
+  {
+    "suite": "shock",
+    "stage": "state_and_pulses",
+    "method": "midpoint_fm",
+    "tracking_rmse": 0.0018940274094979266,
+    "d_rmse": 0.12321252544022204,
+    "shock_rmse": 0.9604734490075667,
+    "saturation_fraction": 0.00027727364387981446
+  },
+  {
+    "suite": "shock",
+    "stage": "state_and_pulses",
+    "method": "regression",
+    "tracking_rmse": 0.0020308858154427342,
+    "d_rmse": 0.14975769210137704,
+    "shock_rmse": 2.03855849496835,
+    "saturation_fraction": 0.0
+  }
+]
