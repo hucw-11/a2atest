@@ -4,3 +4,5 @@ reference/
 downloads/
 .mplconfig/
 *.pyc
+results/single_step_smoke/
+results/single_step_mixed/**/*.tmp

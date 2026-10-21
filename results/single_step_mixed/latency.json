@@ -1,0 +1,30 @@
+[
+  {
+    "method": "single_fm",
+    "parameters": 86296,
+    "forward_calls": 1,
+    "latency_median_ms": 0.0656,
+    "latency_p95_ms": 0.07083500000000001
+  },
+  {
+    "method": "midpoint_fm",
+    "parameters": 86296,
+    "forward_calls": 8,
+    "latency_median_ms": 0.5656,
+    "latency_p95_ms": 0.6018800000000001
+  },
+  {
+    "method": "regression",
+    "parameters": 82712,
+    "forward_calls": 1,
+    "latency_median_ms": 0.0538,
+    "latency_p95_ms": 0.054605
+  },
+  {
+    "method": "residual",
+    "parameters": 82712,
+    "forward_calls": 1,
+    "latency_median_ms": 0.0547,
+    "latency_p95_ms": 0.056205
+  }
+]

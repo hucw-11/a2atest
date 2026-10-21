@@ -1,0 +1,20 @@
+{
+  "out": "results/single_step_mixed",
+  "steps": 15000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "train_trajectories": 360,
+  "validation_trajectories": 90,
+  "test_trajectories": 56,
+  "length": 24,
+  "width": 128,
+  "batch": 128,
+  "lr": 0.001,
+  "source_noise_std": 0.01,
+  "threads": 4,
+  "resume": false,
+  "evaluate_only": false
+}

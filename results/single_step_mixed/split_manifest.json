@@ -1,0 +1,2052 @@
+{
+  "train_windows": 136080,
+  "validation_windows": 17010,
+  "train_families": {
+    "multisine": 52,
+    "chirp": 52,
+    "steps": 52,
+    "multisine+chirp": 51,
+    "multisine+steps": 51,
+    "chirp+steps": 51,
+    "multisine+chirp+steps": 51
+  },
+  "validation_families": {
+    "multisine": 13,
+    "chirp": 13,
+    "steps": 13,
+    "multisine+chirp": 13,
+    "multisine+steps": 13,
+    "chirp+steps": 13,
+    "multisine+chirp+steps": 12
+  },
+  "train": [
+    {
+      "id": "10000:0",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:1",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:2",
+      "family": "steps"
+    },
+    {
+      "id": "10000:3",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:4",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:5",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:6",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:7",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:8",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:9",
+      "family": "steps"
+    },
+    {
+      "id": "10000:10",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:11",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:12",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:13",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:14",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:15",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:16",
+      "family": "steps"
+    },
+    {
+      "id": "10000:17",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:18",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:19",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:20",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:21",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:22",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:23",
+      "family": "steps"
+    },
+    {
+      "id": "10000:24",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:25",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:26",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:27",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:28",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:29",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:30",
+      "family": "steps"
+    },
+    {
+      "id": "10000:31",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:32",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:33",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:34",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:35",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:36",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:37",
+      "family": "steps"
+    },
+    {
+      "id": "10000:38",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:39",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:40",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:41",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:42",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:43",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:44",
+      "family": "steps"
+    },
+    {
+      "id": "10000:45",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:46",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:47",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:48",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:49",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:50",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:51",
+      "family": "steps"
+    },
+    {
+      "id": "10000:52",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:53",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:54",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:55",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:56",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:57",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:58",
+      "family": "steps"
+    },
+    {
+      "id": "10000:59",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:60",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:61",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:62",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:63",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:64",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:65",
+      "family": "steps"
+    },
+    {
+      "id": "10000:66",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:67",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:68",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:69",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:70",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:71",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:72",
+      "family": "steps"
+    },
+    {
+      "id": "10000:73",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:74",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:75",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:76",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:77",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:78",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:79",
+      "family": "steps"
+    },
+    {
+      "id": "10000:80",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:81",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:82",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:83",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:84",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:85",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:86",
+      "family": "steps"
+    },
+    {
+      "id": "10000:87",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:88",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:89",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:90",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:91",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:92",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:93",
+      "family": "steps"
+    },
+    {
+      "id": "10000:94",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:95",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:96",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:97",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:98",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:99",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:100",
+      "family": "steps"
+    },
+    {
+      "id": "10000:101",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:102",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:103",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:104",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:105",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:106",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:107",
+      "family": "steps"
+    },
+    {
+      "id": "10000:108",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:109",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:110",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:111",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:112",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:113",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:114",
+      "family": "steps"
+    },
+    {
+      "id": "10000:115",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:116",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:117",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:118",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:119",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:120",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:121",
+      "family": "steps"
+    },
+    {
+      "id": "10000:122",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:123",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:124",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:125",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:126",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:127",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:128",
+      "family": "steps"
+    },
+    {
+      "id": "10000:129",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:130",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:131",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:132",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:133",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:134",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:135",
+      "family": "steps"
+    },
+    {
+      "id": "10000:136",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:137",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:138",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:139",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:140",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:141",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:142",
+      "family": "steps"
+    },
+    {
+      "id": "10000:143",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:144",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:145",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:146",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:147",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:148",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:149",
+      "family": "steps"
+    },
+    {
+      "id": "10000:150",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:151",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:152",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:153",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:154",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:155",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:156",
+      "family": "steps"
+    },
+    {
+      "id": "10000:157",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:158",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:159",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:160",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:161",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:162",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:163",
+      "family": "steps"
+    },
+    {
+      "id": "10000:164",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:165",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:166",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:167",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:168",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:169",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:170",
+      "family": "steps"
+    },
+    {
+      "id": "10000:171",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:172",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:173",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:174",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:175",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:176",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:177",
+      "family": "steps"
+    },
+    {
+      "id": "10000:178",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:179",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:180",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:181",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:182",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:183",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:184",
+      "family": "steps"
+    },
+    {
+      "id": "10000:185",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:186",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:187",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:188",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:189",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:190",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:191",
+      "family": "steps"
+    },
+    {
+      "id": "10000:192",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:193",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:194",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:195",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:196",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:197",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:198",
+      "family": "steps"
+    },
+    {
+      "id": "10000:199",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:200",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:201",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:202",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:203",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:204",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:205",
+      "family": "steps"
+    },
+    {
+      "id": "10000:206",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:207",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:208",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:209",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:210",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:211",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:212",
+      "family": "steps"
+    },
+    {
+      "id": "10000:213",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:214",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:215",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:216",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:217",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:218",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:219",
+      "family": "steps"
+    },
+    {
+      "id": "10000:220",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:221",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:222",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:223",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:224",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:225",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:226",
+      "family": "steps"
+    },
+    {
+      "id": "10000:227",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:228",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:229",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:230",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:231",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:232",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:233",
+      "family": "steps"
+    },
+    {
+      "id": "10000:234",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:235",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:236",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:237",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:238",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:239",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:240",
+      "family": "steps"
+    },
+    {
+      "id": "10000:241",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:242",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:243",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:244",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:245",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:246",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:247",
+      "family": "steps"
+    },
+    {
+      "id": "10000:248",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:249",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:250",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:251",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:252",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:253",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:254",
+      "family": "steps"
+    },
+    {
+      "id": "10000:255",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:256",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:257",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:258",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:259",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:260",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:261",
+      "family": "steps"
+    },
+    {
+      "id": "10000:262",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:263",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:264",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:265",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:266",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:267",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:268",
+      "family": "steps"
+    },
+    {
+      "id": "10000:269",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:270",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:271",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:272",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:273",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:274",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:275",
+      "family": "steps"
+    },
+    {
+      "id": "10000:276",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:277",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:278",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:279",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:280",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:281",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:282",
+      "family": "steps"
+    },
+    {
+      "id": "10000:283",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:284",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:285",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:286",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:287",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:288",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:289",
+      "family": "steps"
+    },
+    {
+      "id": "10000:290",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:291",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:292",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:293",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:294",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:295",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:296",
+      "family": "steps"
+    },
+    {
+      "id": "10000:297",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:298",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:299",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:300",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:301",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:302",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:303",
+      "family": "steps"
+    },
+    {
+      "id": "10000:304",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:305",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:306",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:307",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:308",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:309",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:310",
+      "family": "steps"
+    },
+    {
+      "id": "10000:311",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:312",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:313",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:314",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:315",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:316",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:317",
+      "family": "steps"
+    },
+    {
+      "id": "10000:318",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:319",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:320",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:321",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:322",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:323",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:324",
+      "family": "steps"
+    },
+    {
+      "id": "10000:325",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:326",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:327",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:328",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:329",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:330",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:331",
+      "family": "steps"
+    },
+    {
+      "id": "10000:332",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:333",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:334",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:335",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:336",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:337",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:338",
+      "family": "steps"
+    },
+    {
+      "id": "10000:339",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:340",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:341",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:342",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:343",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:344",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:345",
+      "family": "steps"
+    },
+    {
+      "id": "10000:346",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:347",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:348",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:349",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:350",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:351",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:352",
+      "family": "steps"
+    },
+    {
+      "id": "10000:353",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "10000:354",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "10000:355",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "10000:356",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "10000:357",
+      "family": "multisine"
+    },
+    {
+      "id": "10000:358",
+      "family": "chirp"
+    },
+    {
+      "id": "10000:359",
+      "family": "steps"
+    }
+  ],
+  "validation": [
+    {
+      "id": "20000:0",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:1",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:2",
+      "family": "steps"
+    },
+    {
+      "id": "20000:3",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:4",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:5",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:6",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:7",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:8",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:9",
+      "family": "steps"
+    },
+    {
+      "id": "20000:10",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:11",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:12",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:13",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:14",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:15",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:16",
+      "family": "steps"
+    },
+    {
+      "id": "20000:17",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:18",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:19",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:20",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:21",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:22",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:23",
+      "family": "steps"
+    },
+    {
+      "id": "20000:24",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:25",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:26",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:27",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:28",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:29",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:30",
+      "family": "steps"
+    },
+    {
+      "id": "20000:31",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:32",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:33",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:34",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:35",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:36",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:37",
+      "family": "steps"
+    },
+    {
+      "id": "20000:38",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:39",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:40",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:41",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:42",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:43",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:44",
+      "family": "steps"
+    },
+    {
+      "id": "20000:45",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:46",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:47",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:48",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:49",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:50",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:51",
+      "family": "steps"
+    },
+    {
+      "id": "20000:52",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:53",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:54",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:55",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:56",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:57",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:58",
+      "family": "steps"
+    },
+    {
+      "id": "20000:59",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:60",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:61",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:62",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:63",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:64",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:65",
+      "family": "steps"
+    },
+    {
+      "id": "20000:66",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:67",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:68",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:69",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:70",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:71",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:72",
+      "family": "steps"
+    },
+    {
+      "id": "20000:73",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:74",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:75",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:76",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:77",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:78",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:79",
+      "family": "steps"
+    },
+    {
+      "id": "20000:80",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:81",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:82",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "20000:83",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "20000:84",
+      "family": "multisine"
+    },
+    {
+      "id": "20000:85",
+      "family": "chirp"
+    },
+    {
+      "id": "20000:86",
+      "family": "steps"
+    },
+    {
+      "id": "20000:87",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "20000:88",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "20000:89",
+      "family": "chirp+steps"
+    }
+  ],
+  "test": [
+    {
+      "id": "50000:0",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:1",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:2",
+      "family": "steps"
+    },
+    {
+      "id": "50000:3",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:4",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:5",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:6",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:7",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:8",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:9",
+      "family": "steps"
+    },
+    {
+      "id": "50000:10",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:11",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:12",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:13",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:14",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:15",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:16",
+      "family": "steps"
+    },
+    {
+      "id": "50000:17",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:18",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:19",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:20",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:21",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:22",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:23",
+      "family": "steps"
+    },
+    {
+      "id": "50000:24",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:25",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:26",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:27",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:28",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:29",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:30",
+      "family": "steps"
+    },
+    {
+      "id": "50000:31",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:32",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:33",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:34",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:35",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:36",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:37",
+      "family": "steps"
+    },
+    {
+      "id": "50000:38",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:39",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:40",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:41",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:42",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:43",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:44",
+      "family": "steps"
+    },
+    {
+      "id": "50000:45",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:46",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:47",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:48",
+      "family": "multisine+chirp+steps"
+    },
+    {
+      "id": "50000:49",
+      "family": "multisine"
+    },
+    {
+      "id": "50000:50",
+      "family": "chirp"
+    },
+    {
+      "id": "50000:51",
+      "family": "steps"
+    },
+    {
+      "id": "50000:52",
+      "family": "multisine+chirp"
+    },
+    {
+      "id": "50000:53",
+      "family": "multisine+steps"
+    },
+    {
+      "id": "50000:54",
+      "family": "chirp+steps"
+    },
+    {
+      "id": "50000:55",
+      "family": "multisine+chirp+steps"
+    }
+  ]
+}

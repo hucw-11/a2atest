@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 from scipy.linalg import expm
-from a2afm.models import integrate
+from a2afm.models import predict_window
 
 DT=.02
 LENGTH=24
@@ -48,7 +48,7 @@ def neural_prediction(estimator,history,params):
     cond=torch.as_tensor((condition-norm['c_mean'])/norm['c_std'],dtype=torch.float32)
     with torch.inference_mode():
         model=estimator.model
-        y=integrate(model,s,cond,estimator.steps) if model.flow else model(s,cond)
+        y=predict_window(model,s,cond,estimator.steps,getattr(estimator,'predictor','midpoint'))
     return estimator.norm.invert(y.numpy())[:,0]
 
 def run(specs,method='none',estimator=None,bandwidth=12.,kalman_q=1e4,

@@ -1,5 +1,29 @@
 # 二阶系统扰动估计：无隐空间 A2A Flow Matching
 
+## 本分支：单次调用 FM 与五倍混合训练集
+
+本分支新增独立实验 `single_step_experiment.py`。正式结果与完整报告位于
+[`results/single_step_mixed/REPORT.md`](results/single_step_mixed/REPORT.md)，原 `results/main` 保留用于历史参考。
+
+新预测为 `source + v_theta(source, condition, source, tau=0)`，结果损失和实际部署均只调用一次网络。
+速度损失保持随机 tau 的线性插值监督。训练时，归一化后的 source 每次加入标准差 0.01 的独立高斯白噪声；
+插值、目标速度和结果预测共用该 source，验证、测试与部署不加额外噪声。
+
+训练轨迹从72条增至360条，包含原三类及两两/三者同时叠加的混合轨迹；验证90条，每噪声场景测试56条。
+全部使用本地CPU。比较单次FM、原4步中点FM、直接回归、残差回归，均为宽128、两个残差块；
+每个模型训练15000次更新、三个随机种子。另有因果滤波/物理基线、冻结权重闭环冲击测试和batch=1实测延迟。
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest test_core test_single_step closed_loop.test_core -v
+.\.venv\Scripts\python.exe single_step_experiment.py
+.\.venv\Scripts\python.exe analyze_single_step.py
+# 中断后：相同配置加 --resume；重评估：相同配置加 --evaluate-only
+.\.venv\Scripts\python.exe demo.py --checkpoint results/single_step_mixed/single_fm/a2afm_seed11.pt
+```
+
+`DisturbanceEstimator`从检查点自动选择单步或中点预测，也支持残差回归；旧检查点保持原行为。
+下面内容描述原有多步实验及其运行方式。
+
 已完成的实验请先看 [RESULTS.md](RESULTS.md)。正式结果位于 `results/main`；`results/smoke` 仅供安装/流程调试，不作为结论依据。
 
 ## 研究问题
