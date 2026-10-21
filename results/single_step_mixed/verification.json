@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-21",
+  "base_branch": "main",
+  "base_commit": "8c25c7a8e09b2eaff8bef7864b90b7ee4b018836",
+  "branch": "codex/single-step-fm-mixed-training",
+  "unit_test_command": ".\\.venv\\Scripts\\python.exe -m unittest test_core test_single_step closed_loop.test_core -v",
+  "unit_tests_passed": 17,
+  "git_diff_check": "passed",
+  "audited_best_checkpoints": 12,
+  "final_update_per_model": 15000,
+  "deployment_api_estimates": 778,
+  "deployment_api_network_calls": 778,
+  "plots_visually_checked": ["training.png", "mixed_predictions.png"],
+  "original_results_modified": false
+}

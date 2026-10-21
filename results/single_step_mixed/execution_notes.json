@@ -1,0 +1,3 @@
+{
+  "note": "single_fm种子33在保存末次检查点时两次遇到文件访问错误，分别从7700和12300次更新的完整检查点恢复；前两个完成的种子直接复用。第二次恢复前将原生torch路径覆盖保存改为Python文件流写入临时文件、原子替换并对短暂锁定重试。随后residual种子22在替换JSON训练历史时遇到短暂目标文件锁，从3700次更新的完整检查点恢复；将同样的重试扩展到JSON原子替换。两次代码修复都仅改变存储，不改损失、网络、优化器、数据或模型随机数消耗。中间版本源码及精确哈希保存在provenance/experiment_before_atomic.py和experiment_checkpoint_atomic.py，源码版本历史见source_hash_history.json。模型训练完整性由checkpoint_audit.json核验。training_stats.json仅记录完整返回的训练调用，因此single_fm种子33和residual种子22的已记录训练耗时不包含中断前部分；这两种方法训练耗时汇总是下界，不能用于严格训练加速比结论。最终推理延迟独立实测，不受这项计时缺失影响。"
+}

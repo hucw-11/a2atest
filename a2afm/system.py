@@ -60,6 +60,14 @@ def simulate(plant, u, d, duration=20., dt=.02, initial=(0., 0.), sigma_a=.5,
 
 
 def random_signals(rng, kind='multisine'):
+    if '+' in kind:
+        names=kind.split('+')
+        components=[random_signals(rng,name) for name in names]
+        weights=rng.uniform(.5,1.,len(names))
+        weights=weights/np.linalg.norm(weights)
+        def mixed(t,x,v):
+            return float(sum(w*pair[1](t,x,v) for w,pair in zip(weights,components)))
+        return components[0][0],mixed
     amplitudes=rng.uniform(.15,.8,3); frequencies=rng.uniform(.12,1.3,3)
     phases=rng.uniform(-np.pi,np.pi,3)
     fu,pu=rng.uniform(.1,.8),rng.uniform(-np.pi,np.pi)
@@ -81,11 +89,17 @@ def random_signals(rng, kind='multisine'):
     return u,d
 
 
-def make_trajectories(n, seed, sigma=None, noise='gaussian', duration=16.):
+SIGNAL_FAMILIES=('multisine','chirp','steps','multisine+chirp','multisine+steps',
+                 'chirp+steps','multisine+chirp+steps')
+
+
+def make_trajectories(n, seed, sigma=None, noise='gaussian', duration=16.,families=None):
     rng=np.random.default_rng(seed)
     result=[]
     for i in range(n):
-        kind=['multisine','chirp','steps'][i%3]
+        family_names=('multisine','chirp','steps') if families is None else tuple(families)
+        if not family_names: raise ValueError('At least one signal family is required')
+        kind=family_names[i%len(family_names)]
         u,d=random_signals(rng,kind)
         p=Plant(rng.uniform(.8,1.2),rng.uniform(.3,1.),rng.uniform(1.,3.))
         tr=simulate(p,u,d,duration=duration,initial=rng.normal(0,.2,2),

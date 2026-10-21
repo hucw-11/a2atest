@@ -1049,3 +1049,4265 @@
 - [2026-10-13 23:59:44 UTC+8] 新闭环跟踪RMSE：DOB 0.004779，Kalman 0.004771，回归0.003233，A2AFM 0.003117；无补偿0.011208。新版A2AFM冲击区间RMSE1.06708，仍大于原始残差0.45241，报告已说明幅值失真与同步采样限制。
 
 - [2026-10-13 23:59:44 UTC+8] 配对轨迹统计、三阶段图表检查及颜色/局部坐标轴修正完成。交付入口 CLOSED_LOOP_RESULTS.md；完整数据 results/closed_loop。
+
+- [2026-10-21 17:47:19 UTC+8] 单步混合实验开始：CPU，训练轨迹=7，每模型更新=2
+
+- [2026-10-21 17:47:21 UTC+8] 混合数据完成：训练窗口=2646，验证窗口=1323
+
+- [2026-10-21 17:47:22 UTC+8] a2afm seed=11 step=2/2 val_RMSE=0.76757 best=0.76757
+
+- [2026-10-21 17:47:22 UTC+8] 完成 a2afm seed=11，本轮耗时 0.0 s，选择验证最优 step=2
+
+- [2026-10-21 17:47:22 UTC+8] a2afm seed=11 step=2/2 val_RMSE=0.76889 best=0.76889
+
+- [2026-10-21 17:47:22 UTC+8] 完成 a2afm seed=11，本轮耗时 0.0 s，选择验证最优 step=2
+
+- [2026-10-21 17:47:22 UTC+8] regression seed=11 step=2/2 val_RMSE=0.54686 best=0.54686
+
+- [2026-10-21 17:47:22 UTC+8] 完成 regression seed=11，本轮耗时 0.0 s，选择验证最优 step=2
+
+- [2026-10-21 17:47:22 UTC+8] residual seed=11 step=2/2 val_RMSE=0.93756 best=0.93756
+
+- [2026-10-21 17:47:22 UTC+8] 完成 residual seed=11，本轮耗时 0.0 s，选择验证最优 step=2
+
+- [2026-10-21 17:47:22 UTC+8] 单步实验评估 gaussian_low
+
+- [2026-10-21 17:47:23 UTC+8] 单步实验评估 gaussian_mid
+
+- [2026-10-21 17:47:24 UTC+8] 单步实验评估 gaussian_high
+
+- [2026-10-21 17:47:25 UTC+8] 单步实验评估 student_ood
+
+- [2026-10-21 17:47:26 UTC+8] 冻结权重闭环冲击测试完成 none
+
+- [2026-10-21 17:47:26 UTC+8] 冻结权重闭环冲击测试完成 dob
+
+- [2026-10-21 17:47:26 UTC+8] 冻结权重闭环冲击测试完成 kalman
+
+- [2026-10-21 17:47:26 UTC+8] 冻结权重闭环冲击测试完成 single_fm
+
+- [2026-10-21 17:47:27 UTC+8] 冻结权重闭环冲击测试完成 midpoint_fm
+
+- [2026-10-21 17:47:27 UTC+8] 冻结权重闭环冲击测试完成 regression
+
+- [2026-10-21 17:47:28 UTC+8] 冻结权重闭环冲击测试完成 residual
+
+- [2026-10-21 17:47:28 UTC+8] 单步混合实验完成：E:\Desktop\MyCode\A2AFM\results\single_step_smoke\REPORT.md
+
+- [2026-10-21 17:48:09 UTC+8] 单步混合实验开始：CPU，训练轨迹=360，每模型更新=15000
+
+- [2026-10-21 17:48:55 UTC+8] 混合数据完成：训练窗口=136080，验证窗口=17010
+
+- [2026-10-21 17:48:56 UTC+8] a2afm seed=11 step=100/15000 val_RMSE=0.28323 best=0.28323
+
+- [2026-10-21 17:48:56 UTC+8] a2afm seed=11 step=200/15000 val_RMSE=0.26161 best=0.26161
+
+- [2026-10-21 17:48:56 UTC+8] a2afm seed=11 step=300/15000 val_RMSE=0.25052 best=0.25052
+
+- [2026-10-21 17:48:57 UTC+8] a2afm seed=11 step=400/15000 val_RMSE=0.25415 best=0.25052
+
+- [2026-10-21 17:48:57 UTC+8] a2afm seed=11 step=500/15000 val_RMSE=0.26104 best=0.25052
+
+- [2026-10-21 17:48:57 UTC+8] a2afm seed=11 step=600/15000 val_RMSE=0.23641 best=0.23641
+
+- [2026-10-21 17:48:57 UTC+8] a2afm seed=11 step=700/15000 val_RMSE=0.23302 best=0.23302
+
+- [2026-10-21 17:48:58 UTC+8] a2afm seed=11 step=800/15000 val_RMSE=0.22926 best=0.22926
+
+- [2026-10-21 17:48:58 UTC+8] a2afm seed=11 step=900/15000 val_RMSE=0.23033 best=0.22926
+
+- [2026-10-21 17:48:58 UTC+8] a2afm seed=11 step=1000/15000 val_RMSE=0.23244 best=0.22926
+
+- [2026-10-21 17:48:58 UTC+8] a2afm seed=11 step=1100/15000 val_RMSE=0.22878 best=0.22878
+
+- [2026-10-21 17:48:58 UTC+8] a2afm seed=11 step=1200/15000 val_RMSE=0.21576 best=0.21576
+
+- [2026-10-21 17:48:59 UTC+8] a2afm seed=11 step=1300/15000 val_RMSE=0.21099 best=0.21099
+
+- [2026-10-21 17:48:59 UTC+8] a2afm seed=11 step=1400/15000 val_RMSE=0.21613 best=0.21099
+
+- [2026-10-21 17:48:59 UTC+8] a2afm seed=11 step=1500/15000 val_RMSE=0.22436 best=0.21099
+
+- [2026-10-21 17:48:59 UTC+8] a2afm seed=11 step=1600/15000 val_RMSE=0.19458 best=0.19458
+
+- [2026-10-21 17:48:59 UTC+8] a2afm seed=11 step=1700/15000 val_RMSE=0.19923 best=0.19458
+
+- [2026-10-21 17:49:00 UTC+8] a2afm seed=11 step=1800/15000 val_RMSE=0.20093 best=0.19458
+
+- [2026-10-21 17:49:00 UTC+8] a2afm seed=11 step=1900/15000 val_RMSE=0.19338 best=0.19338
+
+- [2026-10-21 17:49:00 UTC+8] a2afm seed=11 step=2000/15000 val_RMSE=0.19583 best=0.19338
+
+- [2026-10-21 17:49:00 UTC+8] a2afm seed=11 step=2100/15000 val_RMSE=0.18903 best=0.18903
+
+- [2026-10-21 17:49:01 UTC+8] a2afm seed=11 step=2200/15000 val_RMSE=0.18298 best=0.18298
+
+- [2026-10-21 17:49:01 UTC+8] a2afm seed=11 step=2300/15000 val_RMSE=0.20134 best=0.18298
+
+- [2026-10-21 17:49:01 UTC+8] a2afm seed=11 step=2400/15000 val_RMSE=0.18740 best=0.18298
+
+- [2026-10-21 17:49:01 UTC+8] a2afm seed=11 step=2500/15000 val_RMSE=0.18190 best=0.18190
+
+- [2026-10-21 17:49:01 UTC+8] a2afm seed=11 step=2600/15000 val_RMSE=0.18959 best=0.18190
+
+- [2026-10-21 17:49:02 UTC+8] a2afm seed=11 step=2700/15000 val_RMSE=0.18762 best=0.18190
+
+- [2026-10-21 17:49:02 UTC+8] a2afm seed=11 step=2800/15000 val_RMSE=0.19417 best=0.18190
+
+- [2026-10-21 17:49:02 UTC+8] a2afm seed=11 step=2900/15000 val_RMSE=0.18738 best=0.18190
+
+- [2026-10-21 17:49:02 UTC+8] a2afm seed=11 step=3000/15000 val_RMSE=0.17571 best=0.17571
+
+- [2026-10-21 17:49:02 UTC+8] a2afm seed=11 step=3100/15000 val_RMSE=0.17609 best=0.17571
+
+- [2026-10-21 17:49:03 UTC+8] a2afm seed=11 step=3200/15000 val_RMSE=0.17151 best=0.17151
+
+- [2026-10-21 17:49:03 UTC+8] a2afm seed=11 step=3300/15000 val_RMSE=0.17867 best=0.17151
+
+- [2026-10-21 17:49:03 UTC+8] a2afm seed=11 step=3400/15000 val_RMSE=0.18308 best=0.17151
+
+- [2026-10-21 17:49:03 UTC+8] a2afm seed=11 step=3500/15000 val_RMSE=0.17168 best=0.17151
+
+- [2026-10-21 17:49:04 UTC+8] a2afm seed=11 step=3600/15000 val_RMSE=0.15912 best=0.15912
+
+- [2026-10-21 17:49:04 UTC+8] a2afm seed=11 step=3700/15000 val_RMSE=0.16658 best=0.15912
+
+- [2026-10-21 17:49:04 UTC+8] a2afm seed=11 step=3800/15000 val_RMSE=0.17630 best=0.15912
+
+- [2026-10-21 17:49:04 UTC+8] a2afm seed=11 step=3900/15000 val_RMSE=0.15540 best=0.15540
+
+- [2026-10-21 17:49:04 UTC+8] a2afm seed=11 step=4000/15000 val_RMSE=0.15709 best=0.15540
+
+- [2026-10-21 17:49:05 UTC+8] a2afm seed=11 step=4100/15000 val_RMSE=0.17224 best=0.15540
+
+- [2026-10-21 17:49:05 UTC+8] a2afm seed=11 step=4200/15000 val_RMSE=0.14819 best=0.14819
+
+- [2026-10-21 17:49:05 UTC+8] a2afm seed=11 step=4300/15000 val_RMSE=0.16066 best=0.14819
+
+- [2026-10-21 17:49:05 UTC+8] a2afm seed=11 step=4400/15000 val_RMSE=0.15196 best=0.14819
+
+- [2026-10-21 17:49:05 UTC+8] a2afm seed=11 step=4500/15000 val_RMSE=0.15390 best=0.14819
+
+- [2026-10-21 17:49:06 UTC+8] a2afm seed=11 step=4600/15000 val_RMSE=0.16261 best=0.14819
+
+- [2026-10-21 17:49:06 UTC+8] a2afm seed=11 step=4700/15000 val_RMSE=0.15510 best=0.14819
+
+- [2026-10-21 17:49:06 UTC+8] a2afm seed=11 step=4800/15000 val_RMSE=0.15376 best=0.14819
+
+- [2026-10-21 17:49:06 UTC+8] a2afm seed=11 step=4900/15000 val_RMSE=0.16020 best=0.14819
+
+- [2026-10-21 17:49:07 UTC+8] a2afm seed=11 step=5000/15000 val_RMSE=0.20586 best=0.14819
+
+- [2026-10-21 17:49:07 UTC+8] a2afm seed=11 step=5100/15000 val_RMSE=0.16196 best=0.14819
+
+- [2026-10-21 17:49:07 UTC+8] a2afm seed=11 step=5200/15000 val_RMSE=0.15408 best=0.14819
+
+- [2026-10-21 17:49:07 UTC+8] a2afm seed=11 step=5300/15000 val_RMSE=0.15040 best=0.14819
+
+- [2026-10-21 17:49:07 UTC+8] a2afm seed=11 step=5400/15000 val_RMSE=0.15149 best=0.14819
+
+- [2026-10-21 17:49:08 UTC+8] a2afm seed=11 step=5500/15000 val_RMSE=0.15106 best=0.14819
+
+- [2026-10-21 17:49:08 UTC+8] a2afm seed=11 step=5600/15000 val_RMSE=0.14422 best=0.14422
+
+- [2026-10-21 17:49:08 UTC+8] a2afm seed=11 step=5700/15000 val_RMSE=0.15782 best=0.14422
+
+- [2026-10-21 17:49:08 UTC+8] a2afm seed=11 step=5800/15000 val_RMSE=0.14723 best=0.14422
+
+- [2026-10-21 17:49:08 UTC+8] a2afm seed=11 step=5900/15000 val_RMSE=0.15467 best=0.14422
+
+- [2026-10-21 17:49:09 UTC+8] a2afm seed=11 step=6000/15000 val_RMSE=0.14221 best=0.14221
+
+- [2026-10-21 17:49:09 UTC+8] a2afm seed=11 step=6100/15000 val_RMSE=0.15679 best=0.14221
+
+- [2026-10-21 17:49:09 UTC+8] a2afm seed=11 step=6200/15000 val_RMSE=0.15205 best=0.14221
+
+- [2026-10-21 17:49:09 UTC+8] a2afm seed=11 step=6300/15000 val_RMSE=0.14619 best=0.14221
+
+- [2026-10-21 17:49:09 UTC+8] a2afm seed=11 step=6400/15000 val_RMSE=0.16894 best=0.14221
+
+- [2026-10-21 17:49:10 UTC+8] a2afm seed=11 step=6500/15000 val_RMSE=0.15937 best=0.14221
+
+- [2026-10-21 17:49:10 UTC+8] a2afm seed=11 step=6600/15000 val_RMSE=0.16130 best=0.14221
+
+- [2026-10-21 17:49:10 UTC+8] a2afm seed=11 step=6700/15000 val_RMSE=0.15979 best=0.14221
+
+- [2026-10-21 17:49:10 UTC+8] a2afm seed=11 step=6800/15000 val_RMSE=0.14941 best=0.14221
+
+- [2026-10-21 17:49:11 UTC+8] a2afm seed=11 step=6900/15000 val_RMSE=0.14271 best=0.14221
+
+- [2026-10-21 17:49:11 UTC+8] a2afm seed=11 step=7000/15000 val_RMSE=0.16105 best=0.14221
+
+- [2026-10-21 17:49:11 UTC+8] a2afm seed=11 step=7100/15000 val_RMSE=0.14113 best=0.14113
+
+- [2026-10-21 17:49:11 UTC+8] a2afm seed=11 step=7200/15000 val_RMSE=0.15737 best=0.14113
+
+- [2026-10-21 17:49:11 UTC+8] a2afm seed=11 step=7300/15000 val_RMSE=0.14410 best=0.14113
+
+- [2026-10-21 17:49:12 UTC+8] a2afm seed=11 step=7400/15000 val_RMSE=0.13732 best=0.13732
+
+- [2026-10-21 17:49:12 UTC+8] a2afm seed=11 step=7500/15000 val_RMSE=0.13446 best=0.13446
+
+- [2026-10-21 17:49:12 UTC+8] a2afm seed=11 step=7600/15000 val_RMSE=0.14438 best=0.13446
+
+- [2026-10-21 17:49:12 UTC+8] a2afm seed=11 step=7700/15000 val_RMSE=0.14368 best=0.13446
+
+- [2026-10-21 17:49:12 UTC+8] a2afm seed=11 step=7800/15000 val_RMSE=0.14924 best=0.13446
+
+- [2026-10-21 17:49:13 UTC+8] a2afm seed=11 step=7900/15000 val_RMSE=0.13973 best=0.13446
+
+- [2026-10-21 17:49:13 UTC+8] a2afm seed=11 step=8000/15000 val_RMSE=0.14630 best=0.13446
+
+- [2026-10-21 17:49:13 UTC+8] a2afm seed=11 step=8100/15000 val_RMSE=0.14374 best=0.13446
+
+- [2026-10-21 17:49:13 UTC+8] a2afm seed=11 step=8200/15000 val_RMSE=0.13472 best=0.13446
+
+- [2026-10-21 17:49:14 UTC+8] a2afm seed=11 step=8300/15000 val_RMSE=0.13909 best=0.13446
+
+- [2026-10-21 17:49:14 UTC+8] a2afm seed=11 step=8400/15000 val_RMSE=0.14978 best=0.13446
+
+- [2026-10-21 17:49:14 UTC+8] a2afm seed=11 step=8500/15000 val_RMSE=0.13249 best=0.13249
+
+- [2026-10-21 17:49:14 UTC+8] a2afm seed=11 step=8600/15000 val_RMSE=0.13740 best=0.13249
+
+- [2026-10-21 17:49:14 UTC+8] a2afm seed=11 step=8700/15000 val_RMSE=0.14411 best=0.13249
+
+- [2026-10-21 17:49:15 UTC+8] a2afm seed=11 step=8800/15000 val_RMSE=0.13573 best=0.13249
+
+- [2026-10-21 17:49:15 UTC+8] a2afm seed=11 step=8900/15000 val_RMSE=0.15666 best=0.13249
+
+- [2026-10-21 17:49:15 UTC+8] a2afm seed=11 step=9000/15000 val_RMSE=0.14720 best=0.13249
+
+- [2026-10-21 17:49:15 UTC+8] a2afm seed=11 step=9100/15000 val_RMSE=0.14659 best=0.13249
+
+- [2026-10-21 17:49:15 UTC+8] a2afm seed=11 step=9200/15000 val_RMSE=0.14774 best=0.13249
+
+- [2026-10-21 17:49:16 UTC+8] a2afm seed=11 step=9300/15000 val_RMSE=0.15661 best=0.13249
+
+- [2026-10-21 17:49:16 UTC+8] a2afm seed=11 step=9400/15000 val_RMSE=0.14439 best=0.13249
+
+- [2026-10-21 17:49:16 UTC+8] a2afm seed=11 step=9500/15000 val_RMSE=0.15965 best=0.13249
+
+- [2026-10-21 17:49:16 UTC+8] a2afm seed=11 step=9600/15000 val_RMSE=0.12723 best=0.12723
+
+- [2026-10-21 17:49:17 UTC+8] a2afm seed=11 step=9700/15000 val_RMSE=0.13437 best=0.12723
+
+- [2026-10-21 17:49:17 UTC+8] a2afm seed=11 step=9800/15000 val_RMSE=0.14060 best=0.12723
+
+- [2026-10-21 17:49:17 UTC+8] a2afm seed=11 step=9900/15000 val_RMSE=0.16213 best=0.12723
+
+- [2026-10-21 17:49:17 UTC+8] a2afm seed=11 step=10000/15000 val_RMSE=0.13110 best=0.12723
+
+- [2026-10-21 17:49:17 UTC+8] a2afm seed=11 step=10100/15000 val_RMSE=0.13545 best=0.12723
+
+- [2026-10-21 17:49:18 UTC+8] a2afm seed=11 step=10200/15000 val_RMSE=0.14047 best=0.12723
+
+- [2026-10-21 17:49:18 UTC+8] a2afm seed=11 step=10300/15000 val_RMSE=0.12313 best=0.12313
+
+- [2026-10-21 17:49:18 UTC+8] a2afm seed=11 step=10400/15000 val_RMSE=0.15109 best=0.12313
+
+- [2026-10-21 17:49:18 UTC+8] a2afm seed=11 step=10500/15000 val_RMSE=0.14014 best=0.12313
+
+- [2026-10-21 17:49:19 UTC+8] a2afm seed=11 step=10600/15000 val_RMSE=0.12761 best=0.12313
+
+- [2026-10-21 17:49:19 UTC+8] a2afm seed=11 step=10700/15000 val_RMSE=0.13821 best=0.12313
+
+- [2026-10-21 17:49:19 UTC+8] a2afm seed=11 step=10800/15000 val_RMSE=0.13029 best=0.12313
+
+- [2026-10-21 17:49:19 UTC+8] a2afm seed=11 step=10900/15000 val_RMSE=0.13867 best=0.12313
+
+- [2026-10-21 17:49:19 UTC+8] a2afm seed=11 step=11000/15000 val_RMSE=0.14022 best=0.12313
+
+- [2026-10-21 17:49:20 UTC+8] a2afm seed=11 step=11100/15000 val_RMSE=0.15954 best=0.12313
+
+- [2026-10-21 17:49:20 UTC+8] a2afm seed=11 step=11200/15000 val_RMSE=0.14543 best=0.12313
+
+- [2026-10-21 17:49:20 UTC+8] a2afm seed=11 step=11300/15000 val_RMSE=0.14055 best=0.12313
+
+- [2026-10-21 17:49:20 UTC+8] a2afm seed=11 step=11400/15000 val_RMSE=0.12827 best=0.12313
+
+- [2026-10-21 17:49:20 UTC+8] a2afm seed=11 step=11500/15000 val_RMSE=0.14008 best=0.12313
+
+- [2026-10-21 17:49:21 UTC+8] a2afm seed=11 step=11600/15000 val_RMSE=0.13381 best=0.12313
+
+- [2026-10-21 17:49:21 UTC+8] a2afm seed=11 step=11700/15000 val_RMSE=0.12950 best=0.12313
+
+- [2026-10-21 17:49:21 UTC+8] a2afm seed=11 step=11800/15000 val_RMSE=0.11795 best=0.11795
+
+- [2026-10-21 17:49:21 UTC+8] a2afm seed=11 step=11900/15000 val_RMSE=0.13753 best=0.11795
+
+- [2026-10-21 17:49:21 UTC+8] a2afm seed=11 step=12000/15000 val_RMSE=0.14664 best=0.11795
+
+- [2026-10-21 17:49:22 UTC+8] a2afm seed=11 step=12100/15000 val_RMSE=0.13558 best=0.11795
+
+- [2026-10-21 17:49:22 UTC+8] a2afm seed=11 step=12200/15000 val_RMSE=0.13959 best=0.11795
+
+- [2026-10-21 17:49:22 UTC+8] a2afm seed=11 step=12300/15000 val_RMSE=0.14148 best=0.11795
+
+- [2026-10-21 17:49:22 UTC+8] a2afm seed=11 step=12400/15000 val_RMSE=0.12781 best=0.11795
+
+- [2026-10-21 17:49:23 UTC+8] a2afm seed=11 step=12500/15000 val_RMSE=0.14274 best=0.11795
+
+- [2026-10-21 17:49:23 UTC+8] a2afm seed=11 step=12600/15000 val_RMSE=0.12706 best=0.11795
+
+- [2026-10-21 17:49:23 UTC+8] a2afm seed=11 step=12700/15000 val_RMSE=0.14821 best=0.11795
+
+- [2026-10-21 17:49:23 UTC+8] a2afm seed=11 step=12800/15000 val_RMSE=0.12496 best=0.11795
+
+- [2026-10-21 17:49:23 UTC+8] a2afm seed=11 step=12900/15000 val_RMSE=0.12356 best=0.11795
+
+- [2026-10-21 17:49:24 UTC+8] a2afm seed=11 step=13000/15000 val_RMSE=0.15099 best=0.11795
+
+- [2026-10-21 17:49:24 UTC+8] a2afm seed=11 step=13100/15000 val_RMSE=0.12804 best=0.11795
+
+- [2026-10-21 17:49:24 UTC+8] a2afm seed=11 step=13200/15000 val_RMSE=0.13424 best=0.11795
+
+- [2026-10-21 17:49:24 UTC+8] a2afm seed=11 step=13300/15000 val_RMSE=0.15201 best=0.11795
+
+- [2026-10-21 17:49:25 UTC+8] a2afm seed=11 step=13400/15000 val_RMSE=0.13063 best=0.11795
+
+- [2026-10-21 17:49:25 UTC+8] a2afm seed=11 step=13500/15000 val_RMSE=0.13713 best=0.11795
+
+- [2026-10-21 17:49:25 UTC+8] a2afm seed=11 step=13600/15000 val_RMSE=0.13297 best=0.11795
+
+- [2026-10-21 17:49:25 UTC+8] a2afm seed=11 step=13700/15000 val_RMSE=0.14515 best=0.11795
+
+- [2026-10-21 17:49:25 UTC+8] a2afm seed=11 step=13800/15000 val_RMSE=0.12590 best=0.11795
+
+- [2026-10-21 17:49:26 UTC+8] a2afm seed=11 step=13900/15000 val_RMSE=0.12703 best=0.11795
+
+- [2026-10-21 17:49:26 UTC+8] a2afm seed=11 step=14000/15000 val_RMSE=0.12881 best=0.11795
+
+- [2026-10-21 17:49:26 UTC+8] a2afm seed=11 step=14100/15000 val_RMSE=0.13712 best=0.11795
+
+- [2026-10-21 17:49:26 UTC+8] a2afm seed=11 step=14200/15000 val_RMSE=0.13315 best=0.11795
+
+- [2026-10-21 17:49:26 UTC+8] a2afm seed=11 step=14300/15000 val_RMSE=0.12637 best=0.11795
+
+- [2026-10-21 17:49:27 UTC+8] a2afm seed=11 step=14400/15000 val_RMSE=0.12401 best=0.11795
+
+- [2026-10-21 17:49:27 UTC+8] a2afm seed=11 step=14500/15000 val_RMSE=0.13037 best=0.11795
+
+- [2026-10-21 17:49:27 UTC+8] a2afm seed=11 step=14600/15000 val_RMSE=0.14375 best=0.11795
+
+- [2026-10-21 17:49:27 UTC+8] a2afm seed=11 step=14700/15000 val_RMSE=0.13211 best=0.11795
+
+- [2026-10-21 17:49:28 UTC+8] a2afm seed=11 step=14800/15000 val_RMSE=0.13909 best=0.11795
+
+- [2026-10-21 17:49:28 UTC+8] a2afm seed=11 step=14900/15000 val_RMSE=0.12286 best=0.11795
+
+- [2026-10-21 17:49:28 UTC+8] a2afm seed=11 step=15000/15000 val_RMSE=0.15031 best=0.11795
+
+- [2026-10-21 17:49:28 UTC+8] 完成 a2afm seed=11，本轮耗时 32.1 s，选择验证最优 step=11800
+
+- [2026-10-21 17:49:28 UTC+8] a2afm seed=22 step=100/15000 val_RMSE=0.30016 best=0.30016
+
+- [2026-10-21 17:49:28 UTC+8] a2afm seed=22 step=200/15000 val_RMSE=0.26089 best=0.26089
+
+- [2026-10-21 17:49:29 UTC+8] a2afm seed=22 step=300/15000 val_RMSE=0.25230 best=0.25230
+
+- [2026-10-21 17:49:29 UTC+8] a2afm seed=22 step=400/15000 val_RMSE=0.25038 best=0.25038
+
+- [2026-10-21 17:49:29 UTC+8] a2afm seed=22 step=500/15000 val_RMSE=0.24309 best=0.24309
+
+- [2026-10-21 17:49:29 UTC+8] a2afm seed=22 step=600/15000 val_RMSE=0.24109 best=0.24109
+
+- [2026-10-21 17:49:29 UTC+8] a2afm seed=22 step=700/15000 val_RMSE=0.23191 best=0.23191
+
+- [2026-10-21 17:49:30 UTC+8] a2afm seed=22 step=800/15000 val_RMSE=0.23057 best=0.23057
+
+- [2026-10-21 17:49:30 UTC+8] a2afm seed=22 step=900/15000 val_RMSE=0.22535 best=0.22535
+
+- [2026-10-21 17:49:30 UTC+8] a2afm seed=22 step=1000/15000 val_RMSE=0.23957 best=0.22535
+
+- [2026-10-21 17:49:30 UTC+8] a2afm seed=22 step=1100/15000 val_RMSE=0.21894 best=0.21894
+
+- [2026-10-21 17:49:31 UTC+8] a2afm seed=22 step=1200/15000 val_RMSE=0.22368 best=0.21894
+
+- [2026-10-21 17:49:31 UTC+8] a2afm seed=22 step=1300/15000 val_RMSE=0.21459 best=0.21459
+
+- [2026-10-21 17:49:31 UTC+8] a2afm seed=22 step=1400/15000 val_RMSE=0.21298 best=0.21298
+
+- [2026-10-21 17:49:31 UTC+8] a2afm seed=22 step=1500/15000 val_RMSE=0.20496 best=0.20496
+
+- [2026-10-21 17:49:31 UTC+8] a2afm seed=22 step=1600/15000 val_RMSE=0.21842 best=0.20496
+
+- [2026-10-21 17:49:32 UTC+8] a2afm seed=22 step=1700/15000 val_RMSE=0.20558 best=0.20496
+
+- [2026-10-21 17:49:32 UTC+8] a2afm seed=22 step=1800/15000 val_RMSE=0.19937 best=0.19937
+
+- [2026-10-21 17:49:32 UTC+8] a2afm seed=22 step=1900/15000 val_RMSE=0.20430 best=0.19937
+
+- [2026-10-21 17:49:32 UTC+8] a2afm seed=22 step=2000/15000 val_RMSE=0.19558 best=0.19558
+
+- [2026-10-21 17:49:32 UTC+8] a2afm seed=22 step=2100/15000 val_RMSE=0.18600 best=0.18600
+
+- [2026-10-21 17:49:33 UTC+8] a2afm seed=22 step=2200/15000 val_RMSE=0.22037 best=0.18600
+
+- [2026-10-21 17:49:33 UTC+8] a2afm seed=22 step=2300/15000 val_RMSE=0.20455 best=0.18600
+
+- [2026-10-21 17:49:33 UTC+8] a2afm seed=22 step=2400/15000 val_RMSE=0.18095 best=0.18095
+
+- [2026-10-21 17:49:33 UTC+8] a2afm seed=22 step=2500/15000 val_RMSE=0.19099 best=0.18095
+
+- [2026-10-21 17:49:34 UTC+8] a2afm seed=22 step=2600/15000 val_RMSE=0.18614 best=0.18095
+
+- [2026-10-21 17:49:34 UTC+8] a2afm seed=22 step=2700/15000 val_RMSE=0.18151 best=0.18095
+
+- [2026-10-21 17:49:34 UTC+8] a2afm seed=22 step=2800/15000 val_RMSE=0.19453 best=0.18095
+
+- [2026-10-21 17:49:34 UTC+8] a2afm seed=22 step=2900/15000 val_RMSE=0.18283 best=0.18095
+
+- [2026-10-21 17:49:34 UTC+8] a2afm seed=22 step=3000/15000 val_RMSE=0.18823 best=0.18095
+
+- [2026-10-21 17:49:35 UTC+8] a2afm seed=22 step=3100/15000 val_RMSE=0.17039 best=0.17039
+
+- [2026-10-21 17:49:35 UTC+8] a2afm seed=22 step=3200/15000 val_RMSE=0.17756 best=0.17039
+
+- [2026-10-21 17:49:35 UTC+8] a2afm seed=22 step=3300/15000 val_RMSE=0.18135 best=0.17039
+
+- [2026-10-21 17:49:35 UTC+8] a2afm seed=22 step=3400/15000 val_RMSE=0.18373 best=0.17039
+
+- [2026-10-21 17:49:36 UTC+8] a2afm seed=22 step=3500/15000 val_RMSE=0.16653 best=0.16653
+
+- [2026-10-21 17:49:36 UTC+8] a2afm seed=22 step=3600/15000 val_RMSE=0.17455 best=0.16653
+
+- [2026-10-21 17:49:36 UTC+8] a2afm seed=22 step=3700/15000 val_RMSE=0.17575 best=0.16653
+
+- [2026-10-21 17:49:36 UTC+8] a2afm seed=22 step=3800/15000 val_RMSE=0.19311 best=0.16653
+
+- [2026-10-21 17:49:36 UTC+8] a2afm seed=22 step=3900/15000 val_RMSE=0.17237 best=0.16653
+
+- [2026-10-21 17:49:37 UTC+8] a2afm seed=22 step=4000/15000 val_RMSE=0.17882 best=0.16653
+
+- [2026-10-21 17:49:37 UTC+8] a2afm seed=22 step=4100/15000 val_RMSE=0.19024 best=0.16653
+
+- [2026-10-21 17:49:37 UTC+8] a2afm seed=22 step=4200/15000 val_RMSE=0.18922 best=0.16653
+
+- [2026-10-21 17:49:37 UTC+8] a2afm seed=22 step=4300/15000 val_RMSE=0.16382 best=0.16382
+
+- [2026-10-21 17:49:38 UTC+8] a2afm seed=22 step=4400/15000 val_RMSE=0.16633 best=0.16382
+
+- [2026-10-21 17:49:38 UTC+8] a2afm seed=22 step=4500/15000 val_RMSE=0.16798 best=0.16382
+
+- [2026-10-21 17:49:38 UTC+8] a2afm seed=22 step=4600/15000 val_RMSE=0.16462 best=0.16382
+
+- [2026-10-21 17:49:38 UTC+8] a2afm seed=22 step=4700/15000 val_RMSE=0.15479 best=0.15479
+
+- [2026-10-21 17:49:38 UTC+8] a2afm seed=22 step=4800/15000 val_RMSE=0.14967 best=0.14967
+
+- [2026-10-21 17:49:39 UTC+8] a2afm seed=22 step=4900/15000 val_RMSE=0.15937 best=0.14967
+
+- [2026-10-21 17:49:39 UTC+8] a2afm seed=22 step=5000/15000 val_RMSE=0.19654 best=0.14967
+
+- [2026-10-21 17:49:39 UTC+8] a2afm seed=22 step=5100/15000 val_RMSE=0.15749 best=0.14967
+
+- [2026-10-21 17:49:39 UTC+8] a2afm seed=22 step=5200/15000 val_RMSE=0.17179 best=0.14967
+
+- [2026-10-21 17:49:39 UTC+8] a2afm seed=22 step=5300/15000 val_RMSE=0.16053 best=0.14967
+
+- [2026-10-21 17:49:40 UTC+8] a2afm seed=22 step=5400/15000 val_RMSE=0.15721 best=0.14967
+
+- [2026-10-21 17:49:40 UTC+8] a2afm seed=22 step=5500/15000 val_RMSE=0.15145 best=0.14967
+
+- [2026-10-21 17:49:40 UTC+8] a2afm seed=22 step=5600/15000 val_RMSE=0.14920 best=0.14920
+
+- [2026-10-21 17:49:40 UTC+8] a2afm seed=22 step=5700/15000 val_RMSE=0.15981 best=0.14920
+
+- [2026-10-21 17:49:41 UTC+8] a2afm seed=22 step=5800/15000 val_RMSE=0.16437 best=0.14920
+
+- [2026-10-21 17:49:41 UTC+8] a2afm seed=22 step=5900/15000 val_RMSE=0.15477 best=0.14920
+
+- [2026-10-21 17:49:41 UTC+8] a2afm seed=22 step=6000/15000 val_RMSE=0.16589 best=0.14920
+
+- [2026-10-21 17:49:41 UTC+8] a2afm seed=22 step=6100/15000 val_RMSE=0.14474 best=0.14474
+
+- [2026-10-21 17:49:41 UTC+8] a2afm seed=22 step=6200/15000 val_RMSE=0.17739 best=0.14474
+
+- [2026-10-21 17:49:42 UTC+8] a2afm seed=22 step=6300/15000 val_RMSE=0.14309 best=0.14309
+
+- [2026-10-21 17:49:42 UTC+8] a2afm seed=22 step=6400/15000 val_RMSE=0.14593 best=0.14309
+
+- [2026-10-21 17:49:42 UTC+8] a2afm seed=22 step=6500/15000 val_RMSE=0.15336 best=0.14309
+
+- [2026-10-21 17:49:42 UTC+8] a2afm seed=22 step=6600/15000 val_RMSE=0.16667 best=0.14309
+
+- [2026-10-21 17:49:42 UTC+8] a2afm seed=22 step=6700/15000 val_RMSE=0.14625 best=0.14309
+
+- [2026-10-21 17:49:43 UTC+8] a2afm seed=22 step=6800/15000 val_RMSE=0.14669 best=0.14309
+
+- [2026-10-21 17:49:43 UTC+8] a2afm seed=22 step=6900/15000 val_RMSE=0.14554 best=0.14309
+
+- [2026-10-21 17:49:43 UTC+8] a2afm seed=22 step=7000/15000 val_RMSE=0.14455 best=0.14309
+
+- [2026-10-21 17:49:43 UTC+8] a2afm seed=22 step=7100/15000 val_RMSE=0.15248 best=0.14309
+
+- [2026-10-21 17:49:44 UTC+8] a2afm seed=22 step=7200/15000 val_RMSE=0.14243 best=0.14243
+
+- [2026-10-21 17:49:44 UTC+8] a2afm seed=22 step=7300/15000 val_RMSE=0.14660 best=0.14243
+
+- [2026-10-21 17:49:44 UTC+8] a2afm seed=22 step=7400/15000 val_RMSE=0.14754 best=0.14243
+
+- [2026-10-21 17:49:44 UTC+8] a2afm seed=22 step=7500/15000 val_RMSE=0.15453 best=0.14243
+
+- [2026-10-21 17:49:44 UTC+8] a2afm seed=22 step=7600/15000 val_RMSE=0.13732 best=0.13732
+
+- [2026-10-21 17:49:45 UTC+8] a2afm seed=22 step=7700/15000 val_RMSE=0.14573 best=0.13732
+
+- [2026-10-21 17:49:45 UTC+8] a2afm seed=22 step=7800/15000 val_RMSE=0.15151 best=0.13732
+
+- [2026-10-21 17:49:45 UTC+8] a2afm seed=22 step=7900/15000 val_RMSE=0.16537 best=0.13732
+
+- [2026-10-21 17:49:45 UTC+8] a2afm seed=22 step=8000/15000 val_RMSE=0.14661 best=0.13732
+
+- [2026-10-21 17:49:46 UTC+8] a2afm seed=22 step=8100/15000 val_RMSE=0.13516 best=0.13516
+
+- [2026-10-21 17:49:46 UTC+8] a2afm seed=22 step=8200/15000 val_RMSE=0.14946 best=0.13516
+
+- [2026-10-21 17:49:46 UTC+8] a2afm seed=22 step=8300/15000 val_RMSE=0.16607 best=0.13516
+
+- [2026-10-21 17:49:46 UTC+8] a2afm seed=22 step=8400/15000 val_RMSE=0.13017 best=0.13017
+
+- [2026-10-21 17:49:46 UTC+8] a2afm seed=22 step=8500/15000 val_RMSE=0.15981 best=0.13017
+
+- [2026-10-21 17:49:47 UTC+8] a2afm seed=22 step=8600/15000 val_RMSE=0.15079 best=0.13017
+
+- [2026-10-21 17:49:47 UTC+8] a2afm seed=22 step=8700/15000 val_RMSE=0.14370 best=0.13017
+
+- [2026-10-21 17:49:47 UTC+8] a2afm seed=22 step=8800/15000 val_RMSE=0.15123 best=0.13017
+
+- [2026-10-21 17:49:47 UTC+8] a2afm seed=22 step=8900/15000 val_RMSE=0.13890 best=0.13017
+
+- [2026-10-21 17:49:47 UTC+8] a2afm seed=22 step=9000/15000 val_RMSE=0.15643 best=0.13017
+
+- [2026-10-21 17:49:48 UTC+8] a2afm seed=22 step=9100/15000 val_RMSE=0.15523 best=0.13017
+
+- [2026-10-21 17:49:48 UTC+8] a2afm seed=22 step=9200/15000 val_RMSE=0.15147 best=0.13017
+
+- [2026-10-21 17:49:48 UTC+8] a2afm seed=22 step=9300/15000 val_RMSE=0.15558 best=0.13017
+
+- [2026-10-21 17:49:48 UTC+8] a2afm seed=22 step=9400/15000 val_RMSE=0.14464 best=0.13017
+
+- [2026-10-21 17:49:49 UTC+8] a2afm seed=22 step=9500/15000 val_RMSE=0.14831 best=0.13017
+
+- [2026-10-21 17:49:49 UTC+8] a2afm seed=22 step=9600/15000 val_RMSE=0.13651 best=0.13017
+
+- [2026-10-21 17:49:49 UTC+8] a2afm seed=22 step=9700/15000 val_RMSE=0.14080 best=0.13017
+
+- [2026-10-21 17:49:49 UTC+8] a2afm seed=22 step=9800/15000 val_RMSE=0.13070 best=0.13017
+
+- [2026-10-21 17:49:49 UTC+8] a2afm seed=22 step=9900/15000 val_RMSE=0.13939 best=0.13017
+
+- [2026-10-21 17:49:50 UTC+8] a2afm seed=22 step=10000/15000 val_RMSE=0.16918 best=0.13017
+
+- [2026-10-21 17:49:50 UTC+8] a2afm seed=22 step=10100/15000 val_RMSE=0.14405 best=0.13017
+
+- [2026-10-21 17:49:50 UTC+8] a2afm seed=22 step=10200/15000 val_RMSE=0.12874 best=0.12874
+
+- [2026-10-21 17:49:50 UTC+8] a2afm seed=22 step=10300/15000 val_RMSE=0.13423 best=0.12874
+
+- [2026-10-21 17:49:50 UTC+8] a2afm seed=22 step=10400/15000 val_RMSE=0.12997 best=0.12874
+
+- [2026-10-21 17:49:51 UTC+8] a2afm seed=22 step=10500/15000 val_RMSE=0.12537 best=0.12537
+
+- [2026-10-21 17:49:51 UTC+8] a2afm seed=22 step=10600/15000 val_RMSE=0.13662 best=0.12537
+
+- [2026-10-21 17:49:51 UTC+8] a2afm seed=22 step=10700/15000 val_RMSE=0.14081 best=0.12537
+
+- [2026-10-21 17:49:51 UTC+8] a2afm seed=22 step=10800/15000 val_RMSE=0.12658 best=0.12537
+
+- [2026-10-21 17:49:52 UTC+8] a2afm seed=22 step=10900/15000 val_RMSE=0.13199 best=0.12537
+
+- [2026-10-21 17:49:52 UTC+8] a2afm seed=22 step=11000/15000 val_RMSE=0.15207 best=0.12537
+
+- [2026-10-21 17:49:52 UTC+8] a2afm seed=22 step=11100/15000 val_RMSE=0.15427 best=0.12537
+
+- [2026-10-21 17:49:52 UTC+8] a2afm seed=22 step=11200/15000 val_RMSE=0.13740 best=0.12537
+
+- [2026-10-21 17:49:52 UTC+8] a2afm seed=22 step=11300/15000 val_RMSE=0.14447 best=0.12537
+
+- [2026-10-21 17:49:53 UTC+8] a2afm seed=22 step=11400/15000 val_RMSE=0.13867 best=0.12537
+
+- [2026-10-21 17:49:53 UTC+8] a2afm seed=22 step=11500/15000 val_RMSE=0.13602 best=0.12537
+
+- [2026-10-21 17:49:53 UTC+8] a2afm seed=22 step=11600/15000 val_RMSE=0.13272 best=0.12537
+
+- [2026-10-21 17:49:53 UTC+8] a2afm seed=22 step=11700/15000 val_RMSE=0.12249 best=0.12249
+
+- [2026-10-21 17:49:54 UTC+8] a2afm seed=22 step=11800/15000 val_RMSE=0.17474 best=0.12249
+
+- [2026-10-21 17:49:54 UTC+8] a2afm seed=22 step=11900/15000 val_RMSE=0.12313 best=0.12249
+
+- [2026-10-21 17:49:54 UTC+8] a2afm seed=22 step=12000/15000 val_RMSE=0.13559 best=0.12249
+
+- [2026-10-21 17:49:54 UTC+8] a2afm seed=22 step=12100/15000 val_RMSE=0.12753 best=0.12249
+
+- [2026-10-21 17:49:54 UTC+8] a2afm seed=22 step=12200/15000 val_RMSE=0.13351 best=0.12249
+
+- [2026-10-21 17:49:55 UTC+8] a2afm seed=22 step=12300/15000 val_RMSE=0.16232 best=0.12249
+
+- [2026-10-21 17:49:55 UTC+8] a2afm seed=22 step=12400/15000 val_RMSE=0.14465 best=0.12249
+
+- [2026-10-21 17:49:55 UTC+8] a2afm seed=22 step=12500/15000 val_RMSE=0.13937 best=0.12249
+
+- [2026-10-21 17:49:55 UTC+8] a2afm seed=22 step=12600/15000 val_RMSE=0.13454 best=0.12249
+
+- [2026-10-21 17:49:56 UTC+8] a2afm seed=22 step=12700/15000 val_RMSE=0.12877 best=0.12249
+
+- [2026-10-21 17:49:56 UTC+8] a2afm seed=22 step=12800/15000 val_RMSE=0.13013 best=0.12249
+
+- [2026-10-21 17:49:56 UTC+8] a2afm seed=22 step=12900/15000 val_RMSE=0.13356 best=0.12249
+
+- [2026-10-21 17:49:56 UTC+8] a2afm seed=22 step=13000/15000 val_RMSE=0.14545 best=0.12249
+
+- [2026-10-21 17:49:56 UTC+8] a2afm seed=22 step=13100/15000 val_RMSE=0.13923 best=0.12249
+
+- [2026-10-21 17:49:57 UTC+8] a2afm seed=22 step=13200/15000 val_RMSE=0.12421 best=0.12249
+
+- [2026-10-21 17:49:57 UTC+8] a2afm seed=22 step=13300/15000 val_RMSE=0.12280 best=0.12249
+
+- [2026-10-21 17:49:57 UTC+8] a2afm seed=22 step=13400/15000 val_RMSE=0.13172 best=0.12249
+
+- [2026-10-21 17:49:57 UTC+8] a2afm seed=22 step=13500/15000 val_RMSE=0.14845 best=0.12249
+
+- [2026-10-21 17:49:57 UTC+8] a2afm seed=22 step=13600/15000 val_RMSE=0.14221 best=0.12249
+
+- [2026-10-21 17:49:58 UTC+8] a2afm seed=22 step=13700/15000 val_RMSE=0.13377 best=0.12249
+
+- [2026-10-21 17:49:58 UTC+8] a2afm seed=22 step=13800/15000 val_RMSE=0.12275 best=0.12249
+
+- [2026-10-21 17:49:58 UTC+8] a2afm seed=22 step=13900/15000 val_RMSE=0.13223 best=0.12249
+
+- [2026-10-21 17:49:58 UTC+8] a2afm seed=22 step=14000/15000 val_RMSE=0.12770 best=0.12249
+
+- [2026-10-21 17:49:59 UTC+8] a2afm seed=22 step=14100/15000 val_RMSE=0.14730 best=0.12249
+
+- [2026-10-21 17:49:59 UTC+8] a2afm seed=22 step=14200/15000 val_RMSE=0.12650 best=0.12249
+
+- [2026-10-21 17:49:59 UTC+8] a2afm seed=22 step=14300/15000 val_RMSE=0.12013 best=0.12013
+
+- [2026-10-21 17:49:59 UTC+8] a2afm seed=22 step=14400/15000 val_RMSE=0.12431 best=0.12013
+
+- [2026-10-21 17:49:59 UTC+8] a2afm seed=22 step=14500/15000 val_RMSE=0.12308 best=0.12013
+
+- [2026-10-21 17:50:00 UTC+8] a2afm seed=22 step=14600/15000 val_RMSE=0.14591 best=0.12013
+
+- [2026-10-21 17:50:00 UTC+8] a2afm seed=22 step=14700/15000 val_RMSE=0.13555 best=0.12013
+
+- [2026-10-21 17:50:00 UTC+8] a2afm seed=22 step=14800/15000 val_RMSE=0.12736 best=0.12013
+
+- [2026-10-21 17:50:00 UTC+8] a2afm seed=22 step=14900/15000 val_RMSE=0.13014 best=0.12013
+
+- [2026-10-21 17:50:01 UTC+8] a2afm seed=22 step=15000/15000 val_RMSE=0.12140 best=0.12013
+
+- [2026-10-21 17:50:01 UTC+8] 完成 a2afm seed=22，本轮耗时 32.6 s，选择验证最优 step=14300
+
+- [2026-10-21 17:50:01 UTC+8] a2afm seed=33 step=100/15000 val_RMSE=0.28103 best=0.28103
+
+- [2026-10-21 17:50:01 UTC+8] a2afm seed=33 step=200/15000 val_RMSE=0.25971 best=0.25971
+
+- [2026-10-21 17:50:01 UTC+8] a2afm seed=33 step=300/15000 val_RMSE=0.24914 best=0.24914
+
+- [2026-10-21 17:50:02 UTC+8] a2afm seed=33 step=400/15000 val_RMSE=0.25386 best=0.24914
+
+- [2026-10-21 17:50:02 UTC+8] a2afm seed=33 step=500/15000 val_RMSE=0.25194 best=0.24914
+
+- [2026-10-21 17:50:02 UTC+8] a2afm seed=33 step=600/15000 val_RMSE=0.25508 best=0.24914
+
+- [2026-10-21 17:50:02 UTC+8] a2afm seed=33 step=700/15000 val_RMSE=0.24097 best=0.24097
+
+- [2026-10-21 17:50:03 UTC+8] a2afm seed=33 step=800/15000 val_RMSE=0.24444 best=0.24097
+
+- [2026-10-21 17:50:03 UTC+8] a2afm seed=33 step=900/15000 val_RMSE=0.23307 best=0.23307
+
+- [2026-10-21 17:50:03 UTC+8] a2afm seed=33 step=1000/15000 val_RMSE=0.23231 best=0.23231
+
+- [2026-10-21 17:50:04 UTC+8] a2afm seed=33 step=1100/15000 val_RMSE=0.24846 best=0.23231
+
+- [2026-10-21 17:50:04 UTC+8] a2afm seed=33 step=1200/15000 val_RMSE=0.23044 best=0.23044
+
+- [2026-10-21 17:50:04 UTC+8] a2afm seed=33 step=1300/15000 val_RMSE=0.21776 best=0.21776
+
+- [2026-10-21 17:50:04 UTC+8] a2afm seed=33 step=1400/15000 val_RMSE=0.22864 best=0.21776
+
+- [2026-10-21 17:50:05 UTC+8] a2afm seed=33 step=1500/15000 val_RMSE=0.21390 best=0.21390
+
+- [2026-10-21 17:50:05 UTC+8] a2afm seed=33 step=1600/15000 val_RMSE=0.21957 best=0.21390
+
+- [2026-10-21 17:50:05 UTC+8] a2afm seed=33 step=1700/15000 val_RMSE=0.20695 best=0.20695
+
+- [2026-10-21 17:50:06 UTC+8] a2afm seed=33 step=1800/15000 val_RMSE=0.20522 best=0.20522
+
+- [2026-10-21 17:50:06 UTC+8] a2afm seed=33 step=1900/15000 val_RMSE=0.19478 best=0.19478
+
+- [2026-10-21 17:50:06 UTC+8] a2afm seed=33 step=2000/15000 val_RMSE=0.18766 best=0.18766
+
+- [2026-10-21 17:50:07 UTC+8] a2afm seed=33 step=2100/15000 val_RMSE=0.19770 best=0.18766
+
+- [2026-10-21 17:50:07 UTC+8] a2afm seed=33 step=2200/15000 val_RMSE=0.18206 best=0.18206
+
+- [2026-10-21 17:50:07 UTC+8] a2afm seed=33 step=2300/15000 val_RMSE=0.20053 best=0.18206
+
+- [2026-10-21 17:50:07 UTC+8] a2afm seed=33 step=2400/15000 val_RMSE=0.19932 best=0.18206
+
+- [2026-10-21 17:50:08 UTC+8] a2afm seed=33 step=2500/15000 val_RMSE=0.20506 best=0.18206
+
+- [2026-10-21 17:50:08 UTC+8] a2afm seed=33 step=2600/15000 val_RMSE=0.20449 best=0.18206
+
+- [2026-10-21 17:50:08 UTC+8] a2afm seed=33 step=2700/15000 val_RMSE=0.18268 best=0.18206
+
+- [2026-10-21 17:50:09 UTC+8] a2afm seed=33 step=2800/15000 val_RMSE=0.20493 best=0.18206
+
+- [2026-10-21 17:50:09 UTC+8] a2afm seed=33 step=2900/15000 val_RMSE=0.17561 best=0.17561
+
+- [2026-10-21 17:50:09 UTC+8] a2afm seed=33 step=3000/15000 val_RMSE=0.18312 best=0.17561
+
+- [2026-10-21 17:50:10 UTC+8] a2afm seed=33 step=3100/15000 val_RMSE=0.17369 best=0.17369
+
+- [2026-10-21 17:50:10 UTC+8] a2afm seed=33 step=3200/15000 val_RMSE=0.18138 best=0.17369
+
+- [2026-10-21 17:50:10 UTC+8] a2afm seed=33 step=3300/15000 val_RMSE=0.17280 best=0.17280
+
+- [2026-10-21 17:50:11 UTC+8] a2afm seed=33 step=3400/15000 val_RMSE=0.17890 best=0.17280
+
+- [2026-10-21 17:50:11 UTC+8] a2afm seed=33 step=3500/15000 val_RMSE=0.19041 best=0.17280
+
+- [2026-10-21 17:50:11 UTC+8] a2afm seed=33 step=3600/15000 val_RMSE=0.17857 best=0.17280
+
+- [2026-10-21 17:50:12 UTC+8] a2afm seed=33 step=3700/15000 val_RMSE=0.16939 best=0.16939
+
+- [2026-10-21 17:50:12 UTC+8] a2afm seed=33 step=3800/15000 val_RMSE=0.16401 best=0.16401
+
+- [2026-10-21 17:50:12 UTC+8] a2afm seed=33 step=3900/15000 val_RMSE=0.15785 best=0.15785
+
+- [2026-10-21 17:50:12 UTC+8] a2afm seed=33 step=4000/15000 val_RMSE=0.15970 best=0.15785
+
+- [2026-10-21 17:50:13 UTC+8] a2afm seed=33 step=4100/15000 val_RMSE=0.16731 best=0.15785
+
+- [2026-10-21 17:50:13 UTC+8] a2afm seed=33 step=4200/15000 val_RMSE=0.16892 best=0.15785
+
+- [2026-10-21 17:50:13 UTC+8] a2afm seed=33 step=4300/15000 val_RMSE=0.19559 best=0.15785
+
+- [2026-10-21 17:50:14 UTC+8] a2afm seed=33 step=4400/15000 val_RMSE=0.16521 best=0.15785
+
+- [2026-10-21 17:50:14 UTC+8] a2afm seed=33 step=4500/15000 val_RMSE=0.16595 best=0.15785
+
+- [2026-10-21 17:50:14 UTC+8] a2afm seed=33 step=4600/15000 val_RMSE=0.15571 best=0.15571
+
+- [2026-10-21 17:50:15 UTC+8] a2afm seed=33 step=4700/15000 val_RMSE=0.15293 best=0.15293
+
+- [2026-10-21 17:50:15 UTC+8] a2afm seed=33 step=4800/15000 val_RMSE=0.17389 best=0.15293
+
+- [2026-10-21 17:50:15 UTC+8] a2afm seed=33 step=4900/15000 val_RMSE=0.16525 best=0.15293
+
+- [2026-10-21 17:50:16 UTC+8] a2afm seed=33 step=5000/15000 val_RMSE=0.15510 best=0.15293
+
+- [2026-10-21 17:50:16 UTC+8] a2afm seed=33 step=5100/15000 val_RMSE=0.17914 best=0.15293
+
+- [2026-10-21 17:50:16 UTC+8] a2afm seed=33 step=5200/15000 val_RMSE=0.14838 best=0.14838
+
+- [2026-10-21 17:50:16 UTC+8] a2afm seed=33 step=5300/15000 val_RMSE=0.16326 best=0.14838
+
+- [2026-10-21 17:50:17 UTC+8] a2afm seed=33 step=5400/15000 val_RMSE=0.15840 best=0.14838
+
+- [2026-10-21 17:50:17 UTC+8] a2afm seed=33 step=5500/15000 val_RMSE=0.16169 best=0.14838
+
+- [2026-10-21 17:50:17 UTC+8] a2afm seed=33 step=5600/15000 val_RMSE=0.16579 best=0.14838
+
+- [2026-10-21 17:50:18 UTC+8] a2afm seed=33 step=5700/15000 val_RMSE=0.15420 best=0.14838
+
+- [2026-10-21 17:50:18 UTC+8] a2afm seed=33 step=5800/15000 val_RMSE=0.14974 best=0.14838
+
+- [2026-10-21 17:50:18 UTC+8] a2afm seed=33 step=5900/15000 val_RMSE=0.14538 best=0.14538
+
+- [2026-10-21 17:50:19 UTC+8] a2afm seed=33 step=6000/15000 val_RMSE=0.15927 best=0.14538
+
+- [2026-10-21 17:50:19 UTC+8] a2afm seed=33 step=6100/15000 val_RMSE=0.15608 best=0.14538
+
+- [2026-10-21 17:50:19 UTC+8] a2afm seed=33 step=6200/15000 val_RMSE=0.15967 best=0.14538
+
+- [2026-10-21 17:50:19 UTC+8] a2afm seed=33 step=6300/15000 val_RMSE=0.14379 best=0.14379
+
+- [2026-10-21 17:50:20 UTC+8] a2afm seed=33 step=6400/15000 val_RMSE=0.14238 best=0.14238
+
+- [2026-10-21 17:50:20 UTC+8] a2afm seed=33 step=6500/15000 val_RMSE=0.14182 best=0.14182
+
+- [2026-10-21 17:50:20 UTC+8] a2afm seed=33 step=6600/15000 val_RMSE=0.15140 best=0.14182
+
+- [2026-10-21 17:50:21 UTC+8] a2afm seed=33 step=6700/15000 val_RMSE=0.15647 best=0.14182
+
+- [2026-10-21 17:50:21 UTC+8] a2afm seed=33 step=6800/15000 val_RMSE=0.16631 best=0.14182
+
+- [2026-10-21 17:50:21 UTC+8] a2afm seed=33 step=6900/15000 val_RMSE=0.18383 best=0.14182
+
+- [2026-10-21 17:50:22 UTC+8] a2afm seed=33 step=7000/15000 val_RMSE=0.14748 best=0.14182
+
+- [2026-10-21 17:50:22 UTC+8] a2afm seed=33 step=7100/15000 val_RMSE=0.13359 best=0.13359
+
+- [2026-10-21 17:50:22 UTC+8] a2afm seed=33 step=7200/15000 val_RMSE=0.13471 best=0.13359
+
+- [2026-10-21 17:50:23 UTC+8] a2afm seed=33 step=7300/15000 val_RMSE=0.15916 best=0.13359
+
+- [2026-10-21 17:50:23 UTC+8] a2afm seed=33 step=7400/15000 val_RMSE=0.14452 best=0.13359
+
+- [2026-10-21 17:50:23 UTC+8] a2afm seed=33 step=7500/15000 val_RMSE=0.14685 best=0.13359
+
+- [2026-10-21 17:50:23 UTC+8] a2afm seed=33 step=7600/15000 val_RMSE=0.14352 best=0.13359
+
+- [2026-10-21 17:50:24 UTC+8] a2afm seed=33 step=7700/15000 val_RMSE=0.15384 best=0.13359
+
+- [2026-10-21 17:51:29 UTC+8] 单步混合实验开始：CPU，训练轨迹=360，每模型更新=15000
+
+- [2026-10-21 17:52:14 UTC+8] 混合数据完成：训练窗口=136080，验证窗口=17010
+
+- [2026-10-21 17:52:14 UTC+8] 恢复 a2afm seed=33，训练步数 7700
+
+- [2026-10-21 17:52:14 UTC+8] a2afm seed=33 step=7800/15000 val_RMSE=0.13996 best=0.13359
+
+- [2026-10-21 17:52:15 UTC+8] a2afm seed=33 step=7900/15000 val_RMSE=0.15012 best=0.13359
+
+- [2026-10-21 17:52:15 UTC+8] a2afm seed=33 step=8000/15000 val_RMSE=0.14358 best=0.13359
+
+- [2026-10-21 17:52:15 UTC+8] a2afm seed=33 step=8100/15000 val_RMSE=0.18706 best=0.13359
+
+- [2026-10-21 17:52:15 UTC+8] a2afm seed=33 step=8200/15000 val_RMSE=0.13310 best=0.13310
+
+- [2026-10-21 17:52:15 UTC+8] a2afm seed=33 step=8300/15000 val_RMSE=0.13922 best=0.13310
+
+- [2026-10-21 17:52:16 UTC+8] a2afm seed=33 step=8400/15000 val_RMSE=0.14430 best=0.13310
+
+- [2026-10-21 17:52:16 UTC+8] a2afm seed=33 step=8500/15000 val_RMSE=0.15723 best=0.13310
+
+- [2026-10-21 17:52:16 UTC+8] a2afm seed=33 step=8600/15000 val_RMSE=0.15321 best=0.13310
+
+- [2026-10-21 17:52:16 UTC+8] a2afm seed=33 step=8700/15000 val_RMSE=0.14092 best=0.13310
+
+- [2026-10-21 17:52:16 UTC+8] a2afm seed=33 step=8800/15000 val_RMSE=0.12927 best=0.12927
+
+- [2026-10-21 17:52:17 UTC+8] a2afm seed=33 step=8900/15000 val_RMSE=0.12620 best=0.12620
+
+- [2026-10-21 17:52:17 UTC+8] a2afm seed=33 step=9000/15000 val_RMSE=0.14450 best=0.12620
+
+- [2026-10-21 17:52:17 UTC+8] a2afm seed=33 step=9100/15000 val_RMSE=0.14200 best=0.12620
+
+- [2026-10-21 17:52:17 UTC+8] a2afm seed=33 step=9200/15000 val_RMSE=0.13388 best=0.12620
+
+- [2026-10-21 17:52:18 UTC+8] a2afm seed=33 step=9300/15000 val_RMSE=0.15936 best=0.12620
+
+- [2026-10-21 17:52:18 UTC+8] a2afm seed=33 step=9400/15000 val_RMSE=0.15255 best=0.12620
+
+- [2026-10-21 17:52:18 UTC+8] a2afm seed=33 step=9500/15000 val_RMSE=0.13935 best=0.12620
+
+- [2026-10-21 17:52:18 UTC+8] a2afm seed=33 step=9600/15000 val_RMSE=0.13782 best=0.12620
+
+- [2026-10-21 17:52:18 UTC+8] a2afm seed=33 step=9700/15000 val_RMSE=0.13741 best=0.12620
+
+- [2026-10-21 17:52:19 UTC+8] a2afm seed=33 step=9800/15000 val_RMSE=0.12694 best=0.12620
+
+- [2026-10-21 17:52:19 UTC+8] a2afm seed=33 step=9900/15000 val_RMSE=0.15590 best=0.12620
+
+- [2026-10-21 17:52:19 UTC+8] a2afm seed=33 step=10000/15000 val_RMSE=0.14144 best=0.12620
+
+- [2026-10-21 17:52:19 UTC+8] a2afm seed=33 step=10100/15000 val_RMSE=0.13129 best=0.12620
+
+- [2026-10-21 17:52:19 UTC+8] a2afm seed=33 step=10200/15000 val_RMSE=0.13220 best=0.12620
+
+- [2026-10-21 17:52:20 UTC+8] a2afm seed=33 step=10300/15000 val_RMSE=0.13600 best=0.12620
+
+- [2026-10-21 17:52:20 UTC+8] a2afm seed=33 step=10400/15000 val_RMSE=0.12483 best=0.12483
+
+- [2026-10-21 17:52:20 UTC+8] a2afm seed=33 step=10500/15000 val_RMSE=0.13376 best=0.12483
+
+- [2026-10-21 17:52:20 UTC+8] a2afm seed=33 step=10600/15000 val_RMSE=0.17761 best=0.12483
+
+- [2026-10-21 17:52:21 UTC+8] a2afm seed=33 step=10700/15000 val_RMSE=0.13983 best=0.12483
+
+- [2026-10-21 17:52:21 UTC+8] a2afm seed=33 step=10800/15000 val_RMSE=0.13022 best=0.12483
+
+- [2026-10-21 17:52:21 UTC+8] a2afm seed=33 step=10900/15000 val_RMSE=0.13872 best=0.12483
+
+- [2026-10-21 17:52:21 UTC+8] a2afm seed=33 step=11000/15000 val_RMSE=0.12821 best=0.12483
+
+- [2026-10-21 17:52:21 UTC+8] a2afm seed=33 step=11100/15000 val_RMSE=0.12678 best=0.12483
+
+- [2026-10-21 17:52:22 UTC+8] a2afm seed=33 step=11200/15000 val_RMSE=0.14680 best=0.12483
+
+- [2026-10-21 17:52:22 UTC+8] a2afm seed=33 step=11300/15000 val_RMSE=0.14806 best=0.12483
+
+- [2026-10-21 17:52:22 UTC+8] a2afm seed=33 step=11400/15000 val_RMSE=0.14227 best=0.12483
+
+- [2026-10-21 17:52:22 UTC+8] a2afm seed=33 step=11500/15000 val_RMSE=0.13405 best=0.12483
+
+- [2026-10-21 17:52:22 UTC+8] a2afm seed=33 step=11600/15000 val_RMSE=0.13047 best=0.12483
+
+- [2026-10-21 17:52:23 UTC+8] a2afm seed=33 step=11700/15000 val_RMSE=0.14681 best=0.12483
+
+- [2026-10-21 17:52:23 UTC+8] a2afm seed=33 step=11800/15000 val_RMSE=0.12791 best=0.12483
+
+- [2026-10-21 17:52:23 UTC+8] a2afm seed=33 step=11900/15000 val_RMSE=0.16757 best=0.12483
+
+- [2026-10-21 17:52:23 UTC+8] a2afm seed=33 step=12000/15000 val_RMSE=0.14075 best=0.12483
+
+- [2026-10-21 17:52:24 UTC+8] a2afm seed=33 step=12100/15000 val_RMSE=0.14377 best=0.12483
+
+- [2026-10-21 17:52:24 UTC+8] a2afm seed=33 step=12200/15000 val_RMSE=0.13300 best=0.12483
+
+- [2026-10-21 17:52:24 UTC+8] a2afm seed=33 step=12300/15000 val_RMSE=0.12927 best=0.12483
+
+- [2026-10-21 17:55:44 UTC+8] 单步混合实验开始：CPU，训练轨迹=360，每模型更新=15000
+
+- [2026-10-21 17:56:29 UTC+8] 混合数据完成：训练窗口=136080，验证窗口=17010
+
+- [2026-10-21 17:56:29 UTC+8] 恢复 a2afm seed=33，训练步数 12300
+
+- [2026-10-21 17:56:30 UTC+8] a2afm seed=33 step=12400/15000 val_RMSE=0.12718 best=0.12483
+
+- [2026-10-21 17:56:30 UTC+8] a2afm seed=33 step=12500/15000 val_RMSE=0.14981 best=0.12483
+
+- [2026-10-21 17:56:30 UTC+8] a2afm seed=33 step=12600/15000 val_RMSE=0.14481 best=0.12483
+
+- [2026-10-21 17:56:30 UTC+8] a2afm seed=33 step=12700/15000 val_RMSE=0.13604 best=0.12483
+
+- [2026-10-21 17:56:30 UTC+8] a2afm seed=33 step=12800/15000 val_RMSE=0.12795 best=0.12483
+
+- [2026-10-21 17:56:31 UTC+8] a2afm seed=33 step=12900/15000 val_RMSE=0.14467 best=0.12483
+
+- [2026-10-21 17:56:31 UTC+8] a2afm seed=33 step=13000/15000 val_RMSE=0.13850 best=0.12483
+
+- [2026-10-21 17:56:31 UTC+8] a2afm seed=33 step=13100/15000 val_RMSE=0.13171 best=0.12483
+
+- [2026-10-21 17:56:31 UTC+8] a2afm seed=33 step=13200/15000 val_RMSE=0.13515 best=0.12483
+
+- [2026-10-21 17:56:32 UTC+8] a2afm seed=33 step=13300/15000 val_RMSE=0.15241 best=0.12483
+
+- [2026-10-21 17:56:32 UTC+8] a2afm seed=33 step=13400/15000 val_RMSE=0.12264 best=0.12264
+
+- [2026-10-21 17:56:32 UTC+8] a2afm seed=33 step=13500/15000 val_RMSE=0.13015 best=0.12264
+
+- [2026-10-21 17:56:32 UTC+8] a2afm seed=33 step=13600/15000 val_RMSE=0.14484 best=0.12264
+
+- [2026-10-21 17:56:32 UTC+8] a2afm seed=33 step=13700/15000 val_RMSE=0.13731 best=0.12264
+
+- [2026-10-21 17:56:33 UTC+8] a2afm seed=33 step=13800/15000 val_RMSE=0.12767 best=0.12264
+
+- [2026-10-21 17:56:33 UTC+8] a2afm seed=33 step=13900/15000 val_RMSE=0.13347 best=0.12264
+
+- [2026-10-21 17:56:33 UTC+8] a2afm seed=33 step=14000/15000 val_RMSE=0.12815 best=0.12264
+
+- [2026-10-21 17:56:33 UTC+8] a2afm seed=33 step=14100/15000 val_RMSE=0.16003 best=0.12264
+
+- [2026-10-21 17:56:33 UTC+8] a2afm seed=33 step=14200/15000 val_RMSE=0.12413 best=0.12264
+
+- [2026-10-21 17:56:34 UTC+8] a2afm seed=33 step=14300/15000 val_RMSE=0.15493 best=0.12264
+
+- [2026-10-21 17:56:34 UTC+8] a2afm seed=33 step=14400/15000 val_RMSE=0.12317 best=0.12264
+
+- [2026-10-21 17:56:34 UTC+8] a2afm seed=33 step=14500/15000 val_RMSE=0.14572 best=0.12264
+
+- [2026-10-21 17:56:34 UTC+8] a2afm seed=33 step=14600/15000 val_RMSE=0.13380 best=0.12264
+
+- [2026-10-21 17:56:35 UTC+8] a2afm seed=33 step=14700/15000 val_RMSE=0.12664 best=0.12264
+
+- [2026-10-21 17:56:35 UTC+8] a2afm seed=33 step=14800/15000 val_RMSE=0.12275 best=0.12264
+
+- [2026-10-21 17:56:35 UTC+8] a2afm seed=33 step=14900/15000 val_RMSE=0.13326 best=0.12264
+
+- [2026-10-21 17:56:35 UTC+8] a2afm seed=33 step=15000/15000 val_RMSE=0.13948 best=0.12264
+
+- [2026-10-21 17:56:35 UTC+8] 完成 a2afm seed=33，本轮耗时 5.8 s，选择验证最优 step=13400
+
+- [2026-10-21 17:56:36 UTC+8] a2afm seed=11 step=100/15000 val_RMSE=0.26641 best=0.26641
+
+- [2026-10-21 17:56:37 UTC+8] a2afm seed=11 step=200/15000 val_RMSE=0.24802 best=0.24802
+
+- [2026-10-21 17:56:37 UTC+8] a2afm seed=11 step=300/15000 val_RMSE=0.24499 best=0.24499
+
+- [2026-10-21 17:56:38 UTC+8] a2afm seed=11 step=400/15000 val_RMSE=0.24892 best=0.24499
+
+- [2026-10-21 17:56:39 UTC+8] a2afm seed=11 step=500/15000 val_RMSE=0.24596 best=0.24499
+
+- [2026-10-21 17:56:39 UTC+8] a2afm seed=11 step=600/15000 val_RMSE=0.22752 best=0.22752
+
+- [2026-10-21 17:56:40 UTC+8] a2afm seed=11 step=700/15000 val_RMSE=0.22683 best=0.22683
+
+- [2026-10-21 17:56:41 UTC+8] a2afm seed=11 step=800/15000 val_RMSE=0.22031 best=0.22031
+
+- [2026-10-21 17:56:42 UTC+8] a2afm seed=11 step=900/15000 val_RMSE=0.21933 best=0.21933
+
+- [2026-10-21 17:56:42 UTC+8] a2afm seed=11 step=1000/15000 val_RMSE=0.21586 best=0.21586
+
+- [2026-10-21 17:56:43 UTC+8] a2afm seed=11 step=1100/15000 val_RMSE=0.22284 best=0.21586
+
+- [2026-10-21 17:56:44 UTC+8] a2afm seed=11 step=1200/15000 val_RMSE=0.19899 best=0.19899
+
+- [2026-10-21 17:56:44 UTC+8] a2afm seed=11 step=1300/15000 val_RMSE=0.20554 best=0.19899
+
+- [2026-10-21 17:56:45 UTC+8] a2afm seed=11 step=1400/15000 val_RMSE=0.20104 best=0.19899
+
+- [2026-10-21 17:56:46 UTC+8] a2afm seed=11 step=1500/15000 val_RMSE=0.20686 best=0.19899
+
+- [2026-10-21 17:56:46 UTC+8] a2afm seed=11 step=1600/15000 val_RMSE=0.18696 best=0.18696
+
+- [2026-10-21 17:56:47 UTC+8] a2afm seed=11 step=1700/15000 val_RMSE=0.19128 best=0.18696
+
+- [2026-10-21 17:56:48 UTC+8] a2afm seed=11 step=1800/15000 val_RMSE=0.18188 best=0.18188
+
+- [2026-10-21 17:56:48 UTC+8] a2afm seed=11 step=1900/15000 val_RMSE=0.19152 best=0.18188
+
+- [2026-10-21 17:56:49 UTC+8] a2afm seed=11 step=2000/15000 val_RMSE=0.21868 best=0.18188
+
+- [2026-10-21 17:56:50 UTC+8] a2afm seed=11 step=2100/15000 val_RMSE=0.18536 best=0.18188
+
+- [2026-10-21 17:56:51 UTC+8] a2afm seed=11 step=2200/15000 val_RMSE=0.17983 best=0.17983
+
+- [2026-10-21 17:56:51 UTC+8] a2afm seed=11 step=2300/15000 val_RMSE=0.18591 best=0.17983
+
+- [2026-10-21 17:56:52 UTC+8] a2afm seed=11 step=2400/15000 val_RMSE=0.18101 best=0.17983
+
+- [2026-10-21 17:56:53 UTC+8] a2afm seed=11 step=2500/15000 val_RMSE=0.17447 best=0.17447
+
+- [2026-10-21 17:56:53 UTC+8] a2afm seed=11 step=2600/15000 val_RMSE=0.17738 best=0.17447
+
+- [2026-10-21 17:56:54 UTC+8] a2afm seed=11 step=2700/15000 val_RMSE=0.18266 best=0.17447
+
+- [2026-10-21 17:56:55 UTC+8] a2afm seed=11 step=2800/15000 val_RMSE=0.16710 best=0.16710
+
+- [2026-10-21 17:56:56 UTC+8] a2afm seed=11 step=2900/15000 val_RMSE=0.16729 best=0.16710
+
+- [2026-10-21 17:56:56 UTC+8] a2afm seed=11 step=3000/15000 val_RMSE=0.16905 best=0.16710
+
+- [2026-10-21 17:56:57 UTC+8] a2afm seed=11 step=3100/15000 val_RMSE=0.16430 best=0.16430
+
+- [2026-10-21 17:56:58 UTC+8] a2afm seed=11 step=3200/15000 val_RMSE=0.16540 best=0.16430
+
+- [2026-10-21 17:56:58 UTC+8] a2afm seed=11 step=3300/15000 val_RMSE=0.19718 best=0.16430
+
+- [2026-10-21 17:56:59 UTC+8] a2afm seed=11 step=3400/15000 val_RMSE=0.19034 best=0.16430
+
+- [2026-10-21 17:57:00 UTC+8] a2afm seed=11 step=3500/15000 val_RMSE=0.17150 best=0.16430
+
+- [2026-10-21 17:57:00 UTC+8] a2afm seed=11 step=3600/15000 val_RMSE=0.15865 best=0.15865
+
+- [2026-10-21 17:57:01 UTC+8] a2afm seed=11 step=3700/15000 val_RMSE=0.18289 best=0.15865
+
+- [2026-10-21 17:57:02 UTC+8] a2afm seed=11 step=3800/15000 val_RMSE=0.17495 best=0.15865
+
+- [2026-10-21 17:57:02 UTC+8] a2afm seed=11 step=3900/15000 val_RMSE=0.15132 best=0.15132
+
+- [2026-10-21 17:57:03 UTC+8] a2afm seed=11 step=4000/15000 val_RMSE=0.15843 best=0.15132
+
+- [2026-10-21 17:57:04 UTC+8] a2afm seed=11 step=4100/15000 val_RMSE=0.18118 best=0.15132
+
+- [2026-10-21 17:57:05 UTC+8] a2afm seed=11 step=4200/15000 val_RMSE=0.16086 best=0.15132
+
+- [2026-10-21 17:57:05 UTC+8] a2afm seed=11 step=4300/15000 val_RMSE=0.15751 best=0.15132
+
+- [2026-10-21 17:57:06 UTC+8] a2afm seed=11 step=4400/15000 val_RMSE=0.15603 best=0.15132
+
+- [2026-10-21 17:57:07 UTC+8] a2afm seed=11 step=4500/15000 val_RMSE=0.16748 best=0.15132
+
+- [2026-10-21 17:57:07 UTC+8] a2afm seed=11 step=4600/15000 val_RMSE=0.15377 best=0.15132
+
+- [2026-10-21 17:57:08 UTC+8] a2afm seed=11 step=4700/15000 val_RMSE=0.14998 best=0.14998
+
+- [2026-10-21 17:57:09 UTC+8] a2afm seed=11 step=4800/15000 val_RMSE=0.15425 best=0.14998
+
+- [2026-10-21 17:57:10 UTC+8] a2afm seed=11 step=4900/15000 val_RMSE=0.14851 best=0.14851
+
+- [2026-10-21 17:57:10 UTC+8] a2afm seed=11 step=5000/15000 val_RMSE=0.18427 best=0.14851
+
+- [2026-10-21 17:57:11 UTC+8] a2afm seed=11 step=5100/15000 val_RMSE=0.15573 best=0.14851
+
+- [2026-10-21 17:57:12 UTC+8] a2afm seed=11 step=5200/15000 val_RMSE=0.16775 best=0.14851
+
+- [2026-10-21 17:57:12 UTC+8] a2afm seed=11 step=5300/15000 val_RMSE=0.14268 best=0.14268
+
+- [2026-10-21 17:57:13 UTC+8] a2afm seed=11 step=5400/15000 val_RMSE=0.16107 best=0.14268
+
+- [2026-10-21 17:57:14 UTC+8] a2afm seed=11 step=5500/15000 val_RMSE=0.14856 best=0.14268
+
+- [2026-10-21 17:57:14 UTC+8] a2afm seed=11 step=5600/15000 val_RMSE=0.14772 best=0.14268
+
+- [2026-10-21 17:57:15 UTC+8] a2afm seed=11 step=5700/15000 val_RMSE=0.15403 best=0.14268
+
+- [2026-10-21 17:57:16 UTC+8] a2afm seed=11 step=5800/15000 val_RMSE=0.13818 best=0.13818
+
+- [2026-10-21 17:57:17 UTC+8] a2afm seed=11 step=5900/15000 val_RMSE=0.16916 best=0.13818
+
+- [2026-10-21 17:57:17 UTC+8] a2afm seed=11 step=6000/15000 val_RMSE=0.15434 best=0.13818
+
+- [2026-10-21 17:57:18 UTC+8] a2afm seed=11 step=6100/15000 val_RMSE=0.14024 best=0.13818
+
+- [2026-10-21 17:57:19 UTC+8] a2afm seed=11 step=6200/15000 val_RMSE=0.14851 best=0.13818
+
+- [2026-10-21 17:57:19 UTC+8] a2afm seed=11 step=6300/15000 val_RMSE=0.15472 best=0.13818
+
+- [2026-10-21 17:57:20 UTC+8] a2afm seed=11 step=6400/15000 val_RMSE=0.15523 best=0.13818
+
+- [2026-10-21 17:57:21 UTC+8] a2afm seed=11 step=6500/15000 val_RMSE=0.14975 best=0.13818
+
+- [2026-10-21 17:57:21 UTC+8] a2afm seed=11 step=6600/15000 val_RMSE=0.16052 best=0.13818
+
+- [2026-10-21 17:57:22 UTC+8] a2afm seed=11 step=6700/15000 val_RMSE=0.14701 best=0.13818
+
+- [2026-10-21 17:57:23 UTC+8] a2afm seed=11 step=6800/15000 val_RMSE=0.14939 best=0.13818
+
+- [2026-10-21 17:57:24 UTC+8] a2afm seed=11 step=6900/15000 val_RMSE=0.14507 best=0.13818
+
+- [2026-10-21 17:57:24 UTC+8] a2afm seed=11 step=7000/15000 val_RMSE=0.14200 best=0.13818
+
+- [2026-10-21 17:57:25 UTC+8] a2afm seed=11 step=7100/15000 val_RMSE=0.13750 best=0.13750
+
+- [2026-10-21 17:57:26 UTC+8] a2afm seed=11 step=7200/15000 val_RMSE=0.17037 best=0.13750
+
+- [2026-10-21 17:57:26 UTC+8] a2afm seed=11 step=7300/15000 val_RMSE=0.14915 best=0.13750
+
+- [2026-10-21 17:57:27 UTC+8] a2afm seed=11 step=7400/15000 val_RMSE=0.13416 best=0.13416
+
+- [2026-10-21 17:57:28 UTC+8] a2afm seed=11 step=7500/15000 val_RMSE=0.13720 best=0.13416
+
+- [2026-10-21 17:57:28 UTC+8] a2afm seed=11 step=7600/15000 val_RMSE=0.14576 best=0.13416
+
+- [2026-10-21 17:57:29 UTC+8] a2afm seed=11 step=7700/15000 val_RMSE=0.15234 best=0.13416
+
+- [2026-10-21 17:57:30 UTC+8] a2afm seed=11 step=7800/15000 val_RMSE=0.14855 best=0.13416
+
+- [2026-10-21 17:57:31 UTC+8] a2afm seed=11 step=7900/15000 val_RMSE=0.12978 best=0.12978
+
+- [2026-10-21 17:57:31 UTC+8] a2afm seed=11 step=8000/15000 val_RMSE=0.12937 best=0.12937
+
+- [2026-10-21 17:57:32 UTC+8] a2afm seed=11 step=8100/15000 val_RMSE=0.14369 best=0.12937
+
+- [2026-10-21 17:57:33 UTC+8] a2afm seed=11 step=8200/15000 val_RMSE=0.12726 best=0.12726
+
+- [2026-10-21 17:57:33 UTC+8] a2afm seed=11 step=8300/15000 val_RMSE=0.12918 best=0.12726
+
+- [2026-10-21 17:57:34 UTC+8] a2afm seed=11 step=8400/15000 val_RMSE=0.14216 best=0.12726
+
+- [2026-10-21 17:57:35 UTC+8] a2afm seed=11 step=8500/15000 val_RMSE=0.13928 best=0.12726
+
+- [2026-10-21 17:57:35 UTC+8] a2afm seed=11 step=8600/15000 val_RMSE=0.13669 best=0.12726
+
+- [2026-10-21 17:57:36 UTC+8] a2afm seed=11 step=8700/15000 val_RMSE=0.14107 best=0.12726
+
+- [2026-10-21 17:57:37 UTC+8] a2afm seed=11 step=8800/15000 val_RMSE=0.13282 best=0.12726
+
+- [2026-10-21 17:57:38 UTC+8] a2afm seed=11 step=8900/15000 val_RMSE=0.15150 best=0.12726
+
+- [2026-10-21 17:57:38 UTC+8] a2afm seed=11 step=9000/15000 val_RMSE=0.15059 best=0.12726
+
+- [2026-10-21 17:57:39 UTC+8] a2afm seed=11 step=9100/15000 val_RMSE=0.15198 best=0.12726
+
+- [2026-10-21 17:57:40 UTC+8] a2afm seed=11 step=9200/15000 val_RMSE=0.14157 best=0.12726
+
+- [2026-10-21 17:57:40 UTC+8] a2afm seed=11 step=9300/15000 val_RMSE=0.13655 best=0.12726
+
+- [2026-10-21 17:57:41 UTC+8] a2afm seed=11 step=9400/15000 val_RMSE=0.15482 best=0.12726
+
+- [2026-10-21 17:57:42 UTC+8] a2afm seed=11 step=9500/15000 val_RMSE=0.15351 best=0.12726
+
+- [2026-10-21 17:57:42 UTC+8] a2afm seed=11 step=9600/15000 val_RMSE=0.13648 best=0.12726
+
+- [2026-10-21 17:57:43 UTC+8] a2afm seed=11 step=9700/15000 val_RMSE=0.12999 best=0.12726
+
+- [2026-10-21 17:57:44 UTC+8] a2afm seed=11 step=9800/15000 val_RMSE=0.13647 best=0.12726
+
+- [2026-10-21 17:57:45 UTC+8] a2afm seed=11 step=9900/15000 val_RMSE=0.17805 best=0.12726
+
+- [2026-10-21 17:57:45 UTC+8] a2afm seed=11 step=10000/15000 val_RMSE=0.13354 best=0.12726
+
+- [2026-10-21 17:57:46 UTC+8] a2afm seed=11 step=10100/15000 val_RMSE=0.12741 best=0.12726
+
+- [2026-10-21 17:57:47 UTC+8] a2afm seed=11 step=10200/15000 val_RMSE=0.12592 best=0.12592
+
+- [2026-10-21 17:57:47 UTC+8] a2afm seed=11 step=10300/15000 val_RMSE=0.13848 best=0.12592
+
+- [2026-10-21 17:57:48 UTC+8] a2afm seed=11 step=10400/15000 val_RMSE=0.12804 best=0.12592
+
+- [2026-10-21 17:57:49 UTC+8] a2afm seed=11 step=10500/15000 val_RMSE=0.13589 best=0.12592
+
+- [2026-10-21 17:57:49 UTC+8] a2afm seed=11 step=10600/15000 val_RMSE=0.14825 best=0.12592
+
+- [2026-10-21 17:57:50 UTC+8] a2afm seed=11 step=10700/15000 val_RMSE=0.12983 best=0.12592
+
+- [2026-10-21 17:57:51 UTC+8] a2afm seed=11 step=10800/15000 val_RMSE=0.14903 best=0.12592
+
+- [2026-10-21 17:57:52 UTC+8] a2afm seed=11 step=10900/15000 val_RMSE=0.13054 best=0.12592
+
+- [2026-10-21 17:57:52 UTC+8] a2afm seed=11 step=11000/15000 val_RMSE=0.14508 best=0.12592
+
+- [2026-10-21 17:57:53 UTC+8] a2afm seed=11 step=11100/15000 val_RMSE=0.13361 best=0.12592
+
+- [2026-10-21 17:57:54 UTC+8] a2afm seed=11 step=11200/15000 val_RMSE=0.14386 best=0.12592
+
+- [2026-10-21 17:57:54 UTC+8] a2afm seed=11 step=11300/15000 val_RMSE=0.14008 best=0.12592
+
+- [2026-10-21 17:57:55 UTC+8] a2afm seed=11 step=11400/15000 val_RMSE=0.14115 best=0.12592
+
+- [2026-10-21 17:57:56 UTC+8] a2afm seed=11 step=11500/15000 val_RMSE=0.14699 best=0.12592
+
+- [2026-10-21 17:57:56 UTC+8] a2afm seed=11 step=11600/15000 val_RMSE=0.12694 best=0.12592
+
+- [2026-10-21 17:57:57 UTC+8] a2afm seed=11 step=11700/15000 val_RMSE=0.15352 best=0.12592
+
+- [2026-10-21 17:57:58 UTC+8] a2afm seed=11 step=11800/15000 val_RMSE=0.12210 best=0.12210
+
+- [2026-10-21 17:57:59 UTC+8] a2afm seed=11 step=11900/15000 val_RMSE=0.13872 best=0.12210
+
+- [2026-10-21 17:57:59 UTC+8] a2afm seed=11 step=12000/15000 val_RMSE=0.14194 best=0.12210
+
+- [2026-10-21 17:58:00 UTC+8] a2afm seed=11 step=12100/15000 val_RMSE=0.12010 best=0.12010
+
+- [2026-10-21 17:58:01 UTC+8] a2afm seed=11 step=12200/15000 val_RMSE=0.15872 best=0.12010
+
+- [2026-10-21 17:58:01 UTC+8] a2afm seed=11 step=12300/15000 val_RMSE=0.12816 best=0.12010
+
+- [2026-10-21 17:58:02 UTC+8] a2afm seed=11 step=12400/15000 val_RMSE=0.12420 best=0.12010
+
+- [2026-10-21 17:58:03 UTC+8] a2afm seed=11 step=12500/15000 val_RMSE=0.12513 best=0.12010
+
+- [2026-10-21 17:58:04 UTC+8] a2afm seed=11 step=12600/15000 val_RMSE=0.12688 best=0.12010
+
+- [2026-10-21 17:58:04 UTC+8] a2afm seed=11 step=12700/15000 val_RMSE=0.13288 best=0.12010
+
+- [2026-10-21 17:58:05 UTC+8] a2afm seed=11 step=12800/15000 val_RMSE=0.13391 best=0.12010
+
+- [2026-10-21 17:58:06 UTC+8] a2afm seed=11 step=12900/15000 val_RMSE=0.13120 best=0.12010
+
+- [2026-10-21 17:58:06 UTC+8] a2afm seed=11 step=13000/15000 val_RMSE=0.12362 best=0.12010
+
+- [2026-10-21 17:58:07 UTC+8] a2afm seed=11 step=13100/15000 val_RMSE=0.14056 best=0.12010
+
+- [2026-10-21 17:58:08 UTC+8] a2afm seed=11 step=13200/15000 val_RMSE=0.15369 best=0.12010
+
+- [2026-10-21 17:58:08 UTC+8] a2afm seed=11 step=13300/15000 val_RMSE=0.16224 best=0.12010
+
+- [2026-10-21 17:58:09 UTC+8] a2afm seed=11 step=13400/15000 val_RMSE=0.11987 best=0.11987
+
+- [2026-10-21 17:58:10 UTC+8] a2afm seed=11 step=13500/15000 val_RMSE=0.11979 best=0.11979
+
+- [2026-10-21 17:58:11 UTC+8] a2afm seed=11 step=13600/15000 val_RMSE=0.13982 best=0.11979
+
+- [2026-10-21 17:58:11 UTC+8] a2afm seed=11 step=13700/15000 val_RMSE=0.12736 best=0.11979
+
+- [2026-10-21 17:58:12 UTC+8] a2afm seed=11 step=13800/15000 val_RMSE=0.13166 best=0.11979
+
+- [2026-10-21 17:58:13 UTC+8] a2afm seed=11 step=13900/15000 val_RMSE=0.14021 best=0.11979
+
+- [2026-10-21 17:58:13 UTC+8] a2afm seed=11 step=14000/15000 val_RMSE=0.12831 best=0.11979
+
+- [2026-10-21 17:58:14 UTC+8] a2afm seed=11 step=14100/15000 val_RMSE=0.14633 best=0.11979
+
+- [2026-10-21 17:58:15 UTC+8] a2afm seed=11 step=14200/15000 val_RMSE=0.12328 best=0.11979
+
+- [2026-10-21 17:58:15 UTC+8] a2afm seed=11 step=14300/15000 val_RMSE=0.13217 best=0.11979
+
+- [2026-10-21 17:58:16 UTC+8] a2afm seed=11 step=14400/15000 val_RMSE=0.13019 best=0.11979
+
+- [2026-10-21 17:58:17 UTC+8] a2afm seed=11 step=14500/15000 val_RMSE=0.13749 best=0.11979
+
+- [2026-10-21 17:58:18 UTC+8] a2afm seed=11 step=14600/15000 val_RMSE=0.13252 best=0.11979
+
+- [2026-10-21 17:58:18 UTC+8] a2afm seed=11 step=14700/15000 val_RMSE=0.12986 best=0.11979
+
+- [2026-10-21 17:58:19 UTC+8] a2afm seed=11 step=14800/15000 val_RMSE=0.14128 best=0.11979
+
+- [2026-10-21 17:58:20 UTC+8] a2afm seed=11 step=14900/15000 val_RMSE=0.12902 best=0.11979
+
+- [2026-10-21 17:58:20 UTC+8] a2afm seed=11 step=15000/15000 val_RMSE=0.14158 best=0.11979
+
+- [2026-10-21 17:58:20 UTC+8] 完成 a2afm seed=11，本轮耗时 105.1 s，选择验证最优 step=13500
+
+- [2026-10-21 17:58:21 UTC+8] a2afm seed=22 step=100/15000 val_RMSE=0.27555 best=0.27555
+
+- [2026-10-21 17:58:22 UTC+8] a2afm seed=22 step=200/15000 val_RMSE=0.24783 best=0.24783
+
+- [2026-10-21 17:58:23 UTC+8] a2afm seed=22 step=300/15000 val_RMSE=0.24328 best=0.24328
+
+- [2026-10-21 17:58:23 UTC+8] a2afm seed=22 step=400/15000 val_RMSE=0.24773 best=0.24328
+
+- [2026-10-21 17:58:24 UTC+8] a2afm seed=22 step=500/15000 val_RMSE=0.23199 best=0.23199
+
+- [2026-10-21 17:58:25 UTC+8] a2afm seed=22 step=600/15000 val_RMSE=0.22985 best=0.22985
+
+- [2026-10-21 17:58:25 UTC+8] a2afm seed=22 step=700/15000 val_RMSE=0.23428 best=0.22985
+
+- [2026-10-21 17:58:26 UTC+8] a2afm seed=22 step=800/15000 val_RMSE=0.22889 best=0.22889
+
+- [2026-10-21 17:58:27 UTC+8] a2afm seed=22 step=900/15000 val_RMSE=0.21022 best=0.21022
+
+- [2026-10-21 17:58:27 UTC+8] a2afm seed=22 step=1000/15000 val_RMSE=0.20933 best=0.20933
+
+- [2026-10-21 17:58:28 UTC+8] a2afm seed=22 step=1100/15000 val_RMSE=0.19802 best=0.19802
+
+- [2026-10-21 17:58:29 UTC+8] a2afm seed=22 step=1200/15000 val_RMSE=0.22584 best=0.19802
+
+- [2026-10-21 17:58:30 UTC+8] a2afm seed=22 step=1300/15000 val_RMSE=0.21294 best=0.19802
+
+- [2026-10-21 17:58:30 UTC+8] a2afm seed=22 step=1400/15000 val_RMSE=0.19777 best=0.19777
+
+- [2026-10-21 17:58:31 UTC+8] a2afm seed=22 step=1500/15000 val_RMSE=0.19676 best=0.19676
+
+- [2026-10-21 17:58:32 UTC+8] a2afm seed=22 step=1600/15000 val_RMSE=0.21371 best=0.19676
+
+- [2026-10-21 17:58:32 UTC+8] a2afm seed=22 step=1700/15000 val_RMSE=0.20076 best=0.19676
+
+- [2026-10-21 17:58:33 UTC+8] a2afm seed=22 step=1800/15000 val_RMSE=0.18836 best=0.18836
+
+- [2026-10-21 17:58:34 UTC+8] a2afm seed=22 step=1900/15000 val_RMSE=0.18915 best=0.18836
+
+- [2026-10-21 17:58:34 UTC+8] a2afm seed=22 step=2000/15000 val_RMSE=0.19581 best=0.18836
+
+- [2026-10-21 17:58:35 UTC+8] a2afm seed=22 step=2100/15000 val_RMSE=0.18007 best=0.18007
+
+- [2026-10-21 17:58:36 UTC+8] a2afm seed=22 step=2200/15000 val_RMSE=0.20649 best=0.18007
+
+- [2026-10-21 17:58:37 UTC+8] a2afm seed=22 step=2300/15000 val_RMSE=0.17566 best=0.17566
+
+- [2026-10-21 17:58:37 UTC+8] a2afm seed=22 step=2400/15000 val_RMSE=0.18601 best=0.17566
+
+- [2026-10-21 17:58:38 UTC+8] a2afm seed=22 step=2500/15000 val_RMSE=0.17039 best=0.17039
+
+- [2026-10-21 17:58:39 UTC+8] a2afm seed=22 step=2600/15000 val_RMSE=0.17972 best=0.17039
+
+- [2026-10-21 17:58:39 UTC+8] a2afm seed=22 step=2700/15000 val_RMSE=0.16926 best=0.16926
+
+- [2026-10-21 17:58:40 UTC+8] a2afm seed=22 step=2800/15000 val_RMSE=0.18719 best=0.16926
+
+- [2026-10-21 17:58:41 UTC+8] a2afm seed=22 step=2900/15000 val_RMSE=0.16447 best=0.16447
+
+- [2026-10-21 17:58:41 UTC+8] a2afm seed=22 step=3000/15000 val_RMSE=0.16812 best=0.16447
+
+- [2026-10-21 17:58:42 UTC+8] a2afm seed=22 step=3100/15000 val_RMSE=0.16765 best=0.16447
+
+- [2026-10-21 17:58:43 UTC+8] a2afm seed=22 step=3200/15000 val_RMSE=0.17861 best=0.16447
+
+- [2026-10-21 17:58:44 UTC+8] a2afm seed=22 step=3300/15000 val_RMSE=0.15890 best=0.15890
+
+- [2026-10-21 17:58:44 UTC+8] a2afm seed=22 step=3400/15000 val_RMSE=0.17995 best=0.15890
+
+- [2026-10-21 17:58:45 UTC+8] a2afm seed=22 step=3500/15000 val_RMSE=0.16217 best=0.15890
+
+- [2026-10-21 17:58:46 UTC+8] a2afm seed=22 step=3600/15000 val_RMSE=0.16475 best=0.15890
+
+- [2026-10-21 17:58:46 UTC+8] a2afm seed=22 step=3700/15000 val_RMSE=0.16678 best=0.15890
+
+- [2026-10-21 17:58:47 UTC+8] a2afm seed=22 step=3800/15000 val_RMSE=0.17587 best=0.15890
+
+- [2026-10-21 17:58:48 UTC+8] a2afm seed=22 step=3900/15000 val_RMSE=0.15712 best=0.15712
+
+- [2026-10-21 17:58:48 UTC+8] a2afm seed=22 step=4000/15000 val_RMSE=0.16893 best=0.15712
+
+- [2026-10-21 17:58:49 UTC+8] a2afm seed=22 step=4100/15000 val_RMSE=0.16225 best=0.15712
+
+- [2026-10-21 17:58:50 UTC+8] a2afm seed=22 step=4200/15000 val_RMSE=0.15031 best=0.15031
+
+- [2026-10-21 17:58:51 UTC+8] a2afm seed=22 step=4300/15000 val_RMSE=0.15038 best=0.15031
+
+- [2026-10-21 17:58:51 UTC+8] a2afm seed=22 step=4400/15000 val_RMSE=0.15883 best=0.15031
+
+- [2026-10-21 17:58:52 UTC+8] a2afm seed=22 step=4500/15000 val_RMSE=0.15088 best=0.15031
+
+- [2026-10-21 17:58:53 UTC+8] a2afm seed=22 step=4600/15000 val_RMSE=0.15771 best=0.15031
+
+- [2026-10-21 17:58:53 UTC+8] a2afm seed=22 step=4700/15000 val_RMSE=0.15639 best=0.15031
+
+- [2026-10-21 17:58:54 UTC+8] a2afm seed=22 step=4800/15000 val_RMSE=0.15474 best=0.15031
+
+- [2026-10-21 17:58:55 UTC+8] a2afm seed=22 step=4900/15000 val_RMSE=0.15546 best=0.15031
+
+- [2026-10-21 17:58:56 UTC+8] a2afm seed=22 step=5000/15000 val_RMSE=0.17788 best=0.15031
+
+- [2026-10-21 17:58:56 UTC+8] a2afm seed=22 step=5100/15000 val_RMSE=0.15500 best=0.15031
+
+- [2026-10-21 17:58:57 UTC+8] a2afm seed=22 step=5200/15000 val_RMSE=0.18020 best=0.15031
+
+- [2026-10-21 17:58:58 UTC+8] a2afm seed=22 step=5300/15000 val_RMSE=0.17313 best=0.15031
+
+- [2026-10-21 17:58:58 UTC+8] a2afm seed=22 step=5400/15000 val_RMSE=0.17206 best=0.15031
+
+- [2026-10-21 17:58:59 UTC+8] a2afm seed=22 step=5500/15000 val_RMSE=0.14259 best=0.14259
+
+- [2026-10-21 17:59:00 UTC+8] a2afm seed=22 step=5600/15000 val_RMSE=0.16144 best=0.14259
+
+- [2026-10-21 17:59:00 UTC+8] a2afm seed=22 step=5700/15000 val_RMSE=0.15327 best=0.14259
+
+- [2026-10-21 17:59:01 UTC+8] a2afm seed=22 step=5800/15000 val_RMSE=0.14761 best=0.14259
+
+- [2026-10-21 17:59:02 UTC+8] a2afm seed=22 step=5900/15000 val_RMSE=0.14889 best=0.14259
+
+- [2026-10-21 17:59:03 UTC+8] a2afm seed=22 step=6000/15000 val_RMSE=0.16809 best=0.14259
+
+- [2026-10-21 17:59:03 UTC+8] a2afm seed=22 step=6100/15000 val_RMSE=0.13548 best=0.13548
+
+- [2026-10-21 17:59:04 UTC+8] a2afm seed=22 step=6200/15000 val_RMSE=0.15429 best=0.13548
+
+- [2026-10-21 17:59:05 UTC+8] a2afm seed=22 step=6300/15000 val_RMSE=0.14440 best=0.13548
+
+- [2026-10-21 17:59:05 UTC+8] a2afm seed=22 step=6400/15000 val_RMSE=0.14650 best=0.13548
+
+- [2026-10-21 17:59:06 UTC+8] a2afm seed=22 step=6500/15000 val_RMSE=0.14136 best=0.13548
+
+- [2026-10-21 17:59:07 UTC+8] a2afm seed=22 step=6600/15000 val_RMSE=0.15057 best=0.13548
+
+- [2026-10-21 17:59:07 UTC+8] a2afm seed=22 step=6700/15000 val_RMSE=0.13849 best=0.13548
+
+- [2026-10-21 17:59:08 UTC+8] a2afm seed=22 step=6800/15000 val_RMSE=0.15357 best=0.13548
+
+- [2026-10-21 17:59:09 UTC+8] a2afm seed=22 step=6900/15000 val_RMSE=0.14040 best=0.13548
+
+- [2026-10-21 17:59:10 UTC+8] a2afm seed=22 step=7000/15000 val_RMSE=0.14644 best=0.13548
+
+- [2026-10-21 17:59:10 UTC+8] a2afm seed=22 step=7100/15000 val_RMSE=0.13489 best=0.13489
+
+- [2026-10-21 17:59:11 UTC+8] a2afm seed=22 step=7200/15000 val_RMSE=0.14516 best=0.13489
+
+- [2026-10-21 17:59:12 UTC+8] a2afm seed=22 step=7300/15000 val_RMSE=0.14842 best=0.13489
+
+- [2026-10-21 17:59:12 UTC+8] a2afm seed=22 step=7400/15000 val_RMSE=0.13751 best=0.13489
+
+- [2026-10-21 17:59:13 UTC+8] a2afm seed=22 step=7500/15000 val_RMSE=0.13303 best=0.13303
+
+- [2026-10-21 17:59:14 UTC+8] a2afm seed=22 step=7600/15000 val_RMSE=0.14119 best=0.13303
+
+- [2026-10-21 17:59:14 UTC+8] a2afm seed=22 step=7700/15000 val_RMSE=0.15188 best=0.13303
+
+- [2026-10-21 17:59:15 UTC+8] a2afm seed=22 step=7800/15000 val_RMSE=0.15448 best=0.13303
+
+- [2026-10-21 17:59:16 UTC+8] a2afm seed=22 step=7900/15000 val_RMSE=0.15765 best=0.13303
+
+- [2026-10-21 17:59:17 UTC+8] a2afm seed=22 step=8000/15000 val_RMSE=0.14031 best=0.13303
+
+- [2026-10-21 17:59:17 UTC+8] a2afm seed=22 step=8100/15000 val_RMSE=0.14173 best=0.13303
+
+- [2026-10-21 17:59:18 UTC+8] a2afm seed=22 step=8200/15000 val_RMSE=0.14144 best=0.13303
+
+- [2026-10-21 17:59:19 UTC+8] a2afm seed=22 step=8300/15000 val_RMSE=0.13669 best=0.13303
+
+- [2026-10-21 17:59:19 UTC+8] a2afm seed=22 step=8400/15000 val_RMSE=0.13729 best=0.13303
+
+- [2026-10-21 17:59:20 UTC+8] a2afm seed=22 step=8500/15000 val_RMSE=0.15186 best=0.13303
+
+- [2026-10-21 17:59:21 UTC+8] a2afm seed=22 step=8600/15000 val_RMSE=0.13891 best=0.13303
+
+- [2026-10-21 17:59:21 UTC+8] a2afm seed=22 step=8700/15000 val_RMSE=0.13596 best=0.13303
+
+- [2026-10-21 17:59:22 UTC+8] a2afm seed=22 step=8800/15000 val_RMSE=0.14328 best=0.13303
+
+- [2026-10-21 17:59:23 UTC+8] a2afm seed=22 step=8900/15000 val_RMSE=0.15902 best=0.13303
+
+- [2026-10-21 17:59:24 UTC+8] a2afm seed=22 step=9000/15000 val_RMSE=0.15126 best=0.13303
+
+- [2026-10-21 17:59:24 UTC+8] a2afm seed=22 step=9100/15000 val_RMSE=0.14183 best=0.13303
+
+- [2026-10-21 17:59:25 UTC+8] a2afm seed=22 step=9200/15000 val_RMSE=0.15742 best=0.13303
+
+- [2026-10-21 17:59:26 UTC+8] a2afm seed=22 step=9300/15000 val_RMSE=0.13229 best=0.13229
+
+- [2026-10-21 17:59:26 UTC+8] a2afm seed=22 step=9400/15000 val_RMSE=0.15085 best=0.13229
+
+- [2026-10-21 17:59:27 UTC+8] a2afm seed=22 step=9500/15000 val_RMSE=0.13944 best=0.13229
+
+- [2026-10-21 17:59:28 UTC+8] a2afm seed=22 step=9600/15000 val_RMSE=0.14094 best=0.13229
+
+- [2026-10-21 17:59:28 UTC+8] a2afm seed=22 step=9700/15000 val_RMSE=0.12780 best=0.12780
+
+- [2026-10-21 17:59:29 UTC+8] a2afm seed=22 step=9800/15000 val_RMSE=0.13511 best=0.12780
+
+- [2026-10-21 17:59:30 UTC+8] a2afm seed=22 step=9900/15000 val_RMSE=0.13099 best=0.12780
+
+- [2026-10-21 17:59:31 UTC+8] a2afm seed=22 step=10000/15000 val_RMSE=0.12558 best=0.12558
+
+- [2026-10-21 17:59:31 UTC+8] a2afm seed=22 step=10100/15000 val_RMSE=0.15673 best=0.12558
+
+- [2026-10-21 17:59:32 UTC+8] a2afm seed=22 step=10200/15000 val_RMSE=0.12736 best=0.12558
+
+- [2026-10-21 17:59:33 UTC+8] a2afm seed=22 step=10300/15000 val_RMSE=0.13210 best=0.12558
+
+- [2026-10-21 17:59:33 UTC+8] a2afm seed=22 step=10400/15000 val_RMSE=0.13026 best=0.12558
+
+- [2026-10-21 17:59:34 UTC+8] a2afm seed=22 step=10500/15000 val_RMSE=0.14429 best=0.12558
+
+- [2026-10-21 17:59:35 UTC+8] a2afm seed=22 step=10600/15000 val_RMSE=0.13619 best=0.12558
+
+- [2026-10-21 17:59:35 UTC+8] a2afm seed=22 step=10700/15000 val_RMSE=0.13550 best=0.12558
+
+- [2026-10-21 17:59:36 UTC+8] a2afm seed=22 step=10800/15000 val_RMSE=0.11809 best=0.11809
+
+- [2026-10-21 17:59:37 UTC+8] a2afm seed=22 step=10900/15000 val_RMSE=0.13561 best=0.11809
+
+- [2026-10-21 17:59:38 UTC+8] a2afm seed=22 step=11000/15000 val_RMSE=0.14116 best=0.11809
+
+- [2026-10-21 17:59:38 UTC+8] a2afm seed=22 step=11100/15000 val_RMSE=0.14198 best=0.11809
+
+- [2026-10-21 17:59:39 UTC+8] a2afm seed=22 step=11200/15000 val_RMSE=0.15730 best=0.11809
+
+- [2026-10-21 17:59:40 UTC+8] a2afm seed=22 step=11300/15000 val_RMSE=0.13266 best=0.11809
+
+- [2026-10-21 17:59:40 UTC+8] a2afm seed=22 step=11400/15000 val_RMSE=0.12061 best=0.11809
+
+- [2026-10-21 17:59:41 UTC+8] a2afm seed=22 step=11500/15000 val_RMSE=0.13626 best=0.11809
+
+- [2026-10-21 17:59:42 UTC+8] a2afm seed=22 step=11600/15000 val_RMSE=0.12371 best=0.11809
+
+- [2026-10-21 17:59:42 UTC+8] a2afm seed=22 step=11700/15000 val_RMSE=0.15205 best=0.11809
+
+- [2026-10-21 17:59:43 UTC+8] a2afm seed=22 step=11800/15000 val_RMSE=0.13771 best=0.11809
+
+- [2026-10-21 17:59:44 UTC+8] a2afm seed=22 step=11900/15000 val_RMSE=0.12560 best=0.11809
+
+- [2026-10-21 17:59:45 UTC+8] a2afm seed=22 step=12000/15000 val_RMSE=0.12332 best=0.11809
+
+- [2026-10-21 17:59:45 UTC+8] a2afm seed=22 step=12100/15000 val_RMSE=0.13675 best=0.11809
+
+- [2026-10-21 17:59:46 UTC+8] a2afm seed=22 step=12200/15000 val_RMSE=0.12974 best=0.11809
+
+- [2026-10-21 17:59:47 UTC+8] a2afm seed=22 step=12300/15000 val_RMSE=0.14929 best=0.11809
+
+- [2026-10-21 17:59:47 UTC+8] a2afm seed=22 step=12400/15000 val_RMSE=0.14114 best=0.11809
+
+- [2026-10-21 17:59:48 UTC+8] a2afm seed=22 step=12500/15000 val_RMSE=0.13585 best=0.11809
+
+- [2026-10-21 17:59:49 UTC+8] a2afm seed=22 step=12600/15000 val_RMSE=0.12709 best=0.11809
+
+- [2026-10-21 17:59:49 UTC+8] a2afm seed=22 step=12700/15000 val_RMSE=0.12381 best=0.11809
+
+- [2026-10-21 17:59:50 UTC+8] a2afm seed=22 step=12800/15000 val_RMSE=0.12492 best=0.11809
+
+- [2026-10-21 17:59:51 UTC+8] a2afm seed=22 step=12900/15000 val_RMSE=0.12440 best=0.11809
+
+- [2026-10-21 17:59:52 UTC+8] a2afm seed=22 step=13000/15000 val_RMSE=0.14001 best=0.11809
+
+- [2026-10-21 17:59:52 UTC+8] a2afm seed=22 step=13100/15000 val_RMSE=0.12526 best=0.11809
+
+- [2026-10-21 17:59:53 UTC+8] a2afm seed=22 step=13200/15000 val_RMSE=0.13264 best=0.11809
+
+- [2026-10-21 17:59:54 UTC+8] a2afm seed=22 step=13300/15000 val_RMSE=0.11745 best=0.11745
+
+- [2026-10-21 17:59:54 UTC+8] a2afm seed=22 step=13400/15000 val_RMSE=0.12968 best=0.11745
+
+- [2026-10-21 17:59:55 UTC+8] a2afm seed=22 step=13500/15000 val_RMSE=0.14042 best=0.11745
+
+- [2026-10-21 17:59:56 UTC+8] a2afm seed=22 step=13600/15000 val_RMSE=0.13947 best=0.11745
+
+- [2026-10-21 17:59:57 UTC+8] a2afm seed=22 step=13700/15000 val_RMSE=0.13683 best=0.11745
+
+- [2026-10-21 17:59:58 UTC+8] a2afm seed=22 step=13800/15000 val_RMSE=0.12660 best=0.11745
+
+- [2026-10-21 17:59:59 UTC+8] a2afm seed=22 step=13900/15000 val_RMSE=0.14649 best=0.11745
+
+- [2026-10-21 18:00:00 UTC+8] a2afm seed=22 step=14000/15000 val_RMSE=0.12824 best=0.11745
+
+- [2026-10-21 18:00:01 UTC+8] a2afm seed=22 step=14100/15000 val_RMSE=0.14928 best=0.11745
+
+- [2026-10-21 18:00:02 UTC+8] a2afm seed=22 step=14200/15000 val_RMSE=0.13517 best=0.11745
+
+- [2026-10-21 18:00:03 UTC+8] a2afm seed=22 step=14300/15000 val_RMSE=0.12791 best=0.11745
+
+- [2026-10-21 18:00:03 UTC+8] a2afm seed=22 step=14400/15000 val_RMSE=0.12694 best=0.11745
+
+- [2026-10-21 18:00:04 UTC+8] a2afm seed=22 step=14500/15000 val_RMSE=0.12502 best=0.11745
+
+- [2026-10-21 18:00:05 UTC+8] a2afm seed=22 step=14600/15000 val_RMSE=0.12556 best=0.11745
+
+- [2026-10-21 18:00:06 UTC+8] a2afm seed=22 step=14700/15000 val_RMSE=0.14616 best=0.11745
+
+- [2026-10-21 18:00:06 UTC+8] a2afm seed=22 step=14800/15000 val_RMSE=0.12419 best=0.11745
+
+- [2026-10-21 18:00:07 UTC+8] a2afm seed=22 step=14900/15000 val_RMSE=0.13205 best=0.11745
+
+- [2026-10-21 18:00:08 UTC+8] a2afm seed=22 step=15000/15000 val_RMSE=0.12436 best=0.11745
+
+- [2026-10-21 18:00:08 UTC+8] 完成 a2afm seed=22，本轮耗时 107.2 s，选择验证最优 step=13300
+
+- [2026-10-21 18:00:08 UTC+8] a2afm seed=33 step=100/15000 val_RMSE=0.26099 best=0.26099
+
+- [2026-10-21 18:00:09 UTC+8] a2afm seed=33 step=200/15000 val_RMSE=0.26052 best=0.26052
+
+- [2026-10-21 18:00:10 UTC+8] a2afm seed=33 step=300/15000 val_RMSE=0.24253 best=0.24253
+
+- [2026-10-21 18:00:10 UTC+8] a2afm seed=33 step=400/15000 val_RMSE=0.24828 best=0.24253
+
+- [2026-10-21 18:00:11 UTC+8] a2afm seed=33 step=500/15000 val_RMSE=0.24514 best=0.24253
+
+- [2026-10-21 18:00:12 UTC+8] a2afm seed=33 step=600/15000 val_RMSE=0.24363 best=0.24253
+
+- [2026-10-21 18:00:13 UTC+8] a2afm seed=33 step=700/15000 val_RMSE=0.22486 best=0.22486
+
+- [2026-10-21 18:00:13 UTC+8] a2afm seed=33 step=800/15000 val_RMSE=0.23051 best=0.22486
+
+- [2026-10-21 18:00:14 UTC+8] a2afm seed=33 step=900/15000 val_RMSE=0.22123 best=0.22123
+
+- [2026-10-21 18:00:15 UTC+8] a2afm seed=33 step=1000/15000 val_RMSE=0.22915 best=0.22123
+
+- [2026-10-21 18:00:15 UTC+8] a2afm seed=33 step=1100/15000 val_RMSE=0.22371 best=0.22123
+
+- [2026-10-21 18:00:16 UTC+8] a2afm seed=33 step=1200/15000 val_RMSE=0.21591 best=0.21591
+
+- [2026-10-21 18:00:17 UTC+8] a2afm seed=33 step=1300/15000 val_RMSE=0.19936 best=0.19936
+
+- [2026-10-21 18:00:17 UTC+8] a2afm seed=33 step=1400/15000 val_RMSE=0.19263 best=0.19263
+
+- [2026-10-21 18:00:18 UTC+8] a2afm seed=33 step=1500/15000 val_RMSE=0.20437 best=0.19263
+
+- [2026-10-21 18:00:19 UTC+8] a2afm seed=33 step=1600/15000 val_RMSE=0.19486 best=0.19263
+
+- [2026-10-21 18:00:20 UTC+8] a2afm seed=33 step=1700/15000 val_RMSE=0.19006 best=0.19006
+
+- [2026-10-21 18:00:20 UTC+8] a2afm seed=33 step=1800/15000 val_RMSE=0.20177 best=0.19006
+
+- [2026-10-21 18:00:21 UTC+8] a2afm seed=33 step=1900/15000 val_RMSE=0.19362 best=0.19006
+
+- [2026-10-21 18:00:22 UTC+8] a2afm seed=33 step=2000/15000 val_RMSE=0.19028 best=0.19006
+
+- [2026-10-21 18:00:22 UTC+8] a2afm seed=33 step=2100/15000 val_RMSE=0.18957 best=0.18957
+
+- [2026-10-21 18:00:23 UTC+8] a2afm seed=33 step=2200/15000 val_RMSE=0.18898 best=0.18898
+
+- [2026-10-21 18:00:24 UTC+8] a2afm seed=33 step=2300/15000 val_RMSE=0.18040 best=0.18040
+
+- [2026-10-21 18:00:24 UTC+8] a2afm seed=33 step=2400/15000 val_RMSE=0.18230 best=0.18040
+
+- [2026-10-21 18:00:25 UTC+8] a2afm seed=33 step=2500/15000 val_RMSE=0.19716 best=0.18040
+
+- [2026-10-21 18:00:26 UTC+8] a2afm seed=33 step=2600/15000 val_RMSE=0.16289 best=0.16289
+
+- [2026-10-21 18:00:27 UTC+8] a2afm seed=33 step=2700/15000 val_RMSE=0.17980 best=0.16289
+
+- [2026-10-21 18:00:27 UTC+8] a2afm seed=33 step=2800/15000 val_RMSE=0.16802 best=0.16289
+
+- [2026-10-21 18:00:28 UTC+8] a2afm seed=33 step=2900/15000 val_RMSE=0.16325 best=0.16289
+
+- [2026-10-21 18:00:29 UTC+8] a2afm seed=33 step=3000/15000 val_RMSE=0.15831 best=0.15831
+
+- [2026-10-21 18:00:29 UTC+8] a2afm seed=33 step=3100/15000 val_RMSE=0.16696 best=0.15831
+
+- [2026-10-21 18:00:30 UTC+8] a2afm seed=33 step=3200/15000 val_RMSE=0.16489 best=0.15831
+
+- [2026-10-21 18:00:31 UTC+8] a2afm seed=33 step=3300/15000 val_RMSE=0.17043 best=0.15831
+
+- [2026-10-21 18:00:31 UTC+8] a2afm seed=33 step=3400/15000 val_RMSE=0.17770 best=0.15831
+
+- [2026-10-21 18:00:32 UTC+8] a2afm seed=33 step=3500/15000 val_RMSE=0.17158 best=0.15831
+
+- [2026-10-21 18:00:33 UTC+8] a2afm seed=33 step=3600/15000 val_RMSE=0.15952 best=0.15831
+
+- [2026-10-21 18:00:33 UTC+8] a2afm seed=33 step=3700/15000 val_RMSE=0.15189 best=0.15189
+
+- [2026-10-21 18:00:34 UTC+8] a2afm seed=33 step=3800/15000 val_RMSE=0.16586 best=0.15189
+
+- [2026-10-21 18:00:35 UTC+8] a2afm seed=33 step=3900/15000 val_RMSE=0.16223 best=0.15189
+
+- [2026-10-21 18:00:36 UTC+8] a2afm seed=33 step=4000/15000 val_RMSE=0.15628 best=0.15189
+
+- [2026-10-21 18:00:36 UTC+8] a2afm seed=33 step=4100/15000 val_RMSE=0.17226 best=0.15189
+
+- [2026-10-21 18:00:37 UTC+8] a2afm seed=33 step=4200/15000 val_RMSE=0.16727 best=0.15189
+
+- [2026-10-21 18:00:38 UTC+8] a2afm seed=33 step=4300/15000 val_RMSE=0.18388 best=0.15189
+
+- [2026-10-21 18:00:38 UTC+8] a2afm seed=33 step=4400/15000 val_RMSE=0.19651 best=0.15189
+
+- [2026-10-21 18:00:39 UTC+8] a2afm seed=33 step=4500/15000 val_RMSE=0.16707 best=0.15189
+
+- [2026-10-21 18:00:40 UTC+8] a2afm seed=33 step=4600/15000 val_RMSE=0.15221 best=0.15189
+
+- [2026-10-21 18:00:40 UTC+8] a2afm seed=33 step=4700/15000 val_RMSE=0.15141 best=0.15141
+
+- [2026-10-21 18:00:41 UTC+8] a2afm seed=33 step=4800/15000 val_RMSE=0.15245 best=0.15141
+
+- [2026-10-21 18:00:42 UTC+8] a2afm seed=33 step=4900/15000 val_RMSE=0.15764 best=0.15141
+
+- [2026-10-21 18:00:43 UTC+8] a2afm seed=33 step=5000/15000 val_RMSE=0.15250 best=0.15141
+
+- [2026-10-21 18:00:43 UTC+8] a2afm seed=33 step=5100/15000 val_RMSE=0.16109 best=0.15141
+
+- [2026-10-21 18:00:44 UTC+8] a2afm seed=33 step=5200/15000 val_RMSE=0.15261 best=0.15141
+
+- [2026-10-21 18:00:45 UTC+8] a2afm seed=33 step=5300/15000 val_RMSE=0.15005 best=0.15005
+
+- [2026-10-21 18:00:45 UTC+8] a2afm seed=33 step=5400/15000 val_RMSE=0.13836 best=0.13836
+
+- [2026-10-21 18:00:46 UTC+8] a2afm seed=33 step=5500/15000 val_RMSE=0.14863 best=0.13836
+
+- [2026-10-21 18:00:47 UTC+8] a2afm seed=33 step=5600/15000 val_RMSE=0.15485 best=0.13836
+
+- [2026-10-21 18:00:47 UTC+8] a2afm seed=33 step=5700/15000 val_RMSE=0.14745 best=0.13836
+
+- [2026-10-21 18:00:48 UTC+8] a2afm seed=33 step=5800/15000 val_RMSE=0.16552 best=0.13836
+
+- [2026-10-21 18:00:49 UTC+8] a2afm seed=33 step=5900/15000 val_RMSE=0.13817 best=0.13817
+
+- [2026-10-21 18:00:50 UTC+8] a2afm seed=33 step=6000/15000 val_RMSE=0.14811 best=0.13817
+
+- [2026-10-21 18:00:50 UTC+8] a2afm seed=33 step=6100/15000 val_RMSE=0.15492 best=0.13817
+
+- [2026-10-21 18:00:51 UTC+8] a2afm seed=33 step=6200/15000 val_RMSE=0.16225 best=0.13817
+
+- [2026-10-21 18:00:52 UTC+8] a2afm seed=33 step=6300/15000 val_RMSE=0.14417 best=0.13817
+
+- [2026-10-21 18:00:52 UTC+8] a2afm seed=33 step=6400/15000 val_RMSE=0.14152 best=0.13817
+
+- [2026-10-21 18:00:53 UTC+8] a2afm seed=33 step=6500/15000 val_RMSE=0.14445 best=0.13817
+
+- [2026-10-21 18:00:54 UTC+8] a2afm seed=33 step=6600/15000 val_RMSE=0.14741 best=0.13817
+
+- [2026-10-21 18:00:54 UTC+8] a2afm seed=33 step=6700/15000 val_RMSE=0.14044 best=0.13817
+
+- [2026-10-21 18:00:55 UTC+8] a2afm seed=33 step=6800/15000 val_RMSE=0.13560 best=0.13560
+
+- [2026-10-21 18:00:56 UTC+8] a2afm seed=33 step=6900/15000 val_RMSE=0.16411 best=0.13560
+
+- [2026-10-21 18:00:57 UTC+8] a2afm seed=33 step=7000/15000 val_RMSE=0.13637 best=0.13560
+
+- [2026-10-21 18:00:57 UTC+8] a2afm seed=33 step=7100/15000 val_RMSE=0.13147 best=0.13147
+
+- [2026-10-21 18:00:58 UTC+8] a2afm seed=33 step=7200/15000 val_RMSE=0.13576 best=0.13147
+
+- [2026-10-21 18:00:59 UTC+8] a2afm seed=33 step=7300/15000 val_RMSE=0.13646 best=0.13147
+
+- [2026-10-21 18:00:59 UTC+8] a2afm seed=33 step=7400/15000 val_RMSE=0.14356 best=0.13147
+
+- [2026-10-21 18:01:00 UTC+8] a2afm seed=33 step=7500/15000 val_RMSE=0.14647 best=0.13147
+
+- [2026-10-21 18:01:01 UTC+8] a2afm seed=33 step=7600/15000 val_RMSE=0.15000 best=0.13147
+
+- [2026-10-21 18:01:01 UTC+8] a2afm seed=33 step=7700/15000 val_RMSE=0.14997 best=0.13147
+
+- [2026-10-21 18:01:02 UTC+8] a2afm seed=33 step=7800/15000 val_RMSE=0.14408 best=0.13147
+
+- [2026-10-21 18:01:03 UTC+8] a2afm seed=33 step=7900/15000 val_RMSE=0.15030 best=0.13147
+
+- [2026-10-21 18:01:04 UTC+8] a2afm seed=33 step=8000/15000 val_RMSE=0.14362 best=0.13147
+
+- [2026-10-21 18:01:04 UTC+8] a2afm seed=33 step=8100/15000 val_RMSE=0.15358 best=0.13147
+
+- [2026-10-21 18:01:05 UTC+8] a2afm seed=33 step=8200/15000 val_RMSE=0.14479 best=0.13147
+
+- [2026-10-21 18:01:06 UTC+8] a2afm seed=33 step=8300/15000 val_RMSE=0.14322 best=0.13147
+
+- [2026-10-21 18:01:06 UTC+8] a2afm seed=33 step=8400/15000 val_RMSE=0.14550 best=0.13147
+
+- [2026-10-21 18:01:07 UTC+8] a2afm seed=33 step=8500/15000 val_RMSE=0.16178 best=0.13147
+
+- [2026-10-21 18:01:08 UTC+8] a2afm seed=33 step=8600/15000 val_RMSE=0.14218 best=0.13147
+
+- [2026-10-21 18:01:08 UTC+8] a2afm seed=33 step=8700/15000 val_RMSE=0.13494 best=0.13147
+
+- [2026-10-21 18:01:09 UTC+8] a2afm seed=33 step=8800/15000 val_RMSE=0.13554 best=0.13147
+
+- [2026-10-21 18:01:10 UTC+8] a2afm seed=33 step=8900/15000 val_RMSE=0.13937 best=0.13147
+
+- [2026-10-21 18:01:10 UTC+8] a2afm seed=33 step=9000/15000 val_RMSE=0.14456 best=0.13147
+
+- [2026-10-21 18:01:11 UTC+8] a2afm seed=33 step=9100/15000 val_RMSE=0.12734 best=0.12734
+
+- [2026-10-21 18:01:12 UTC+8] a2afm seed=33 step=9200/15000 val_RMSE=0.13088 best=0.12734
+
+- [2026-10-21 18:01:13 UTC+8] a2afm seed=33 step=9300/15000 val_RMSE=0.13511 best=0.12734
+
+- [2026-10-21 18:01:13 UTC+8] a2afm seed=33 step=9400/15000 val_RMSE=0.15203 best=0.12734
+
+- [2026-10-21 18:01:14 UTC+8] a2afm seed=33 step=9500/15000 val_RMSE=0.12530 best=0.12530
+
+- [2026-10-21 18:01:15 UTC+8] a2afm seed=33 step=9600/15000 val_RMSE=0.14129 best=0.12530
+
+- [2026-10-21 18:01:15 UTC+8] a2afm seed=33 step=9700/15000 val_RMSE=0.12915 best=0.12530
+
+- [2026-10-21 18:01:16 UTC+8] a2afm seed=33 step=9800/15000 val_RMSE=0.14368 best=0.12530
+
+- [2026-10-21 18:01:17 UTC+8] a2afm seed=33 step=9900/15000 val_RMSE=0.16512 best=0.12530
+
+- [2026-10-21 18:01:17 UTC+8] a2afm seed=33 step=10000/15000 val_RMSE=0.13917 best=0.12530
+
+- [2026-10-21 18:01:18 UTC+8] a2afm seed=33 step=10100/15000 val_RMSE=0.12627 best=0.12530
+
+- [2026-10-21 18:01:19 UTC+8] a2afm seed=33 step=10200/15000 val_RMSE=0.15351 best=0.12530
+
+- [2026-10-21 18:01:19 UTC+8] a2afm seed=33 step=10300/15000 val_RMSE=0.13154 best=0.12530
+
+- [2026-10-21 18:01:20 UTC+8] a2afm seed=33 step=10400/15000 val_RMSE=0.13909 best=0.12530
+
+- [2026-10-21 18:01:21 UTC+8] a2afm seed=33 step=10500/15000 val_RMSE=0.13471 best=0.12530
+
+- [2026-10-21 18:01:22 UTC+8] a2afm seed=33 step=10600/15000 val_RMSE=0.13522 best=0.12530
+
+- [2026-10-21 18:01:22 UTC+8] a2afm seed=33 step=10700/15000 val_RMSE=0.13785 best=0.12530
+
+- [2026-10-21 18:01:23 UTC+8] a2afm seed=33 step=10800/15000 val_RMSE=0.13385 best=0.12530
+
+- [2026-10-21 18:01:24 UTC+8] a2afm seed=33 step=10900/15000 val_RMSE=0.13333 best=0.12530
+
+- [2026-10-21 18:01:24 UTC+8] a2afm seed=33 step=11000/15000 val_RMSE=0.13390 best=0.12530
+
+- [2026-10-21 18:01:25 UTC+8] a2afm seed=33 step=11100/15000 val_RMSE=0.12632 best=0.12530
+
+- [2026-10-21 18:01:26 UTC+8] a2afm seed=33 step=11200/15000 val_RMSE=0.14096 best=0.12530
+
+- [2026-10-21 18:01:26 UTC+8] a2afm seed=33 step=11300/15000 val_RMSE=0.12236 best=0.12236
+
+- [2026-10-21 18:01:27 UTC+8] a2afm seed=33 step=11400/15000 val_RMSE=0.15436 best=0.12236
+
+- [2026-10-21 18:01:28 UTC+8] a2afm seed=33 step=11500/15000 val_RMSE=0.13115 best=0.12236
+
+- [2026-10-21 18:01:29 UTC+8] a2afm seed=33 step=11600/15000 val_RMSE=0.13461 best=0.12236
+
+- [2026-10-21 18:01:29 UTC+8] a2afm seed=33 step=11700/15000 val_RMSE=0.13993 best=0.12236
+
+- [2026-10-21 18:01:30 UTC+8] a2afm seed=33 step=11800/15000 val_RMSE=0.13119 best=0.12236
+
+- [2026-10-21 18:01:31 UTC+8] a2afm seed=33 step=11900/15000 val_RMSE=0.14022 best=0.12236
+
+- [2026-10-21 18:01:31 UTC+8] a2afm seed=33 step=12000/15000 val_RMSE=0.13346 best=0.12236
+
+- [2026-10-21 18:01:32 UTC+8] a2afm seed=33 step=12100/15000 val_RMSE=0.13241 best=0.12236
+
+- [2026-10-21 18:01:33 UTC+8] a2afm seed=33 step=12200/15000 val_RMSE=0.12606 best=0.12236
+
+- [2026-10-21 18:01:33 UTC+8] a2afm seed=33 step=12300/15000 val_RMSE=0.14268 best=0.12236
+
+- [2026-10-21 18:01:34 UTC+8] a2afm seed=33 step=12400/15000 val_RMSE=0.12056 best=0.12056
+
+- [2026-10-21 18:01:35 UTC+8] a2afm seed=33 step=12500/15000 val_RMSE=0.14210 best=0.12056
+
+- [2026-10-21 18:01:35 UTC+8] a2afm seed=33 step=12600/15000 val_RMSE=0.13242 best=0.12056
+
+- [2026-10-21 18:01:36 UTC+8] a2afm seed=33 step=12700/15000 val_RMSE=0.12664 best=0.12056
+
+- [2026-10-21 18:01:37 UTC+8] a2afm seed=33 step=12800/15000 val_RMSE=0.12735 best=0.12056
+
+- [2026-10-21 18:01:38 UTC+8] a2afm seed=33 step=12900/15000 val_RMSE=0.14086 best=0.12056
+
+- [2026-10-21 18:01:38 UTC+8] a2afm seed=33 step=13000/15000 val_RMSE=0.13418 best=0.12056
+
+- [2026-10-21 18:01:39 UTC+8] a2afm seed=33 step=13100/15000 val_RMSE=0.13369 best=0.12056
+
+- [2026-10-21 18:01:40 UTC+8] a2afm seed=33 step=13200/15000 val_RMSE=0.12897 best=0.12056
+
+- [2026-10-21 18:01:40 UTC+8] a2afm seed=33 step=13300/15000 val_RMSE=0.13621 best=0.12056
+
+- [2026-10-21 18:01:41 UTC+8] a2afm seed=33 step=13400/15000 val_RMSE=0.12969 best=0.12056
+
+- [2026-10-21 18:01:42 UTC+8] a2afm seed=33 step=13500/15000 val_RMSE=0.13577 best=0.12056
+
+- [2026-10-21 18:01:42 UTC+8] a2afm seed=33 step=13600/15000 val_RMSE=0.14381 best=0.12056
+
+- [2026-10-21 18:01:43 UTC+8] a2afm seed=33 step=13700/15000 val_RMSE=0.13136 best=0.12056
+
+- [2026-10-21 18:01:44 UTC+8] a2afm seed=33 step=13800/15000 val_RMSE=0.13484 best=0.12056
+
+- [2026-10-21 18:01:45 UTC+8] a2afm seed=33 step=13900/15000 val_RMSE=0.13989 best=0.12056
+
+- [2026-10-21 18:01:45 UTC+8] a2afm seed=33 step=14000/15000 val_RMSE=0.12638 best=0.12056
+
+- [2026-10-21 18:01:46 UTC+8] a2afm seed=33 step=14100/15000 val_RMSE=0.13263 best=0.12056
+
+- [2026-10-21 18:01:47 UTC+8] a2afm seed=33 step=14200/15000 val_RMSE=0.13371 best=0.12056
+
+- [2026-10-21 18:01:47 UTC+8] a2afm seed=33 step=14300/15000 val_RMSE=0.15186 best=0.12056
+
+- [2026-10-21 18:01:48 UTC+8] a2afm seed=33 step=14400/15000 val_RMSE=0.12390 best=0.12056
+
+- [2026-10-21 18:01:49 UTC+8] a2afm seed=33 step=14500/15000 val_RMSE=0.12526 best=0.12056
+
+- [2026-10-21 18:01:49 UTC+8] a2afm seed=33 step=14600/15000 val_RMSE=0.12514 best=0.12056
+
+- [2026-10-21 18:01:50 UTC+8] a2afm seed=33 step=14700/15000 val_RMSE=0.12136 best=0.12056
+
+- [2026-10-21 18:01:51 UTC+8] a2afm seed=33 step=14800/15000 val_RMSE=0.13060 best=0.12056
+
+- [2026-10-21 18:01:52 UTC+8] a2afm seed=33 step=14900/15000 val_RMSE=0.12016 best=0.12016
+
+- [2026-10-21 18:01:52 UTC+8] a2afm seed=33 step=15000/15000 val_RMSE=0.13933 best=0.12016
+
+- [2026-10-21 18:01:52 UTC+8] 完成 a2afm seed=33，本轮耗时 104.6 s，选择验证最优 step=14900
+
+- [2026-10-21 18:01:52 UTC+8] regression seed=11 step=100/15000 val_RMSE=0.25567 best=0.25567
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=200/15000 val_RMSE=0.25205 best=0.25205
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=300/15000 val_RMSE=0.25161 best=0.25161
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=400/15000 val_RMSE=0.24336 best=0.24336
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=500/15000 val_RMSE=0.24905 best=0.24336
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=600/15000 val_RMSE=0.23942 best=0.23942
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=700/15000 val_RMSE=0.23679 best=0.23679
+
+- [2026-10-21 18:01:53 UTC+8] regression seed=11 step=800/15000 val_RMSE=0.23210 best=0.23210
+
+- [2026-10-21 18:01:54 UTC+8] regression seed=11 step=900/15000 val_RMSE=0.21969 best=0.21969
+
+- [2026-10-21 18:01:54 UTC+8] regression seed=11 step=1000/15000 val_RMSE=0.21533 best=0.21533
+
+- [2026-10-21 18:01:54 UTC+8] regression seed=11 step=1100/15000 val_RMSE=0.21441 best=0.21441
+
+- [2026-10-21 18:01:54 UTC+8] regression seed=11 step=1200/15000 val_RMSE=0.20270 best=0.20270
+
+- [2026-10-21 18:01:54 UTC+8] regression seed=11 step=1300/15000 val_RMSE=0.21132 best=0.20270
+
+- [2026-10-21 18:01:54 UTC+8] regression seed=11 step=1400/15000 val_RMSE=0.19403 best=0.19403
+
+- [2026-10-21 18:01:55 UTC+8] regression seed=11 step=1500/15000 val_RMSE=0.18297 best=0.18297
+
+- [2026-10-21 18:01:55 UTC+8] regression seed=11 step=1600/15000 val_RMSE=0.19469 best=0.18297
+
+- [2026-10-21 18:01:55 UTC+8] regression seed=11 step=1700/15000 val_RMSE=0.20319 best=0.18297
+
+- [2026-10-21 18:01:55 UTC+8] regression seed=11 step=1800/15000 val_RMSE=0.18200 best=0.18200
+
+- [2026-10-21 18:01:55 UTC+8] regression seed=11 step=1900/15000 val_RMSE=0.17558 best=0.17558
+
+- [2026-10-21 18:01:55 UTC+8] regression seed=11 step=2000/15000 val_RMSE=0.17308 best=0.17308
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2100/15000 val_RMSE=0.18514 best=0.17308
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2200/15000 val_RMSE=0.17620 best=0.17308
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2300/15000 val_RMSE=0.17960 best=0.17308
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2400/15000 val_RMSE=0.19513 best=0.17308
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2500/15000 val_RMSE=0.17804 best=0.17308
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2600/15000 val_RMSE=0.17120 best=0.17120
+
+- [2026-10-21 18:01:56 UTC+8] regression seed=11 step=2700/15000 val_RMSE=0.16953 best=0.16953
+
+- [2026-10-21 18:01:57 UTC+8] regression seed=11 step=2800/15000 val_RMSE=0.16563 best=0.16563
+
+- [2026-10-21 18:01:57 UTC+8] regression seed=11 step=2900/15000 val_RMSE=0.16031 best=0.16031
+
+- [2026-10-21 18:01:57 UTC+8] regression seed=11 step=3000/15000 val_RMSE=0.16385 best=0.16031
+
+- [2026-10-21 18:01:57 UTC+8] regression seed=11 step=3100/15000 val_RMSE=0.16164 best=0.16031
+
+- [2026-10-21 18:01:57 UTC+8] regression seed=11 step=3200/15000 val_RMSE=0.17176 best=0.16031
+
+- [2026-10-21 18:01:57 UTC+8] regression seed=11 step=3300/15000 val_RMSE=0.16674 best=0.16031
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=3400/15000 val_RMSE=0.15448 best=0.15448
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=3500/15000 val_RMSE=0.16633 best=0.15448
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=3600/15000 val_RMSE=0.15050 best=0.15050
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=3700/15000 val_RMSE=0.15688 best=0.15050
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=3800/15000 val_RMSE=0.16006 best=0.15050
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=3900/15000 val_RMSE=0.15872 best=0.15050
+
+- [2026-10-21 18:01:58 UTC+8] regression seed=11 step=4000/15000 val_RMSE=0.15918 best=0.15050
+
+- [2026-10-21 18:01:59 UTC+8] regression seed=11 step=4100/15000 val_RMSE=0.15737 best=0.15050
+
+- [2026-10-21 18:01:59 UTC+8] regression seed=11 step=4200/15000 val_RMSE=0.14972 best=0.14972
+
+- [2026-10-21 18:01:59 UTC+8] regression seed=11 step=4300/15000 val_RMSE=0.14081 best=0.14081
+
+- [2026-10-21 18:01:59 UTC+8] regression seed=11 step=4400/15000 val_RMSE=0.15203 best=0.14081
+
+- [2026-10-21 18:01:59 UTC+8] regression seed=11 step=4500/15000 val_RMSE=0.14044 best=0.14044
+
+- [2026-10-21 18:01:59 UTC+8] regression seed=11 step=4600/15000 val_RMSE=0.15379 best=0.14044
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=4700/15000 val_RMSE=0.14515 best=0.14044
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=4800/15000 val_RMSE=0.14738 best=0.14044
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=4900/15000 val_RMSE=0.13824 best=0.13824
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=5000/15000 val_RMSE=0.15149 best=0.13824
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=5100/15000 val_RMSE=0.13509 best=0.13509
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=5200/15000 val_RMSE=0.13068 best=0.13068
+
+- [2026-10-21 18:02:00 UTC+8] regression seed=11 step=5300/15000 val_RMSE=0.13188 best=0.13068
+
+- [2026-10-21 18:02:01 UTC+8] regression seed=11 step=5400/15000 val_RMSE=0.14254 best=0.13068
+
+- [2026-10-21 18:02:01 UTC+8] regression seed=11 step=5500/15000 val_RMSE=0.13899 best=0.13068
+
+- [2026-10-21 18:02:01 UTC+8] regression seed=11 step=5600/15000 val_RMSE=0.14853 best=0.13068
+
+- [2026-10-21 18:02:01 UTC+8] regression seed=11 step=5700/15000 val_RMSE=0.14149 best=0.13068
+
+- [2026-10-21 18:02:01 UTC+8] regression seed=11 step=5800/15000 val_RMSE=0.16463 best=0.13068
+
+- [2026-10-21 18:02:01 UTC+8] regression seed=11 step=5900/15000 val_RMSE=0.13751 best=0.13068
+
+- [2026-10-21 18:02:02 UTC+8] regression seed=11 step=6000/15000 val_RMSE=0.13457 best=0.13068
+
+- [2026-10-21 18:02:02 UTC+8] regression seed=11 step=6100/15000 val_RMSE=0.13323 best=0.13068
+
+- [2026-10-21 18:02:02 UTC+8] regression seed=11 step=6200/15000 val_RMSE=0.13670 best=0.13068
+
+- [2026-10-21 18:02:02 UTC+8] regression seed=11 step=6300/15000 val_RMSE=0.15644 best=0.13068
+
+- [2026-10-21 18:02:02 UTC+8] regression seed=11 step=6400/15000 val_RMSE=0.13420 best=0.13068
+
+- [2026-10-21 18:02:02 UTC+8] regression seed=11 step=6500/15000 val_RMSE=0.13468 best=0.13068
+
+- [2026-10-21 18:02:03 UTC+8] regression seed=11 step=6600/15000 val_RMSE=0.13616 best=0.13068
+
+- [2026-10-21 18:02:03 UTC+8] regression seed=11 step=6700/15000 val_RMSE=0.13695 best=0.13068
+
+- [2026-10-21 18:02:03 UTC+8] regression seed=11 step=6800/15000 val_RMSE=0.13379 best=0.13068
+
+- [2026-10-21 18:02:03 UTC+8] regression seed=11 step=6900/15000 val_RMSE=0.13530 best=0.13068
+
+- [2026-10-21 18:02:03 UTC+8] regression seed=11 step=7000/15000 val_RMSE=0.15029 best=0.13068
+
+- [2026-10-21 18:02:04 UTC+8] regression seed=11 step=7100/15000 val_RMSE=0.12839 best=0.12839
+
+- [2026-10-21 18:02:04 UTC+8] regression seed=11 step=7200/15000 val_RMSE=0.13097 best=0.12839
+
+- [2026-10-21 18:02:04 UTC+8] regression seed=11 step=7300/15000 val_RMSE=0.14047 best=0.12839
+
+- [2026-10-21 18:02:04 UTC+8] regression seed=11 step=7400/15000 val_RMSE=0.13481 best=0.12839
+
+- [2026-10-21 18:02:05 UTC+8] regression seed=11 step=7500/15000 val_RMSE=0.15010 best=0.12839
+
+- [2026-10-21 18:02:05 UTC+8] regression seed=11 step=7600/15000 val_RMSE=0.14113 best=0.12839
+
+- [2026-10-21 18:02:05 UTC+8] regression seed=11 step=7700/15000 val_RMSE=0.13416 best=0.12839
+
+- [2026-10-21 18:02:05 UTC+8] regression seed=11 step=7800/15000 val_RMSE=0.14500 best=0.12839
+
+- [2026-10-21 18:02:05 UTC+8] regression seed=11 step=7900/15000 val_RMSE=0.12785 best=0.12785
+
+- [2026-10-21 18:02:06 UTC+8] regression seed=11 step=8000/15000 val_RMSE=0.13186 best=0.12785
+
+- [2026-10-21 18:02:06 UTC+8] regression seed=11 step=8100/15000 val_RMSE=0.12670 best=0.12670
+
+- [2026-10-21 18:02:06 UTC+8] regression seed=11 step=8200/15000 val_RMSE=0.17686 best=0.12670
+
+- [2026-10-21 18:02:06 UTC+8] regression seed=11 step=8300/15000 val_RMSE=0.12664 best=0.12664
+
+- [2026-10-21 18:02:07 UTC+8] regression seed=11 step=8400/15000 val_RMSE=0.12930 best=0.12664
+
+- [2026-10-21 18:02:07 UTC+8] regression seed=11 step=8500/15000 val_RMSE=0.13075 best=0.12664
+
+- [2026-10-21 18:02:07 UTC+8] regression seed=11 step=8600/15000 val_RMSE=0.12825 best=0.12664
+
+- [2026-10-21 18:02:07 UTC+8] regression seed=11 step=8700/15000 val_RMSE=0.13744 best=0.12664
+
+- [2026-10-21 18:02:07 UTC+8] regression seed=11 step=8800/15000 val_RMSE=0.13976 best=0.12664
+
+- [2026-10-21 18:02:08 UTC+8] regression seed=11 step=8900/15000 val_RMSE=0.13198 best=0.12664
+
+- [2026-10-21 18:02:08 UTC+8] regression seed=11 step=9000/15000 val_RMSE=0.14080 best=0.12664
+
+- [2026-10-21 18:02:08 UTC+8] regression seed=11 step=9100/15000 val_RMSE=0.14827 best=0.12664
+
+- [2026-10-21 18:02:08 UTC+8] regression seed=11 step=9200/15000 val_RMSE=0.14173 best=0.12664
+
+- [2026-10-21 18:02:08 UTC+8] regression seed=11 step=9300/15000 val_RMSE=0.13891 best=0.12664
+
+- [2026-10-21 18:02:09 UTC+8] regression seed=11 step=9400/15000 val_RMSE=0.12556 best=0.12556
+
+- [2026-10-21 18:02:09 UTC+8] regression seed=11 step=9500/15000 val_RMSE=0.13373 best=0.12556
+
+- [2026-10-21 18:02:09 UTC+8] regression seed=11 step=9600/15000 val_RMSE=0.12189 best=0.12189
+
+- [2026-10-21 18:02:09 UTC+8] regression seed=11 step=9700/15000 val_RMSE=0.14323 best=0.12189
+
+- [2026-10-21 18:02:10 UTC+8] regression seed=11 step=9800/15000 val_RMSE=0.13820 best=0.12189
+
+- [2026-10-21 18:02:10 UTC+8] regression seed=11 step=9900/15000 val_RMSE=0.12074 best=0.12074
+
+- [2026-10-21 18:02:10 UTC+8] regression seed=11 step=10000/15000 val_RMSE=0.13670 best=0.12074
+
+- [2026-10-21 18:02:10 UTC+8] regression seed=11 step=10100/15000 val_RMSE=0.13797 best=0.12074
+
+- [2026-10-21 18:02:10 UTC+8] regression seed=11 step=10200/15000 val_RMSE=0.12322 best=0.12074
+
+- [2026-10-21 18:02:11 UTC+8] regression seed=11 step=10300/15000 val_RMSE=0.13791 best=0.12074
+
+- [2026-10-21 18:02:11 UTC+8] regression seed=11 step=10400/15000 val_RMSE=0.12595 best=0.12074
+
+- [2026-10-21 18:02:11 UTC+8] regression seed=11 step=10500/15000 val_RMSE=0.12967 best=0.12074
+
+- [2026-10-21 18:02:11 UTC+8] regression seed=11 step=10600/15000 val_RMSE=0.12802 best=0.12074
+
+- [2026-10-21 18:02:12 UTC+8] regression seed=11 step=10700/15000 val_RMSE=0.13127 best=0.12074
+
+- [2026-10-21 18:02:12 UTC+8] regression seed=11 step=10800/15000 val_RMSE=0.14600 best=0.12074
+
+- [2026-10-21 18:02:12 UTC+8] regression seed=11 step=10900/15000 val_RMSE=0.12159 best=0.12074
+
+- [2026-10-21 18:02:12 UTC+8] regression seed=11 step=11000/15000 val_RMSE=0.12919 best=0.12074
+
+- [2026-10-21 18:02:12 UTC+8] regression seed=11 step=11100/15000 val_RMSE=0.13278 best=0.12074
+
+- [2026-10-21 18:02:13 UTC+8] regression seed=11 step=11200/15000 val_RMSE=0.12659 best=0.12074
+
+- [2026-10-21 18:02:13 UTC+8] regression seed=11 step=11300/15000 val_RMSE=0.14001 best=0.12074
+
+- [2026-10-21 18:02:13 UTC+8] regression seed=11 step=11400/15000 val_RMSE=0.13000 best=0.12074
+
+- [2026-10-21 18:02:13 UTC+8] regression seed=11 step=11500/15000 val_RMSE=0.12880 best=0.12074
+
+- [2026-10-21 18:02:13 UTC+8] regression seed=11 step=11600/15000 val_RMSE=0.13522 best=0.12074
+
+- [2026-10-21 18:02:14 UTC+8] regression seed=11 step=11700/15000 val_RMSE=0.13492 best=0.12074
+
+- [2026-10-21 18:02:14 UTC+8] regression seed=11 step=11800/15000 val_RMSE=0.12925 best=0.12074
+
+- [2026-10-21 18:02:14 UTC+8] regression seed=11 step=11900/15000 val_RMSE=0.11925 best=0.11925
+
+- [2026-10-21 18:02:14 UTC+8] regression seed=11 step=12000/15000 val_RMSE=0.12677 best=0.11925
+
+- [2026-10-21 18:02:14 UTC+8] regression seed=11 step=12100/15000 val_RMSE=0.12126 best=0.11925
+
+- [2026-10-21 18:02:15 UTC+8] regression seed=11 step=12200/15000 val_RMSE=0.12666 best=0.11925
+
+- [2026-10-21 18:02:15 UTC+8] regression seed=11 step=12300/15000 val_RMSE=0.11871 best=0.11871
+
+- [2026-10-21 18:02:15 UTC+8] regression seed=11 step=12400/15000 val_RMSE=0.14307 best=0.11871
+
+- [2026-10-21 18:02:15 UTC+8] regression seed=11 step=12500/15000 val_RMSE=0.12390 best=0.11871
+
+- [2026-10-21 18:02:16 UTC+8] regression seed=11 step=12600/15000 val_RMSE=0.12506 best=0.11871
+
+- [2026-10-21 18:02:16 UTC+8] regression seed=11 step=12700/15000 val_RMSE=0.12816 best=0.11871
+
+- [2026-10-21 18:02:16 UTC+8] regression seed=11 step=12800/15000 val_RMSE=0.12204 best=0.11871
+
+- [2026-10-21 18:02:16 UTC+8] regression seed=11 step=12900/15000 val_RMSE=0.11869 best=0.11869
+
+- [2026-10-21 18:02:16 UTC+8] regression seed=11 step=13000/15000 val_RMSE=0.12515 best=0.11869
+
+- [2026-10-21 18:02:17 UTC+8] regression seed=11 step=13100/15000 val_RMSE=0.13670 best=0.11869
+
+- [2026-10-21 18:02:17 UTC+8] regression seed=11 step=13200/15000 val_RMSE=0.12081 best=0.11869
+
+- [2026-10-21 18:02:17 UTC+8] regression seed=11 step=13300/15000 val_RMSE=0.13015 best=0.11869
+
+- [2026-10-21 18:02:17 UTC+8] regression seed=11 step=13400/15000 val_RMSE=0.14651 best=0.11869
+
+- [2026-10-21 18:02:17 UTC+8] regression seed=11 step=13500/15000 val_RMSE=0.12181 best=0.11869
+
+- [2026-10-21 18:02:18 UTC+8] regression seed=11 step=13600/15000 val_RMSE=0.12129 best=0.11869
+
+- [2026-10-21 18:02:18 UTC+8] regression seed=11 step=13700/15000 val_RMSE=0.12842 best=0.11869
+
+- [2026-10-21 18:02:18 UTC+8] regression seed=11 step=13800/15000 val_RMSE=0.12689 best=0.11869
+
+- [2026-10-21 18:02:18 UTC+8] regression seed=11 step=13900/15000 val_RMSE=0.11519 best=0.11519
+
+- [2026-10-21 18:02:18 UTC+8] regression seed=11 step=14000/15000 val_RMSE=0.13204 best=0.11519
+
+- [2026-10-21 18:02:19 UTC+8] regression seed=11 step=14100/15000 val_RMSE=0.12796 best=0.11519
+
+- [2026-10-21 18:02:19 UTC+8] regression seed=11 step=14200/15000 val_RMSE=0.13506 best=0.11519
+
+- [2026-10-21 18:02:19 UTC+8] regression seed=11 step=14300/15000 val_RMSE=0.11891 best=0.11519
+
+- [2026-10-21 18:02:19 UTC+8] regression seed=11 step=14400/15000 val_RMSE=0.12581 best=0.11519
+
+- [2026-10-21 18:02:20 UTC+8] regression seed=11 step=14500/15000 val_RMSE=0.12606 best=0.11519
+
+- [2026-10-21 18:02:20 UTC+8] regression seed=11 step=14600/15000 val_RMSE=0.12241 best=0.11519
+
+- [2026-10-21 18:02:20 UTC+8] regression seed=11 step=14700/15000 val_RMSE=0.12711 best=0.11519
+
+- [2026-10-21 18:02:20 UTC+8] regression seed=11 step=14800/15000 val_RMSE=0.12090 best=0.11519
+
+- [2026-10-21 18:02:20 UTC+8] regression seed=11 step=14900/15000 val_RMSE=0.12189 best=0.11519
+
+- [2026-10-21 18:02:21 UTC+8] regression seed=11 step=15000/15000 val_RMSE=0.13344 best=0.11519
+
+- [2026-10-21 18:02:21 UTC+8] 完成 regression seed=11，本轮耗时 28.3 s，选择验证最优 step=13900
+
+- [2026-10-21 18:02:21 UTC+8] regression seed=22 step=100/15000 val_RMSE=0.27055 best=0.27055
+
+- [2026-10-21 18:02:21 UTC+8] regression seed=22 step=200/15000 val_RMSE=0.26133 best=0.26133
+
+- [2026-10-21 18:02:21 UTC+8] regression seed=22 step=300/15000 val_RMSE=0.24961 best=0.24961
+
+- [2026-10-21 18:02:21 UTC+8] regression seed=22 step=400/15000 val_RMSE=0.24765 best=0.24765
+
+- [2026-10-21 18:02:22 UTC+8] regression seed=22 step=500/15000 val_RMSE=0.24858 best=0.24765
+
+- [2026-10-21 18:02:22 UTC+8] regression seed=22 step=600/15000 val_RMSE=0.23740 best=0.23740
+
+- [2026-10-21 18:02:22 UTC+8] regression seed=22 step=700/15000 val_RMSE=0.25157 best=0.23740
+
+- [2026-10-21 18:02:22 UTC+8] regression seed=22 step=800/15000 val_RMSE=0.22937 best=0.22937
+
+- [2026-10-21 18:02:23 UTC+8] regression seed=22 step=900/15000 val_RMSE=0.23136 best=0.22937
+
+- [2026-10-21 18:02:23 UTC+8] regression seed=22 step=1000/15000 val_RMSE=0.22701 best=0.22701
+
+- [2026-10-21 18:02:23 UTC+8] regression seed=22 step=1100/15000 val_RMSE=0.21969 best=0.21969
+
+- [2026-10-21 18:02:23 UTC+8] regression seed=22 step=1200/15000 val_RMSE=0.20697 best=0.20697
+
+- [2026-10-21 18:02:23 UTC+8] regression seed=22 step=1300/15000 val_RMSE=0.19834 best=0.19834
+
+- [2026-10-21 18:02:24 UTC+8] regression seed=22 step=1400/15000 val_RMSE=0.20712 best=0.19834
+
+- [2026-10-21 18:02:24 UTC+8] regression seed=22 step=1500/15000 val_RMSE=0.18419 best=0.18419
+
+- [2026-10-21 18:02:24 UTC+8] regression seed=22 step=1600/15000 val_RMSE=0.18307 best=0.18307
+
+- [2026-10-21 18:02:24 UTC+8] regression seed=22 step=1700/15000 val_RMSE=0.17828 best=0.17828
+
+- [2026-10-21 18:02:24 UTC+8] regression seed=22 step=1800/15000 val_RMSE=0.18026 best=0.17828
+
+- [2026-10-21 18:02:25 UTC+8] regression seed=22 step=1900/15000 val_RMSE=0.18043 best=0.17828
+
+- [2026-10-21 18:02:25 UTC+8] regression seed=22 step=2000/15000 val_RMSE=0.18116 best=0.17828
+
+- [2026-10-21 18:02:25 UTC+8] regression seed=22 step=2100/15000 val_RMSE=0.18173 best=0.17828
+
+- [2026-10-21 18:02:25 UTC+8] regression seed=22 step=2200/15000 val_RMSE=0.16723 best=0.16723
+
+- [2026-10-21 18:02:25 UTC+8] regression seed=22 step=2300/15000 val_RMSE=0.16990 best=0.16723
+
+- [2026-10-21 18:02:26 UTC+8] regression seed=22 step=2400/15000 val_RMSE=0.16659 best=0.16659
+
+- [2026-10-21 18:02:26 UTC+8] regression seed=22 step=2500/15000 val_RMSE=0.16113 best=0.16113
+
+- [2026-10-21 18:02:26 UTC+8] regression seed=22 step=2600/15000 val_RMSE=0.16407 best=0.16113
+
+- [2026-10-21 18:02:26 UTC+8] regression seed=22 step=2700/15000 val_RMSE=0.16095 best=0.16095
+
+- [2026-10-21 18:02:27 UTC+8] regression seed=22 step=2800/15000 val_RMSE=0.15606 best=0.15606
+
+- [2026-10-21 18:02:27 UTC+8] regression seed=22 step=2900/15000 val_RMSE=0.16084 best=0.15606
+
+- [2026-10-21 18:02:27 UTC+8] regression seed=22 step=3000/15000 val_RMSE=0.16113 best=0.15606
+
+- [2026-10-21 18:02:27 UTC+8] regression seed=22 step=3100/15000 val_RMSE=0.15964 best=0.15606
+
+- [2026-10-21 18:02:27 UTC+8] regression seed=22 step=3200/15000 val_RMSE=0.16099 best=0.15606
+
+- [2026-10-21 18:02:28 UTC+8] regression seed=22 step=3300/15000 val_RMSE=0.15865 best=0.15606
+
+- [2026-10-21 18:02:28 UTC+8] regression seed=22 step=3400/15000 val_RMSE=0.16029 best=0.15606
+
+- [2026-10-21 18:02:28 UTC+8] regression seed=22 step=3500/15000 val_RMSE=0.15272 best=0.15272
+
+- [2026-10-21 18:02:28 UTC+8] regression seed=22 step=3600/15000 val_RMSE=0.16248 best=0.15272
+
+- [2026-10-21 18:02:28 UTC+8] regression seed=22 step=3700/15000 val_RMSE=0.15281 best=0.15272
+
+- [2026-10-21 18:02:29 UTC+8] regression seed=22 step=3800/15000 val_RMSE=0.14077 best=0.14077
+
+- [2026-10-21 18:02:29 UTC+8] regression seed=22 step=3900/15000 val_RMSE=0.14791 best=0.14077
+
+- [2026-10-21 18:02:29 UTC+8] regression seed=22 step=4000/15000 val_RMSE=0.14188 best=0.14077
+
+- [2026-10-21 18:02:29 UTC+8] regression seed=22 step=4100/15000 val_RMSE=0.16791 best=0.14077
+
+- [2026-10-21 18:02:29 UTC+8] regression seed=22 step=4200/15000 val_RMSE=0.16045 best=0.14077
+
+- [2026-10-21 18:02:30 UTC+8] regression seed=22 step=4300/15000 val_RMSE=0.14167 best=0.14077
+
+- [2026-10-21 18:02:30 UTC+8] regression seed=22 step=4400/15000 val_RMSE=0.13706 best=0.13706
+
+- [2026-10-21 18:02:30 UTC+8] regression seed=22 step=4500/15000 val_RMSE=0.14498 best=0.13706
+
+- [2026-10-21 18:02:30 UTC+8] regression seed=22 step=4600/15000 val_RMSE=0.16264 best=0.13706
+
+- [2026-10-21 18:02:30 UTC+8] regression seed=22 step=4700/15000 val_RMSE=0.14882 best=0.13706
+
+- [2026-10-21 18:02:31 UTC+8] regression seed=22 step=4800/15000 val_RMSE=0.14764 best=0.13706
+
+- [2026-10-21 18:02:31 UTC+8] regression seed=22 step=4900/15000 val_RMSE=0.14252 best=0.13706
+
+- [2026-10-21 18:02:31 UTC+8] regression seed=22 step=5000/15000 val_RMSE=0.13757 best=0.13706
+
+- [2026-10-21 18:02:31 UTC+8] regression seed=22 step=5100/15000 val_RMSE=0.14120 best=0.13706
+
+- [2026-10-21 18:02:31 UTC+8] regression seed=22 step=5200/15000 val_RMSE=0.15115 best=0.13706
+
+- [2026-10-21 18:02:32 UTC+8] regression seed=22 step=5300/15000 val_RMSE=0.14050 best=0.13706
+
+- [2026-10-21 18:02:32 UTC+8] regression seed=22 step=5400/15000 val_RMSE=0.13674 best=0.13674
+
+- [2026-10-21 18:02:32 UTC+8] regression seed=22 step=5500/15000 val_RMSE=0.13818 best=0.13674
+
+- [2026-10-21 18:02:32 UTC+8] regression seed=22 step=5600/15000 val_RMSE=0.13853 best=0.13674
+
+- [2026-10-21 18:02:32 UTC+8] regression seed=22 step=5700/15000 val_RMSE=0.13568 best=0.13568
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=5800/15000 val_RMSE=0.14191 best=0.13568
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=5900/15000 val_RMSE=0.15180 best=0.13568
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=6000/15000 val_RMSE=0.13268 best=0.13268
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=6100/15000 val_RMSE=0.14486 best=0.13268
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=6200/15000 val_RMSE=0.15183 best=0.13268
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=6300/15000 val_RMSE=0.13564 best=0.13268
+
+- [2026-10-21 18:02:33 UTC+8] regression seed=22 step=6400/15000 val_RMSE=0.14702 best=0.13268
+
+- [2026-10-21 18:02:34 UTC+8] regression seed=22 step=6500/15000 val_RMSE=0.13035 best=0.13035
+
+- [2026-10-21 18:02:34 UTC+8] regression seed=22 step=6600/15000 val_RMSE=0.12580 best=0.12580
+
+- [2026-10-21 18:02:34 UTC+8] regression seed=22 step=6700/15000 val_RMSE=0.13903 best=0.12580
+
+- [2026-10-21 18:02:34 UTC+8] regression seed=22 step=6800/15000 val_RMSE=0.13706 best=0.12580
+
+- [2026-10-21 18:02:34 UTC+8] regression seed=22 step=6900/15000 val_RMSE=0.13512 best=0.12580
+
+- [2026-10-21 18:02:34 UTC+8] regression seed=22 step=7000/15000 val_RMSE=0.13116 best=0.12580
+
+- [2026-10-21 18:02:35 UTC+8] regression seed=22 step=7100/15000 val_RMSE=0.13830 best=0.12580
+
+- [2026-10-21 18:02:35 UTC+8] regression seed=22 step=7200/15000 val_RMSE=0.13491 best=0.12580
+
+- [2026-10-21 18:02:35 UTC+8] regression seed=22 step=7300/15000 val_RMSE=0.13633 best=0.12580
+
+- [2026-10-21 18:02:35 UTC+8] regression seed=22 step=7400/15000 val_RMSE=0.13508 best=0.12580
+
+- [2026-10-21 18:02:35 UTC+8] regression seed=22 step=7500/15000 val_RMSE=0.12874 best=0.12580
+
+- [2026-10-21 18:02:35 UTC+8] regression seed=22 step=7600/15000 val_RMSE=0.13467 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=7700/15000 val_RMSE=0.13796 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=7800/15000 val_RMSE=0.16122 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=7900/15000 val_RMSE=0.12969 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=8000/15000 val_RMSE=0.12985 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=8100/15000 val_RMSE=0.13307 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=8200/15000 val_RMSE=0.13978 best=0.12580
+
+- [2026-10-21 18:02:36 UTC+8] regression seed=22 step=8300/15000 val_RMSE=0.13293 best=0.12580
+
+- [2026-10-21 18:02:37 UTC+8] regression seed=22 step=8400/15000 val_RMSE=0.13787 best=0.12580
+
+- [2026-10-21 18:02:37 UTC+8] regression seed=22 step=8500/15000 val_RMSE=0.13084 best=0.12580
+
+- [2026-10-21 18:02:37 UTC+8] regression seed=22 step=8600/15000 val_RMSE=0.12350 best=0.12350
+
+- [2026-10-21 18:02:37 UTC+8] regression seed=22 step=8700/15000 val_RMSE=0.12162 best=0.12162
+
+- [2026-10-21 18:02:37 UTC+8] regression seed=22 step=8800/15000 val_RMSE=0.13199 best=0.12162
+
+- [2026-10-21 18:02:37 UTC+8] regression seed=22 step=8900/15000 val_RMSE=0.13047 best=0.12162
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9000/15000 val_RMSE=0.12977 best=0.12162
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9100/15000 val_RMSE=0.12959 best=0.12162
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9200/15000 val_RMSE=0.13305 best=0.12162
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9300/15000 val_RMSE=0.12226 best=0.12162
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9400/15000 val_RMSE=0.13497 best=0.12162
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9500/15000 val_RMSE=0.11796 best=0.11796
+
+- [2026-10-21 18:02:38 UTC+8] regression seed=22 step=9600/15000 val_RMSE=0.12756 best=0.11796
+
+- [2026-10-21 18:02:39 UTC+8] regression seed=22 step=9700/15000 val_RMSE=0.13591 best=0.11796
+
+- [2026-10-21 18:02:39 UTC+8] regression seed=22 step=9800/15000 val_RMSE=0.12374 best=0.11796
+
+- [2026-10-21 18:02:39 UTC+8] regression seed=22 step=9900/15000 val_RMSE=0.12274 best=0.11796
+
+- [2026-10-21 18:02:39 UTC+8] regression seed=22 step=10000/15000 val_RMSE=0.14015 best=0.11796
+
+- [2026-10-21 18:02:39 UTC+8] regression seed=22 step=10100/15000 val_RMSE=0.13420 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10200/15000 val_RMSE=0.13496 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10300/15000 val_RMSE=0.12476 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10400/15000 val_RMSE=0.12243 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10500/15000 val_RMSE=0.12159 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10600/15000 val_RMSE=0.12631 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10700/15000 val_RMSE=0.14200 best=0.11796
+
+- [2026-10-21 18:02:40 UTC+8] regression seed=22 step=10800/15000 val_RMSE=0.12467 best=0.11796
+
+- [2026-10-21 18:02:41 UTC+8] regression seed=22 step=10900/15000 val_RMSE=0.13014 best=0.11796
+
+- [2026-10-21 18:02:41 UTC+8] regression seed=22 step=11000/15000 val_RMSE=0.11945 best=0.11796
+
+- [2026-10-21 18:02:41 UTC+8] regression seed=22 step=11100/15000 val_RMSE=0.13302 best=0.11796
+
+- [2026-10-21 18:02:41 UTC+8] regression seed=22 step=11200/15000 val_RMSE=0.14506 best=0.11796
+
+- [2026-10-21 18:02:41 UTC+8] regression seed=22 step=11300/15000 val_RMSE=0.12798 best=0.11796
+
+- [2026-10-21 18:02:41 UTC+8] regression seed=22 step=11400/15000 val_RMSE=0.12334 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=11500/15000 val_RMSE=0.12384 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=11600/15000 val_RMSE=0.12883 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=11700/15000 val_RMSE=0.12410 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=11800/15000 val_RMSE=0.12123 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=11900/15000 val_RMSE=0.11929 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=12000/15000 val_RMSE=0.13006 best=0.11796
+
+- [2026-10-21 18:02:42 UTC+8] regression seed=22 step=12100/15000 val_RMSE=0.12986 best=0.11796
+
+- [2026-10-21 18:02:43 UTC+8] regression seed=22 step=12200/15000 val_RMSE=0.14081 best=0.11796
+
+- [2026-10-21 18:02:43 UTC+8] regression seed=22 step=12300/15000 val_RMSE=0.12367 best=0.11796
+
+- [2026-10-21 18:02:43 UTC+8] regression seed=22 step=12400/15000 val_RMSE=0.12241 best=0.11796
+
+- [2026-10-21 18:02:43 UTC+8] regression seed=22 step=12500/15000 val_RMSE=0.14063 best=0.11796
+
+- [2026-10-21 18:02:43 UTC+8] regression seed=22 step=12600/15000 val_RMSE=0.12366 best=0.11796
+
+- [2026-10-21 18:02:43 UTC+8] regression seed=22 step=12700/15000 val_RMSE=0.12784 best=0.11796
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=12800/15000 val_RMSE=0.11587 best=0.11587
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=12900/15000 val_RMSE=0.13181 best=0.11587
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=13000/15000 val_RMSE=0.12042 best=0.11587
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=13100/15000 val_RMSE=0.12437 best=0.11587
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=13200/15000 val_RMSE=0.12101 best=0.11587
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=13300/15000 val_RMSE=0.12742 best=0.11587
+
+- [2026-10-21 18:02:44 UTC+8] regression seed=22 step=13400/15000 val_RMSE=0.13016 best=0.11587
+
+- [2026-10-21 18:02:45 UTC+8] regression seed=22 step=13500/15000 val_RMSE=0.14655 best=0.11587
+
+- [2026-10-21 18:02:45 UTC+8] regression seed=22 step=13600/15000 val_RMSE=0.11392 best=0.11392
+
+- [2026-10-21 18:02:45 UTC+8] regression seed=22 step=13700/15000 val_RMSE=0.13892 best=0.11392
+
+- [2026-10-21 18:02:45 UTC+8] regression seed=22 step=13800/15000 val_RMSE=0.12978 best=0.11392
+
+- [2026-10-21 18:02:45 UTC+8] regression seed=22 step=13900/15000 val_RMSE=0.13256 best=0.11392
+
+- [2026-10-21 18:02:45 UTC+8] regression seed=22 step=14000/15000 val_RMSE=0.13075 best=0.11392
+
+- [2026-10-21 18:02:46 UTC+8] regression seed=22 step=14100/15000 val_RMSE=0.11985 best=0.11392
+
+- [2026-10-21 18:02:46 UTC+8] regression seed=22 step=14200/15000 val_RMSE=0.12884 best=0.11392
+
+- [2026-10-21 18:02:46 UTC+8] regression seed=22 step=14300/15000 val_RMSE=0.12499 best=0.11392
+
+- [2026-10-21 18:02:46 UTC+8] regression seed=22 step=14400/15000 val_RMSE=0.12205 best=0.11392
+
+- [2026-10-21 18:02:46 UTC+8] regression seed=22 step=14500/15000 val_RMSE=0.11967 best=0.11392
+
+- [2026-10-21 18:02:46 UTC+8] regression seed=22 step=14600/15000 val_RMSE=0.11572 best=0.11392
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=22 step=14700/15000 val_RMSE=0.12200 best=0.11392
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=22 step=14800/15000 val_RMSE=0.12299 best=0.11392
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=22 step=14900/15000 val_RMSE=0.11854 best=0.11392
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=22 step=15000/15000 val_RMSE=0.13279 best=0.11392
+
+- [2026-10-21 18:02:47 UTC+8] 完成 regression seed=22，本轮耗时 26.4 s，选择验证最优 step=13600
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=33 step=100/15000 val_RMSE=0.25476 best=0.25476
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=33 step=200/15000 val_RMSE=0.25408 best=0.25408
+
+- [2026-10-21 18:02:47 UTC+8] regression seed=33 step=300/15000 val_RMSE=0.25393 best=0.25393
+
+- [2026-10-21 18:02:48 UTC+8] regression seed=33 step=400/15000 val_RMSE=0.24870 best=0.24870
+
+- [2026-10-21 18:02:48 UTC+8] regression seed=33 step=500/15000 val_RMSE=0.24238 best=0.24238
+
+- [2026-10-21 18:02:48 UTC+8] regression seed=33 step=600/15000 val_RMSE=0.24122 best=0.24122
+
+- [2026-10-21 18:02:48 UTC+8] regression seed=33 step=700/15000 val_RMSE=0.23623 best=0.23623
+
+- [2026-10-21 18:02:48 UTC+8] regression seed=33 step=800/15000 val_RMSE=0.23035 best=0.23035
+
+- [2026-10-21 18:02:48 UTC+8] regression seed=33 step=900/15000 val_RMSE=0.23706 best=0.23035
+
+- [2026-10-21 18:02:49 UTC+8] regression seed=33 step=1000/15000 val_RMSE=0.22053 best=0.22053
+
+- [2026-10-21 18:02:49 UTC+8] regression seed=33 step=1100/15000 val_RMSE=0.22949 best=0.22053
+
+- [2026-10-21 18:02:49 UTC+8] regression seed=33 step=1200/15000 val_RMSE=0.23246 best=0.22053
+
+- [2026-10-21 18:02:49 UTC+8] regression seed=33 step=1300/15000 val_RMSE=0.20065 best=0.20065
+
+- [2026-10-21 18:02:49 UTC+8] regression seed=33 step=1400/15000 val_RMSE=0.19339 best=0.19339
+
+- [2026-10-21 18:02:49 UTC+8] regression seed=33 step=1500/15000 val_RMSE=0.18652 best=0.18652
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=1600/15000 val_RMSE=0.19352 best=0.18652
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=1700/15000 val_RMSE=0.18625 best=0.18625
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=1800/15000 val_RMSE=0.18475 best=0.18475
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=1900/15000 val_RMSE=0.17180 best=0.17180
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=2000/15000 val_RMSE=0.18606 best=0.17180
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=2100/15000 val_RMSE=0.16830 best=0.16830
+
+- [2026-10-21 18:02:50 UTC+8] regression seed=33 step=2200/15000 val_RMSE=0.18154 best=0.16830
+
+- [2026-10-21 18:02:51 UTC+8] regression seed=33 step=2300/15000 val_RMSE=0.17166 best=0.16830
+
+- [2026-10-21 18:02:51 UTC+8] regression seed=33 step=2400/15000 val_RMSE=0.16990 best=0.16830
+
+- [2026-10-21 18:02:51 UTC+8] regression seed=33 step=2500/15000 val_RMSE=0.18710 best=0.16830
+
+- [2026-10-21 18:02:51 UTC+8] regression seed=33 step=2600/15000 val_RMSE=0.16588 best=0.16588
+
+- [2026-10-21 18:02:51 UTC+8] regression seed=33 step=2700/15000 val_RMSE=0.17480 best=0.16588
+
+- [2026-10-21 18:02:51 UTC+8] regression seed=33 step=2800/15000 val_RMSE=0.15697 best=0.15697
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=2900/15000 val_RMSE=0.15438 best=0.15438
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=3000/15000 val_RMSE=0.16584 best=0.15438
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=3100/15000 val_RMSE=0.16020 best=0.15438
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=3200/15000 val_RMSE=0.16221 best=0.15438
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=3300/15000 val_RMSE=0.15090 best=0.15090
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=3400/15000 val_RMSE=0.15063 best=0.15063
+
+- [2026-10-21 18:02:52 UTC+8] regression seed=33 step=3500/15000 val_RMSE=0.16396 best=0.15063
+
+- [2026-10-21 18:02:53 UTC+8] regression seed=33 step=3600/15000 val_RMSE=0.16639 best=0.15063
+
+- [2026-10-21 18:02:53 UTC+8] regression seed=33 step=3700/15000 val_RMSE=0.16748 best=0.15063
+
+- [2026-10-21 18:02:53 UTC+8] regression seed=33 step=3800/15000 val_RMSE=0.16263 best=0.15063
+
+- [2026-10-21 18:02:53 UTC+8] regression seed=33 step=3900/15000 val_RMSE=0.15374 best=0.15063
+
+- [2026-10-21 18:02:53 UTC+8] regression seed=33 step=4000/15000 val_RMSE=0.16462 best=0.15063
+
+- [2026-10-21 18:02:53 UTC+8] regression seed=33 step=4100/15000 val_RMSE=0.14307 best=0.14307
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4200/15000 val_RMSE=0.14823 best=0.14307
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4300/15000 val_RMSE=0.14133 best=0.14133
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4400/15000 val_RMSE=0.14657 best=0.14133
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4500/15000 val_RMSE=0.14909 best=0.14133
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4600/15000 val_RMSE=0.15350 best=0.14133
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4700/15000 val_RMSE=0.15072 best=0.14133
+
+- [2026-10-21 18:02:54 UTC+8] regression seed=33 step=4800/15000 val_RMSE=0.14152 best=0.14133
+
+- [2026-10-21 18:02:55 UTC+8] regression seed=33 step=4900/15000 val_RMSE=0.15246 best=0.14133
+
+- [2026-10-21 18:02:55 UTC+8] regression seed=33 step=5000/15000 val_RMSE=0.14600 best=0.14133
+
+- [2026-10-21 18:02:55 UTC+8] regression seed=33 step=5100/15000 val_RMSE=0.15009 best=0.14133
+
+- [2026-10-21 18:02:55 UTC+8] regression seed=33 step=5200/15000 val_RMSE=0.14863 best=0.14133
+
+- [2026-10-21 18:02:55 UTC+8] regression seed=33 step=5300/15000 val_RMSE=0.14399 best=0.14133
+
+- [2026-10-21 18:02:55 UTC+8] regression seed=33 step=5400/15000 val_RMSE=0.14839 best=0.14133
+
+- [2026-10-21 18:02:56 UTC+8] regression seed=33 step=5500/15000 val_RMSE=0.13629 best=0.13629
+
+- [2026-10-21 18:02:56 UTC+8] regression seed=33 step=5600/15000 val_RMSE=0.14556 best=0.13629
+
+- [2026-10-21 18:02:56 UTC+8] regression seed=33 step=5700/15000 val_RMSE=0.13344 best=0.13344
+
+- [2026-10-21 18:02:56 UTC+8] regression seed=33 step=5800/15000 val_RMSE=0.14912 best=0.13344
+
+- [2026-10-21 18:02:56 UTC+8] regression seed=33 step=5900/15000 val_RMSE=0.15823 best=0.13344
+
+- [2026-10-21 18:02:56 UTC+8] regression seed=33 step=6000/15000 val_RMSE=0.13559 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6100/15000 val_RMSE=0.14305 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6200/15000 val_RMSE=0.16402 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6300/15000 val_RMSE=0.13387 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6400/15000 val_RMSE=0.13696 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6500/15000 val_RMSE=0.17649 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6600/15000 val_RMSE=0.14402 best=0.13344
+
+- [2026-10-21 18:02:57 UTC+8] regression seed=33 step=6700/15000 val_RMSE=0.14356 best=0.13344
+
+- [2026-10-21 18:02:58 UTC+8] regression seed=33 step=6800/15000 val_RMSE=0.14005 best=0.13344
+
+- [2026-10-21 18:02:58 UTC+8] regression seed=33 step=6900/15000 val_RMSE=0.13527 best=0.13344
+
+- [2026-10-21 18:02:58 UTC+8] regression seed=33 step=7000/15000 val_RMSE=0.14209 best=0.13344
+
+- [2026-10-21 18:02:58 UTC+8] regression seed=33 step=7100/15000 val_RMSE=0.13189 best=0.13189
+
+- [2026-10-21 18:02:58 UTC+8] regression seed=33 step=7200/15000 val_RMSE=0.13293 best=0.13189
+
+- [2026-10-21 18:02:58 UTC+8] regression seed=33 step=7300/15000 val_RMSE=0.13901 best=0.13189
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=7400/15000 val_RMSE=0.14510 best=0.13189
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=7500/15000 val_RMSE=0.14252 best=0.13189
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=7600/15000 val_RMSE=0.15056 best=0.13189
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=7700/15000 val_RMSE=0.12919 best=0.12919
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=7800/15000 val_RMSE=0.13361 best=0.12919
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=7900/15000 val_RMSE=0.13119 best=0.12919
+
+- [2026-10-21 18:02:59 UTC+8] regression seed=33 step=8000/15000 val_RMSE=0.12306 best=0.12306
+
+- [2026-10-21 18:03:00 UTC+8] regression seed=33 step=8100/15000 val_RMSE=0.12598 best=0.12306
+
+- [2026-10-21 18:03:00 UTC+8] regression seed=33 step=8200/15000 val_RMSE=0.12516 best=0.12306
+
+- [2026-10-21 18:03:00 UTC+8] regression seed=33 step=8300/15000 val_RMSE=0.14791 best=0.12306
+
+- [2026-10-21 18:03:00 UTC+8] regression seed=33 step=8400/15000 val_RMSE=0.12544 best=0.12306
+
+- [2026-10-21 18:03:00 UTC+8] regression seed=33 step=8500/15000 val_RMSE=0.12499 best=0.12306
+
+- [2026-10-21 18:03:00 UTC+8] regression seed=33 step=8600/15000 val_RMSE=0.12519 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=8700/15000 val_RMSE=0.12971 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=8800/15000 val_RMSE=0.13987 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=8900/15000 val_RMSE=0.13675 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=9000/15000 val_RMSE=0.13870 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=9100/15000 val_RMSE=0.12949 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=9200/15000 val_RMSE=0.13155 best=0.12306
+
+- [2026-10-21 18:03:01 UTC+8] regression seed=33 step=9300/15000 val_RMSE=0.12987 best=0.12306
+
+- [2026-10-21 18:03:02 UTC+8] regression seed=33 step=9400/15000 val_RMSE=0.12406 best=0.12306
+
+- [2026-10-21 18:03:02 UTC+8] regression seed=33 step=9500/15000 val_RMSE=0.14613 best=0.12306
+
+- [2026-10-21 18:03:02 UTC+8] regression seed=33 step=9600/15000 val_RMSE=0.12847 best=0.12306
+
+- [2026-10-21 18:03:02 UTC+8] regression seed=33 step=9700/15000 val_RMSE=0.13189 best=0.12306
+
+- [2026-10-21 18:03:02 UTC+8] regression seed=33 step=9800/15000 val_RMSE=0.13853 best=0.12306
+
+- [2026-10-21 18:03:02 UTC+8] regression seed=33 step=9900/15000 val_RMSE=0.12408 best=0.12306
+
+- [2026-10-21 18:03:03 UTC+8] regression seed=33 step=10000/15000 val_RMSE=0.12168 best=0.12168
+
+- [2026-10-21 18:03:03 UTC+8] regression seed=33 step=10100/15000 val_RMSE=0.14291 best=0.12168
+
+- [2026-10-21 18:03:03 UTC+8] regression seed=33 step=10200/15000 val_RMSE=0.13872 best=0.12168
+
+- [2026-10-21 18:03:03 UTC+8] regression seed=33 step=10300/15000 val_RMSE=0.12029 best=0.12029
+
+- [2026-10-21 18:03:03 UTC+8] regression seed=33 step=10400/15000 val_RMSE=0.13253 best=0.12029
+
+- [2026-10-21 18:03:03 UTC+8] regression seed=33 step=10500/15000 val_RMSE=0.12564 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=10600/15000 val_RMSE=0.12693 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=10700/15000 val_RMSE=0.12191 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=10800/15000 val_RMSE=0.13215 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=10900/15000 val_RMSE=0.12473 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=11000/15000 val_RMSE=0.13172 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=11100/15000 val_RMSE=0.12424 best=0.12029
+
+- [2026-10-21 18:03:04 UTC+8] regression seed=33 step=11200/15000 val_RMSE=0.12638 best=0.12029
+
+- [2026-10-21 18:03:05 UTC+8] regression seed=33 step=11300/15000 val_RMSE=0.14071 best=0.12029
+
+- [2026-10-21 18:03:05 UTC+8] regression seed=33 step=11400/15000 val_RMSE=0.12837 best=0.12029
+
+- [2026-10-21 18:03:05 UTC+8] regression seed=33 step=11500/15000 val_RMSE=0.13201 best=0.12029
+
+- [2026-10-21 18:03:05 UTC+8] regression seed=33 step=11600/15000 val_RMSE=0.12803 best=0.12029
+
+- [2026-10-21 18:03:05 UTC+8] regression seed=33 step=11700/15000 val_RMSE=0.14176 best=0.12029
+
+- [2026-10-21 18:03:05 UTC+8] regression seed=33 step=11800/15000 val_RMSE=0.12301 best=0.12029
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=11900/15000 val_RMSE=0.14846 best=0.12029
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=12000/15000 val_RMSE=0.12260 best=0.12029
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=12100/15000 val_RMSE=0.12361 best=0.12029
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=12200/15000 val_RMSE=0.11967 best=0.11967
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=12300/15000 val_RMSE=0.12403 best=0.11967
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=12400/15000 val_RMSE=0.11812 best=0.11812
+
+- [2026-10-21 18:03:06 UTC+8] regression seed=33 step=12500/15000 val_RMSE=0.12859 best=0.11812
+
+- [2026-10-21 18:03:07 UTC+8] regression seed=33 step=12600/15000 val_RMSE=0.11945 best=0.11812
+
+- [2026-10-21 18:03:07 UTC+8] regression seed=33 step=12700/15000 val_RMSE=0.12771 best=0.11812
+
+- [2026-10-21 18:03:07 UTC+8] regression seed=33 step=12800/15000 val_RMSE=0.13576 best=0.11812
+
+- [2026-10-21 18:03:07 UTC+8] regression seed=33 step=12900/15000 val_RMSE=0.12257 best=0.11812
+
+- [2026-10-21 18:03:07 UTC+8] regression seed=33 step=13000/15000 val_RMSE=0.12415 best=0.11812
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13100/15000 val_RMSE=0.12382 best=0.11812
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13200/15000 val_RMSE=0.11720 best=0.11720
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13300/15000 val_RMSE=0.12587 best=0.11720
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13400/15000 val_RMSE=0.13393 best=0.11720
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13500/15000 val_RMSE=0.12237 best=0.11720
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13600/15000 val_RMSE=0.11814 best=0.11720
+
+- [2026-10-21 18:03:08 UTC+8] regression seed=33 step=13700/15000 val_RMSE=0.11742 best=0.11720
+
+- [2026-10-21 18:03:09 UTC+8] regression seed=33 step=13800/15000 val_RMSE=0.12787 best=0.11720
+
+- [2026-10-21 18:03:09 UTC+8] regression seed=33 step=13900/15000 val_RMSE=0.13306 best=0.11720
+
+- [2026-10-21 18:03:09 UTC+8] regression seed=33 step=14000/15000 val_RMSE=0.12408 best=0.11720
+
+- [2026-10-21 18:03:09 UTC+8] regression seed=33 step=14100/15000 val_RMSE=0.12114 best=0.11720
+
+- [2026-10-21 18:03:09 UTC+8] regression seed=33 step=14200/15000 val_RMSE=0.12194 best=0.11720
+
+- [2026-10-21 18:03:09 UTC+8] regression seed=33 step=14300/15000 val_RMSE=0.12246 best=0.11720
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=14400/15000 val_RMSE=0.11728 best=0.11720
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=14500/15000 val_RMSE=0.12094 best=0.11720
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=14600/15000 val_RMSE=0.11651 best=0.11651
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=14700/15000 val_RMSE=0.13456 best=0.11651
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=14800/15000 val_RMSE=0.13107 best=0.11651
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=14900/15000 val_RMSE=0.13253 best=0.11651
+
+- [2026-10-21 18:03:10 UTC+8] regression seed=33 step=15000/15000 val_RMSE=0.12539 best=0.11651
+
+- [2026-10-21 18:03:10 UTC+8] 完成 regression seed=33，本轮耗时 23.5 s，选择验证最优 step=14600
+
+- [2026-10-21 18:03:11 UTC+8] residual seed=11 step=100/15000 val_RMSE=0.27637 best=0.27637
+
+- [2026-10-21 18:03:11 UTC+8] residual seed=11 step=200/15000 val_RMSE=0.25848 best=0.25848
+
+- [2026-10-21 18:03:11 UTC+8] residual seed=11 step=300/15000 val_RMSE=0.25501 best=0.25501
+
+- [2026-10-21 18:03:11 UTC+8] residual seed=11 step=400/15000 val_RMSE=0.25036 best=0.25036
+
+- [2026-10-21 18:03:11 UTC+8] residual seed=11 step=500/15000 val_RMSE=0.25292 best=0.25036
+
+- [2026-10-21 18:03:11 UTC+8] residual seed=11 step=600/15000 val_RMSE=0.25910 best=0.25036
+
+- [2026-10-21 18:03:12 UTC+8] residual seed=11 step=700/15000 val_RMSE=0.24178 best=0.24178
+
+- [2026-10-21 18:03:12 UTC+8] residual seed=11 step=800/15000 val_RMSE=0.23928 best=0.23928
+
+- [2026-10-21 18:03:12 UTC+8] residual seed=11 step=900/15000 val_RMSE=0.22738 best=0.22738
+
+- [2026-10-21 18:03:12 UTC+8] residual seed=11 step=1000/15000 val_RMSE=0.21280 best=0.21280
+
+- [2026-10-21 18:03:12 UTC+8] residual seed=11 step=1100/15000 val_RMSE=0.23736 best=0.21280
+
+- [2026-10-21 18:03:12 UTC+8] residual seed=11 step=1200/15000 val_RMSE=0.20462 best=0.20462
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1300/15000 val_RMSE=0.21286 best=0.20462
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1400/15000 val_RMSE=0.20460 best=0.20460
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1500/15000 val_RMSE=0.21794 best=0.20460
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1600/15000 val_RMSE=0.19484 best=0.19484
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1700/15000 val_RMSE=0.20070 best=0.19484
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1800/15000 val_RMSE=0.19849 best=0.19484
+
+- [2026-10-21 18:03:13 UTC+8] residual seed=11 step=1900/15000 val_RMSE=0.19555 best=0.19484
+
+- [2026-10-21 18:03:14 UTC+8] residual seed=11 step=2000/15000 val_RMSE=0.19391 best=0.19391
+
+- [2026-10-21 18:03:14 UTC+8] residual seed=11 step=2100/15000 val_RMSE=0.20543 best=0.19391
+
+- [2026-10-21 18:03:14 UTC+8] residual seed=11 step=2200/15000 val_RMSE=0.19720 best=0.19391
+
+- [2026-10-21 18:03:14 UTC+8] residual seed=11 step=2300/15000 val_RMSE=0.17235 best=0.17235
+
+- [2026-10-21 18:03:14 UTC+8] residual seed=11 step=2400/15000 val_RMSE=0.20002 best=0.17235
+
+- [2026-10-21 18:03:14 UTC+8] residual seed=11 step=2500/15000 val_RMSE=0.17931 best=0.17235
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=2600/15000 val_RMSE=0.19425 best=0.17235
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=2700/15000 val_RMSE=0.17865 best=0.17235
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=2800/15000 val_RMSE=0.17737 best=0.17235
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=2900/15000 val_RMSE=0.17379 best=0.17235
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=3000/15000 val_RMSE=0.18027 best=0.17235
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=3100/15000 val_RMSE=0.16835 best=0.16835
+
+- [2026-10-21 18:03:15 UTC+8] residual seed=11 step=3200/15000 val_RMSE=0.17359 best=0.16835
+
+- [2026-10-21 18:03:16 UTC+8] residual seed=11 step=3300/15000 val_RMSE=0.16838 best=0.16835
+
+- [2026-10-21 18:03:16 UTC+8] residual seed=11 step=3400/15000 val_RMSE=0.16675 best=0.16675
+
+- [2026-10-21 18:03:16 UTC+8] residual seed=11 step=3500/15000 val_RMSE=0.17369 best=0.16675
+
+- [2026-10-21 18:03:16 UTC+8] residual seed=11 step=3600/15000 val_RMSE=0.16661 best=0.16661
+
+- [2026-10-21 18:03:16 UTC+8] residual seed=11 step=3700/15000 val_RMSE=0.16218 best=0.16218
+
+- [2026-10-21 18:03:16 UTC+8] residual seed=11 step=3800/15000 val_RMSE=0.17481 best=0.16218
+
+- [2026-10-21 18:03:17 UTC+8] residual seed=11 step=3900/15000 val_RMSE=0.16286 best=0.16218
+
+- [2026-10-21 18:03:17 UTC+8] residual seed=11 step=4000/15000 val_RMSE=0.15732 best=0.15732
+
+- [2026-10-21 18:03:17 UTC+8] residual seed=11 step=4100/15000 val_RMSE=0.16895 best=0.15732
+
+- [2026-10-21 18:03:17 UTC+8] residual seed=11 step=4200/15000 val_RMSE=0.16560 best=0.15732
+
+- [2026-10-21 18:03:17 UTC+8] residual seed=11 step=4300/15000 val_RMSE=0.15697 best=0.15697
+
+- [2026-10-21 18:03:17 UTC+8] residual seed=11 step=4400/15000 val_RMSE=0.15220 best=0.15220
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=4500/15000 val_RMSE=0.13728 best=0.13728
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=4600/15000 val_RMSE=0.17317 best=0.13728
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=4700/15000 val_RMSE=0.15530 best=0.13728
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=4800/15000 val_RMSE=0.15763 best=0.13728
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=4900/15000 val_RMSE=0.14540 best=0.13728
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=5000/15000 val_RMSE=0.13368 best=0.13368
+
+- [2026-10-21 18:03:18 UTC+8] residual seed=11 step=5100/15000 val_RMSE=0.14660 best=0.13368
+
+- [2026-10-21 18:03:19 UTC+8] residual seed=11 step=5200/15000 val_RMSE=0.15359 best=0.13368
+
+- [2026-10-21 18:03:19 UTC+8] residual seed=11 step=5300/15000 val_RMSE=0.14629 best=0.13368
+
+- [2026-10-21 18:03:19 UTC+8] residual seed=11 step=5400/15000 val_RMSE=0.14759 best=0.13368
+
+- [2026-10-21 18:03:19 UTC+8] residual seed=11 step=5500/15000 val_RMSE=0.14799 best=0.13368
+
+- [2026-10-21 18:03:19 UTC+8] residual seed=11 step=5600/15000 val_RMSE=0.14608 best=0.13368
+
+- [2026-10-21 18:03:19 UTC+8] residual seed=11 step=5700/15000 val_RMSE=0.14268 best=0.13368
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=5800/15000 val_RMSE=0.17218 best=0.13368
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=5900/15000 val_RMSE=0.15126 best=0.13368
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=6000/15000 val_RMSE=0.13271 best=0.13271
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=6100/15000 val_RMSE=0.14032 best=0.13271
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=6200/15000 val_RMSE=0.15418 best=0.13271
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=6300/15000 val_RMSE=0.15111 best=0.13271
+
+- [2026-10-21 18:03:20 UTC+8] residual seed=11 step=6400/15000 val_RMSE=0.15479 best=0.13271
+
+- [2026-10-21 18:03:21 UTC+8] residual seed=11 step=6500/15000 val_RMSE=0.14752 best=0.13271
+
+- [2026-10-21 18:03:21 UTC+8] residual seed=11 step=6600/15000 val_RMSE=0.14642 best=0.13271
+
+- [2026-10-21 18:03:21 UTC+8] residual seed=11 step=6700/15000 val_RMSE=0.14617 best=0.13271
+
+- [2026-10-21 18:03:21 UTC+8] residual seed=11 step=6800/15000 val_RMSE=0.13759 best=0.13271
+
+- [2026-10-21 18:03:21 UTC+8] residual seed=11 step=6900/15000 val_RMSE=0.15097 best=0.13271
+
+- [2026-10-21 18:03:21 UTC+8] residual seed=11 step=7000/15000 val_RMSE=0.13107 best=0.13107
+
+- [2026-10-21 18:03:22 UTC+8] residual seed=11 step=7100/15000 val_RMSE=0.12346 best=0.12346
+
+- [2026-10-21 18:03:22 UTC+8] residual seed=11 step=7200/15000 val_RMSE=0.12732 best=0.12346
+
+- [2026-10-21 18:03:22 UTC+8] residual seed=11 step=7300/15000 val_RMSE=0.13988 best=0.12346
+
+- [2026-10-21 18:03:22 UTC+8] residual seed=11 step=7400/15000 val_RMSE=0.15029 best=0.12346
+
+- [2026-10-21 18:03:22 UTC+8] residual seed=11 step=7500/15000 val_RMSE=0.13719 best=0.12346
+
+- [2026-10-21 18:03:22 UTC+8] residual seed=11 step=7600/15000 val_RMSE=0.14649 best=0.12346
+
+- [2026-10-21 18:03:23 UTC+8] residual seed=11 step=7700/15000 val_RMSE=0.13563 best=0.12346
+
+- [2026-10-21 18:03:23 UTC+8] residual seed=11 step=7800/15000 val_RMSE=0.13697 best=0.12346
+
+- [2026-10-21 18:03:23 UTC+8] residual seed=11 step=7900/15000 val_RMSE=0.15051 best=0.12346
+
+- [2026-10-21 18:03:23 UTC+8] residual seed=11 step=8000/15000 val_RMSE=0.13339 best=0.12346
+
+- [2026-10-21 18:03:23 UTC+8] residual seed=11 step=8100/15000 val_RMSE=0.14234 best=0.12346
+
+- [2026-10-21 18:03:23 UTC+8] residual seed=11 step=8200/15000 val_RMSE=0.16033 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8300/15000 val_RMSE=0.13566 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8400/15000 val_RMSE=0.12575 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8500/15000 val_RMSE=0.12595 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8600/15000 val_RMSE=0.12747 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8700/15000 val_RMSE=0.12994 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8800/15000 val_RMSE=0.13919 best=0.12346
+
+- [2026-10-21 18:03:24 UTC+8] residual seed=11 step=8900/15000 val_RMSE=0.13250 best=0.12346
+
+- [2026-10-21 18:03:25 UTC+8] residual seed=11 step=9000/15000 val_RMSE=0.16006 best=0.12346
+
+- [2026-10-21 18:03:25 UTC+8] residual seed=11 step=9100/15000 val_RMSE=0.14982 best=0.12346
+
+- [2026-10-21 18:03:25 UTC+8] residual seed=11 step=9200/15000 val_RMSE=0.14140 best=0.12346
+
+- [2026-10-21 18:03:25 UTC+8] residual seed=11 step=9300/15000 val_RMSE=0.14011 best=0.12346
+
+- [2026-10-21 18:03:25 UTC+8] residual seed=11 step=9400/15000 val_RMSE=0.14325 best=0.12346
+
+- [2026-10-21 18:03:25 UTC+8] residual seed=11 step=9500/15000 val_RMSE=0.12439 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=9600/15000 val_RMSE=0.13087 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=9700/15000 val_RMSE=0.13242 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=9800/15000 val_RMSE=0.14255 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=9900/15000 val_RMSE=0.16130 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=10000/15000 val_RMSE=0.13342 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=10100/15000 val_RMSE=0.14072 best=0.12346
+
+- [2026-10-21 18:03:26 UTC+8] residual seed=11 step=10200/15000 val_RMSE=0.13623 best=0.12346
+
+- [2026-10-21 18:03:27 UTC+8] residual seed=11 step=10300/15000 val_RMSE=0.12261 best=0.12261
+
+- [2026-10-21 18:03:27 UTC+8] residual seed=11 step=10400/15000 val_RMSE=0.12402 best=0.12261
+
+- [2026-10-21 18:03:27 UTC+8] residual seed=11 step=10500/15000 val_RMSE=0.13717 best=0.12261
+
+- [2026-10-21 18:03:27 UTC+8] residual seed=11 step=10600/15000 val_RMSE=0.13879 best=0.12261
+
+- [2026-10-21 18:03:27 UTC+8] residual seed=11 step=10700/15000 val_RMSE=0.13768 best=0.12261
+
+- [2026-10-21 18:03:27 UTC+8] residual seed=11 step=10800/15000 val_RMSE=0.13307 best=0.12261
+
+- [2026-10-21 18:03:28 UTC+8] residual seed=11 step=10900/15000 val_RMSE=0.12043 best=0.12043
+
+- [2026-10-21 18:03:28 UTC+8] residual seed=11 step=11000/15000 val_RMSE=0.14722 best=0.12043
+
+- [2026-10-21 18:03:28 UTC+8] residual seed=11 step=11100/15000 val_RMSE=0.13976 best=0.12043
+
+- [2026-10-21 18:03:28 UTC+8] residual seed=11 step=11200/15000 val_RMSE=0.13403 best=0.12043
+
+- [2026-10-21 18:03:28 UTC+8] residual seed=11 step=11300/15000 val_RMSE=0.13691 best=0.12043
+
+- [2026-10-21 18:03:28 UTC+8] residual seed=11 step=11400/15000 val_RMSE=0.12977 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=11500/15000 val_RMSE=0.14684 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=11600/15000 val_RMSE=0.12500 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=11700/15000 val_RMSE=0.13756 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=11800/15000 val_RMSE=0.12120 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=11900/15000 val_RMSE=0.13154 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=12000/15000 val_RMSE=0.13440 best=0.12043
+
+- [2026-10-21 18:03:29 UTC+8] residual seed=11 step=12100/15000 val_RMSE=0.12783 best=0.12043
+
+- [2026-10-21 18:03:30 UTC+8] residual seed=11 step=12200/15000 val_RMSE=0.12584 best=0.12043
+
+- [2026-10-21 18:03:30 UTC+8] residual seed=11 step=12300/15000 val_RMSE=0.12993 best=0.12043
+
+- [2026-10-21 18:03:30 UTC+8] residual seed=11 step=12400/15000 val_RMSE=0.12655 best=0.12043
+
+- [2026-10-21 18:03:30 UTC+8] residual seed=11 step=12500/15000 val_RMSE=0.12089 best=0.12043
+
+- [2026-10-21 18:03:30 UTC+8] residual seed=11 step=12600/15000 val_RMSE=0.12691 best=0.12043
+
+- [2026-10-21 18:03:30 UTC+8] residual seed=11 step=12700/15000 val_RMSE=0.11811 best=0.11811
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=12800/15000 val_RMSE=0.11862 best=0.11811
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=12900/15000 val_RMSE=0.11764 best=0.11764
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=13000/15000 val_RMSE=0.12293 best=0.11764
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=13100/15000 val_RMSE=0.12696 best=0.11764
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=13200/15000 val_RMSE=0.12288 best=0.11764
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=13300/15000 val_RMSE=0.13478 best=0.11764
+
+- [2026-10-21 18:03:31 UTC+8] residual seed=11 step=13400/15000 val_RMSE=0.13446 best=0.11764
+
+- [2026-10-21 18:03:32 UTC+8] residual seed=11 step=13500/15000 val_RMSE=0.13041 best=0.11764
+
+- [2026-10-21 18:03:32 UTC+8] residual seed=11 step=13600/15000 val_RMSE=0.12008 best=0.11764
+
+- [2026-10-21 18:03:32 UTC+8] residual seed=11 step=13700/15000 val_RMSE=0.11855 best=0.11764
+
+- [2026-10-21 18:03:32 UTC+8] residual seed=11 step=13800/15000 val_RMSE=0.12273 best=0.11764
+
+- [2026-10-21 18:03:32 UTC+8] residual seed=11 step=13900/15000 val_RMSE=0.12900 best=0.11764
+
+- [2026-10-21 18:03:32 UTC+8] residual seed=11 step=14000/15000 val_RMSE=0.12978 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14100/15000 val_RMSE=0.14413 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14200/15000 val_RMSE=0.12450 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14300/15000 val_RMSE=0.12385 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14400/15000 val_RMSE=0.13108 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14500/15000 val_RMSE=0.12231 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14600/15000 val_RMSE=0.14039 best=0.11764
+
+- [2026-10-21 18:03:33 UTC+8] residual seed=11 step=14700/15000 val_RMSE=0.14238 best=0.11764
+
+- [2026-10-21 18:03:34 UTC+8] residual seed=11 step=14800/15000 val_RMSE=0.14605 best=0.11764
+
+- [2026-10-21 18:03:34 UTC+8] residual seed=11 step=14900/15000 val_RMSE=0.14054 best=0.11764
+
+- [2026-10-21 18:03:34 UTC+8] residual seed=11 step=15000/15000 val_RMSE=0.12662 best=0.11764
+
+- [2026-10-21 18:03:34 UTC+8] 完成 residual seed=11，本轮耗时 23.4 s，选择验证最优 step=12900
+
+- [2026-10-21 18:03:34 UTC+8] residual seed=22 step=100/15000 val_RMSE=0.26683 best=0.26683
+
+- [2026-10-21 18:03:34 UTC+8] residual seed=22 step=200/15000 val_RMSE=0.26116 best=0.26116
+
+- [2026-10-21 18:03:34 UTC+8] residual seed=22 step=300/15000 val_RMSE=0.24421 best=0.24421
+
+- [2026-10-21 18:03:35 UTC+8] residual seed=22 step=400/15000 val_RMSE=0.25084 best=0.24421
+
+- [2026-10-21 18:03:35 UTC+8] residual seed=22 step=500/15000 val_RMSE=0.23809 best=0.23809
+
+- [2026-10-21 18:03:35 UTC+8] residual seed=22 step=600/15000 val_RMSE=0.24302 best=0.23809
+
+- [2026-10-21 18:03:35 UTC+8] residual seed=22 step=700/15000 val_RMSE=0.28283 best=0.23809
+
+- [2026-10-21 18:03:35 UTC+8] residual seed=22 step=800/15000 val_RMSE=0.23535 best=0.23535
+
+- [2026-10-21 18:03:35 UTC+8] residual seed=22 step=900/15000 val_RMSE=0.21941 best=0.21941
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1000/15000 val_RMSE=0.22424 best=0.21941
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1100/15000 val_RMSE=0.22089 best=0.21941
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1200/15000 val_RMSE=0.20297 best=0.20297
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1300/15000 val_RMSE=0.20986 best=0.20297
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1400/15000 val_RMSE=0.19149 best=0.19149
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1500/15000 val_RMSE=0.20413 best=0.19149
+
+- [2026-10-21 18:03:36 UTC+8] residual seed=22 step=1600/15000 val_RMSE=0.18652 best=0.18652
+
+- [2026-10-21 18:03:37 UTC+8] residual seed=22 step=1700/15000 val_RMSE=0.20054 best=0.18652
+
+- [2026-10-21 18:03:37 UTC+8] residual seed=22 step=1800/15000 val_RMSE=0.17879 best=0.17879
+
+- [2026-10-21 18:03:37 UTC+8] residual seed=22 step=1900/15000 val_RMSE=0.18806 best=0.17879
+
+- [2026-10-21 18:03:37 UTC+8] residual seed=22 step=2000/15000 val_RMSE=0.19222 best=0.17879
+
+- [2026-10-21 18:03:37 UTC+8] residual seed=22 step=2100/15000 val_RMSE=0.20436 best=0.17879
+
+- [2026-10-21 18:03:37 UTC+8] residual seed=22 step=2200/15000 val_RMSE=0.18091 best=0.17879
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2300/15000 val_RMSE=0.17778 best=0.17778
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2400/15000 val_RMSE=0.16921 best=0.16921
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2500/15000 val_RMSE=0.18241 best=0.16921
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2600/15000 val_RMSE=0.16139 best=0.16139
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2700/15000 val_RMSE=0.16422 best=0.16139
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2800/15000 val_RMSE=0.16415 best=0.16139
+
+- [2026-10-21 18:03:38 UTC+8] residual seed=22 step=2900/15000 val_RMSE=0.19084 best=0.16139
+
+- [2026-10-21 18:03:39 UTC+8] residual seed=22 step=3000/15000 val_RMSE=0.15954 best=0.15954
+
+- [2026-10-21 18:03:39 UTC+8] residual seed=22 step=3100/15000 val_RMSE=0.16416 best=0.15954
+
+- [2026-10-21 18:03:39 UTC+8] residual seed=22 step=3200/15000 val_RMSE=0.19771 best=0.15954
+
+- [2026-10-21 18:03:39 UTC+8] residual seed=22 step=3300/15000 val_RMSE=0.16988 best=0.15954
+
+- [2026-10-21 18:03:39 UTC+8] residual seed=22 step=3400/15000 val_RMSE=0.17536 best=0.15954
+
+- [2026-10-21 18:03:39 UTC+8] residual seed=22 step=3500/15000 val_RMSE=0.17800 best=0.15954
+
+- [2026-10-21 18:03:40 UTC+8] residual seed=22 step=3600/15000 val_RMSE=0.15607 best=0.15607
+
+- [2026-10-21 18:08:55 UTC+8] 单步混合实验开始：CPU，训练轨迹=360，每模型更新=15000
+
+- [2026-10-21 18:09:42 UTC+8] 混合数据完成：训练窗口=136080，验证窗口=17010
+
+- [2026-10-21 18:09:42 UTC+8] 恢复 residual seed=22，训练步数 3700
+
+- [2026-10-21 18:09:43 UTC+8] residual seed=22 step=3800/15000 val_RMSE=0.16334 best=0.15607
+
+- [2026-10-21 18:09:43 UTC+8] residual seed=22 step=3900/15000 val_RMSE=0.15125 best=0.15125
+
+- [2026-10-21 18:09:43 UTC+8] residual seed=22 step=4000/15000 val_RMSE=0.16063 best=0.15125
+
+- [2026-10-21 18:09:43 UTC+8] residual seed=22 step=4100/15000 val_RMSE=0.15554 best=0.15125
+
+- [2026-10-21 18:09:43 UTC+8] residual seed=22 step=4200/15000 val_RMSE=0.16534 best=0.15125
+
+- [2026-10-21 18:09:44 UTC+8] residual seed=22 step=4300/15000 val_RMSE=0.14962 best=0.14962
+
+- [2026-10-21 18:09:44 UTC+8] residual seed=22 step=4400/15000 val_RMSE=0.13697 best=0.13697
+
+- [2026-10-21 18:09:44 UTC+8] residual seed=22 step=4500/15000 val_RMSE=0.16148 best=0.13697
+
+- [2026-10-21 18:09:44 UTC+8] residual seed=22 step=4600/15000 val_RMSE=0.15133 best=0.13697
+
+- [2026-10-21 18:09:45 UTC+8] residual seed=22 step=4700/15000 val_RMSE=0.16037 best=0.13697
+
+- [2026-10-21 18:09:45 UTC+8] residual seed=22 step=4800/15000 val_RMSE=0.16775 best=0.13697
+
+- [2026-10-21 18:09:45 UTC+8] residual seed=22 step=4900/15000 val_RMSE=0.15194 best=0.13697
+
+- [2026-10-21 18:09:45 UTC+8] residual seed=22 step=5000/15000 val_RMSE=0.13970 best=0.13697
+
+- [2026-10-21 18:09:45 UTC+8] residual seed=22 step=5100/15000 val_RMSE=0.14220 best=0.13697
+
+- [2026-10-21 18:09:46 UTC+8] residual seed=22 step=5200/15000 val_RMSE=0.14525 best=0.13697
+
+- [2026-10-21 18:09:46 UTC+8] residual seed=22 step=5300/15000 val_RMSE=0.14850 best=0.13697
+
+- [2026-10-21 18:09:46 UTC+8] residual seed=22 step=5400/15000 val_RMSE=0.13719 best=0.13697
+
+- [2026-10-21 18:09:46 UTC+8] residual seed=22 step=5500/15000 val_RMSE=0.14504 best=0.13697
+
+- [2026-10-21 18:09:47 UTC+8] residual seed=22 step=5600/15000 val_RMSE=0.15050 best=0.13697
+
+- [2026-10-21 18:09:47 UTC+8] residual seed=22 step=5700/15000 val_RMSE=0.14165 best=0.13697
+
+- [2026-10-21 18:09:47 UTC+8] residual seed=22 step=5800/15000 val_RMSE=0.17305 best=0.13697
+
+- [2026-10-21 18:09:47 UTC+8] residual seed=22 step=5900/15000 val_RMSE=0.13502 best=0.13502
+
+- [2026-10-21 18:09:47 UTC+8] residual seed=22 step=6000/15000 val_RMSE=0.14219 best=0.13502
+
+- [2026-10-21 18:09:48 UTC+8] residual seed=22 step=6100/15000 val_RMSE=0.14328 best=0.13502
+
+- [2026-10-21 18:09:48 UTC+8] residual seed=22 step=6200/15000 val_RMSE=0.15037 best=0.13502
+
+- [2026-10-21 18:09:48 UTC+8] residual seed=22 step=6300/15000 val_RMSE=0.14126 best=0.13502
+
+- [2026-10-21 18:09:48 UTC+8] residual seed=22 step=6400/15000 val_RMSE=0.17027 best=0.13502
+
+- [2026-10-21 18:09:48 UTC+8] residual seed=22 step=6500/15000 val_RMSE=0.15641 best=0.13502
+
+- [2026-10-21 18:09:49 UTC+8] residual seed=22 step=6600/15000 val_RMSE=0.13116 best=0.13116
+
+- [2026-10-21 18:09:49 UTC+8] residual seed=22 step=6700/15000 val_RMSE=0.15261 best=0.13116
+
+- [2026-10-21 18:09:49 UTC+8] residual seed=22 step=6800/15000 val_RMSE=0.13139 best=0.13116
+
+- [2026-10-21 18:09:49 UTC+8] residual seed=22 step=6900/15000 val_RMSE=0.16619 best=0.13116
+
+- [2026-10-21 18:09:50 UTC+8] residual seed=22 step=7000/15000 val_RMSE=0.13868 best=0.13116
+
+- [2026-10-21 18:09:50 UTC+8] residual seed=22 step=7100/15000 val_RMSE=0.14334 best=0.13116
+
+- [2026-10-21 18:09:50 UTC+8] residual seed=22 step=7200/15000 val_RMSE=0.13544 best=0.13116
+
+- [2026-10-21 18:09:50 UTC+8] residual seed=22 step=7300/15000 val_RMSE=0.12576 best=0.12576
+
+- [2026-10-21 18:09:50 UTC+8] residual seed=22 step=7400/15000 val_RMSE=0.14396 best=0.12576
+
+- [2026-10-21 18:09:51 UTC+8] residual seed=22 step=7500/15000 val_RMSE=0.12866 best=0.12576
+
+- [2026-10-21 18:09:51 UTC+8] residual seed=22 step=7600/15000 val_RMSE=0.12814 best=0.12576
+
+- [2026-10-21 18:09:51 UTC+8] residual seed=22 step=7700/15000 val_RMSE=0.14391 best=0.12576
+
+- [2026-10-21 18:09:51 UTC+8] residual seed=22 step=7800/15000 val_RMSE=0.13185 best=0.12576
+
+- [2026-10-21 18:09:51 UTC+8] residual seed=22 step=7900/15000 val_RMSE=0.13381 best=0.12576
+
+- [2026-10-21 18:09:52 UTC+8] residual seed=22 step=8000/15000 val_RMSE=0.14111 best=0.12576
+
+- [2026-10-21 18:09:52 UTC+8] residual seed=22 step=8100/15000 val_RMSE=0.13463 best=0.12576
+
+- [2026-10-21 18:09:52 UTC+8] residual seed=22 step=8200/15000 val_RMSE=0.13662 best=0.12576
+
+- [2026-10-21 18:09:52 UTC+8] residual seed=22 step=8300/15000 val_RMSE=0.13270 best=0.12576
+
+- [2026-10-21 18:09:53 UTC+8] residual seed=22 step=8400/15000 val_RMSE=0.13480 best=0.12576
+
+- [2026-10-21 18:09:53 UTC+8] residual seed=22 step=8500/15000 val_RMSE=0.14861 best=0.12576
+
+- [2026-10-21 18:09:53 UTC+8] residual seed=22 step=8600/15000 val_RMSE=0.14354 best=0.12576
+
+- [2026-10-21 18:09:53 UTC+8] residual seed=22 step=8700/15000 val_RMSE=0.13827 best=0.12576
+
+- [2026-10-21 18:09:53 UTC+8] residual seed=22 step=8800/15000 val_RMSE=0.13245 best=0.12576
+
+- [2026-10-21 18:09:54 UTC+8] residual seed=22 step=8900/15000 val_RMSE=0.13903 best=0.12576
+
+- [2026-10-21 18:09:54 UTC+8] residual seed=22 step=9000/15000 val_RMSE=0.13733 best=0.12576
+
+- [2026-10-21 18:09:54 UTC+8] residual seed=22 step=9100/15000 val_RMSE=0.13113 best=0.12576
+
+- [2026-10-21 18:09:54 UTC+8] residual seed=22 step=9200/15000 val_RMSE=0.12972 best=0.12576
+
+- [2026-10-21 18:09:55 UTC+8] residual seed=22 step=9300/15000 val_RMSE=0.12700 best=0.12576
+
+- [2026-10-21 18:09:55 UTC+8] residual seed=22 step=9400/15000 val_RMSE=0.13408 best=0.12576
+
+- [2026-10-21 18:09:55 UTC+8] residual seed=22 step=9500/15000 val_RMSE=0.12977 best=0.12576
+
+- [2026-10-21 18:09:55 UTC+8] residual seed=22 step=9600/15000 val_RMSE=0.13709 best=0.12576
+
+- [2026-10-21 18:09:55 UTC+8] residual seed=22 step=9700/15000 val_RMSE=0.15272 best=0.12576
+
+- [2026-10-21 18:09:56 UTC+8] residual seed=22 step=9800/15000 val_RMSE=0.14965 best=0.12576
+
+- [2026-10-21 18:09:56 UTC+8] residual seed=22 step=9900/15000 val_RMSE=0.13162 best=0.12576
+
+- [2026-10-21 18:09:56 UTC+8] residual seed=22 step=10000/15000 val_RMSE=0.13808 best=0.12576
+
+- [2026-10-21 18:09:56 UTC+8] residual seed=22 step=10100/15000 val_RMSE=0.13961 best=0.12576
+
+- [2026-10-21 18:09:57 UTC+8] residual seed=22 step=10200/15000 val_RMSE=0.14048 best=0.12576
+
+- [2026-10-21 18:09:57 UTC+8] residual seed=22 step=10300/15000 val_RMSE=0.13009 best=0.12576
+
+- [2026-10-21 18:09:57 UTC+8] residual seed=22 step=10400/15000 val_RMSE=0.12449 best=0.12449
+
+- [2026-10-21 18:09:57 UTC+8] residual seed=22 step=10500/15000 val_RMSE=0.12679 best=0.12449
+
+- [2026-10-21 18:09:57 UTC+8] residual seed=22 step=10600/15000 val_RMSE=0.13367 best=0.12449
+
+- [2026-10-21 18:09:58 UTC+8] residual seed=22 step=10700/15000 val_RMSE=0.12859 best=0.12449
+
+- [2026-10-21 18:09:58 UTC+8] residual seed=22 step=10800/15000 val_RMSE=0.13276 best=0.12449
+
+- [2026-10-21 18:09:58 UTC+8] residual seed=22 step=10900/15000 val_RMSE=0.13629 best=0.12449
+
+- [2026-10-21 18:09:58 UTC+8] residual seed=22 step=11000/15000 val_RMSE=0.13477 best=0.12449
+
+- [2026-10-21 18:09:59 UTC+8] residual seed=22 step=11100/15000 val_RMSE=0.12763 best=0.12449
+
+- [2026-10-21 18:09:59 UTC+8] residual seed=22 step=11200/15000 val_RMSE=0.14297 best=0.12449
+
+- [2026-10-21 18:09:59 UTC+8] residual seed=22 step=11300/15000 val_RMSE=0.13320 best=0.12449
+
+- [2026-10-21 18:09:59 UTC+8] residual seed=22 step=11400/15000 val_RMSE=0.12581 best=0.12449
+
+- [2026-10-21 18:09:59 UTC+8] residual seed=22 step=11500/15000 val_RMSE=0.12556 best=0.12449
+
+- [2026-10-21 18:10:00 UTC+8] residual seed=22 step=11600/15000 val_RMSE=0.13767 best=0.12449
+
+- [2026-10-21 18:10:00 UTC+8] residual seed=22 step=11700/15000 val_RMSE=0.12685 best=0.12449
+
+- [2026-10-21 18:10:00 UTC+8] residual seed=22 step=11800/15000 val_RMSE=0.12503 best=0.12449
+
+- [2026-10-21 18:10:00 UTC+8] residual seed=22 step=11900/15000 val_RMSE=0.12412 best=0.12412
+
+- [2026-10-21 18:10:00 UTC+8] residual seed=22 step=12000/15000 val_RMSE=0.13402 best=0.12412
+
+- [2026-10-21 18:10:01 UTC+8] residual seed=22 step=12100/15000 val_RMSE=0.12617 best=0.12412
+
+- [2026-10-21 18:10:01 UTC+8] residual seed=22 step=12200/15000 val_RMSE=0.13597 best=0.12412
+
+- [2026-10-21 18:10:01 UTC+8] residual seed=22 step=12300/15000 val_RMSE=0.13479 best=0.12412
+
+- [2026-10-21 18:10:01 UTC+8] residual seed=22 step=12400/15000 val_RMSE=0.13064 best=0.12412
+
+- [2026-10-21 18:10:02 UTC+8] residual seed=22 step=12500/15000 val_RMSE=0.13006 best=0.12412
+
+- [2026-10-21 18:10:02 UTC+8] residual seed=22 step=12600/15000 val_RMSE=0.15175 best=0.12412
+
+- [2026-10-21 18:10:02 UTC+8] residual seed=22 step=12700/15000 val_RMSE=0.12646 best=0.12412
+
+- [2026-10-21 18:10:02 UTC+8] residual seed=22 step=12800/15000 val_RMSE=0.12438 best=0.12412
+
+- [2026-10-21 18:10:02 UTC+8] residual seed=22 step=12900/15000 val_RMSE=0.13092 best=0.12412
+
+- [2026-10-21 18:10:03 UTC+8] residual seed=22 step=13000/15000 val_RMSE=0.12197 best=0.12197
+
+- [2026-10-21 18:10:03 UTC+8] residual seed=22 step=13100/15000 val_RMSE=0.12551 best=0.12197
+
+- [2026-10-21 18:10:03 UTC+8] residual seed=22 step=13200/15000 val_RMSE=0.11670 best=0.11670
+
+- [2026-10-21 18:10:03 UTC+8] residual seed=22 step=13300/15000 val_RMSE=0.12169 best=0.11670
+
+- [2026-10-21 18:10:04 UTC+8] residual seed=22 step=13400/15000 val_RMSE=0.12314 best=0.11670
+
+- [2026-10-21 18:10:04 UTC+8] residual seed=22 step=13500/15000 val_RMSE=0.14922 best=0.11670
+
+- [2026-10-21 18:10:04 UTC+8] residual seed=22 step=13600/15000 val_RMSE=0.11830 best=0.11670
+
+- [2026-10-21 18:10:04 UTC+8] residual seed=22 step=13700/15000 val_RMSE=0.13117 best=0.11670
+
+- [2026-10-21 18:10:04 UTC+8] residual seed=22 step=13800/15000 val_RMSE=0.13182 best=0.11670
+
+- [2026-10-21 18:10:05 UTC+8] residual seed=22 step=13900/15000 val_RMSE=0.11721 best=0.11670
+
+- [2026-10-21 18:10:05 UTC+8] residual seed=22 step=14000/15000 val_RMSE=0.11834 best=0.11670
+
+- [2026-10-21 18:10:05 UTC+8] residual seed=22 step=14100/15000 val_RMSE=0.12651 best=0.11670
+
+- [2026-10-21 18:10:05 UTC+8] residual seed=22 step=14200/15000 val_RMSE=0.12962 best=0.11670
+
+- [2026-10-21 18:10:06 UTC+8] residual seed=22 step=14300/15000 val_RMSE=0.13222 best=0.11670
+
+- [2026-10-21 18:10:06 UTC+8] residual seed=22 step=14400/15000 val_RMSE=0.12525 best=0.11670
+
+- [2026-10-21 18:10:06 UTC+8] residual seed=22 step=14500/15000 val_RMSE=0.12308 best=0.11670
+
+- [2026-10-21 18:10:06 UTC+8] residual seed=22 step=14600/15000 val_RMSE=0.11635 best=0.11635
+
+- [2026-10-21 18:10:06 UTC+8] residual seed=22 step=14700/15000 val_RMSE=0.12010 best=0.11635
+
+- [2026-10-21 18:10:07 UTC+8] residual seed=22 step=14800/15000 val_RMSE=0.12141 best=0.11635
+
+- [2026-10-21 18:10:07 UTC+8] residual seed=22 step=14900/15000 val_RMSE=0.13626 best=0.11635
+
+- [2026-10-21 18:10:07 UTC+8] residual seed=22 step=15000/15000 val_RMSE=0.12957 best=0.11635
+
+- [2026-10-21 18:10:07 UTC+8] 完成 residual seed=22，本轮耗时 24.6 s，选择验证最优 step=14600
+
+- [2026-10-21 18:10:07 UTC+8] residual seed=33 step=100/15000 val_RMSE=0.27310 best=0.27310
+
+- [2026-10-21 18:10:07 UTC+8] residual seed=33 step=200/15000 val_RMSE=0.27403 best=0.27310
+
+- [2026-10-21 18:10:08 UTC+8] residual seed=33 step=300/15000 val_RMSE=0.25850 best=0.25850
+
+- [2026-10-21 18:10:08 UTC+8] residual seed=33 step=400/15000 val_RMSE=0.25168 best=0.25168
+
+- [2026-10-21 18:10:08 UTC+8] residual seed=33 step=500/15000 val_RMSE=0.24188 best=0.24188
+
+- [2026-10-21 18:10:08 UTC+8] residual seed=33 step=600/15000 val_RMSE=0.24290 best=0.24188
+
+- [2026-10-21 18:10:09 UTC+8] residual seed=33 step=700/15000 val_RMSE=0.24867 best=0.24188
+
+- [2026-10-21 18:10:09 UTC+8] residual seed=33 step=800/15000 val_RMSE=0.23086 best=0.23086
+
+- [2026-10-21 18:10:09 UTC+8] residual seed=33 step=900/15000 val_RMSE=0.22633 best=0.22633
+
+- [2026-10-21 18:10:09 UTC+8] residual seed=33 step=1000/15000 val_RMSE=0.23471 best=0.22633
+
+- [2026-10-21 18:10:09 UTC+8] residual seed=33 step=1100/15000 val_RMSE=0.21975 best=0.21975
+
+- [2026-10-21 18:10:09 UTC+8] residual seed=33 step=1200/15000 val_RMSE=0.23479 best=0.21975
+
+- [2026-10-21 18:10:10 UTC+8] residual seed=33 step=1300/15000 val_RMSE=0.19540 best=0.19540
+
+- [2026-10-21 18:10:10 UTC+8] residual seed=33 step=1400/15000 val_RMSE=0.19216 best=0.19216
+
+- [2026-10-21 18:10:10 UTC+8] residual seed=33 step=1500/15000 val_RMSE=0.19904 best=0.19216
+
+- [2026-10-21 18:10:10 UTC+8] residual seed=33 step=1600/15000 val_RMSE=0.18752 best=0.18752
+
+- [2026-10-21 18:10:10 UTC+8] residual seed=33 step=1700/15000 val_RMSE=0.17829 best=0.17829
+
+- [2026-10-21 18:10:10 UTC+8] residual seed=33 step=1800/15000 val_RMSE=0.18395 best=0.17829
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=1900/15000 val_RMSE=0.17467 best=0.17467
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=2000/15000 val_RMSE=0.19013 best=0.17467
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=2100/15000 val_RMSE=0.17092 best=0.17092
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=2200/15000 val_RMSE=0.17940 best=0.17092
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=2300/15000 val_RMSE=0.18248 best=0.17092
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=2400/15000 val_RMSE=0.16459 best=0.16459
+
+- [2026-10-21 18:10:11 UTC+8] residual seed=33 step=2500/15000 val_RMSE=0.19341 best=0.16459
+
+- [2026-10-21 18:10:12 UTC+8] residual seed=33 step=2600/15000 val_RMSE=0.17443 best=0.16459
+
+- [2026-10-21 18:10:12 UTC+8] residual seed=33 step=2700/15000 val_RMSE=0.17121 best=0.16459
+
+- [2026-10-21 18:10:12 UTC+8] residual seed=33 step=2800/15000 val_RMSE=0.18920 best=0.16459
+
+- [2026-10-21 18:10:12 UTC+8] residual seed=33 step=2900/15000 val_RMSE=0.16951 best=0.16459
+
+- [2026-10-21 18:10:12 UTC+8] residual seed=33 step=3000/15000 val_RMSE=0.15539 best=0.15539
+
+- [2026-10-21 18:10:12 UTC+8] residual seed=33 step=3100/15000 val_RMSE=0.15977 best=0.15539
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3200/15000 val_RMSE=0.16537 best=0.15539
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3300/15000 val_RMSE=0.15835 best=0.15539
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3400/15000 val_RMSE=0.15412 best=0.15412
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3500/15000 val_RMSE=0.15547 best=0.15412
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3600/15000 val_RMSE=0.17498 best=0.15412
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3700/15000 val_RMSE=0.16458 best=0.15412
+
+- [2026-10-21 18:10:13 UTC+8] residual seed=33 step=3800/15000 val_RMSE=0.19243 best=0.15412
+
+- [2026-10-21 18:10:14 UTC+8] residual seed=33 step=3900/15000 val_RMSE=0.15761 best=0.15412
+
+- [2026-10-21 18:10:14 UTC+8] residual seed=33 step=4000/15000 val_RMSE=0.14527 best=0.14527
+
+- [2026-10-21 18:10:14 UTC+8] residual seed=33 step=4100/15000 val_RMSE=0.16192 best=0.14527
+
+- [2026-10-21 18:10:14 UTC+8] residual seed=33 step=4200/15000 val_RMSE=0.16045 best=0.14527
+
+- [2026-10-21 18:10:14 UTC+8] residual seed=33 step=4300/15000 val_RMSE=0.14546 best=0.14527
+
+- [2026-10-21 18:10:14 UTC+8] residual seed=33 step=4400/15000 val_RMSE=0.15711 best=0.14527
+
+- [2026-10-21 18:10:15 UTC+8] residual seed=33 step=4500/15000 val_RMSE=0.16654 best=0.14527
+
+- [2026-10-21 18:10:15 UTC+8] residual seed=33 step=4600/15000 val_RMSE=0.14692 best=0.14527
+
+- [2026-10-21 18:10:15 UTC+8] residual seed=33 step=4700/15000 val_RMSE=0.16545 best=0.14527
+
+- [2026-10-21 18:10:15 UTC+8] residual seed=33 step=4800/15000 val_RMSE=0.15091 best=0.14527
+
+- [2026-10-21 18:10:15 UTC+8] residual seed=33 step=4900/15000 val_RMSE=0.17622 best=0.14527
+
+- [2026-10-21 18:10:15 UTC+8] residual seed=33 step=5000/15000 val_RMSE=0.14739 best=0.14527
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5100/15000 val_RMSE=0.15067 best=0.14527
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5200/15000 val_RMSE=0.13949 best=0.13949
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5300/15000 val_RMSE=0.15426 best=0.13949
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5400/15000 val_RMSE=0.14752 best=0.13949
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5500/15000 val_RMSE=0.14043 best=0.13949
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5600/15000 val_RMSE=0.15987 best=0.13949
+
+- [2026-10-21 18:10:16 UTC+8] residual seed=33 step=5700/15000 val_RMSE=0.15102 best=0.13949
+
+- [2026-10-21 18:10:17 UTC+8] residual seed=33 step=5800/15000 val_RMSE=0.14955 best=0.13949
+
+- [2026-10-21 18:10:17 UTC+8] residual seed=33 step=5900/15000 val_RMSE=0.16167 best=0.13949
+
+- [2026-10-21 18:10:17 UTC+8] residual seed=33 step=6000/15000 val_RMSE=0.13872 best=0.13872
+
+- [2026-10-21 18:10:17 UTC+8] residual seed=33 step=6100/15000 val_RMSE=0.16132 best=0.13872
+
+- [2026-10-21 18:10:17 UTC+8] residual seed=33 step=6200/15000 val_RMSE=0.16049 best=0.13872
+
+- [2026-10-21 18:10:17 UTC+8] residual seed=33 step=6300/15000 val_RMSE=0.16017 best=0.13872
+
+- [2026-10-21 18:10:18 UTC+8] residual seed=33 step=6400/15000 val_RMSE=0.15516 best=0.13872
+
+- [2026-10-21 18:10:18 UTC+8] residual seed=33 step=6500/15000 val_RMSE=0.16753 best=0.13872
+
+- [2026-10-21 18:10:18 UTC+8] residual seed=33 step=6600/15000 val_RMSE=0.16253 best=0.13872
+
+- [2026-10-21 18:10:18 UTC+8] residual seed=33 step=6700/15000 val_RMSE=0.13507 best=0.13507
+
+- [2026-10-21 18:10:18 UTC+8] residual seed=33 step=6800/15000 val_RMSE=0.14632 best=0.13507
+
+- [2026-10-21 18:10:18 UTC+8] residual seed=33 step=6900/15000 val_RMSE=0.12144 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7000/15000 val_RMSE=0.13716 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7100/15000 val_RMSE=0.13650 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7200/15000 val_RMSE=0.13851 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7300/15000 val_RMSE=0.13904 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7400/15000 val_RMSE=0.13463 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7500/15000 val_RMSE=0.14123 best=0.12144
+
+- [2026-10-21 18:10:19 UTC+8] residual seed=33 step=7600/15000 val_RMSE=0.12900 best=0.12144
+
+- [2026-10-21 18:10:20 UTC+8] residual seed=33 step=7700/15000 val_RMSE=0.16106 best=0.12144
+
+- [2026-10-21 18:10:20 UTC+8] residual seed=33 step=7800/15000 val_RMSE=0.15020 best=0.12144
+
+- [2026-10-21 18:10:20 UTC+8] residual seed=33 step=7900/15000 val_RMSE=0.14878 best=0.12144
+
+- [2026-10-21 18:10:20 UTC+8] residual seed=33 step=8000/15000 val_RMSE=0.13050 best=0.12144
+
+- [2026-10-21 18:10:20 UTC+8] residual seed=33 step=8100/15000 val_RMSE=0.13380 best=0.12144
+
+- [2026-10-21 18:10:20 UTC+8] residual seed=33 step=8200/15000 val_RMSE=0.12894 best=0.12144
+
+- [2026-10-21 18:10:21 UTC+8] residual seed=33 step=8300/15000 val_RMSE=0.14145 best=0.12144
+
+- [2026-10-21 18:10:21 UTC+8] residual seed=33 step=8400/15000 val_RMSE=0.13272 best=0.12144
+
+- [2026-10-21 18:10:21 UTC+8] residual seed=33 step=8500/15000 val_RMSE=0.13540 best=0.12144
+
+- [2026-10-21 18:10:21 UTC+8] residual seed=33 step=8600/15000 val_RMSE=0.13557 best=0.12144
+
+- [2026-10-21 18:10:21 UTC+8] residual seed=33 step=8700/15000 val_RMSE=0.14362 best=0.12144
+
+- [2026-10-21 18:10:21 UTC+8] residual seed=33 step=8800/15000 val_RMSE=0.14010 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=8900/15000 val_RMSE=0.13208 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=9000/15000 val_RMSE=0.16036 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=9100/15000 val_RMSE=0.12556 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=9200/15000 val_RMSE=0.12734 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=9300/15000 val_RMSE=0.13502 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=9400/15000 val_RMSE=0.12557 best=0.12144
+
+- [2026-10-21 18:10:22 UTC+8] residual seed=33 step=9500/15000 val_RMSE=0.14832 best=0.12144
+
+- [2026-10-21 18:10:23 UTC+8] residual seed=33 step=9600/15000 val_RMSE=0.14216 best=0.12144
+
+- [2026-10-21 18:10:23 UTC+8] residual seed=33 step=9700/15000 val_RMSE=0.12902 best=0.12144
+
+- [2026-10-21 18:10:23 UTC+8] residual seed=33 step=9800/15000 val_RMSE=0.17443 best=0.12144
+
+- [2026-10-21 18:10:23 UTC+8] residual seed=33 step=9900/15000 val_RMSE=0.12981 best=0.12144
+
+- [2026-10-21 18:10:23 UTC+8] residual seed=33 step=10000/15000 val_RMSE=0.13887 best=0.12144
+
+- [2026-10-21 18:10:23 UTC+8] residual seed=33 step=10100/15000 val_RMSE=0.14927 best=0.12144
+
+- [2026-10-21 18:10:24 UTC+8] residual seed=33 step=10200/15000 val_RMSE=0.13676 best=0.12144
+
+- [2026-10-21 18:10:24 UTC+8] residual seed=33 step=10300/15000 val_RMSE=0.13404 best=0.12144
+
+- [2026-10-21 18:10:24 UTC+8] residual seed=33 step=10400/15000 val_RMSE=0.14356 best=0.12144
+
+- [2026-10-21 18:10:24 UTC+8] residual seed=33 step=10500/15000 val_RMSE=0.12260 best=0.12144
+
+- [2026-10-21 18:10:24 UTC+8] residual seed=33 step=10600/15000 val_RMSE=0.12732 best=0.12144
+
+- [2026-10-21 18:10:24 UTC+8] residual seed=33 step=10700/15000 val_RMSE=0.13389 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=10800/15000 val_RMSE=0.13252 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=10900/15000 val_RMSE=0.13238 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=11000/15000 val_RMSE=0.13759 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=11100/15000 val_RMSE=0.15845 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=11200/15000 val_RMSE=0.12183 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=11300/15000 val_RMSE=0.13438 best=0.12144
+
+- [2026-10-21 18:10:25 UTC+8] residual seed=33 step=11400/15000 val_RMSE=0.13560 best=0.12144
+
+- [2026-10-21 18:10:26 UTC+8] residual seed=33 step=11500/15000 val_RMSE=0.13802 best=0.12144
+
+- [2026-10-21 18:10:26 UTC+8] residual seed=33 step=11600/15000 val_RMSE=0.13747 best=0.12144
+
+- [2026-10-21 18:10:26 UTC+8] residual seed=33 step=11700/15000 val_RMSE=0.14527 best=0.12144
+
+- [2026-10-21 18:10:26 UTC+8] residual seed=33 step=11800/15000 val_RMSE=0.13774 best=0.12144
+
+- [2026-10-21 18:10:26 UTC+8] residual seed=33 step=11900/15000 val_RMSE=0.13437 best=0.12144
+
+- [2026-10-21 18:10:26 UTC+8] residual seed=33 step=12000/15000 val_RMSE=0.14314 best=0.12144
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12100/15000 val_RMSE=0.13060 best=0.12144
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12200/15000 val_RMSE=0.12428 best=0.12144
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12300/15000 val_RMSE=0.12262 best=0.12144
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12400/15000 val_RMSE=0.14206 best=0.12144
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12500/15000 val_RMSE=0.13660 best=0.12144
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12600/15000 val_RMSE=0.11724 best=0.11724
+
+- [2026-10-21 18:10:27 UTC+8] residual seed=33 step=12700/15000 val_RMSE=0.12308 best=0.11724
+
+- [2026-10-21 18:10:28 UTC+8] residual seed=33 step=12800/15000 val_RMSE=0.12523 best=0.11724
+
+- [2026-10-21 18:10:28 UTC+8] residual seed=33 step=12900/15000 val_RMSE=0.13761 best=0.11724
+
+- [2026-10-21 18:10:28 UTC+8] residual seed=33 step=13000/15000 val_RMSE=0.12224 best=0.11724
+
+- [2026-10-21 18:10:28 UTC+8] residual seed=33 step=13100/15000 val_RMSE=0.13893 best=0.11724
+
+- [2026-10-21 18:10:28 UTC+8] residual seed=33 step=13200/15000 val_RMSE=0.13181 best=0.11724
+
+- [2026-10-21 18:10:28 UTC+8] residual seed=33 step=13300/15000 val_RMSE=0.11836 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=13400/15000 val_RMSE=0.14421 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=13500/15000 val_RMSE=0.12320 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=13600/15000 val_RMSE=0.13005 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=13700/15000 val_RMSE=0.13318 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=13800/15000 val_RMSE=0.13529 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=13900/15000 val_RMSE=0.11927 best=0.11724
+
+- [2026-10-21 18:10:29 UTC+8] residual seed=33 step=14000/15000 val_RMSE=0.13110 best=0.11724
+
+- [2026-10-21 18:10:30 UTC+8] residual seed=33 step=14100/15000 val_RMSE=0.12001 best=0.11724
+
+- [2026-10-21 18:10:30 UTC+8] residual seed=33 step=14200/15000 val_RMSE=0.12352 best=0.11724
+
+- [2026-10-21 18:10:30 UTC+8] residual seed=33 step=14300/15000 val_RMSE=0.15771 best=0.11724
+
+- [2026-10-21 18:10:30 UTC+8] residual seed=33 step=14400/15000 val_RMSE=0.13151 best=0.11724
+
+- [2026-10-21 18:10:30 UTC+8] residual seed=33 step=14500/15000 val_RMSE=0.12430 best=0.11724
+
+- [2026-10-21 18:10:30 UTC+8] residual seed=33 step=14600/15000 val_RMSE=0.13039 best=0.11724
+
+- [2026-10-21 18:10:31 UTC+8] residual seed=33 step=14700/15000 val_RMSE=0.12148 best=0.11724
+
+- [2026-10-21 18:10:31 UTC+8] residual seed=33 step=14800/15000 val_RMSE=0.12615 best=0.11724
+
+- [2026-10-21 18:10:31 UTC+8] residual seed=33 step=14900/15000 val_RMSE=0.14215 best=0.11724
+
+- [2026-10-21 18:10:31 UTC+8] residual seed=33 step=15000/15000 val_RMSE=0.13039 best=0.11724
+
+- [2026-10-21 18:10:31 UTC+8] 完成 residual seed=33，本轮耗时 24.0 s，选择验证最优 step=12600
+
+- [2026-10-21 18:10:31 UTC+8] 单步实验评估 gaussian_low
+
+- [2026-10-21 18:10:38 UTC+8] 单步实验评估 gaussian_mid
+
+- [2026-10-21 18:10:44 UTC+8] 单步实验评估 gaussian_high
+
+- [2026-10-21 18:10:50 UTC+8] 单步实验评估 student_ood
+
+- [2026-10-21 18:10:57 UTC+8] 冻结权重闭环冲击测试完成 none
+
+- [2026-10-21 18:10:57 UTC+8] 冻结权重闭环冲击测试完成 dob
+
+- [2026-10-21 18:10:57 UTC+8] 冻结权重闭环冲击测试完成 kalman
+
+- [2026-10-21 18:10:58 UTC+8] 冻结权重闭环冲击测试完成 single_fm
+
+- [2026-10-21 18:10:59 UTC+8] 冻结权重闭环冲击测试完成 midpoint_fm
+
+- [2026-10-21 18:10:59 UTC+8] 冻结权重闭环冲击测试完成 regression
+
+- [2026-10-21 18:11:00 UTC+8] 冻结权重闭环冲击测试完成 residual
+
+- [2026-10-21 18:11:00 UTC+8] 单步混合实验完成：E:\Desktop\MyCode\A2AFM\results\single_step_mixed\REPORT.md
+
+- 2026-10-21: 单步混合实验完成：360条训练轨迹、136080窗口；4种网络各3种子、每模型15000次CPU更新。17项测试通过；12个检查点审计通过，公开接口778次估计/778次前向；报告与图表已核对。单步相对多步预测路径加速8.62倍，中噪声RMSE增大1.16%，直接回归更准确；闭环冲击跟踪性能仍需改进。文件锁恢复及训练计时缺失已记录。
+
+- [2026-10-21 19:49:10 UTC+8] adapt shared pool state_only round=1: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:11 UTC+8] adapt state_only single_fm/11 round=1 step=2 val_tracking=0.004761 best=0.003868
+
+- [2026-10-21 19:49:11 UTC+8] adapt completed state_only single_fm/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:12 UTC+8] adapt state_only midpoint_fm/11 round=1 step=2 val_tracking=0.005390 best=0.003952
+
+- [2026-10-21 19:49:12 UTC+8] adapt completed state_only midpoint_fm/11 round=1, seconds=0.5
+
+- [2026-10-21 19:49:12 UTC+8] adapt state_only regression/11 round=1 step=2 val_tracking=0.004479 best=0.003560
+
+- [2026-10-21 19:49:12 UTC+8] adapt completed state_only regression/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:13 UTC+8] adapt shared pool state_only round=2: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:13 UTC+8] adapt state_only single_fm/11 round=2 step=2 val_tracking=0.004399 best=0.003868
+
+- [2026-10-21 19:49:13 UTC+8] adapt completed state_only single_fm/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:14 UTC+8] adapt state_only midpoint_fm/11 round=2 step=2 val_tracking=0.004053 best=0.003952
+
+- [2026-10-21 19:49:14 UTC+8] adapt completed state_only midpoint_fm/11 round=2, seconds=0.5
+
+- [2026-10-21 19:49:15 UTC+8] adapt state_only regression/11 round=2 step=2 val_tracking=0.003898 best=0.003560
+
+- [2026-10-21 19:49:15 UTC+8] adapt completed state_only regression/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:15 UTC+8] adapt shared pool state_and_pulses round=1: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:15 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=2 val_tracking=0.004829 best=0.003868
+
+- [2026-10-21 19:49:15 UTC+8] adapt completed state_and_pulses single_fm/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:16 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=2 val_tracking=0.005177 best=0.003952
+
+- [2026-10-21 19:49:16 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=1, seconds=0.5
+
+- [2026-10-21 19:49:17 UTC+8] adapt state_and_pulses regression/11 round=1 step=2 val_tracking=0.004115 best=0.003560
+
+- [2026-10-21 19:49:17 UTC+8] adapt completed state_and_pulses regression/11 round=1, seconds=0.1
+
+- [2026-10-21 19:49:17 UTC+8] adapt shared pool state_and_pulses round=2: 10 trajectories, 2780 windows
+
+- [2026-10-21 19:49:18 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=2 val_tracking=0.004429 best=0.003868
+
+- [2026-10-21 19:49:18 UTC+8] adapt completed state_and_pulses single_fm/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:19 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=2 val_tracking=0.004900 best=0.003952
+
+- [2026-10-21 19:49:19 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=2, seconds=0.5
+
+- [2026-10-21 19:49:19 UTC+8] adapt state_and_pulses regression/11 round=2 step=2 val_tracking=0.004134 best=0.003560
+
+- [2026-10-21 19:49:19 UTC+8] adapt completed state_and_pulses regression/11 round=2, seconds=0.1
+
+- [2026-10-21 19:49:21 UTC+8] adaptation held-out test completed: mixed
+
+- [2026-10-21 19:49:23 UTC+8] adaptation held-out test completed: shock
+
+- [2026-10-21 19:49:23 UTC+8] adaptation experiment complete: E:\Desktop\MyCode\A2AFM\results\adaptation_smoke\REPORT.md
+
+- [2026-10-21 19:50:48 UTC+8] adapt shared pool state_only round=1: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:50:49 UTC+8] adapt state_only single_fm/11 round=1 step=500 val_tracking=0.003045 best=0.003045
+
+- [2026-10-21 19:50:50 UTC+8] adapt state_only single_fm/11 round=1 step=1000 val_tracking=0.003361 best=0.003045
+
+- [2026-10-21 19:50:51 UTC+8] adapt state_only single_fm/11 round=1 step=1500 val_tracking=0.002938 best=0.002938
+
+- [2026-10-21 19:50:53 UTC+8] adapt state_only single_fm/11 round=1 step=2000 val_tracking=0.003023 best=0.002938
+
+- [2026-10-21 19:50:54 UTC+8] adapt state_only single_fm/11 round=1 step=2500 val_tracking=0.003046 best=0.002938
+
+- [2026-10-21 19:50:54 UTC+8] adapt completed state_only single_fm/11 round=1, seconds=5.4
+
+- [2026-10-21 19:50:55 UTC+8] adapt state_only single_fm/22 round=1 step=500 val_tracking=0.003354 best=0.003354
+
+- [2026-10-21 19:50:56 UTC+8] adapt state_only single_fm/22 round=1 step=1000 val_tracking=0.003510 best=0.003354
+
+- [2026-10-21 19:50:57 UTC+8] adapt state_only single_fm/22 round=1 step=1500 val_tracking=0.003259 best=0.003259
+
+- [2026-10-21 19:50:58 UTC+8] adapt state_only single_fm/22 round=1 step=2000 val_tracking=0.003220 best=0.003220
+
+- [2026-10-21 19:50:59 UTC+8] adapt state_only single_fm/22 round=1 step=2500 val_tracking=0.002979 best=0.002979
+
+- [2026-10-21 19:50:59 UTC+8] adapt completed state_only single_fm/22 round=1, seconds=5.4
+
+- [2026-10-21 19:51:00 UTC+8] adapt state_only single_fm/33 round=1 step=500 val_tracking=0.003425 best=0.003425
+
+- [2026-10-21 19:51:01 UTC+8] adapt state_only single_fm/33 round=1 step=1000 val_tracking=0.003864 best=0.003425
+
+- [2026-10-21 19:51:03 UTC+8] adapt state_only single_fm/33 round=1 step=1500 val_tracking=0.003543 best=0.003425
+
+- [2026-10-21 19:51:04 UTC+8] adapt state_only single_fm/33 round=1 step=2000 val_tracking=0.003122 best=0.003122
+
+- [2026-10-21 19:51:05 UTC+8] adapt state_only single_fm/33 round=1 step=2500 val_tracking=0.003546 best=0.003122
+
+- [2026-10-21 19:51:05 UTC+8] adapt completed state_only single_fm/33 round=1, seconds=5.4
+
+- [2026-10-21 19:51:09 UTC+8] adapt state_only midpoint_fm/11 round=1 step=500 val_tracking=0.002779 best=0.002779
+
+- [2026-10-21 19:51:12 UTC+8] adapt state_only midpoint_fm/11 round=1 step=1000 val_tracking=0.003370 best=0.002779
+
+- [2026-10-21 19:51:15 UTC+8] adapt state_only midpoint_fm/11 round=1 step=1500 val_tracking=0.003072 best=0.002779
+
+- [2026-10-21 19:51:19 UTC+8] adapt state_only midpoint_fm/11 round=1 step=2000 val_tracking=0.003283 best=0.002779
+
+- [2026-10-21 19:51:22 UTC+8] adapt state_only midpoint_fm/11 round=1 step=2500 val_tracking=0.002816 best=0.002779
+
+- [2026-10-21 19:51:22 UTC+8] adapt completed state_only midpoint_fm/11 round=1, seconds=17.0
+
+- [2026-10-21 19:51:26 UTC+8] adapt state_only midpoint_fm/22 round=1 step=500 val_tracking=0.003221 best=0.003221
+
+- [2026-10-21 19:51:29 UTC+8] adapt state_only midpoint_fm/22 round=1 step=1000 val_tracking=0.003531 best=0.003221
+
+- [2026-10-21 19:51:33 UTC+8] adapt state_only midpoint_fm/22 round=1 step=1500 val_tracking=0.003329 best=0.003221
+
+- [2026-10-21 19:51:36 UTC+8] adapt state_only midpoint_fm/22 round=1 step=2000 val_tracking=0.003644 best=0.003221
+
+- [2026-10-21 19:51:40 UTC+8] adapt state_only midpoint_fm/22 round=1 step=2500 val_tracking=0.002951 best=0.002951
+
+- [2026-10-21 19:51:40 UTC+8] adapt completed state_only midpoint_fm/22 round=1, seconds=17.0
+
+- [2026-10-21 19:51:44 UTC+8] adapt state_only midpoint_fm/33 round=1 step=500 val_tracking=0.003415 best=0.003415
+
+- [2026-10-21 19:51:47 UTC+8] adapt state_only midpoint_fm/33 round=1 step=1000 val_tracking=0.003543 best=0.003415
+
+- [2026-10-21 19:51:50 UTC+8] adapt state_only midpoint_fm/33 round=1 step=1500 val_tracking=0.003515 best=0.003415
+
+- [2026-10-21 19:51:54 UTC+8] adapt state_only midpoint_fm/33 round=1 step=2000 val_tracking=0.003365 best=0.003365
+
+- [2026-10-21 19:51:57 UTC+8] adapt state_only midpoint_fm/33 round=1 step=2500 val_tracking=0.003192 best=0.003192
+
+- [2026-10-21 19:51:57 UTC+8] adapt completed state_only midpoint_fm/33 round=1, seconds=17.0
+
+- [2026-10-21 19:51:58 UTC+8] adapt state_only regression/11 round=1 step=500 val_tracking=0.003156 best=0.003156
+
+- [2026-10-21 19:51:59 UTC+8] adapt state_only regression/11 round=1 step=1000 val_tracking=0.002929 best=0.002929
+
+- [2026-10-21 19:52:00 UTC+8] adapt state_only regression/11 round=1 step=1500 val_tracking=0.002996 best=0.002929
+
+- [2026-10-21 19:52:00 UTC+8] adapt state_only regression/11 round=1 step=2000 val_tracking=0.003117 best=0.002929
+
+- [2026-10-21 19:52:01 UTC+8] adapt state_only regression/11 round=1 step=2500 val_tracking=0.002886 best=0.002886
+
+- [2026-10-21 19:52:01 UTC+8] adapt completed state_only regression/11 round=1, seconds=3.9
+
+- [2026-10-21 19:52:02 UTC+8] adapt state_only regression/22 round=1 step=500 val_tracking=0.003380 best=0.003380
+
+- [2026-10-21 19:52:03 UTC+8] adapt state_only regression/22 round=1 step=1000 val_tracking=0.002888 best=0.002888
+
+- [2026-10-21 19:52:04 UTC+8] adapt state_only regression/22 round=1 step=1500 val_tracking=0.002716 best=0.002716
+
+- [2026-10-21 19:52:04 UTC+8] adapt state_only regression/22 round=1 step=2000 val_tracking=0.003734 best=0.002716
+
+- [2026-10-21 19:52:05 UTC+8] adapt state_only regression/22 round=1 step=2500 val_tracking=0.002881 best=0.002716
+
+- [2026-10-21 19:52:05 UTC+8] adapt completed state_only regression/22 round=1, seconds=3.8
+
+- [2026-10-21 19:52:06 UTC+8] adapt state_only regression/33 round=1 step=500 val_tracking=0.003135 best=0.003135
+
+- [2026-10-21 19:52:07 UTC+8] adapt state_only regression/33 round=1 step=1000 val_tracking=0.003094 best=0.003094
+
+- [2026-10-21 19:52:08 UTC+8] adapt state_only regression/33 round=1 step=1500 val_tracking=0.003174 best=0.003094
+
+- [2026-10-21 19:52:08 UTC+8] adapt state_only regression/33 round=1 step=2000 val_tracking=0.003119 best=0.003094
+
+- [2026-10-21 19:52:09 UTC+8] adapt state_only regression/33 round=1 step=2500 val_tracking=0.003044 best=0.003044
+
+- [2026-10-21 19:52:09 UTC+8] adapt completed state_only regression/33 round=1, seconds=3.9
+
+- [2026-10-21 19:52:12 UTC+8] adapt shared pool state_only round=2: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:52:13 UTC+8] adapt state_only single_fm/11 round=2 step=500 val_tracking=0.002797 best=0.002797
+
+- [2026-10-21 19:52:14 UTC+8] adapt state_only single_fm/11 round=2 step=1000 val_tracking=0.003225 best=0.002797
+
+- [2026-10-21 19:52:15 UTC+8] adapt state_only single_fm/11 round=2 step=1500 val_tracking=0.003708 best=0.002797
+
+- [2026-10-21 19:52:16 UTC+8] adapt state_only single_fm/11 round=2 step=2000 val_tracking=0.003613 best=0.002797
+
+- [2026-10-21 19:52:17 UTC+8] adapt state_only single_fm/11 round=2 step=2500 val_tracking=0.003127 best=0.002797
+
+- [2026-10-21 19:52:17 UTC+8] adapt completed state_only single_fm/11 round=2, seconds=5.4
+
+- [2026-10-21 19:52:18 UTC+8] adapt state_only single_fm/22 round=2 step=500 val_tracking=0.003191 best=0.002979
+
+- [2026-10-21 19:52:19 UTC+8] adapt state_only single_fm/22 round=2 step=1000 val_tracking=0.003342 best=0.002979
+
+- [2026-10-21 19:52:21 UTC+8] adapt state_only single_fm/22 round=2 step=1500 val_tracking=0.003344 best=0.002979
+
+- [2026-10-21 19:52:22 UTC+8] adapt state_only single_fm/22 round=2 step=2000 val_tracking=0.003384 best=0.002979
+
+- [2026-10-21 19:52:23 UTC+8] adapt state_only single_fm/22 round=2 step=2500 val_tracking=0.003133 best=0.002979
+
+- [2026-10-21 19:52:23 UTC+8] adapt completed state_only single_fm/22 round=2, seconds=5.4
+
+- [2026-10-21 19:52:24 UTC+8] adapt state_only single_fm/33 round=2 step=500 val_tracking=0.003164 best=0.003122
+
+- [2026-10-21 19:52:25 UTC+8] adapt state_only single_fm/33 round=2 step=1000 val_tracking=0.003442 best=0.003122
+
+- [2026-10-21 19:52:26 UTC+8] adapt state_only single_fm/33 round=2 step=1500 val_tracking=0.003377 best=0.003122
+
+- [2026-10-21 19:52:27 UTC+8] adapt state_only single_fm/33 round=2 step=2000 val_tracking=0.004155 best=0.003122
+
+- [2026-10-21 19:52:28 UTC+8] adapt state_only single_fm/33 round=2 step=2500 val_tracking=0.003401 best=0.003122
+
+- [2026-10-21 19:52:28 UTC+8] adapt completed state_only single_fm/33 round=2, seconds=5.4
+
+- [2026-10-21 19:52:32 UTC+8] adapt state_only midpoint_fm/11 round=2 step=500 val_tracking=0.002859 best=0.002779
+
+- [2026-10-21 19:52:36 UTC+8] adapt state_only midpoint_fm/11 round=2 step=1000 val_tracking=0.003397 best=0.002779
+
+- [2026-10-21 19:52:39 UTC+8] adapt state_only midpoint_fm/11 round=2 step=1500 val_tracking=0.003087 best=0.002779
+
+- [2026-10-21 19:52:42 UTC+8] adapt state_only midpoint_fm/11 round=2 step=2000 val_tracking=0.003577 best=0.002779
+
+- [2026-10-21 19:52:46 UTC+8] adapt state_only midpoint_fm/11 round=2 step=2500 val_tracking=0.003048 best=0.002779
+
+- [2026-10-21 19:52:46 UTC+8] adapt completed state_only midpoint_fm/11 round=2, seconds=17.0
+
+- [2026-10-21 19:52:50 UTC+8] adapt state_only midpoint_fm/22 round=2 step=500 val_tracking=0.003153 best=0.002951
+
+- [2026-10-21 19:52:53 UTC+8] adapt state_only midpoint_fm/22 round=2 step=1000 val_tracking=0.003285 best=0.002951
+
+- [2026-10-21 19:52:56 UTC+8] adapt state_only midpoint_fm/22 round=2 step=1500 val_tracking=0.003546 best=0.002951
+
+- [2026-10-21 19:53:00 UTC+8] adapt state_only midpoint_fm/22 round=2 step=2000 val_tracking=0.003439 best=0.002951
+
+- [2026-10-21 19:53:03 UTC+8] adapt state_only midpoint_fm/22 round=2 step=2500 val_tracking=0.003348 best=0.002951
+
+- [2026-10-21 19:53:03 UTC+8] adapt completed state_only midpoint_fm/22 round=2, seconds=17.0
+
+- [2026-10-21 19:53:07 UTC+8] adapt state_only midpoint_fm/33 round=2 step=500 val_tracking=0.003047 best=0.003047
+
+- [2026-10-21 19:53:11 UTC+8] adapt state_only midpoint_fm/33 round=2 step=1000 val_tracking=0.003525 best=0.003047
+
+- [2026-10-21 19:53:14 UTC+8] adapt state_only midpoint_fm/33 round=2 step=1500 val_tracking=0.003056 best=0.003047
+
+- [2026-10-21 19:53:17 UTC+8] adapt state_only midpoint_fm/33 round=2 step=2000 val_tracking=0.004020 best=0.003047
+
+- [2026-10-21 19:53:21 UTC+8] adapt state_only midpoint_fm/33 round=2 step=2500 val_tracking=0.003303 best=0.003047
+
+- [2026-10-21 19:53:21 UTC+8] adapt completed state_only midpoint_fm/33 round=2, seconds=17.0
+
+- [2026-10-21 19:53:22 UTC+8] adapt state_only regression/11 round=2 step=500 val_tracking=0.003038 best=0.002886
+
+- [2026-10-21 19:53:22 UTC+8] adapt state_only regression/11 round=2 step=1000 val_tracking=0.002873 best=0.002873
+
+- [2026-10-21 19:53:23 UTC+8] adapt state_only regression/11 round=2 step=1500 val_tracking=0.002758 best=0.002758
+
+- [2026-10-21 19:53:24 UTC+8] adapt state_only regression/11 round=2 step=2000 val_tracking=0.002708 best=0.002708
+
+- [2026-10-21 19:53:25 UTC+8] adapt state_only regression/11 round=2 step=2500 val_tracking=0.002915 best=0.002708
+
+- [2026-10-21 19:53:25 UTC+8] adapt completed state_only regression/11 round=2, seconds=3.8
+
+- [2026-10-21 19:53:26 UTC+8] adapt state_only regression/22 round=2 step=500 val_tracking=0.002720 best=0.002716
+
+- [2026-10-21 19:53:26 UTC+8] adapt state_only regression/22 round=2 step=1000 val_tracking=0.002953 best=0.002716
+
+- [2026-10-21 19:53:27 UTC+8] adapt state_only regression/22 round=2 step=1500 val_tracking=0.002935 best=0.002716
+
+- [2026-10-21 19:53:28 UTC+8] adapt state_only regression/22 round=2 step=2000 val_tracking=0.002975 best=0.002716
+
+- [2026-10-21 19:53:29 UTC+8] adapt state_only regression/22 round=2 step=2500 val_tracking=0.002629 best=0.002629
+
+- [2026-10-21 19:53:29 UTC+8] adapt completed state_only regression/22 round=2, seconds=3.9
+
+- [2026-10-21 19:53:30 UTC+8] adapt state_only regression/33 round=2 step=500 val_tracking=0.003543 best=0.003044
+
+- [2026-10-21 19:53:30 UTC+8] adapt state_only regression/33 round=2 step=1000 val_tracking=0.003168 best=0.003044
+
+- [2026-10-21 19:53:31 UTC+8] adapt state_only regression/33 round=2 step=1500 val_tracking=0.002561 best=0.002561
+
+- [2026-10-21 19:53:32 UTC+8] adapt state_only regression/33 round=2 step=2000 val_tracking=0.002912 best=0.002561
+
+- [2026-10-21 19:53:33 UTC+8] adapt state_only regression/33 round=2 step=2500 val_tracking=0.002625 best=0.002561
+
+- [2026-10-21 19:53:33 UTC+8] adapt completed state_only regression/33 round=2, seconds=3.8
+
+- [2026-10-21 19:53:35 UTC+8] adapt shared pool state_and_pulses round=1: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:53:36 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=500 val_tracking=0.002908 best=0.002908
+
+- [2026-10-21 19:53:38 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=1000 val_tracking=0.003019 best=0.002908
+
+- [2026-10-21 19:53:39 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=1500 val_tracking=0.002816 best=0.002816
+
+- [2026-10-21 19:53:40 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=2000 val_tracking=0.002586 best=0.002586
+
+- [2026-10-21 19:53:41 UTC+8] adapt state_and_pulses single_fm/11 round=1 step=2500 val_tracking=0.003123 best=0.002586
+
+- [2026-10-21 19:53:41 UTC+8] adapt completed state_and_pulses single_fm/11 round=1, seconds=5.4
+
+- [2026-10-21 19:53:42 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=500 val_tracking=0.003066 best=0.003066
+
+- [2026-10-21 19:53:43 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=1000 val_tracking=0.003471 best=0.003066
+
+- [2026-10-21 19:53:44 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=1500 val_tracking=0.003032 best=0.003032
+
+- [2026-10-21 19:53:45 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=2000 val_tracking=0.002845 best=0.002845
+
+- [2026-10-21 19:53:46 UTC+8] adapt state_and_pulses single_fm/22 round=1 step=2500 val_tracking=0.002404 best=0.002404
+
+- [2026-10-21 19:53:46 UTC+8] adapt completed state_and_pulses single_fm/22 round=1, seconds=5.4
+
+- [2026-10-21 19:53:47 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=500 val_tracking=0.003302 best=0.003302
+
+- [2026-10-21 19:53:49 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=1000 val_tracking=0.002910 best=0.002910
+
+- [2026-10-21 19:53:50 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=1500 val_tracking=0.003476 best=0.002910
+
+- [2026-10-21 19:53:51 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=2000 val_tracking=0.003057 best=0.002910
+
+- [2026-10-21 19:53:52 UTC+8] adapt state_and_pulses single_fm/33 round=1 step=2500 val_tracking=0.003566 best=0.002910
+
+- [2026-10-21 19:53:52 UTC+8] adapt completed state_and_pulses single_fm/33 round=1, seconds=5.4
+
+- [2026-10-21 19:53:56 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=500 val_tracking=0.002858 best=0.002858
+
+- [2026-10-21 19:53:59 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=1000 val_tracking=0.003158 best=0.002858
+
+- [2026-10-21 19:54:03 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=1500 val_tracking=0.003280 best=0.002858
+
+- [2026-10-21 19:54:06 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=2000 val_tracking=0.002659 best=0.002659
+
+- [2026-10-21 19:54:09 UTC+8] adapt state_and_pulses midpoint_fm/11 round=1 step=2500 val_tracking=0.003025 best=0.002659
+
+- [2026-10-21 19:54:09 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=1, seconds=17.0
+
+- [2026-10-21 19:54:13 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=500 val_tracking=0.002897 best=0.002897
+
+- [2026-10-21 19:54:17 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=1000 val_tracking=0.003127 best=0.002897
+
+- [2026-10-21 19:54:20 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=1500 val_tracking=0.003497 best=0.002897
+
+- [2026-10-21 19:54:23 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=2000 val_tracking=0.002683 best=0.002683
+
+- [2026-10-21 19:54:27 UTC+8] adapt state_and_pulses midpoint_fm/22 round=1 step=2500 val_tracking=0.002769 best=0.002683
+
+- [2026-10-21 19:54:27 UTC+8] adapt completed state_and_pulses midpoint_fm/22 round=1, seconds=16.9
+
+- [2026-10-21 19:54:31 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=500 val_tracking=0.003528 best=0.003528
+
+- [2026-10-21 19:54:34 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=1000 val_tracking=0.003142 best=0.003142
+
+- [2026-10-21 19:54:37 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=1500 val_tracking=0.003002 best=0.003002
+
+- [2026-10-21 19:54:41 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=2000 val_tracking=0.002968 best=0.002968
+
+- [2026-10-21 19:54:44 UTC+8] adapt state_and_pulses midpoint_fm/33 round=1 step=2500 val_tracking=0.002759 best=0.002759
+
+- [2026-10-21 19:54:44 UTC+8] adapt completed state_and_pulses midpoint_fm/33 round=1, seconds=16.9
+
+- [2026-10-21 19:54:45 UTC+8] adapt state_and_pulses regression/11 round=1 step=500 val_tracking=0.003388 best=0.003388
+
+- [2026-10-21 19:54:46 UTC+8] adapt state_and_pulses regression/11 round=1 step=1000 val_tracking=0.002917 best=0.002917
+
+- [2026-10-21 19:54:47 UTC+8] adapt state_and_pulses regression/11 round=1 step=1500 val_tracking=0.003202 best=0.002917
+
+- [2026-10-21 19:54:47 UTC+8] adapt state_and_pulses regression/11 round=1 step=2000 val_tracking=0.003081 best=0.002917
+
+- [2026-10-21 19:54:48 UTC+8] adapt state_and_pulses regression/11 round=1 step=2500 val_tracking=0.003011 best=0.002917
+
+- [2026-10-21 19:54:48 UTC+8] adapt completed state_and_pulses regression/11 round=1, seconds=3.9
+
+- [2026-10-21 19:54:49 UTC+8] adapt state_and_pulses regression/22 round=1 step=500 val_tracking=0.003166 best=0.003166
+
+- [2026-10-21 19:54:50 UTC+8] adapt state_and_pulses regression/22 round=1 step=1000 val_tracking=0.003117 best=0.003117
+
+- [2026-10-21 19:54:51 UTC+8] adapt state_and_pulses regression/22 round=1 step=1500 val_tracking=0.002779 best=0.002779
+
+- [2026-10-21 19:54:51 UTC+8] adapt state_and_pulses regression/22 round=1 step=2000 val_tracking=0.003089 best=0.002779
+
+- [2026-10-21 19:54:52 UTC+8] adapt state_and_pulses regression/22 round=1 step=2500 val_tracking=0.002917 best=0.002779
+
+- [2026-10-21 19:54:52 UTC+8] adapt completed state_and_pulses regression/22 round=1, seconds=3.9
+
+- [2026-10-21 19:54:53 UTC+8] adapt state_and_pulses regression/33 round=1 step=500 val_tracking=0.003295 best=0.003295
+
+- [2026-10-21 19:54:54 UTC+8] adapt state_and_pulses regression/33 round=1 step=1000 val_tracking=0.003193 best=0.003193
+
+- [2026-10-21 19:54:55 UTC+8] adapt state_and_pulses regression/33 round=1 step=1500 val_tracking=0.003282 best=0.003193
+
+- [2026-10-21 19:54:55 UTC+8] adapt state_and_pulses regression/33 round=1 step=2000 val_tracking=0.002999 best=0.002999
+
+- [2026-10-21 19:54:56 UTC+8] adapt state_and_pulses regression/33 round=1 step=2500 val_tracking=0.002847 best=0.002847
+
+- [2026-10-21 19:54:56 UTC+8] adapt completed state_and_pulses regression/33 round=1, seconds=3.9
+
+- [2026-10-21 19:54:59 UTC+8] adapt shared pool state_and_pulses round=2: 360 trajectories, 100080 windows
+
+- [2026-10-21 19:55:00 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=500 val_tracking=0.002757 best=0.002586
+
+- [2026-10-21 19:55:01 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=1000 val_tracking=0.003030 best=0.002586
+
+- [2026-10-21 19:55:02 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=1500 val_tracking=0.002871 best=0.002586
+
+- [2026-10-21 19:55:03 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=2000 val_tracking=0.002795 best=0.002586
+
+- [2026-10-21 19:55:04 UTC+8] adapt state_and_pulses single_fm/11 round=2 step=2500 val_tracking=0.002690 best=0.002586
+
+- [2026-10-21 19:55:04 UTC+8] adapt completed state_and_pulses single_fm/11 round=2, seconds=5.4
+
+- [2026-10-21 19:55:05 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=500 val_tracking=0.002441 best=0.002404
+
+- [2026-10-21 19:55:06 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=1000 val_tracking=0.003262 best=0.002404
+
+- [2026-10-21 19:55:08 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=1500 val_tracking=0.002589 best=0.002404
+
+- [2026-10-21 19:55:09 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=2000 val_tracking=0.003165 best=0.002404
+
+- [2026-10-21 19:55:10 UTC+8] adapt state_and_pulses single_fm/22 round=2 step=2500 val_tracking=0.002511 best=0.002404
+
+- [2026-10-21 19:55:10 UTC+8] adapt completed state_and_pulses single_fm/22 round=2, seconds=5.4
+
+- [2026-10-21 19:55:11 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=500 val_tracking=0.002723 best=0.002723
+
+- [2026-10-21 19:55:12 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=1000 val_tracking=0.002893 best=0.002723
+
+- [2026-10-21 19:55:13 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=1500 val_tracking=0.002436 best=0.002436
+
+- [2026-10-21 19:55:14 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=2000 val_tracking=0.003114 best=0.002436
+
+- [2026-10-21 19:55:15 UTC+8] adapt state_and_pulses single_fm/33 round=2 step=2500 val_tracking=0.002328 best=0.002328
+
+- [2026-10-21 19:55:15 UTC+8] adapt completed state_and_pulses single_fm/33 round=2, seconds=5.4
+
+- [2026-10-21 19:55:19 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=500 val_tracking=0.002435 best=0.002435
+
+- [2026-10-21 19:55:23 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=1000 val_tracking=0.002605 best=0.002435
+
+- [2026-10-21 19:55:26 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=1500 val_tracking=0.003657 best=0.002435
+
+- [2026-10-21 19:55:29 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=2000 val_tracking=0.002919 best=0.002435
+
+- [2026-10-21 19:55:33 UTC+8] adapt state_and_pulses midpoint_fm/11 round=2 step=2500 val_tracking=0.002903 best=0.002435
+
+- [2026-10-21 19:55:33 UTC+8] adapt completed state_and_pulses midpoint_fm/11 round=2, seconds=17.2
+
+- [2026-10-21 19:55:37 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=500 val_tracking=0.002571 best=0.002571
+
+- [2026-10-21 19:55:40 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=1000 val_tracking=0.003078 best=0.002571
+
+- [2026-10-21 19:55:44 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=1500 val_tracking=0.002547 best=0.002547
+
+- [2026-10-21 19:55:47 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=2000 val_tracking=0.003315 best=0.002547
+
+- [2026-10-21 19:55:50 UTC+8] adapt state_and_pulses midpoint_fm/22 round=2 step=2500 val_tracking=0.002613 best=0.002547
+
+- [2026-10-21 19:55:50 UTC+8] adapt completed state_and_pulses midpoint_fm/22 round=2, seconds=16.9
+
+- [2026-10-21 19:55:54 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=500 val_tracking=0.002753 best=0.002753
+
+- [2026-10-21 19:55:58 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=1000 val_tracking=0.002499 best=0.002499
+
+- [2026-10-21 19:56:01 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=1500 val_tracking=0.002562 best=0.002499
+
+- [2026-10-21 19:56:05 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=2000 val_tracking=0.002929 best=0.002499
+
+- [2026-10-21 19:56:08 UTC+8] adapt state_and_pulses midpoint_fm/33 round=2 step=2500 val_tracking=0.002597 best=0.002499
+
+- [2026-10-21 19:56:08 UTC+8] adapt completed state_and_pulses midpoint_fm/33 round=2, seconds=17.0
+
+- [2026-10-21 19:56:09 UTC+8] adapt state_and_pulses regression/11 round=2 step=500 val_tracking=0.002890 best=0.002890
+
+- [2026-10-21 19:56:10 UTC+8] adapt state_and_pulses regression/11 round=2 step=1000 val_tracking=0.002711 best=0.002711
+
+- [2026-10-21 19:56:10 UTC+8] adapt state_and_pulses regression/11 round=2 step=1500 val_tracking=0.003083 best=0.002711
+
+- [2026-10-21 19:56:11 UTC+8] adapt state_and_pulses regression/11 round=2 step=2000 val_tracking=0.002566 best=0.002566
+
+- [2026-10-21 19:56:12 UTC+8] adapt state_and_pulses regression/11 round=2 step=2500 val_tracking=0.002526 best=0.002526
+
+- [2026-10-21 19:56:12 UTC+8] adapt completed state_and_pulses regression/11 round=2, seconds=3.9
+
+- [2026-10-21 19:56:13 UTC+8] adapt state_and_pulses regression/22 round=2 step=500 val_tracking=0.003289 best=0.002779
+
+- [2026-10-21 19:56:14 UTC+8] adapt state_and_pulses regression/22 round=2 step=1000 val_tracking=0.002946 best=0.002779
+
+- [2026-10-21 19:56:14 UTC+8] adapt state_and_pulses regression/22 round=2 step=1500 val_tracking=0.003052 best=0.002779
+
+- [2026-10-21 19:56:15 UTC+8] adapt state_and_pulses regression/22 round=2 step=2000 val_tracking=0.002613 best=0.002613
+
+- [2026-10-21 19:56:16 UTC+8] adapt state_and_pulses regression/22 round=2 step=2500 val_tracking=0.002649 best=0.002613
+
+- [2026-10-21 19:56:16 UTC+8] adapt completed state_and_pulses regression/22 round=2, seconds=3.8
+
+- [2026-10-21 19:56:17 UTC+8] adapt state_and_pulses regression/33 round=2 step=500 val_tracking=0.003018 best=0.002847
+
+- [2026-10-21 19:56:18 UTC+8] adapt state_and_pulses regression/33 round=2 step=1000 val_tracking=0.002615 best=0.002615
+
+- [2026-10-21 19:56:18 UTC+8] adapt state_and_pulses regression/33 round=2 step=1500 val_tracking=0.002777 best=0.002615
+
+- [2026-10-21 19:56:19 UTC+8] adapt state_and_pulses regression/33 round=2 step=2000 val_tracking=0.002763 best=0.002615
+
+- [2026-10-21 19:56:20 UTC+8] adapt state_and_pulses regression/33 round=2 step=2500 val_tracking=0.002538 best=0.002538
+
+- [2026-10-21 19:56:20 UTC+8] adapt completed state_and_pulses regression/33 round=2, seconds=3.9
+
+- [2026-10-21 19:56:28 UTC+8] adaptation held-out test completed: mixed
+
+- [2026-10-21 19:56:35 UTC+8] adaptation held-out test completed: shock
+
+- [2026-10-21 19:56:35 UTC+8] adaptation experiment complete: E:\Desktop\MyCode\A2AFM\results\closed_adaptation\REPORT.md
+
+- [2026-10-21 19:57:39 UTC+8] delay check frozen/single_fm/11, software p50=0.1072ms
+
+- [2026-10-21 19:57:40 UTC+8] delay check frozen/single_fm/22, software p50=0.1104ms
+
+- [2026-10-21 19:57:40 UTC+8] delay check frozen/single_fm/33, software p50=0.1083ms
+
+- [2026-10-21 19:57:44 UTC+8] delay check frozen/midpoint_fm/11, software p50=0.6566ms
+
+- [2026-10-21 19:57:47 UTC+8] delay check frozen/midpoint_fm/22, software p50=0.6497ms
+
+- [2026-10-21 19:57:50 UTC+8] delay check frozen/midpoint_fm/33, software p50=0.6517ms
+
+- [2026-10-21 19:57:50 UTC+8] delay check frozen/regression/11, software p50=0.0921ms
+
+- [2026-10-21 19:57:51 UTC+8] delay check frozen/regression/22, software p50=0.0933ms
+
+- [2026-10-21 19:57:52 UTC+8] delay check frozen/regression/33, software p50=0.0926ms
+
+- [2026-10-21 19:57:52 UTC+8] delay check state_and_pulses/single_fm/11, software p50=0.1084ms
+
+- [2026-10-21 19:57:53 UTC+8] delay check state_and_pulses/single_fm/22, software p50=0.1095ms
+
+- [2026-10-21 19:57:54 UTC+8] delay check state_and_pulses/single_fm/33, software p50=0.1094ms
+
+- [2026-10-21 19:57:57 UTC+8] delay check state_and_pulses/midpoint_fm/11, software p50=0.6572ms
+
+- [2026-10-21 19:58:00 UTC+8] delay check state_and_pulses/midpoint_fm/22, software p50=0.6536ms
+
+- [2026-10-21 19:58:03 UTC+8] delay check state_and_pulses/midpoint_fm/33, software p50=0.6525ms
+
+- [2026-10-21 19:58:04 UTC+8] delay check state_and_pulses/regression/11, software p50=0.0924ms
+
+- [2026-10-21 19:58:04 UTC+8] delay check state_and_pulses/regression/22, software p50=0.0930ms
+
+- [2026-10-21 19:58:05 UTC+8] delay check state_and_pulses/regression/33, software p50=0.0927ms
+
+- [2026-10-21 19:58:05 UTC+8] computation delay check complete: E:\Desktop\MyCode\A2AFM\results\computation_delay\REPORT.md
+
+- 2026-10-21: 完成两轮闭环适配实验：单步FM/多步FM/直接回归各3种子，state_only与state_and_pulses两组，每轮360轨迹/2500更新，第二轮共享回放。新冲击测试单步跟踪RMSE从0.00897降至0.00265及0.00191，多步对应0.00394/0.00234/0.00189；适配后跟踪接近但冲击估计仍有差距。另完成软件延时P50/P95与5/20/40ms动力学复核。26项测试、36个最佳检查点前向次数、来源哈希及零延时一致性核验通过；报告与图表已核对。

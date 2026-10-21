@@ -1,0 +1,87 @@
+{
+  "seed": 20261022,
+  "repetitions": 5000,
+  "unit": "trajectory",
+  "comparisons": [
+    {
+      "suite": "mixed",
+      "comparison": "single_minus_midpoint",
+      "stage": "frozen",
+      "delta": 0.004803603802718351,
+      "low": 0.004433004441366735,
+      "high": 0.0051927812987834915
+    },
+    {
+      "suite": "mixed",
+      "comparison": "single_minus_midpoint",
+      "stage": "state_only",
+      "delta": -6.58791547270862e-05,
+      "low": -0.00011073608611904495,
+      "high": -2.273203645795468e-05
+    },
+    {
+      "suite": "mixed",
+      "comparison": "single_minus_midpoint",
+      "stage": "state_and_pulses",
+      "delta": -9.851788942436251e-05,
+      "low": -0.00016254533099660154,
+      "high": -3.688539287066796e-05
+    },
+    {
+      "suite": "mixed",
+      "comparison": "adapted_minus_frozen_single",
+      "stage": "state_only",
+      "delta": -0.006747256856887463,
+      "low": -0.0071823894453448035,
+      "high": -0.006317091967319431
+    },
+    {
+      "suite": "mixed",
+      "comparison": "adapted_minus_frozen_single",
+      "stage": "state_and_pulses",
+      "delta": -0.006589812244508889,
+      "low": -0.007015650395013607,
+      "high": -0.006163490394188652
+    },
+    {
+      "suite": "shock",
+      "comparison": "single_minus_midpoint",
+      "stage": "frozen",
+      "delta": 0.005031947289311995,
+      "low": 0.004431407399322377,
+      "high": 0.005643167129907631
+    },
+    {
+      "suite": "shock",
+      "comparison": "single_minus_midpoint",
+      "stage": "state_only",
+      "delta": 0.00031187486977882336,
+      "low": 0.00016070364751273548,
+      "high": 0.00045633143889199385
+    },
+    {
+      "suite": "shock",
+      "comparison": "single_minus_midpoint",
+      "stage": "state_and_pulses",
+      "delta": 1.76020730431744e-05,
+      "low": -9.067229273556784e-05,
+      "high": 0.0001375971129655715
+    },
+    {
+      "suite": "shock",
+      "comparison": "adapted_minus_frozen_single",
+      "stage": "state_only",
+      "delta": -0.006321898742821861,
+      "low": -0.007022293168986554,
+      "high": -0.0055916448643502795
+    },
+    {
+      "suite": "shock",
+      "comparison": "adapted_minus_frozen_single",
+      "stage": "state_and_pulses",
+      "delta": -0.0070581007727418075,
+      "low": -0.00752209301579339,
+      "high": -0.006613791085304114
+    }
+  ]
+}
