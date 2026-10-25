@@ -5,7 +5,29 @@
 | 文档 | 内容与状态 |
 |---|---|
 | [项目完整复盘（2026-10-25）](PROJECT_REVIEW_20261025.md) | 汇总各实验分支中已经完成的尝试、结果、适用边界和后续优先级；不同协议的结果不直接横向排名。 |
-| [单步FM冲击优势实验协议](SINGLE_STEP_FM_SHOCK_PROTOCOL.md) | 下一轮待执行方案：同构残差回归、单步FM和重复端点监督对照，先比较同一观测流的冲击估计，再验证闭环收益；不是新的训练结果。 |
+| [单步FM冲击优势实验协议](SINGLE_STEP_FM_SHOCK_PROTOCOL.md) | 同构残差回归、单步FM和重复端点监督对照的预注册方案：先比较同一观测流的冲击估计，再验证闭环收益。 |
+| [单步FM冲击验证正式报告](results/shock_validation/REPORT.md) | 2026-10-25 已完成：3 套数据 × 3 配对种子，A/B/C 同构对照、固定权重闭环与 P50 延时复核。主比较未达 10% 门槛，按预注册规则未启动条件追加实验。数值表见 [TABLES.md](results/shock_validation/TABLES.md)。 |
+
+## 单步 FM 冲击验证正式结果（2026-10-25）
+
+按 [预注册协议](SINGLE_STEP_FM_SHOCK_PROTOCOL.md) 完成 A（同构残差回归）、B（单步 FM）、C（重复端点监督）三组对照，另加等优化耗时 A_time、直接回归、中点 FM、原始残差、EMA 和增广 Kalman。3 套独立训练数据 × 3 个配对权重种子，共享 720 条测试轨迹；所有主模型再做固定权重闭环和自身 P50 软件延时复核。
+
+核心结果：
+
+- B 对 A 的冲击 RMSE 仅改善 **1.58%**（97.5% 区间 [0.43, 2.63]），远低于预注册的 10% 门槛；背景 RMSE 恶化 **1.49%**。
+- B 对 C 的冲击改善为 **-0.19%**（略差），背景恶化 **3.01%**；没有证据支持随机路径速度监督的独立优势。
+- 固定权重闭环中 B 的 tracking RMSE 为 **0.0046799**，差于 A 的 0.0043803 和 C 的 0.0041600；B 对 A 的事件后 1 秒误差能量变化为 **-4.80%**。
+- 原始残差和增广 Kalman 的冲击 RMSE 约 **0.50**，仍明显优于所有学习模型（0.68–0.77），但背景 RMSE 约 0.50，闭环控制抖动也更大。
+- A_time（等优化耗时，约 21.6k–23.4k 次更新）冲击 0.702175、背景 0.113798，优于 A/B/C，提示计算预算本身能解释部分差异。
+
+按协议未满足门槛，因此没有执行零源噪声消融和 D 组追加实验，也没有做测试驱动的调参或重选。完整解释、限制与复现方式见 [正式报告](results/shock_validation/REPORT.md)。
+
+```powershell
+.\.venv\Scripts\python.exe shock_validation_experiment.py --workers 3 --stage all
+.\.venv\Scripts\python.exe shock_validation_delay.py
+.\.venv\Scripts\python.exe analyze_shock_validation.py
+.\.venv\Scripts\python.exe -m unittest test_shock_validation test_core test_single_step test_adaptation test_delayed closed_loop.test_core -v
+```
 
 ## 闭环适配与计算延时复核
 
