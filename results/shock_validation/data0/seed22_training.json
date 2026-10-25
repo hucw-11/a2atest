@@ -1,0 +1,50 @@
+{
+  "A": {
+    "steps": 15000,
+    "training_seconds": 29.720240799797466,
+    "initial_hash": "2722d1a32c374a3f00df8fe889a74ed83b805de2c1be72882e4cc7c3b71f664d",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 14000
+  },
+  "B": {
+    "steps": 15000,
+    "training_seconds": 42.95716460003314,
+    "initial_hash": "2722d1a32c374a3f00df8fe889a74ed83b805de2c1be72882e4cc7c3b71f664d",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 14000
+  },
+  "C": {
+    "steps": 15000,
+    "training_seconds": 42.76663330014708,
+    "initial_hash": "2722d1a32c374a3f00df8fe889a74ed83b805de2c1be72882e4cc7c3b71f664d",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 13500
+  },
+  "direct": {
+    "steps": 15000,
+    "training_seconds": 31.26110420007899,
+    "initial_hash": "1791f520bc89484b93bb58756d7e210c59f87ec596774b211ab3f29f5ac85298",
+    "parameters": 82712,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 10000
+  },
+  "midpoint": {
+    "steps": 15000,
+    "training_seconds": 151.92005030035943,
+    "initial_hash": "2722d1a32c374a3f00df8fe889a74ed83b805de2c1be72882e4cc7c3b71f664d",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 9,
+    "selected_step": 13000
+  },
+  "A_time": {
+    "steps": 22596,
+    "training_seconds": 42.95835920018726,
+    "initial_hash": "2722d1a32c374a3f00df8fe889a74ed83b805de2c1be72882e4cc7c3b71f664d",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 22596
+  }
+}

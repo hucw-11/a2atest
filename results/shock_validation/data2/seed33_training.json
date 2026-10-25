@@ -1,0 +1,34 @@
+{
+  "A": {
+    "steps": 15000,
+    "training_seconds": 34.04834799980017,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 15000
+  },
+  "B": {
+    "steps": 15000,
+    "training_seconds": 51.072535499944934,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 11500
+  },
+  "C": {
+    "steps": 15000,
+    "training_seconds": 50.89067069963494,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 10500
+  },
+  "A_time": {
+    "steps": 23337,
+    "training_seconds": 51.0729395997696,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 17500
+  }
+}

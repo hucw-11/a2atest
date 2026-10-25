@@ -1,0 +1,41 @@
+test_bootstrap_known_effect_and_no_pseudoreplication (test_shock_validation.ShockValidationTests.test_bootstrap_known_effect_and_no_pseudoreplication) ... ok
+test_causality_filter_and_control_measurement_timing (test_shock_validation.ShockValidationTests.test_causality_filter_and_control_measurement_timing) ... ok
+test_distinct_splits_and_same_model_initialization (test_shock_validation.ShockValidationTests.test_distinct_splits_and_same_model_initialization) ... ok
+test_endpoint_auxiliary_is_whole_result_mse_and_gradient (test_shock_validation.ShockValidationTests.test_endpoint_auxiliary_is_whole_result_mse_and_gradient) ... ok
+test_perfect_metrics_and_single_point_shock (test_shock_validation.ShockValidationTests.test_perfect_metrics_and_single_point_shock) ... ok
+test_raw_compensation_is_causal_and_distinct_from_clipped (test_shock_validation.ShockValidationTests.test_raw_compensation_is_causal_and_distinct_from_clipped) ... ok
+test_rng_streams_and_resume_preserve_pairing (test_shock_validation.ShockValidationTests.test_rng_streams_and_resume_preserve_pairing) ... ok
+test_training_forward_counts_are_matched_as_claimed (test_shock_validation.ShockValidationTests.test_training_forward_counts_are_matched_as_claimed) ... ok
+test_vectorization_matches_original_and_event_points_are_present (test_shock_validation.ShockValidationTests.test_vectorization_matches_original_and_event_points_are_present) ... ok
+test_weighting_is_event_and_stratum_balanced (test_shock_validation.ShockValidationTests.test_weighting_is_event_and_stratum_balanced) ... ok
+test_endpoint_gradients (test_core.CoreTests.test_endpoint_gradients) ... ok
+test_noise_amplification (test_core.CoreTests.test_noise_amplification) ... ok
+test_noiseless_residual (test_core.CoreTests.test_noiseless_residual) ... ok
+test_simulation_analytic (test_core.CoreTests.test_simulation_analytic) ... ok
+test_window_alignment_and_causality (test_core.CoreTests.test_window_alignment_and_causality) ... ok
+test_atomic_checkpoint_replacement (test_single_step.SingleStepTests.test_atomic_checkpoint_replacement) ... ok
+test_checkpoint_deployment_uses_one_call_without_jitter (test_single_step.SingleStepTests.test_checkpoint_deployment_uses_one_call_without_jitter) ... ok
+test_endpoint_loss_has_two_total_calls_and_gradients (test_single_step.SingleStepTests.test_endpoint_loss_has_two_total_calls_and_gradients) ... ok
+test_json_retries_transient_destination_lock (test_single_step.SingleStepTests.test_json_retries_transient_destination_lock) ... ok
+test_mixed_signals_are_weighted_component_sum (test_single_step.SingleStepTests.test_mixed_signals_are_weighted_component_sum) ... ok
+test_one_call_at_initial_state_and_zero_time (test_single_step.SingleStepTests.test_one_call_at_initial_state_and_zero_time) ... ok
+test_residual_regression_identity (test_single_step.SingleStepTests.test_residual_regression_identity) ... ok
+test_same_prediction_with_different_targets (test_single_step.SingleStepTests.test_same_prediction_with_different_targets) ... ok
+test_fine_tuning_retains_parent_when_tracking_does_not_improve (test_adaptation.AdaptationTests.test_fine_tuning_retains_parent_when_tracking_does_not_improve) ... ok
+test_pulse_ablation_is_paired_and_does_not_mutate_other_inputs (test_adaptation.AdaptationTests.test_pulse_ablation_is_paired_and_does_not_mutate_other_inputs) ... ok
+test_shared_collection_has_disjoint_policy_assignments (test_adaptation.AdaptationTests.test_shared_collection_has_disjoint_policy_assignments) ... ok
+test_delay_simulator_has_no_future_truth_leak (test_delayed.DelayedTests.test_delay_simulator_has_no_future_truth_leak) ... ok
+test_invalid_delay_is_rejected (test_delayed.DelayedTests.test_invalid_delay_is_rejected) ... ok
+test_overrun_skips_new_jobs_instead_of_future_control (test_delayed.DelayedTests.test_overrun_skips_new_jobs_instead_of_future_control) ... ok
+test_subperiod_delay_splits_exact_plant_transition (test_delayed.DelayedTests.test_subperiod_delay_splits_exact_plant_transition) ... ok
+test_zero_delay_matches_neural_feedback_path (test_delayed.DelayedTests.test_zero_delay_matches_neural_feedback_path) ... ok
+test_zero_delay_matches_original_control_and_plant (test_delayed.DelayedTests.test_zero_delay_matches_original_control_and_plant) ... ok
+test_discrete_stability (closed_loop.test_core.ClosedTests.test_discrete_stability) ... ok
+test_measurement_control_alignment (closed_loop.test_core.ClosedTests.test_measurement_control_alignment) ... ok
+test_no_future_truth_leak (closed_loop.test_core.ClosedTests.test_no_future_truth_leak) ... ok
+test_pulse_area (closed_loop.test_core.ClosedTests.test_pulse_area) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 1.801s
+
+OK

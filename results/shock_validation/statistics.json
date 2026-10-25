@@ -1,0 +1,86 @@
+{
+  "B vs A: shock": {
+    "improvement_percent": 1.577604084637818,
+    "conditional_interval": [
+      0.4266142660146732,
+      2.6268575200870683
+    ],
+    "exploratory_hierarchical_interval": [
+      -1.2953717369352689,
+      4.648986221469703
+    ],
+    "confidence": 0.975,
+    "paired_trajectory_count": 600,
+    "bootstrap_replicates": 5000
+  },
+  "B vs A: background": {
+    "improvement_percent": -1.489416500035623,
+    "conditional_interval": [
+      -1.7001713433814514,
+      -1.2790475509048107
+    ],
+    "exploratory_hierarchical_interval": [
+      -5.911443677958455,
+      2.7643342920585745
+    ],
+    "confidence": 0.95,
+    "paired_trajectory_count": 720,
+    "bootstrap_replicates": 5000
+  },
+  "B vs A: closed event energy": {
+    "improvement_percent": -4.798243664975388,
+    "conditional_interval": [
+      -6.740025892258259,
+      -2.9045040804208444
+    ],
+    "exploratory_hierarchical_interval": [
+      -19.924063911098173,
+      10.970424481826907
+    ],
+    "confidence": 0.95,
+    "paired_trajectory_count": 600,
+    "bootstrap_replicates": 5000
+  },
+  "B vs C: shock": {
+    "improvement_percent": -0.1855242308856475,
+    "conditional_interval": [
+      -1.2249223259406936,
+      0.8015367532649278
+    ],
+    "exploratory_hierarchical_interval": [
+      -4.295488156178253,
+      3.6291376908562056
+    ],
+    "confidence": 0.975,
+    "paired_trajectory_count": 600,
+    "bootstrap_replicates": 5000
+  },
+  "B vs C: background": {
+    "improvement_percent": -3.009741959419854,
+    "conditional_interval": [
+      -3.375443587460871,
+      -2.6477520356306017
+    ],
+    "exploratory_hierarchical_interval": [
+      -9.581067797563247,
+      2.1819387190682074
+    ],
+    "confidence": 0.95,
+    "paired_trajectory_count": 720,
+    "bootstrap_replicates": 5000
+  },
+  "B vs C: closed event energy": {
+    "improvement_percent": -11.37556649406466,
+    "conditional_interval": [
+      -14.402717467460068,
+      -8.42721171433785
+    ],
+    "exploratory_hierarchical_interval": [
+      -38.540179657672354,
+      12.128054883772387
+    ],
+    "confidence": 0.95,
+    "paired_trajectory_count": 600,
+    "bootstrap_replicates": 5000
+  }
+}

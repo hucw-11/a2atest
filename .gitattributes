@@ -3,3 +3,7 @@
 *.pt binary
 *.npz binary
 *.png binary
+# Preserve the newly frozen experiment protocol and JSON audit files byte-for-byte.
+shock_validation/*.md text eol=lf
+results/shock_validation/**/*.json text eol=lf
+results/shock_validation/*.json text eol=lf

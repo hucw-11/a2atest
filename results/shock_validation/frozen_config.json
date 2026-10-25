@@ -1,0 +1,54 @@
+{
+  "updates": 15000,
+  "validation_every": 500,
+  "batch": 128,
+  "lr": 0.001,
+  "source_noise": 0.01,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "data_replicates": [
+    0,
+    1,
+    2
+  ],
+  "train_count": 360,
+  "val_count": 144,
+  "test_count": 720,
+  "train_seed_base": 210000,
+  "val_seed_base": 220000,
+  "test_seed": 230000,
+  "primary_methods": [
+    "A",
+    "B",
+    "C"
+  ],
+  "reference_methods": [
+    "direct",
+    "midpoint"
+  ],
+  "train_widths": [
+    1,
+    4,
+    10
+  ],
+  "test_widths": [
+    1,
+    2,
+    4,
+    6,
+    10
+  ],
+  "sigma_a": 0.5,
+  "selection": "0.5*equal-stratum-event-MSE + 0.5*equal-trajectory-background-MSE",
+  "shock_improvement_threshold": 0.1,
+  "background_degradation_limit": 0.05,
+  "threads_per_worker": 1,
+  "convergence_rule": "fixed 15000 updates; report best-step and validation slope, no test-driven extension",
+  "reference_scope": "direct/midpoint on data replicate 0, three weight seeds",
+  "time_control": "A_time matches B optimizer wall time; validation and data preparation excluded",
+  "closed_event_window": "[onset,onset+1 second)",
+  "bootstrap_replicates": 5000
+}

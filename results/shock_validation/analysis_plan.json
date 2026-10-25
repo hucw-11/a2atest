@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-10-25T10:20:44.532895+00:00",
+  "test_scoring_exists": false,
+  "hashes": {
+    "shock_validation/EXECUTION_PROTOCOL.md": "bdc288e2504e13bce1ed586dabc0f831c14c599a210f2ce231ee8205b17f27f5",
+    "analyze_shock_validation.py": "c1296326f6557a9ac5a5fc8d9311d5f96c38a00bd91d4709a9a234caa283cb80",
+    "shock_validation_delay.py": "ea68174c0fbd03d4f50fbbaf989cada93429ad8a9093da07a14d17b62365164b"
+  }
+}

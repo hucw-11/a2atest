@@ -1,0 +1,191 @@
+[
+  {
+    "data_rep": 0,
+    "seed": 11,
+    "method": "A",
+    "delay_ms": 0.12145000073360279,
+    "tracking_rmse": 0.004437801824206965
+  },
+  {
+    "data_rep": 0,
+    "seed": 11,
+    "method": "B",
+    "delay_ms": 0.12635000166483223,
+    "tracking_rmse": 0.004365511951095343
+  },
+  {
+    "data_rep": 0,
+    "seed": 11,
+    "method": "C",
+    "delay_ms": 0.12059999789926223,
+    "tracking_rmse": 0.0042398898319980175
+  },
+  {
+    "data_rep": 0,
+    "seed": 22,
+    "method": "A",
+    "delay_ms": 0.11339999764459208,
+    "tracking_rmse": 0.005152205232274408
+  },
+  {
+    "data_rep": 0,
+    "seed": 22,
+    "method": "B",
+    "delay_ms": 0.16799999866634607,
+    "tracking_rmse": 0.005460226295220296
+  },
+  {
+    "data_rep": 0,
+    "seed": 22,
+    "method": "C",
+    "delay_ms": 0.11345000530127436,
+    "tracking_rmse": 0.004989373340951219
+  },
+  {
+    "data_rep": 0,
+    "seed": 33,
+    "method": "A",
+    "delay_ms": 0.11060000178986229,
+    "tracking_rmse": 0.004349120301370319
+  },
+  {
+    "data_rep": 0,
+    "seed": 33,
+    "method": "B",
+    "delay_ms": 0.11109999832115136,
+    "tracking_rmse": 0.0034980970922686436
+  },
+  {
+    "data_rep": 0,
+    "seed": 33,
+    "method": "C",
+    "delay_ms": 0.11129999620607123,
+    "tracking_rmse": 0.003791635584536302
+  },
+  {
+    "data_rep": 1,
+    "seed": 11,
+    "method": "A",
+    "delay_ms": 0.11129999984405003,
+    "tracking_rmse": 0.0035553994920199308
+  },
+  {
+    "data_rep": 1,
+    "seed": 11,
+    "method": "B",
+    "delay_ms": 0.11409999933675863,
+    "tracking_rmse": 0.004642850888362457
+  },
+  {
+    "data_rep": 1,
+    "seed": 11,
+    "method": "C",
+    "delay_ms": 0.1735499972710386,
+    "tracking_rmse": 0.003645367363672588
+  },
+  {
+    "data_rep": 1,
+    "seed": 22,
+    "method": "A",
+    "delay_ms": 0.10975000259350054,
+    "tracking_rmse": 0.004258419014192884
+  },
+  {
+    "data_rep": 1,
+    "seed": 22,
+    "method": "B",
+    "delay_ms": 0.10879999899771065,
+    "tracking_rmse": 0.004264043754447022
+  },
+  {
+    "data_rep": 1,
+    "seed": 22,
+    "method": "C",
+    "delay_ms": 0.10969999857479706,
+    "tracking_rmse": 0.0035031752366766807
+  },
+  {
+    "data_rep": 1,
+    "seed": 33,
+    "method": "A",
+    "delay_ms": 0.11305000225547701,
+    "tracking_rmse": 0.004531684478633778
+  },
+  {
+    "data_rep": 1,
+    "seed": 33,
+    "method": "B",
+    "delay_ms": 0.11440000162110664,
+    "tracking_rmse": 0.00465534673192253
+  },
+  {
+    "data_rep": 1,
+    "seed": 33,
+    "method": "C",
+    "delay_ms": 0.11199999789823778,
+    "tracking_rmse": 0.004026129327744434
+  },
+  {
+    "data_rep": 2,
+    "seed": 11,
+    "method": "A",
+    "delay_ms": 0.11055000140913762,
+    "tracking_rmse": 0.004767667456450884
+  },
+  {
+    "data_rep": 2,
+    "seed": 11,
+    "method": "B",
+    "delay_ms": 0.11065000217058696,
+    "tracking_rmse": 0.00579973031194247
+  },
+  {
+    "data_rep": 2,
+    "seed": 11,
+    "method": "C",
+    "delay_ms": 0.12549999883049168,
+    "tracking_rmse": 0.004280593884510331
+  },
+  {
+    "data_rep": 2,
+    "seed": 22,
+    "method": "A",
+    "delay_ms": 0.1112000027205795,
+    "tracking_rmse": 0.004180749861191525
+  },
+  {
+    "data_rep": 2,
+    "seed": 22,
+    "method": "B",
+    "delay_ms": 0.11170000288984738,
+    "tracking_rmse": 0.005013114719538463
+  },
+  {
+    "data_rep": 2,
+    "seed": 22,
+    "method": "C",
+    "delay_ms": 0.1114999977289699,
+    "tracking_rmse": 0.004227221606302952
+  },
+  {
+    "data_rep": 2,
+    "seed": 33,
+    "method": "A",
+    "delay_ms": 0.15049999637994915,
+    "tracking_rmse": 0.004198071545219387
+  },
+  {
+    "data_rep": 2,
+    "seed": 33,
+    "method": "B",
+    "delay_ms": 0.11565000022528693,
+    "tracking_rmse": 0.004430050119261788
+  },
+  {
+    "data_rep": 2,
+    "seed": 33,
+    "method": "C",
+    "delay_ms": 0.11314999937894754,
+    "tracking_rmse": 0.004745887874375616
+  }
+]

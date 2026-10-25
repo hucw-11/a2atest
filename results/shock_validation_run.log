@@ -1,0 +1,391 @@
+data2 seed=11 step=500 A=2.61904 B=2.46632 C=2.64948
+data1 seed=11 step=500 A=3.11607 B=3.09615 C=3.16447
+data2 seed=11 step=1000 A=0.98292 B=0.89215 C=1.00723
+data1 seed=11 step=1000 A=0.99479 B=0.95568 C=0.93489
+data0 seed=11 step=500 A=5.06952 B=4.59077 C=4.93004 direct=7.82961 midpoint=3.23257
+data2 seed=11 step=1500 A=0.67157 B=0.65466 C=0.67894
+data1 seed=11 step=1500 A=0.57685 B=0.57993 C=0.59036
+data1 seed=11 step=2000 A=0.50366 B=0.52293 C=0.46504
+data2 seed=11 step=2000 A=0.47171 B=0.40917 C=0.44452
+data2 seed=11 step=2500 A=0.37416 B=0.38543 C=0.39467
+data1 seed=11 step=2500 A=0.48699 B=0.46665 C=0.44480
+data0 seed=11 step=1000 A=2.40586 B=2.24963 C=2.44597 direct=4.66558 midpoint=1.40013
+data2 seed=11 step=3000 A=0.37416 B=0.38543 C=0.39467
+data1 seed=11 step=3000 A=0.48699 B=0.46665 C=0.44480
+data2 seed=11 step=3500 A=0.37416 B=0.38543 C=0.37089
+data1 seed=11 step=3500 A=0.48699 B=0.46665 C=0.44480
+data1 seed=11 step=4000 A=0.48699 B=0.43226 C=0.44480
+data2 seed=11 step=4000 A=0.35502 B=0.38543 C=0.34811
+data0 seed=11 step=1500 A=1.18498 B=1.07733 C=1.24005 direct=3.02305 midpoint=0.74361
+data1 seed=11 step=4500 A=0.38429 B=0.42167 C=0.40022
+data2 seed=11 step=4500 A=0.35502 B=0.37377 C=0.34811
+data1 seed=11 step=5000 A=0.38429 B=0.37650 C=0.38980
+data2 seed=11 step=5000 A=0.35502 B=0.37377 C=0.34811
+data1 seed=11 step=5500 A=0.29058 B=0.28593 C=0.34041
+data2 seed=11 step=5500 A=0.32579 B=0.27974 C=0.31837
+data0 seed=11 step=2000 A=0.66305 B=0.61066 C=0.62657 direct=1.29690 midpoint=0.44507
+data1 seed=11 step=6000 A=0.29058 B=0.28593 C=0.34041
+data2 seed=11 step=6000 A=0.26572 B=0.27974 C=0.28732
+data1 seed=11 step=6500 A=0.29058 B=0.28593 C=0.31030
+data2 seed=11 step=6500 A=0.26572 B=0.27974 C=0.28732
+data0 seed=11 step=2500 A=0.61151 B=0.61066 C=0.62657 direct=1.11902 midpoint=0.44507
+data1 seed=11 step=7000 A=0.29058 B=0.28593 C=0.31030
+data2 seed=11 step=7000 A=0.26572 B=0.27974 C=0.28732
+data1 seed=11 step=7500 A=0.29058 B=0.28593 C=0.31030
+data2 seed=11 step=7500 A=0.26572 B=0.27974 C=0.28333
+data1 seed=11 step=8000 A=0.29058 B=0.28593 C=0.31030
+data2 seed=11 step=8000 A=0.26572 B=0.27974 C=0.28333
+data0 seed=11 step=3000 A=0.61151 B=0.61066 C=0.62657 direct=0.96877 midpoint=0.44091
+data1 seed=11 step=8500 A=0.29058 B=0.28593 C=0.31030
+data2 seed=11 step=8500 A=0.26572 B=0.27974 C=0.28333
+data1 seed=11 step=9000 A=0.29058 B=0.28593 C=0.31030
+data2 seed=11 step=9000 A=0.25417 B=0.27974 C=0.28333
+data1 seed=11 step=9500 A=0.29058 B=0.26935 C=0.31030
+data2 seed=11 step=9500 A=0.25417 B=0.27974 C=0.28333
+data0 seed=11 step=3500 A=0.49734 B=0.61066 C=0.53674 direct=0.87758 midpoint=0.43953
+data1 seed=11 step=10000 A=0.28629 B=0.26935 C=0.29821
+data2 seed=11 step=10000 A=0.25417 B=0.27974 C=0.28333
+data1 seed=11 step=10500 A=0.28629 B=0.26935 C=0.29821
+data2 seed=11 step=10500 A=0.25417 B=0.27974 C=0.28333
+data1 seed=11 step=11000 A=0.28629 B=0.26935 C=0.25998
+data2 seed=11 step=11000 A=0.25417 B=0.27974 C=0.28333
+data0 seed=11 step=4000 A=0.41383 B=0.43630 C=0.41768 direct=0.57117 midpoint=0.34335
+data1 seed=11 step=11500 A=0.28629 B=0.26935 C=0.25998
+data2 seed=11 step=11500 A=0.25417 B=0.27974 C=0.26811
+data1 seed=11 step=12000 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=12000 A=0.25417 B=0.27974 C=0.26811
+data0 seed=11 step=4500 A=0.41383 B=0.43630 C=0.41768 direct=0.57117 midpoint=0.34335
+data1 seed=11 step=12500 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=12500 A=0.25417 B=0.27233 C=0.26811
+data1 seed=11 step=13000 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=13000 A=0.25417 B=0.27185 C=0.26811
+data1 seed=11 step=13500 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=13500 A=0.25417 B=0.27185 C=0.26811
+data0 seed=11 step=5000 A=0.39594 B=0.39982 C=0.41768 direct=0.56666 midpoint=0.34335
+data1 seed=11 step=14000 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=14000 A=0.25417 B=0.27185 C=0.26811
+data1 seed=11 step=14500 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=14500 A=0.25417 B=0.27185 C=0.26811
+data1 seed=11 step=15000 A=0.28179 B=0.24986 C=0.25998
+data2 seed=11 step=15000 A=0.25417 B=0.27185 C=0.26426
+data0 seed=11 step=5500 A=0.39594 B=0.39982 C=0.41768 direct=0.56666 midpoint=0.34335
+data0 seed=11 step=6000 A=0.39594 B=0.39982 C=0.41768 direct=0.53619 midpoint=0.34335
+data1 seed=11 TRAINING COMPLETE
+data2 seed=11 TRAINING COMPLETE
+data1 seed=22 step=500 A=3.72203 B=3.31954 C=3.60405
+data2 seed=22 step=500 A=4.28962 B=3.96882 C=4.23819
+data1 seed=22 step=1000 A=1.28767 B=1.16900 C=1.35083
+data2 seed=22 step=1000 A=1.07191 B=0.99619 C=1.05651
+data0 seed=11 step=6500 A=0.39364 B=0.39982 C=0.41768 direct=0.49246 midpoint=0.34335
+data1 seed=22 step=1500 A=0.59776 B=0.59324 C=0.61873
+data2 seed=22 step=1500 A=0.59472 B=0.58363 C=0.55889
+data1 seed=22 step=2000 A=0.45767 B=0.50958 C=0.41528
+data2 seed=22 step=2000 A=0.59472 B=0.58363 C=0.53021
+data1 seed=22 step=2500 A=0.38719 B=0.43452 C=0.37388
+data2 seed=22 step=2500 A=0.42958 B=0.37738 C=0.37791
+data0 seed=11 step=7000 A=0.34334 B=0.39982 C=0.40383 direct=0.48630 midpoint=0.31470
+data2 seed=22 step=3000 A=0.42958 B=0.37738 C=0.37791
+data1 seed=22 step=3000 A=0.38719 B=0.43452 C=0.37388
+data2 seed=22 step=3500 A=0.42958 B=0.37738 C=0.37791
+data1 seed=22 step=3500 A=0.38719 B=0.35662 C=0.37388
+data0 seed=11 step=7500 A=0.34334 B=0.39982 C=0.40383 direct=0.48630 midpoint=0.31470
+data1 seed=22 step=4000 A=0.38719 B=0.35662 C=0.37388
+data2 seed=22 step=4000 A=0.42958 B=0.37183 C=0.37791
+data1 seed=22 step=4500 A=0.32890 B=0.35662 C=0.37388
+data2 seed=22 step=4500 A=0.40188 B=0.31973 C=0.34514
+data1 seed=22 step=5000 A=0.32890 B=0.34890 C=0.37388
+data2 seed=22 step=5000 A=0.40188 B=0.31973 C=0.34514
+data0 seed=11 step=8000 A=0.32456 B=0.39982 C=0.37895 direct=0.42860 midpoint=0.31470
+data1 seed=22 step=5500 A=0.31278 B=0.34890 C=0.30649
+data2 seed=22 step=5500 A=0.40188 B=0.31973 C=0.34514
+data2 seed=22 step=6000 A=0.30623 B=0.31973 C=0.31704
+data1 seed=22 step=6000 A=0.31278 B=0.34890 C=0.30649
+data1 seed=22 step=6500 A=0.31278 B=0.34890 C=0.30649
+data2 seed=22 step=6500 A=0.30623 B=0.31973 C=0.31704
+data0 seed=11 step=8500 A=0.32456 B=0.39982 C=0.37895 direct=0.42860 midpoint=0.31470
+data1 seed=22 step=7000 A=0.29611 B=0.34890 C=0.30649
+data2 seed=22 step=7000 A=0.30623 B=0.31973 C=0.31704
+data1 seed=22 step=7500 A=0.29611 B=0.34890 C=0.30649
+data2 seed=22 step=7500 A=0.30623 B=0.31973 C=0.31704
+data0 seed=11 step=9000 A=0.32456 B=0.39982 C=0.37895 direct=0.42860 midpoint=0.31470
+data1 seed=22 step=8000 A=0.29611 B=0.29502 C=0.30649
+data2 seed=22 step=8000 A=0.28941 B=0.30746 C=0.31704
+data1 seed=22 step=8500 A=0.29611 B=0.27289 C=0.30649
+data2 seed=22 step=8500 A=0.28941 B=0.30746 C=0.31704
+data1 seed=22 step=9000 A=0.25165 B=0.25761 C=0.29982
+data2 seed=22 step=9000 A=0.26676 B=0.30746 C=0.26761
+data0 seed=11 step=9500 A=0.32456 B=0.39982 C=0.37895 direct=0.42860 midpoint=0.31470
+data1 seed=22 step=9500 A=0.25165 B=0.25761 C=0.29982
+data2 seed=22 step=9500 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=10000 A=0.25165 B=0.25761 C=0.29982
+data2 seed=22 step=10000 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=10500 A=0.25165 B=0.25761 C=0.29982
+data2 seed=22 step=10500 A=0.23712 B=0.26244 C=0.26280
+data0 seed=11 step=10000 A=0.32456 B=0.34295 C=0.29403 direct=0.28904 midpoint=0.31470
+data2 seed=22 step=11000 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=11000 A=0.25165 B=0.25761 C=0.23382
+data2 seed=22 step=11500 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=11500 A=0.25165 B=0.25761 C=0.23382
+data0 seed=11 step=10500 A=0.32456 B=0.33824 C=0.29403 direct=0.28904 midpoint=0.26352
+data2 seed=22 step=12000 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=12000 A=0.25165 B=0.25761 C=0.23382
+data2 seed=22 step=12500 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=12500 A=0.25165 B=0.25506 C=0.23382
+data2 seed=22 step=13000 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=13000 A=0.25165 B=0.25506 C=0.23382
+data0 seed=11 step=11000 A=0.32456 B=0.32569 C=0.29403 direct=0.28904 midpoint=0.26352
+data1 seed=22 step=13500 A=0.25165 B=0.25506 C=0.23382
+data2 seed=22 step=13500 A=0.23712 B=0.26244 C=0.26280
+data1 seed=22 step=14000 A=0.24737 B=0.25506 C=0.23382
+data2 seed=22 step=14000 A=0.23712 B=0.25876 C=0.26280
+data2 seed=22 step=14500 A=0.23712 B=0.25876 C=0.26280
+data1 seed=22 step=14500 A=0.24737 B=0.25506 C=0.23382
+data0 seed=11 step=11500 A=0.32456 B=0.32569 C=0.29403 direct=0.28904 midpoint=0.26352
+data2 seed=22 step=15000 A=0.23712 B=0.25876 C=0.26280
+data1 seed=22 step=15000 A=0.24737 B=0.25506 C=0.23382
+data0 seed=11 step=12000 A=0.32456 B=0.32569 C=0.29403 direct=0.28904 midpoint=0.26352
+data2 seed=22 TRAINING COMPLETE
+data1 seed=22 TRAINING COMPLETE
+data0 seed=11 step=12500 A=0.32456 B=0.32569 C=0.29403 direct=0.28904 midpoint=0.26352
+data1 seed=33 step=500 A=4.53226 B=4.19675 C=4.46554
+data2 seed=33 step=500 A=3.73199 B=3.36958 C=3.72063
+data1 seed=33 step=1000 A=1.18367 B=1.12206 C=1.20066
+data2 seed=33 step=1000 A=1.22711 B=1.29885 C=1.24989
+data2 seed=33 step=1500 A=0.54923 B=0.55889 C=0.57146
+data1 seed=33 step=1500 A=0.81126 B=0.98410 C=0.75289
+data0 seed=11 step=13000 A=0.32456 B=0.32569 C=0.29403 direct=0.28904 midpoint=0.26352
+data1 seed=33 step=2000 A=0.49465 B=0.46019 C=0.51889
+data2 seed=33 step=2000 A=0.47222 B=0.46064 C=0.47311
+data1 seed=33 step=2500 A=0.40756 B=0.40448 C=0.45027
+data2 seed=33 step=2500 A=0.42255 B=0.46064 C=0.47311
+data2 seed=33 step=3000 A=0.42255 B=0.46064 C=0.43842
+data1 seed=33 step=3000 A=0.40756 B=0.40448 C=0.42421
+data0 seed=11 step=13500 A=0.27111 B=0.29766 C=0.27991 direct=0.28904 midpoint=0.21632
+data2 seed=33 step=3500 A=0.42255 B=0.35150 C=0.39111
+data1 seed=33 step=3500 A=0.34730 B=0.40448 C=0.42421
+data2 seed=33 step=4000 A=0.39534 B=0.34822 C=0.38843
+data1 seed=33 step=4000 A=0.29298 B=0.32598 C=0.28353
+data0 seed=11 step=14000 A=0.27111 B=0.29766 C=0.27991 direct=0.28904 midpoint=0.21632
+data2 seed=33 step=4500 A=0.39534 B=0.32634 C=0.33775
+data1 seed=33 step=4500 A=0.29298 B=0.32358 C=0.28353
+data2 seed=33 step=5000 A=0.39534 B=0.32634 C=0.33775
+data1 seed=33 step=5000 A=0.29298 B=0.32358 C=0.28353
+data2 seed=33 step=5500 A=0.39534 B=0.32634 C=0.33775
+data1 seed=33 step=5500 A=0.29298 B=0.32358 C=0.26756
+data0 seed=11 step=14500 A=0.27111 B=0.29766 C=0.27991 direct=0.28904 midpoint=0.21632
+data2 seed=33 step=6000 A=0.36833 B=0.32634 C=0.33775
+data1 seed=33 step=6000 A=0.29298 B=0.32358 C=0.26756
+data2 seed=33 step=6500 A=0.36833 B=0.32634 C=0.33775
+data1 seed=33 step=6500 A=0.29062 B=0.31604 C=0.26756
+data2 seed=33 step=7000 A=0.31536 B=0.32634 C=0.33775
+data1 seed=33 step=7000 A=0.27566 B=0.30721 C=0.26756
+data0 seed=11 step=15000 A=0.27111 B=0.29766 C=0.27991 direct=0.28904 midpoint=0.21632
+data2 seed=33 step=7500 A=0.28364 B=0.29252 C=0.27733
+data1 seed=33 step=7500 A=0.27566 B=0.30721 C=0.26756
+data2 seed=33 step=8000 A=0.28364 B=0.29252 C=0.27733
+data1 seed=33 step=8000 A=0.27566 B=0.30721 C=0.26756
+data2 seed=33 step=8500 A=0.28364 B=0.29252 C=0.27733
+data1 seed=33 step=8500 A=0.27566 B=0.30721 C=0.26756
+data0 seed=11 TRAINING COMPLETE
+data2 seed=33 step=9000 A=0.28364 B=0.26713 C=0.27733
+data1 seed=33 step=9000 A=0.27566 B=0.30721 C=0.26756
+data2 seed=33 step=9500 A=0.26471 B=0.26713 C=0.27733
+data1 seed=33 step=9500 A=0.27566 B=0.29422 C=0.26756
+data1 seed=33 step=10000 A=0.27566 B=0.29422 C=0.26756
+data2 seed=33 step=10000 A=0.26471 B=0.26713 C=0.27733
+data0 seed=22 step=500 A=5.46515 B=4.96693 C=5.19305 direct=7.81751 midpoint=3.42627
+data1 seed=33 step=10500 A=0.27566 B=0.29422 C=0.26756
+data2 seed=33 step=10500 A=0.26471 B=0.26713 C=0.26283
+data1 seed=33 step=11000 A=0.27566 B=0.29422 C=0.26756
+data2 seed=33 step=11000 A=0.26471 B=0.26713 C=0.26283
+data1 seed=33 step=11500 A=0.27444 B=0.28878 C=0.26756
+data2 seed=33 step=11500 A=0.26471 B=0.24295 C=0.26283
+data0 seed=22 step=1000 A=2.91311 B=2.44550 C=2.79295 direct=4.85977 midpoint=1.27413
+data1 seed=33 step=12000 A=0.27444 B=0.28878 C=0.26756
+data2 seed=33 step=12000 A=0.26471 B=0.24295 C=0.26283
+data1 seed=33 step=12500 A=0.27444 B=0.28878 C=0.26756
+data2 seed=33 step=12500 A=0.26471 B=0.24295 C=0.26283
+data1 seed=33 step=13000 A=0.27444 B=0.28878 C=0.26756
+data2 seed=33 step=13000 A=0.26471 B=0.24295 C=0.26283
+data0 seed=22 step=1500 A=1.18915 B=1.09594 C=1.17445 direct=2.23798 midpoint=0.63658
+data1 seed=33 step=13500 A=0.27444 B=0.28878 C=0.26756
+data2 seed=33 step=13500 A=0.26471 B=0.24295 C=0.26283
+data1 seed=33 step=14000 A=0.27444 B=0.28878 C=0.26756
+data2 seed=33 step=14000 A=0.26471 B=0.24295 C=0.26283
+data0 seed=22 step=2000 A=0.94320 B=0.93370 C=0.89381 direct=1.84356 midpoint=0.63658
+data1 seed=33 step=14500 A=0.27444 B=0.28878 C=0.26635
+data2 seed=33 step=14500 A=0.26471 B=0.24295 C=0.26283
+data1 seed=33 step=15000 A=0.27444 B=0.28878 C=0.26635
+data2 seed=33 step=15000 A=0.24621 B=0.24295 C=0.26283
+data0 seed=22 step=2500 A=0.71986 B=0.78043 C=0.80136 direct=1.13860 midpoint=0.54353
+data1 seed=33 TRAINING COMPLETE
+data1 ALL TRAINING AND TUNING COMPLETE
+data2 seed=33 TRAINING COMPLETE
+data0 seed=22 step=3000 A=0.59894 B=0.56115 C=0.59149 direct=0.73509 midpoint=0.41071
+data2 ALL TRAINING AND TUNING COMPLETE
+data0 seed=22 step=3500 A=0.46789 B=0.49130 C=0.47301 direct=0.60662 midpoint=0.40165
+data0 seed=22 step=4000 A=0.35159 B=0.48979 C=0.35141 direct=0.60662 midpoint=0.29386
+data0 seed=22 step=4500 A=0.35159 B=0.39499 C=0.35141 direct=0.50579 midpoint=0.29386
+data0 seed=22 step=5000 A=0.35159 B=0.39499 C=0.35141 direct=0.50579 midpoint=0.29386
+data0 seed=22 step=5500 A=0.35159 B=0.39499 C=0.35141 direct=0.39270 midpoint=0.29386
+data0 seed=22 step=6000 A=0.33857 B=0.39499 C=0.32406 direct=0.39270 midpoint=0.29386
+data0 seed=22 step=6500 A=0.33857 B=0.39499 C=0.32406 direct=0.39270 midpoint=0.29386
+data0 seed=22 step=7000 A=0.33857 B=0.39499 C=0.32406 direct=0.39270 midpoint=0.29386
+data0 seed=22 step=7500 A=0.33857 B=0.39499 C=0.32406 direct=0.39270 midpoint=0.29386
+data0 seed=22 step=8000 A=0.33857 B=0.39499 C=0.32406 direct=0.39270 midpoint=0.29386
+data0 seed=22 step=8500 A=0.33857 B=0.38878 C=0.32406 direct=0.39270 midpoint=0.27715
+data0 seed=22 step=9000 A=0.33857 B=0.38878 C=0.32406 direct=0.39270 midpoint=0.27715
+data0 seed=22 step=9500 A=0.33857 B=0.38878 C=0.32406 direct=0.39270 midpoint=0.27715
+data0 seed=22 step=10000 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.24908
+data0 seed=22 step=10500 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.24908
+data0 seed=22 step=11000 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.24908
+data0 seed=22 step=11500 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.24652
+data0 seed=22 step=12000 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.24652
+data0 seed=22 step=12500 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.24652
+data0 seed=22 step=13000 A=0.28882 B=0.31858 C=0.31746 direct=0.30658 midpoint=0.22530
+data0 seed=22 step=13500 A=0.28882 B=0.31858 C=0.27731 direct=0.30658 midpoint=0.22530
+data0 seed=22 step=14000 A=0.28095 B=0.29618 C=0.27731 direct=0.30658 midpoint=0.22530
+data0 seed=22 step=14500 A=0.28095 B=0.29618 C=0.27731 direct=0.30658 midpoint=0.22530
+data0 seed=22 step=15000 A=0.28095 B=0.29618 C=0.27731 direct=0.30658 midpoint=0.22530
+data0 seed=22 TRAINING COMPLETE
+data0 seed=33 step=500 A=5.21411 B=4.72769 C=5.02967 direct=8.01313 midpoint=3.14434
+data0 seed=33 step=1000 A=1.74823 B=1.62942 C=1.71884 direct=4.07747 midpoint=0.92326
+data0 seed=33 step=1500 A=1.00667 B=0.98957 C=0.98327 direct=2.46167 midpoint=0.56338
+data0 seed=33 step=2000 A=0.92428 B=0.84934 C=0.94369 direct=1.44932 midpoint=0.53039
+data0 seed=33 step=2500 A=0.80132 B=0.69363 C=0.74281 direct=1.21007 midpoint=0.48423
+data0 seed=33 step=3000 A=0.56005 B=0.44021 C=0.50598 direct=0.86207 midpoint=0.34725
+data0 seed=33 step=3500 A=0.46955 B=0.44021 C=0.50598 direct=0.86207 midpoint=0.34725
+data0 seed=33 step=4000 A=0.46955 B=0.44021 C=0.50598 direct=0.61450 midpoint=0.34725
+data0 seed=33 step=4500 A=0.46955 B=0.44021 C=0.50598 direct=0.61450 midpoint=0.34725
+data0 seed=33 step=5000 A=0.46194 B=0.44021 C=0.50598 direct=0.61450 midpoint=0.34725
+data0 seed=33 step=5500 A=0.43140 B=0.44021 C=0.49884 direct=0.61450 midpoint=0.34725
+data0 seed=33 step=6000 A=0.43140 B=0.44021 C=0.49884 direct=0.59456 midpoint=0.34725
+data0 seed=33 step=6500 A=0.43140 B=0.44021 C=0.49884 direct=0.51655 midpoint=0.29111
+data0 seed=33 step=7000 A=0.43140 B=0.39661 C=0.32522 direct=0.51655 midpoint=0.28710
+data0 seed=33 step=7500 A=0.43140 B=0.39661 C=0.32522 direct=0.50376 midpoint=0.28710
+data0 seed=33 step=8000 A=0.43140 B=0.38706 C=0.32522 direct=0.42522 midpoint=0.28710
+data0 seed=33 step=8500 A=0.43140 B=0.38706 C=0.32522 direct=0.42522 midpoint=0.28710
+data0 seed=33 step=9000 A=0.30937 B=0.34142 C=0.32522 direct=0.39835 midpoint=0.27015
+data0 seed=33 step=9500 A=0.30937 B=0.34142 C=0.32522 direct=0.39835 midpoint=0.27015
+data0 seed=33 step=10000 A=0.30937 B=0.34142 C=0.32522 direct=0.38585 midpoint=0.27015
+data0 seed=33 step=10500 A=0.30937 B=0.34142 C=0.32522 direct=0.38585 midpoint=0.27015
+data0 seed=33 step=11000 A=0.30937 B=0.34142 C=0.31228 direct=0.38585 midpoint=0.27015
+data0 seed=33 step=11500 A=0.30937 B=0.31144 C=0.31228 direct=0.38585 midpoint=0.24176
+data0 seed=33 step=12000 A=0.29553 B=0.30114 C=0.31228 direct=0.38585 midpoint=0.24176
+data0 seed=33 step=12500 A=0.29553 B=0.30114 C=0.30131 direct=0.36729 midpoint=0.24176
+data0 seed=33 step=13000 A=0.29553 B=0.30114 C=0.30131 direct=0.36729 midpoint=0.24176
+data0 seed=33 step=13500 A=0.29553 B=0.30114 C=0.30131 direct=0.33090 midpoint=0.24176
+data0 seed=33 step=14000 A=0.28315 B=0.27922 C=0.26793 direct=0.30817 midpoint=0.24176
+data0 seed=33 step=14500 A=0.28315 B=0.26068 C=0.26793 direct=0.30817 midpoint=0.24176
+data0 seed=33 step=15000 A=0.28315 B=0.26068 C=0.26793 direct=0.30817 midpoint=0.24176
+data0 seed=33 TRAINING COMPLETE
+data0 ALL TRAINING AND TUNING COMPLETE
+shadow data0/raw_seed-1: shock=0.49854 background=0.50424 (0.1s)
+shadow data0/ema_seed-1: shock=0.49854 background=0.50424 (0.1s)
+shadow data0/aug_kalman_seed-1: shock=0.49588 background=0.49112 (0.5s)
+shadow data0/A_seed11: shock=0.75315 background=0.12006 (1.0s)
+shadow data0/B_seed11: shock=0.76427 background=0.11674 (0.9s)
+shadow data0/C_seed11: shock=0.73544 background=0.12046 (1.0s)
+shadow data0/A_time_seed11: shock=0.69922 background=0.11302 (1.0s)
+shadow data0/direct_seed11: shock=0.73842 background=0.11442 (0.9s)
+shadow data0/midpoint_seed11: shock=0.66183 background=0.12205 (6.0s)
+shadow data0/A_seed22: shock=0.75471 background=0.12770 (0.9s)
+shadow data0/B_seed22: shock=0.75448 background=0.12821 (1.0s)
+shadow data0/C_seed22: shock=0.74613 background=0.12428 (0.9s)
+shadow data0/A_time_seed22: shock=0.67984 background=0.11340 (0.9s)
+shadow data0/direct_seed22: shock=0.76922 background=0.11442 (0.9s)
+shadow data0/midpoint_seed22: shock=0.68249 background=0.10786 (6.1s)
+shadow data0/A_seed33: shock=0.78468 background=0.11334 (0.9s)
+shadow data0/B_seed33: shock=0.72127 background=0.10764 (1.0s)
+shadow data0/C_seed33: shock=0.74593 background=0.11286 (0.9s)
+shadow data0/A_time_seed33: shock=0.69803 background=0.11291 (0.9s)
+shadow data0/direct_seed33: shock=0.80426 background=0.10691 (0.9s)
+shadow data0/midpoint_seed33: shock=0.70850 background=0.11030 (5.9s)
+shadow data1/raw_seed-1: shock=0.49854 background=0.50424 (0.1s)
+shadow data1/ema_seed-1: shock=0.49854 background=0.50424 (0.1s)
+shadow data1/aug_kalman_seed-1: shock=0.49588 background=0.49112 (0.5s)
+shadow data1/A_seed11: shock=0.71287 background=0.11177 (0.9s)
+shadow data1/B_seed11: shock=0.67952 background=0.12508 (0.9s)
+shadow data1/C_seed11: shock=0.71873 background=0.11561 (0.9s)
+shadow data1/A_time_seed11: shock=0.70021 background=0.11823 (0.9s)
+shadow data1/A_seed22: shock=0.73884 background=0.10929 (0.9s)
+shadow data1/B_seed22: shock=0.71939 background=0.11434 (0.9s)
+shadow data1/C_seed22: shock=0.70269 background=0.11354 (0.9s)
+shadow data1/A_time_seed22: shock=0.69195 background=0.12622 (0.9s)
+shadow data1/A_seed33: shock=0.75735 background=0.12976 (0.9s)
+shadow data1/B_seed33: shock=0.78041 background=0.12077 (0.9s)
+shadow data1/C_seed33: shock=0.72458 background=0.11121 (1.0s)
+shadow data1/A_time_seed33: shock=0.68890 background=0.10944 (0.9s)
+shadow data2/raw_seed-1: shock=0.49854 background=0.50424 (0.1s)
+shadow data2/ema_seed-1: shock=0.49854 background=0.50424 (0.1s)
+shadow data2/aug_kalman_seed-1: shock=0.49700 background=0.50289 (0.5s)
+shadow data2/A_seed11: shock=0.76286 background=0.12765 (0.9s)
+shadow data2/B_seed11: shock=0.75131 background=0.13451 (0.9s)
+shadow data2/C_seed11: shock=0.72763 background=0.11057 (0.9s)
+shadow data2/A_time_seed11: shock=0.71424 background=0.11042 (0.9s)
+shadow data2/A_seed22: shock=0.71564 background=0.12678 (0.9s)
+shadow data2/B_seed22: shock=0.71819 background=0.13018 (1.0s)
+shadow data2/C_seed22: shock=0.73001 background=0.13125 (0.9s)
+shadow data2/A_time_seed22: shock=0.72917 background=0.10355 (0.9s)
+shadow data2/A_seed33: shock=0.72739 background=0.11833 (0.9s)
+shadow data2/B_seed33: shock=0.71282 background=0.12336 (0.9s)
+shadow data2/C_seed33: shock=0.75831 background=0.12891 (1.0s)
+shadow data2/A_time_seed33: shock=0.71801 background=0.11699 (1.0s)
+closed data0/none/-1: tracking=0.030463
+closed data0/raw/-1: tracking=0.005185
+closed data0/raw_clipped/-1: tracking=0.005512
+closed data0/ema/-1: tracking=0.005185
+closed data0/aug_kalman/-1: tracking=0.005088
+closed data0/A/11: tracking=0.004437
+closed data0/B/11: tracking=0.004364
+closed data0/C/11: tracking=0.004239
+closed data0/A_time/11: tracking=0.003910
+closed data0/direct/11: tracking=0.004184
+closed data0/midpoint/11: tracking=0.004988
+closed data0/A/22: tracking=0.005151
+closed data0/B/22: tracking=0.005459
+closed data0/C/22: tracking=0.004989
+closed data0/A_time/22: tracking=0.004872
+closed data0/direct/22: tracking=0.004194
+closed data0/midpoint/22: tracking=0.004283
+closed data0/A/33: tracking=0.004348
+closed data0/B/33: tracking=0.003497
+closed data0/C/33: tracking=0.003791
+closed data0/A_time/33: tracking=0.004678
+closed data0/direct/33: tracking=0.004144
+closed data0/midpoint/33: tracking=0.003469
+closed data1/none/-1: tracking=0.030463
+closed data1/raw/-1: tracking=0.005185
+closed data1/raw_clipped/-1: tracking=0.005512
+closed data1/ema/-1: tracking=0.005185
+closed data1/aug_kalman/-1: tracking=0.005088
+closed data1/A/11: tracking=0.003555
+closed data1/B/11: tracking=0.004642
+closed data1/C/11: tracking=0.003644
+closed data1/A_time/11: tracking=0.004386
+closed data1/A/22: tracking=0.004257
+closed data1/B/22: tracking=0.004264
+closed data1/C/22: tracking=0.003502
+closed data1/A_time/22: tracking=0.005234
+closed data1/A/33: tracking=0.004530
+closed data1/B/33: tracking=0.004654
+closed data1/C/33: tracking=0.004025
+closed data1/A_time/33: tracking=0.004078
+closed data2/none/-1: tracking=0.030463
+closed data2/raw/-1: tracking=0.005185
+closed data2/raw_clipped/-1: tracking=0.005512
+closed data2/ema/-1: tracking=0.005185
+closed data2/aug_kalman/-1: tracking=0.005175
+closed data2/A/11: tracking=0.004768
+closed data2/B/11: tracking=0.005798
+closed data2/C/11: tracking=0.004280
+closed data2/A_time/11: tracking=0.004133
+closed data2/A/22: tracking=0.004179
+closed data2/B/22: tracking=0.005012
+closed data2/C/22: tracking=0.004226
+closed data2/A_time/22: tracking=0.003910
+closed data2/A/33: tracking=0.004197
+closed data2/B/33: tracking=0.004429
+closed data2/C/33: tracking=0.004745
+closed data2/A_time/33: tracking=0.004569
+EXPERIMENT COMPLETE

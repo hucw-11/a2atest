@@ -1,0 +1,6 @@
+{
+  "changes": "Only plot labels/captions and wording: mark dataset-0-only engineering references, label validation axes, call fixed test set rather than sealed. No statistic, training or model selection changes.",
+  "original_analysis_path": "provenance/analyze_before_plot_labels.py",
+  "original_sha256": "c1296326f6557a9ac5a5fc8d9311d5f96c38a00bd91d4709a9a234caa283cb80",
+  "current_sha256": "103035d8e7b5b047728afaae63f8f1296c317450af7c3322c428b9d6b00590d5"
+}

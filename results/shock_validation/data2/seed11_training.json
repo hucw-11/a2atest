@@ -1,0 +1,34 @@
+{
+  "A": {
+    "steps": 15000,
+    "training_seconds": 26.282393399589637,
+    "initial_hash": "66dfe4162b3464cfb1dfd56c10bf08ac383b9224da2f4cc31cfd64093b46331c",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 9000
+  },
+  "B": {
+    "steps": 15000,
+    "training_seconds": 39.162316999951145,
+    "initial_hash": "66dfe4162b3464cfb1dfd56c10bf08ac383b9224da2f4cc31cfd64093b46331c",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 13000
+  },
+  "C": {
+    "steps": 15000,
+    "training_seconds": 39.07839770066494,
+    "initial_hash": "66dfe4162b3464cfb1dfd56c10bf08ac383b9224da2f4cc31cfd64093b46331c",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 15000
+  },
+  "A_time": {
+    "steps": 21844,
+    "training_seconds": 39.16359079949325,
+    "initial_hash": "66dfe4162b3464cfb1dfd56c10bf08ac383b9224da2f4cc31cfd64093b46331c",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 20000
+  }
+}

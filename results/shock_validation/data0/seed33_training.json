@@ -1,0 +1,50 @@
+{
+  "A": {
+    "steps": 15000,
+    "training_seconds": 26.28338099985558,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 14000
+  },
+  "B": {
+    "steps": 15000,
+    "training_seconds": 37.52216230002523,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 14500
+  },
+  "C": {
+    "steps": 15000,
+    "training_seconds": 37.28133799979696,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 2,
+    "selected_step": 14000
+  },
+  "direct": {
+    "steps": 15000,
+    "training_seconds": 26.725210199561843,
+    "initial_hash": "3c1c2c2566a935a73f8856f268cbf8daab5ddb79481bac9a73cede2dcd553d05",
+    "parameters": 82712,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 14000
+  },
+  "midpoint": {
+    "steps": 15000,
+    "training_seconds": 133.2934087003814,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 9,
+    "selected_step": 11500
+  },
+  "A_time": {
+    "steps": 21636,
+    "training_seconds": 37.52333109958272,
+    "initial_hash": "83c43247209f6dfca56deb70da410232d1b761326f4615cac5136936dc4f1754",
+    "parameters": 86296,
+    "train_forward_calls_per_update": 1,
+    "selected_step": 20500
+  }
+}

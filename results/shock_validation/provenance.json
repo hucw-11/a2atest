@@ -1,0 +1,23 @@
+{
+  "python": "3.12.14",
+  "torch": "2.5.1+cpu",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "cpu_count": 32,
+  "workers": 3,
+  "git_base": "950b6abed7ccd4292f4530ab03b558cf14caeaf4",
+  "hashes": {
+    "shock_validation_experiment.py": "44e6a06687cb6f0a98f01be7c14c28051ae81223f26f49cedbdddf54e7b265c8",
+    "shock_validation\\__init__.py": "5a8a73cd80fdc1050ed2d1db5eaaf146ce86b419f50739b985909492efba2d8b",
+    "shock_validation\\control.py": "286a422c02b85c38680a365e775690e072818797eeaeb5a759bc35b07ba5d369",
+    "shock_validation\\data.py": "1be1e5d1d9e4ab43c8019444ade8affa79b117b6763e7c7f8257944016d18b07",
+    "shock_validation\\filters.py": "35b7c663fae2fee4beaf0655d0f337fe70db9ff3aca753081ff4d3187e5689d7",
+    "shock_validation\\metrics.py": "655af3d8d8b45f949e9988e8f2ee1696402dbc4f548def45ab286b3dde718cc6",
+    "shock_validation\\training.py": "579d71c2d4e7374b824ff41ee107b11d6de1f9c5b0ad3f66504ebe5bb778a56f",
+    "a2afm/models.py": "c15886ca92492183b026970a70b14c7a7bb73cb8ad8ee0570ca5323c561aaae8",
+    "a2afm/data.py": "29688d8e1d83cd7be2dc2aa2c8f87685cda0cb550e3a057f79a10ee649017baf",
+    "closed_loop/core.py": "3ad44386f9944cd9e784b87f1bea525dbfa18c64b70f0a02c871130523c1ce9c",
+    "a2afm/system.py": "d579c5b7f2d459f78c05151eec7dd70b656f3e7f7b62024d75c39e7059eb7583"
+  }
+}
