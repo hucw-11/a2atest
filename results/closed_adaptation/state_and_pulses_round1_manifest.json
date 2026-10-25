@@ -1,0 +1,5237 @@
+{
+  "seed": 111000,
+  "trajectories": 360,
+  "windows": 100080,
+  "collector_seed": 11,
+  "collector_counts": {
+    "none": 72,
+    "dob": 72,
+    "single_fm": 72,
+    "midpoint_fm": 72,
+    "regression": 72
+  },
+  "pulse_trajectories": 180,
+  "trajectories_manifest": [
+    {
+      "id": "111000:190",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 170,
+          "end": 174,
+          "amplitude": 3.608838119710891,
+          "area": 0.28870704957687127,
+          "width_s": 0.08
+        },
+        {
+          "start": 342,
+          "end": 346,
+          "amplitude": -3.192020844912582,
+          "area": -0.25536166759300655,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:221",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 159,
+          "end": 169,
+          "amplitude": 1.5717863760569255,
+          "area": 0.3143572752113851,
+          "width_s": 0.2
+        },
+        {
+          "start": 347,
+          "end": 357,
+          "amplitude": -0.9923042634628648,
+          "area": -0.19846085269257296,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:257",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 150,
+          "end": 160,
+          "amplitude": 1.1978378781113885,
+          "area": 0.2395675756222777,
+          "width_s": 0.2
+        },
+        {
+          "start": 360,
+          "end": 370,
+          "amplitude": -1.6600819074380104,
+          "area": -0.3320163814876021,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:319",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 125,
+          "end": 129,
+          "amplitude": 1.9331132212912736,
+          "area": 0.1546490577033019,
+          "width_s": 0.08
+        },
+        {
+          "start": 368,
+          "end": 372,
+          "amplitude": -3.7409800769802755,
+          "area": -0.29927840615842205,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:118",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:158",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:18",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:240",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 163,
+          "amplitude": 9.464624772802523,
+          "area": 0.18929249545605045,
+          "width_s": 0.02
+        },
+        {
+          "start": 330,
+          "end": 331,
+          "amplitude": -17.24125508904858,
+          "area": -0.3448251017809716,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:323",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 167,
+          "end": 177,
+          "amplitude": 0.8417964989424553,
+          "area": 0.16835929978849107,
+          "width_s": 0.2
+        },
+        {
+          "start": 360,
+          "end": 370,
+          "amplitude": -0.9946727153355387,
+          "area": -0.19893454306710776,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:304",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 171,
+          "end": 175,
+          "amplitude": 3.480714372366736,
+          "area": 0.2784571497893389,
+          "width_s": 0.08
+        },
+        {
+          "start": 332,
+          "end": 336,
+          "amplitude": -3.3077570118508723,
+          "area": -0.2646205609480698,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:51",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:103",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:188",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 170,
+          "end": 180,
+          "amplitude": 1.1455070683964108,
+          "area": 0.2291014136792822,
+          "width_s": 0.2
+        },
+        {
+          "start": 346,
+          "end": 356,
+          "amplitude": -1.5686547523687393,
+          "area": -0.3137309504737479,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:65",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:91",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:241",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 175,
+          "end": 179,
+          "amplitude": 3.9053078724789856,
+          "area": 0.31242462979831886,
+          "width_s": 0.08
+        },
+        {
+          "start": 374,
+          "end": 378,
+          "amplitude": -2.201184669710411,
+          "area": -0.1760947735768329,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:283",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 156,
+          "end": 160,
+          "amplitude": 3.640255958481336,
+          "area": 0.29122047667850687,
+          "width_s": 0.08
+        },
+        {
+          "start": 331,
+          "end": 335,
+          "amplitude": -1.882120544411754,
+          "area": -0.1505696435529403,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:132",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:4",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:202",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 164,
+          "end": 168,
+          "amplitude": 4.212539459578731,
+          "area": 0.3370031567662985,
+          "width_s": 0.08
+        },
+        {
+          "start": 343,
+          "end": 347,
+          "amplitude": -3.855615005841173,
+          "area": -0.30844920046729385,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:21",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:253",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 170,
+          "end": 174,
+          "amplitude": 2.884321854353398,
+          "area": 0.23074574834827186,
+          "width_s": 0.08
+        },
+        {
+          "start": 337,
+          "end": 341,
+          "amplitude": -4.035797258955393,
+          "area": -0.32286378071643146,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:213",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 151,
+          "end": 152,
+          "amplitude": 8.146359363899487,
+          "area": 0.16292718727798974,
+          "width_s": 0.02
+        },
+        {
+          "start": 342,
+          "end": 343,
+          "amplitude": -15.478496542447386,
+          "area": -0.30956993084894774,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:345",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 170,
+          "end": 171,
+          "amplitude": 12.521046348705614,
+          "area": 0.2504209269741123,
+          "width_s": 0.02
+        },
+        {
+          "start": 368,
+          "end": 369,
+          "amplitude": -12.950342561132588,
+          "area": -0.25900685122265177,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:104",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:256",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 153,
+          "end": 157,
+          "amplitude": 2.0295071225409695,
+          "area": 0.16236056980327757,
+          "width_s": 0.08
+        },
+        {
+          "start": 352,
+          "end": 356,
+          "amplitude": -4.230026177526531,
+          "area": -0.33840209420212247,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:281",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 172,
+          "amplitude": 0.7931054486251766,
+          "area": 0.15862108972503533,
+          "width_s": 0.2
+        },
+        {
+          "start": 365,
+          "end": 375,
+          "amplitude": -1.3795521096228196,
+          "area": -0.27591042192456394,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:3",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:236",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 172,
+          "amplitude": 1.5667054960263271,
+          "area": 0.3133410992052654,
+          "width_s": 0.2
+        },
+        {
+          "start": 363,
+          "end": 373,
+          "amplitude": -1.0374162451468378,
+          "area": -0.2074832490293676,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:107",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:289",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 154,
+          "end": 158,
+          "amplitude": 2.270506361980854,
+          "area": 0.1816405089584683,
+          "width_s": 0.08
+        },
+        {
+          "start": 373,
+          "end": 377,
+          "amplitude": -2.591746452988089,
+          "area": -0.20733971623904712,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:57",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:335",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 152,
+          "end": 162,
+          "amplitude": 0.9505538210016781,
+          "area": 0.19011076420033562,
+          "width_s": 0.2
+        },
+        {
+          "start": 366,
+          "end": 376,
+          "amplitude": -1.6689396244225654,
+          "area": -0.3337879248845131,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:111",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:92",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:357",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 131,
+          "end": 132,
+          "amplitude": 12.381061777737084,
+          "area": 0.2476212355547417,
+          "width_s": 0.02
+        },
+        {
+          "start": 359,
+          "end": 360,
+          "amplitude": -10.049854759585564,
+          "area": -0.20099709519171127,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:260",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 144,
+          "end": 154,
+          "amplitude": 1.6011292451284016,
+          "area": 0.32022584902568035,
+          "width_s": 0.2
+        },
+        {
+          "start": 357,
+          "end": 367,
+          "amplitude": -1.446221084365259,
+          "area": -0.2892442168730518,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:320",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 138,
+          "end": 148,
+          "amplitude": 1.0019757927725845,
+          "area": 0.20039515855451692,
+          "width_s": 0.2
+        },
+        {
+          "start": 336,
+          "end": 346,
+          "amplitude": -1.0679567589996213,
+          "area": -0.21359135179992428,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:324",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 172,
+          "end": 173,
+          "amplitude": 16.722880579314175,
+          "area": 0.3344576115862835,
+          "width_s": 0.02
+        },
+        {
+          "start": 341,
+          "end": 342,
+          "amplitude": -14.584898361711778,
+          "area": -0.2916979672342356,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:79",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:235",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 146,
+          "amplitude": 3.105377375829806,
+          "area": 0.2484301900663845,
+          "width_s": 0.08
+        },
+        {
+          "start": 336,
+          "end": 340,
+          "amplitude": -2.3745838812027458,
+          "area": -0.18996671049621966,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:296",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 149,
+          "end": 159,
+          "amplitude": 1.4200774332220838,
+          "area": 0.2840154866444168,
+          "width_s": 0.2
+        },
+        {
+          "start": 331,
+          "end": 341,
+          "amplitude": -1.167716978830286,
+          "area": -0.2335433957660572,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:90",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:169",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:164",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:133",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:248",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 156,
+          "end": 166,
+          "amplitude": 1.0076170589864573,
+          "area": 0.20152341179729147,
+          "width_s": 0.2
+        },
+        {
+          "start": 355,
+          "end": 365,
+          "amplitude": -0.9836827423326867,
+          "area": -0.19673654846653735,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:171",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:179",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:143",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:258",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 154,
+          "end": 155,
+          "amplitude": 8.526345174677397,
+          "area": 0.17052690349354793,
+          "width_s": 0.02
+        },
+        {
+          "start": 360,
+          "end": 361,
+          "amplitude": -11.40218699633041,
+          "area": -0.22804373992660823,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:19",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:181",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 166,
+          "end": 170,
+          "amplitude": 2.7080909633669163,
+          "area": 0.21664727706935333,
+          "width_s": 0.08
+        },
+        {
+          "start": 326,
+          "end": 330,
+          "amplitude": -3.5839733529363342,
+          "area": -0.28671786823490675,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:337",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 161,
+          "end": 165,
+          "amplitude": 2.4933856960438203,
+          "area": 0.19947085568350564,
+          "width_s": 0.08
+        },
+        {
+          "start": 332,
+          "end": 336,
+          "amplitude": -3.8245014680741103,
+          "area": -0.3059601174459288,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:182",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 156,
+          "amplitude": 1.208707802166087,
+          "area": 0.24174156043321743,
+          "width_s": 0.2
+        },
+        {
+          "start": 355,
+          "end": 365,
+          "amplitude": -1.529468715991761,
+          "area": -0.3058937431983522,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:112",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:44",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:290",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 139,
+          "end": 149,
+          "amplitude": 1.2874589481775258,
+          "area": 0.2574917896355052,
+          "width_s": 0.2
+        },
+        {
+          "start": 331,
+          "end": 341,
+          "amplitude": -1.6093334694098842,
+          "area": -0.32186669388197686,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:122",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:331",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 129,
+          "end": 133,
+          "amplitude": 2.4434757309254382,
+          "area": 0.19547805847403507,
+          "width_s": 0.08
+        },
+        {
+          "start": 357,
+          "end": 361,
+          "amplitude": -2.1737579529004933,
+          "area": -0.17390063623203947,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:114",
+      "family": "steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:325",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 166,
+          "amplitude": 4.0201795832474145,
+          "area": 0.32161436665979315,
+          "width_s": 0.08
+        },
+        {
+          "start": 356,
+          "end": 360,
+          "amplitude": -4.0877544592832615,
+          "area": -0.32702035674266094,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:88",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:140",
+      "family": "multisine",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:239",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 153,
+          "end": 163,
+          "amplitude": 0.8163410997857451,
+          "area": 0.16326821995714902,
+          "width_s": 0.2
+        },
+        {
+          "start": 342,
+          "end": 352,
+          "amplitude": -1.4070910743862257,
+          "area": -0.28141821487724517,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:136",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:62",
+      "family": "multisine+chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:288",
+      "family": "chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 132,
+          "end": 133,
+          "amplitude": 9.863217049515633,
+          "area": 0.19726434099031265,
+          "width_s": 0.02
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "amplitude": -11.910797936416081,
+          "area": -0.23821595872832163,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:186",
+      "family": "multisine+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 136,
+          "end": 137,
+          "amplitude": 14.20388711485549,
+          "area": 0.2840777422971098,
+          "width_s": 0.02
+        },
+        {
+          "start": 354,
+          "end": 355,
+          "amplitude": -8.116767594508188,
+          "area": -0.16233535189016376,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:166",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:332",
+      "family": "multisine+chirp",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 158,
+          "end": 168,
+          "amplitude": 1.235005873007319,
+          "area": 0.2470011746014638,
+          "width_s": 0.2
+        },
+        {
+          "start": 326,
+          "end": 336,
+          "amplitude": -1.0888387495828038,
+          "area": -0.21776774991656078,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:285",
+      "family": "chirp+steps",
+      "collector": "none",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 137,
+          "end": 138,
+          "amplitude": 14.79959233760984,
+          "area": 0.2959918467521968,
+          "width_s": 0.02
+        },
+        {
+          "start": 331,
+          "end": 332,
+          "amplitude": -13.10879996001531,
+          "area": -0.2621759992003062,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:347",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 141,
+          "end": 151,
+          "amplitude": 0.9274365774551914,
+          "area": 0.18548731549103828,
+          "width_s": 0.2
+        },
+        {
+          "start": 375,
+          "end": 385,
+          "amplitude": -0.8565203864780441,
+          "area": -0.17130407729560881,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:292",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 150,
+          "amplitude": 3.416864620801928,
+          "area": 0.27334916966415423,
+          "width_s": 0.08
+        },
+        {
+          "start": 349,
+          "end": 353,
+          "amplitude": -2.5621291526835983,
+          "area": -0.20497033221468786,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:154",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:343",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 147,
+          "end": 151,
+          "amplitude": 1.916829068152014,
+          "area": 0.15334632545216112,
+          "width_s": 0.08
+        },
+        {
+          "start": 329,
+          "end": 333,
+          "amplitude": -2.018483380534077,
+          "area": -0.16147867044272615,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:102",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:224",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 144,
+          "end": 154,
+          "amplitude": 0.8888691433340175,
+          "area": 0.1777738286668035,
+          "width_s": 0.2
+        },
+        {
+          "start": 362,
+          "end": 372,
+          "amplitude": -1.3790333064324052,
+          "area": -0.27580666128648107,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:128",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:185",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 136,
+          "end": 146,
+          "amplitude": 1.0600210136952948,
+          "area": 0.21200420273905898,
+          "width_s": 0.2
+        },
+        {
+          "start": 359,
+          "end": 369,
+          "amplitude": -1.1149914463245825,
+          "area": -0.22299828926491652,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:16",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:59",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:34",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:46",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:284",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 171,
+          "end": 181,
+          "amplitude": 0.7545624780222251,
+          "area": 0.15091249560444503,
+          "width_s": 0.2
+        },
+        {
+          "start": 353,
+          "end": 363,
+          "amplitude": -1.6515771056904076,
+          "area": -0.33031542113808154,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:163",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:293",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 157,
+          "end": 167,
+          "amplitude": 1.3641134684676104,
+          "area": 0.2728226936935221,
+          "width_s": 0.2
+        },
+        {
+          "start": 340,
+          "end": 350,
+          "amplitude": -1.4543660464057164,
+          "area": -0.2908732092811433,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:346",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 164,
+          "end": 168,
+          "amplitude": 3.445223765788198,
+          "area": 0.27561790126305585,
+          "width_s": 0.08
+        },
+        {
+          "start": 339,
+          "end": 343,
+          "amplitude": -2.8055479345825374,
+          "area": -0.22444383476660298,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:29",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:204",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 165,
+          "end": 166,
+          "amplitude": 11.650353629950025,
+          "area": 0.2330070725990005,
+          "width_s": 0.02
+        },
+        {
+          "start": 346,
+          "end": 347,
+          "amplitude": -15.78135312193299,
+          "area": -0.3156270624386598,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:275",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 145,
+          "end": 155,
+          "amplitude": 1.0866812207882948,
+          "area": 0.21733624415765895,
+          "width_s": 0.2
+        },
+        {
+          "start": 336,
+          "end": 346,
+          "amplitude": -0.9141004569006675,
+          "area": -0.18282009138013353,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:71",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:254",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 152,
+          "end": 162,
+          "amplitude": 1.1964261418642652,
+          "area": 0.23928522837285304,
+          "width_s": 0.2
+        },
+        {
+          "start": 347,
+          "end": 357,
+          "amplitude": -1.5259258330358254,
+          "area": -0.3051851666071651,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:76",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:146",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:156",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:134",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:276",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 131,
+          "end": 132,
+          "amplitude": 10.521268789929344,
+          "area": 0.2104253757985869,
+          "width_s": 0.02
+        },
+        {
+          "start": 340,
+          "end": 341,
+          "amplitude": -11.090475691444528,
+          "area": -0.22180951382889055,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:330",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 148,
+          "end": 149,
+          "amplitude": 14.321705112498927,
+          "area": 0.28643410224997856,
+          "width_s": 0.02
+        },
+        {
+          "start": 339,
+          "end": 340,
+          "amplitude": -15.735057399489968,
+          "area": -0.31470114798979937,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:225",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 133,
+          "end": 134,
+          "amplitude": 14.296165418949641,
+          "area": 0.2859233083789928,
+          "width_s": 0.02
+        },
+        {
+          "start": 365,
+          "end": 366,
+          "amplitude": -9.740765620945856,
+          "area": -0.19481531241891714,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:96",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:211",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 138,
+          "end": 142,
+          "amplitude": 2.5178469241120043,
+          "area": 0.20142775392896034,
+          "width_s": 0.08
+        },
+        {
+          "start": 333,
+          "end": 337,
+          "amplitude": -2.0984346904247193,
+          "area": -0.16787477523397754,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:106",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:144",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:67",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:222",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 144,
+          "end": 145,
+          "amplitude": 11.964363590465608,
+          "area": 0.23928727180931214,
+          "width_s": 0.02
+        },
+        {
+          "start": 333,
+          "end": 334,
+          "amplitude": -14.262494615537635,
+          "area": -0.2852498923107527,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:83",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:113",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:138",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:194",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 157,
+          "end": 167,
+          "amplitude": 1.7414870831318285,
+          "area": 0.3482974166263657,
+          "width_s": 0.2
+        },
+        {
+          "start": 345,
+          "end": 355,
+          "amplitude": -1.4001631088283986,
+          "area": -0.2800326217656797,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:210",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 175,
+          "amplitude": 14.477261663097657,
+          "area": 0.28954523326195314,
+          "width_s": 0.02
+        },
+        {
+          "start": 330,
+          "end": 331,
+          "amplitude": -15.949110988934004,
+          "area": -0.3189822197786801,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:139",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:56",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:64",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:93",
+      "family": "steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:315",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 171,
+          "end": 172,
+          "amplitude": 8.33963633785621,
+          "area": 0.1667927267571242,
+          "width_s": 0.02
+        },
+        {
+          "start": 335,
+          "end": 336,
+          "amplitude": -9.41336283399905,
+          "area": -0.188267256679981,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:119",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:340",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 137,
+          "end": 141,
+          "amplitude": 2.852589790339751,
+          "area": 0.2282071832271801,
+          "width_s": 0.08
+        },
+        {
+          "start": 345,
+          "end": 349,
+          "amplitude": -4.283513194391878,
+          "area": -0.3426810555513502,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:215",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 167,
+          "end": 177,
+          "amplitude": 1.2121390263605354,
+          "area": 0.24242780527210708,
+          "width_s": 0.2
+        },
+        {
+          "start": 354,
+          "end": 364,
+          "amplitude": -0.9893283484024024,
+          "area": -0.19786566968048047,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:299",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 172,
+          "amplitude": 1.7461206408154968,
+          "area": 0.3492241281630994,
+          "width_s": 0.2
+        },
+        {
+          "start": 333,
+          "end": 343,
+          "amplitude": -1.0055773752933805,
+          "area": -0.2011154750586761,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:8",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:336",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 167,
+          "end": 168,
+          "amplitude": 11.803310839194895,
+          "area": 0.2360662167838979,
+          "width_s": 0.02
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "amplitude": -9.411440273625363,
+          "area": -0.18822880547250725,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:229",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 168,
+          "end": 172,
+          "amplitude": 2.3269791103676303,
+          "area": 0.1861583288294104,
+          "width_s": 0.08
+        },
+        {
+          "start": 330,
+          "end": 334,
+          "amplitude": -3.5308143392317843,
+          "area": -0.28246514713854276,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:40",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:220",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 137,
+          "end": 141,
+          "amplitude": 3.4462979694347484,
+          "area": 0.2757038375547799,
+          "width_s": 0.08
+        },
+        {
+          "start": 349,
+          "end": 353,
+          "amplitude": -2.195464320435397,
+          "area": -0.1756371456348318,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:69",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:180",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 175,
+          "amplitude": 15.911644344869815,
+          "area": 0.3182328868973963,
+          "width_s": 0.02
+        },
+        {
+          "start": 327,
+          "end": 328,
+          "amplitude": -9.771310558085663,
+          "area": -0.19542621116171327,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:250",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 141,
+          "end": 145,
+          "amplitude": 4.1820567767421055,
+          "area": 0.3345645421393684,
+          "width_s": 0.08
+        },
+        {
+          "start": 360,
+          "end": 364,
+          "amplitude": -2.3487243381664102,
+          "area": -0.1878979470533128,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:342",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 143,
+          "amplitude": 11.16391130114264,
+          "area": 0.22327822602285283,
+          "width_s": 0.02
+        },
+        {
+          "start": 337,
+          "end": 338,
+          "amplitude": -11.549952638879898,
+          "area": -0.23099905277759794,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:217",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 166,
+          "amplitude": 2.7594885357371237,
+          "area": 0.22075908285896992,
+          "width_s": 0.08
+        },
+        {
+          "start": 359,
+          "end": 363,
+          "amplitude": -3.479693701357689,
+          "area": -0.2783754961086151,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:286",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 171,
+          "end": 175,
+          "amplitude": 2.4897465389503743,
+          "area": 0.19917972311602994,
+          "width_s": 0.08
+        },
+        {
+          "start": 332,
+          "end": 336,
+          "amplitude": -4.316695974969681,
+          "area": -0.34533567799757453,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:66",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:308",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 152,
+          "amplitude": 1.6798637309038567,
+          "area": 0.33597274618077133,
+          "width_s": 0.2
+        },
+        {
+          "start": 372,
+          "end": 382,
+          "amplitude": -1.1790524570188414,
+          "area": -0.2358104914037683,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:267",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 134,
+          "end": 135,
+          "amplitude": 12.475732970972347,
+          "area": 0.24951465941944695,
+          "width_s": 0.02
+        },
+        {
+          "start": 373,
+          "end": 374,
+          "amplitude": -12.3710406766951,
+          "area": -0.24742081353390202,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:214",
+      "family": "multisine+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 137,
+          "end": 141,
+          "amplitude": 4.007097188383401,
+          "area": 0.32056777507067213,
+          "width_s": 0.08
+        },
+        {
+          "start": 333,
+          "end": 337,
+          "amplitude": -4.19837939482182,
+          "area": -0.3358703515857456,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:10",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:84",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:120",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:208",
+      "family": "chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 151,
+          "end": 155,
+          "amplitude": 3.774584512337188,
+          "area": 0.30196676098697506,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -3.226987706030002,
+          "area": -0.25815901648240014,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:223",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 129,
+          "end": 133,
+          "amplitude": 3.0317747507238235,
+          "area": 0.2425419800579059,
+          "width_s": 0.08
+        },
+        {
+          "start": 342,
+          "end": 346,
+          "amplitude": -3.897160475527581,
+          "area": -0.31177283804220646,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:265",
+      "family": "multisine+chirp+steps",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 136,
+          "end": 140,
+          "amplitude": 2.672132399130761,
+          "area": 0.21377059193046086,
+          "width_s": 0.08
+        },
+        {
+          "start": 352,
+          "end": 356,
+          "amplitude": -2.4858696869959584,
+          "area": -0.19886957495967666,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:339",
+      "family": "multisine+chirp",
+      "collector": "dob",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 166,
+          "end": 167,
+          "amplitude": 9.724211004973755,
+          "area": 0.1944842200994751,
+          "width_s": 0.02
+        },
+        {
+          "start": 368,
+          "end": 369,
+          "amplitude": -17.02523933080324,
+          "area": -0.34050478661606487,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:42",
+      "family": "multisine",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:1",
+      "family": "chirp",
+      "collector": "dob",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:263",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 141,
+          "end": 151,
+          "amplitude": 1.207289699555088,
+          "area": 0.2414579399110176,
+          "width_s": 0.2
+        },
+        {
+          "start": 363,
+          "end": 373,
+          "amplitude": -0.8732770901960646,
+          "area": -0.17465541803921292,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:231",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 125,
+          "end": 126,
+          "amplitude": 12.004914841986732,
+          "area": 0.24009829683973466,
+          "width_s": 0.02
+        },
+        {
+          "start": 333,
+          "end": 334,
+          "amplitude": -12.191815131035671,
+          "area": -0.24383630262071343,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:121",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:39",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:170",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:129",
+      "family": "multisine+chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:242",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 157,
+          "end": 167,
+          "amplitude": 1.2420639091849262,
+          "area": 0.24841278183698523,
+          "width_s": 0.2
+        },
+        {
+          "start": 328,
+          "end": 338,
+          "amplitude": -1.3191626818370543,
+          "area": -0.2638325363674109,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:37",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:52",
+      "family": "multisine+chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:123",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:98",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:36",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:55",
+      "family": "multisine+chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:322",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 131,
+          "end": 135,
+          "amplitude": 2.1708688338148234,
+          "area": 0.17366950670518588,
+          "width_s": 0.08
+        },
+        {
+          "start": 350,
+          "end": 354,
+          "amplitude": -3.287465523231786,
+          "area": -0.2629972418585429,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:291",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 133,
+          "end": 134,
+          "amplitude": 7.563360181492942,
+          "area": 0.15126720362985885,
+          "width_s": 0.02
+        },
+        {
+          "start": 364,
+          "end": 365,
+          "amplitude": -12.97935662878909,
+          "area": -0.2595871325757818,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:99",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:167",
+      "family": "multisine+chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:95",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:338",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 152,
+          "end": 162,
+          "amplitude": 1.1253197084389392,
+          "area": 0.22506394168778784,
+          "width_s": 0.2
+        },
+        {
+          "start": 363,
+          "end": 373,
+          "amplitude": -1.5172935614719514,
+          "area": -0.3034587122943903,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:105",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:273",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 152,
+          "end": 153,
+          "amplitude": 14.799072417070722,
+          "area": 0.29598144834141443,
+          "width_s": 0.02
+        },
+        {
+          "start": 369,
+          "end": 370,
+          "amplitude": -15.002134526075999,
+          "area": -0.30004269052152,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:35",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:183",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 134,
+          "end": 135,
+          "amplitude": 17.353780660132024,
+          "area": 0.3470756132026405,
+          "width_s": 0.02
+        },
+        {
+          "start": 345,
+          "end": 346,
+          "amplitude": -17.405367857782316,
+          "area": -0.34810735715564634,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:298",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 144,
+          "amplitude": 2.2500418092180623,
+          "area": 0.18000334473744498,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -4.216526673718072,
+          "area": -0.3373221338974458,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:149",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:356",
+      "family": "multisine+chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 161,
+          "end": 171,
+          "amplitude": 1.1694495400707927,
+          "area": 0.23388990801415854,
+          "width_s": 0.2
+        },
+        {
+          "start": 369,
+          "end": 379,
+          "amplitude": -0.990482989777802,
+          "area": -0.19809659795556042,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:17",
+      "family": "multisine+chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:7",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:274",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 145,
+          "end": 149,
+          "amplitude": 2.043556609791209,
+          "area": 0.1634845287832967,
+          "width_s": 0.08
+        },
+        {
+          "start": 328,
+          "end": 332,
+          "amplitude": -2.421893456906287,
+          "area": -0.19375147655250294,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:245",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 155,
+          "end": 165,
+          "amplitude": 0.9945919007073187,
+          "area": 0.19891838014146376,
+          "width_s": 0.2
+        },
+        {
+          "start": 366,
+          "end": 376,
+          "amplitude": -0.9035809325714883,
+          "area": -0.18071618651429766,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:74",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:271",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 141,
+          "end": 145,
+          "amplitude": 2.053297917880504,
+          "area": 0.16426383343044035,
+          "width_s": 0.08
+        },
+        {
+          "start": 332,
+          "end": 336,
+          "amplitude": -3.7598496095777705,
+          "area": -0.30078796876622166,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:0",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:78",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:86",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:359",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 143,
+          "end": 153,
+          "amplitude": 1.384060153911431,
+          "area": 0.2768120307822862,
+          "width_s": 0.2
+        },
+        {
+          "start": 334,
+          "end": 344,
+          "amplitude": -1.121001169934562,
+          "area": -0.22420023398691238,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:189",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 170,
+          "end": 171,
+          "amplitude": 15.284269188367983,
+          "area": 0.30568538376735965,
+          "width_s": 0.02
+        },
+        {
+          "start": 348,
+          "end": 349,
+          "amplitude": -12.462270169021863,
+          "area": -0.24924540338043727,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:124",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:228",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 173,
+          "end": 174,
+          "amplitude": 9.927768520683907,
+          "area": 0.19855537041367813,
+          "width_s": 0.02
+        },
+        {
+          "start": 340,
+          "end": 341,
+          "amplitude": -14.580901261710899,
+          "area": -0.291618025234218,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:219",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 128,
+          "end": 129,
+          "amplitude": 15.292738089603874,
+          "area": 0.3058547617920775,
+          "width_s": 0.02
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "amplitude": -10.082915835266098,
+          "area": -0.20165831670532197,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:238",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 144,
+          "amplitude": 4.125508465698436,
+          "area": 0.3300406772558749,
+          "width_s": 0.08
+        },
+        {
+          "start": 343,
+          "end": 347,
+          "amplitude": -3.5882268241280073,
+          "area": -0.2870581459302406,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:14",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:259",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 125,
+          "end": 129,
+          "amplitude": 4.303334643532075,
+          "area": 0.344266771482566,
+          "width_s": 0.08
+        },
+        {
+          "start": 363,
+          "end": 367,
+          "amplitude": -2.589505823173813,
+          "area": -0.20716046585390505,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:165",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:317",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 150,
+          "amplitude": 1.5521310078211117,
+          "area": 0.31042620156422235,
+          "width_s": 0.2
+        },
+        {
+          "start": 326,
+          "end": 336,
+          "amplitude": -1.6980626549786884,
+          "area": -0.3396125309957377,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:28",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:355",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 170,
+          "end": 174,
+          "amplitude": 4.073909937063388,
+          "area": 0.3259127949650711,
+          "width_s": 0.08
+        },
+        {
+          "start": 364,
+          "end": 368,
+          "amplitude": -2.4082904954998954,
+          "area": -0.19266323963999163,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:234",
+      "family": "multisine+chirp",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 168,
+          "end": 169,
+          "amplitude": 13.744332006508541,
+          "area": 0.27488664013017083,
+          "width_s": 0.02
+        },
+        {
+          "start": 367,
+          "end": 368,
+          "amplitude": -7.536782087815344,
+          "area": -0.15073564175630688,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:277",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 139,
+          "end": 143,
+          "amplitude": 2.000062459963098,
+          "area": 0.16000499679704785,
+          "width_s": 0.08
+        },
+        {
+          "start": 348,
+          "end": 352,
+          "amplitude": -3.0694931287417786,
+          "area": -0.24555945029934229,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:270",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 126,
+          "end": 127,
+          "amplitude": 12.534738705065223,
+          "area": 0.2506947741013045,
+          "width_s": 0.02
+        },
+        {
+          "start": 334,
+          "end": 335,
+          "amplitude": -13.742570278474435,
+          "area": -0.2748514055694887,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:85",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:41",
+      "family": "multisine+chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:31",
+      "family": "multisine+chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:43",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:354",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 171,
+          "end": 172,
+          "amplitude": 8.954223082042379,
+          "area": 0.17908446164084757,
+          "width_s": 0.02
+        },
+        {
+          "start": 361,
+          "end": 362,
+          "amplitude": -14.494591118817684,
+          "area": -0.2898918223763537,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:49",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:187",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 154,
+          "end": 158,
+          "amplitude": 3.607799937951492,
+          "area": 0.28862399503611935,
+          "width_s": 0.08
+        },
+        {
+          "start": 368,
+          "end": 372,
+          "amplitude": -4.303225846876484,
+          "area": -0.3442580677501187,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:262",
+      "family": "multisine+chirp",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 150,
+          "end": 154,
+          "amplitude": 2.460324663836419,
+          "area": 0.19682597310691352,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -2.7040220537481465,
+          "area": -0.21632176429985173,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:75",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:249",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 175,
+          "amplitude": 17.179990645620165,
+          "area": 0.3435998129124033,
+          "width_s": 0.02
+        },
+        {
+          "start": 354,
+          "end": 355,
+          "amplitude": -7.691994428096323,
+          "area": -0.15383988856192646,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:109",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:26",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:184",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 161,
+          "end": 165,
+          "amplitude": 3.367106113127469,
+          "area": 0.2693684890501975,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -4.134178174252115,
+          "area": -0.3307342539401692,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:309",
+      "family": "chirp",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 129,
+          "end": 130,
+          "amplitude": 16.20765053193873,
+          "area": 0.32415301063877455,
+          "width_s": 0.02
+        },
+        {
+          "start": 364,
+          "end": 365,
+          "amplitude": -7.786048847102872,
+          "area": -0.15572097694205744,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:147",
+      "family": "multisine",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:32",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:23",
+      "family": "steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:243",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 152,
+          "end": 153,
+          "amplitude": 12.209654989418647,
+          "area": 0.24419309978837295,
+          "width_s": 0.02
+        },
+        {
+          "start": 328,
+          "end": 329,
+          "amplitude": -7.78151980337336,
+          "area": -0.1556303960674672,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:305",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 156,
+          "amplitude": 1.5917961429596352,
+          "area": 0.31835922859192706,
+          "width_s": 0.2
+        },
+        {
+          "start": 359,
+          "end": 369,
+          "amplitude": -1.3613869338971911,
+          "area": -0.27227738677943825,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:130",
+      "family": "multisine+steps",
+      "collector": "single_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:313",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 131,
+          "end": 135,
+          "amplitude": 4.321077468112175,
+          "area": 0.345686197448974,
+          "width_s": 0.08
+        },
+        {
+          "start": 344,
+          "end": 348,
+          "amplitude": -3.946513534150458,
+          "area": -0.31572108273203664,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:341",
+      "family": "chirp+steps",
+      "collector": "single_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 131,
+          "end": 141,
+          "amplitude": 1.5727276747452847,
+          "area": 0.31454553494905696,
+          "width_s": 0.2
+        },
+        {
+          "start": 375,
+          "end": 385,
+          "amplitude": -0.995669797421831,
+          "area": -0.1991339594843662,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:306",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 160,
+          "end": 161,
+          "amplitude": 9.928966596718713,
+          "area": 0.19857933193437427,
+          "width_s": 0.02
+        },
+        {
+          "start": 346,
+          "end": 347,
+          "amplitude": -9.304297888310096,
+          "area": -0.18608595776620193,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:316",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 153,
+          "end": 157,
+          "amplitude": 3.7287835174079462,
+          "area": 0.2983026813926357,
+          "width_s": 0.08
+        },
+        {
+          "start": 335,
+          "end": 339,
+          "amplitude": -2.4025993238763115,
+          "area": -0.19220794591010493,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:168",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:45",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:100",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:297",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 143,
+          "amplitude": 11.345530265740827,
+          "area": 0.22691060531481655,
+          "width_s": 0.02
+        },
+        {
+          "start": 373,
+          "end": 374,
+          "amplitude": -15.212970211776828,
+          "area": -0.30425940423553655,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:137",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:20",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:201",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 151,
+          "end": 152,
+          "amplitude": 14.992144610241626,
+          "area": 0.2998428922048325,
+          "width_s": 0.02
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "amplitude": -16.225567619917157,
+          "area": -0.32451135239834317,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:22",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:175",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:48",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:15",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:303",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 148,
+          "end": 149,
+          "amplitude": 11.19403327144231,
+          "area": 0.2238806654288462,
+          "width_s": 0.02
+        },
+        {
+          "start": 338,
+          "end": 339,
+          "amplitude": -8.169488823664441,
+          "area": -0.16338977647328884,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:81",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:141",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:47",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:174",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:142",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:244",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 132,
+          "end": 136,
+          "amplitude": 2.174639611304094,
+          "area": 0.1739711689043275,
+          "width_s": 0.08
+        },
+        {
+          "start": 374,
+          "end": 378,
+          "amplitude": -3.6111206537831895,
+          "area": -0.2888896523026552,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:247",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 160,
+          "end": 164,
+          "amplitude": 3.3386030199311274,
+          "area": 0.2670882415944902,
+          "width_s": 0.08
+        },
+        {
+          "start": 364,
+          "end": 368,
+          "amplitude": -3.9237247326805433,
+          "area": -0.31389797861444346,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:302",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 155,
+          "end": 165,
+          "amplitude": 1.5349748593648127,
+          "area": 0.30699497187296254,
+          "width_s": 0.2
+        },
+        {
+          "start": 363,
+          "end": 373,
+          "amplitude": -1.4229658840632058,
+          "area": -0.2845931768126412,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:226",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 168,
+          "end": 172,
+          "amplitude": 2.2983286787967545,
+          "area": 0.18386629430374035,
+          "width_s": 0.08
+        },
+        {
+          "start": 371,
+          "end": 375,
+          "amplitude": -2.595516127388689,
+          "area": -0.20764129019109512,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:116",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:11",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:155",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:282",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 164,
+          "end": 165,
+          "amplitude": 13.285740180670652,
+          "area": 0.26571480361341304,
+          "width_s": 0.02
+        },
+        {
+          "start": 355,
+          "end": 356,
+          "amplitude": -17.282969167503513,
+          "area": -0.3456593833500703,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:200",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 155,
+          "end": 165,
+          "amplitude": 1.2599795521828276,
+          "area": 0.25199591043656555,
+          "width_s": 0.2
+        },
+        {
+          "start": 328,
+          "end": 338,
+          "amplitude": -1.55545170256634,
+          "area": -0.311090340513268,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:230",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 131,
+          "end": 141,
+          "amplitude": 1.2296065251488915,
+          "area": 0.24592130502977833,
+          "width_s": 0.2
+        },
+        {
+          "start": 344,
+          "end": 354,
+          "amplitude": -1.0107449608787806,
+          "area": -0.20214899217575613,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:12",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:344",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 173,
+          "end": 183,
+          "amplitude": 0.9704651075774451,
+          "area": 0.19409302151548902,
+          "width_s": 0.2
+        },
+        {
+          "start": 339,
+          "end": 349,
+          "amplitude": -1.5502728982706544,
+          "area": -0.3100545796541309,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:326",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 152,
+          "amplitude": 1.6250581455965296,
+          "area": 0.3250116291193059,
+          "width_s": 0.2
+        },
+        {
+          "start": 351,
+          "end": 361,
+          "amplitude": -1.586387250824833,
+          "area": -0.3172774501649666,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:272",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 129,
+          "end": 139,
+          "amplitude": 1.4541067704729775,
+          "area": 0.29082135409459553,
+          "width_s": 0.2
+        },
+        {
+          "start": 371,
+          "end": 381,
+          "amplitude": -1.4430300801633078,
+          "area": -0.28860601603266156,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:334",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 138,
+          "end": 142,
+          "amplitude": 3.5324619513094873,
+          "area": 0.282596956104759,
+          "width_s": 0.08
+        },
+        {
+          "start": 360,
+          "end": 364,
+          "amplitude": -3.401522398689706,
+          "area": -0.2721217918951765,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:203",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 153,
+          "end": 163,
+          "amplitude": 0.8549970579783883,
+          "area": 0.17099941159567766,
+          "width_s": 0.2
+        },
+        {
+          "start": 338,
+          "end": 348,
+          "amplitude": -1.294826382060179,
+          "area": -0.2589652764120358,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:327",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 169,
+          "end": 170,
+          "amplitude": 11.644694474897323,
+          "area": 0.23289388949794645,
+          "width_s": 0.02
+        },
+        {
+          "start": 336,
+          "end": 337,
+          "amplitude": -7.6843357508095815,
+          "area": -0.15368671501619163,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:38",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:295",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 128,
+          "end": 132,
+          "amplitude": 3.6118465025772886,
+          "area": 0.2889477202061831,
+          "width_s": 0.08
+        },
+        {
+          "start": 332,
+          "end": 336,
+          "amplitude": -4.325667609499301,
+          "area": -0.34605340875994406,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:218",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 172,
+          "amplitude": 1.4743347886747538,
+          "area": 0.29486695773495075,
+          "width_s": 0.2
+        },
+        {
+          "start": 339,
+          "end": 349,
+          "amplitude": -1.4755645789714118,
+          "area": -0.2951129157942824,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:178",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:5",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:6",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:279",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 161,
+          "end": 162,
+          "amplitude": 16.049978619096315,
+          "area": 0.32099957238192633,
+          "width_s": 0.02
+        },
+        {
+          "start": 360,
+          "end": 361,
+          "amplitude": -14.957636056477646,
+          "area": -0.29915272112955293,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:206",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 149,
+          "end": 159,
+          "amplitude": 1.1427683103372612,
+          "area": 0.22855366206745226,
+          "width_s": 0.2
+        },
+        {
+          "start": 355,
+          "end": 365,
+          "amplitude": -1.165677753537559,
+          "area": -0.23313555070751185,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:318",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 145,
+          "end": 146,
+          "amplitude": 14.941236214233449,
+          "area": 0.298824724284669,
+          "width_s": 0.02
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "amplitude": -16.582470175052205,
+          "area": -0.3316494035010441,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:161",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:68",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:278",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 156,
+          "amplitude": 1.741634937986301,
+          "area": 0.3483269875972602,
+          "width_s": 0.2
+        },
+        {
+          "start": 331,
+          "end": 341,
+          "amplitude": -1.748336161428618,
+          "area": -0.3496672322857236,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:151",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:287",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 161,
+          "end": 171,
+          "amplitude": 0.823935272351143,
+          "area": 0.16478705447022862,
+          "width_s": 0.2
+        },
+        {
+          "start": 357,
+          "end": 367,
+          "amplitude": -1.0822185876129586,
+          "area": -0.21644371752259173,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:205",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 144,
+          "amplitude": 2.4315652631343285,
+          "area": 0.1945252210507463,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -3.91763727598241,
+          "area": -0.3134109820785928,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:97",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:300",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 164,
+          "end": 165,
+          "amplitude": 10.428361811824793,
+          "area": 0.20856723623649587,
+          "width_s": 0.02
+        },
+        {
+          "start": 358,
+          "end": 359,
+          "amplitude": -17.077496446091093,
+          "area": -0.3415499289218219,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:266",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 164,
+          "end": 174,
+          "amplitude": 0.8362359744692192,
+          "area": 0.16724719489384385,
+          "width_s": 0.2
+        },
+        {
+          "start": 370,
+          "end": 380,
+          "amplitude": -1.3452584204911255,
+          "area": -0.2690516840982251,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:192",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 153,
+          "end": 154,
+          "amplitude": 14.029614702222226,
+          "area": 0.2805922940444445,
+          "width_s": 0.02
+        },
+        {
+          "start": 356,
+          "end": 357,
+          "amplitude": -13.079644183999658,
+          "area": -0.26159288367999317,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:237",
+      "family": "multisine+chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 134,
+          "end": 135,
+          "amplitude": 16.943209283828043,
+          "area": 0.33886418567656085,
+          "width_s": 0.02
+        },
+        {
+          "start": 353,
+          "end": 354,
+          "amplitude": -13.002526075904678,
+          "area": -0.26005052151809355,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:70",
+      "family": "multisine",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:2",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:172",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:233",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 128,
+          "end": 138,
+          "amplitude": 1.2378823510848151,
+          "area": 0.24757647021696305,
+          "width_s": 0.2
+        },
+        {
+          "start": 371,
+          "end": 381,
+          "amplitude": -1.3290656341809306,
+          "area": -0.26581312683618613,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:333",
+      "family": "multisine+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 156,
+          "end": 157,
+          "amplitude": 16.445597694528544,
+          "area": 0.3289119538905709,
+          "width_s": 0.02
+        },
+        {
+          "start": 353,
+          "end": 354,
+          "amplitude": -8.02283998175541,
+          "area": -0.1604567996351082,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:348",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 160,
+          "end": 161,
+          "amplitude": 10.984266903703384,
+          "area": 0.21968533807406768,
+          "width_s": 0.02
+        },
+        {
+          "start": 328,
+          "end": 329,
+          "amplitude": -13.21705913749755,
+          "area": -0.264341182749951,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:135",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:176",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:261",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 138,
+          "end": 139,
+          "amplitude": 11.946542281496876,
+          "area": 0.23893084562993755,
+          "width_s": 0.02
+        },
+        {
+          "start": 356,
+          "end": 357,
+          "amplitude": -15.894721513532067,
+          "area": -0.31789443027064135,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:157",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:30",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:232",
+      "family": "chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 171,
+          "end": 175,
+          "amplitude": 3.610283765179592,
+          "area": 0.28882270121436737,
+          "width_s": 0.08
+        },
+        {
+          "start": 354,
+          "end": 358,
+          "amplitude": -3.7602119344388942,
+          "area": -0.30081695475511155,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:255",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 143,
+          "amplitude": 13.972419938421512,
+          "area": 0.27944839876843025,
+          "width_s": 0.02
+        },
+        {
+          "start": 370,
+          "end": 371,
+          "amplitude": -14.46212668055643,
+          "area": -0.2892425336111286,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:115",
+      "family": "multisine+chirp",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:9",
+      "family": "steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:145",
+      "family": "chirp+steps",
+      "collector": "midpoint_fm",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:216",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 162,
+          "end": 163,
+          "amplitude": 15.481140436003864,
+          "area": 0.3096228087200773,
+          "width_s": 0.02
+        },
+        {
+          "start": 335,
+          "end": 336,
+          "amplitude": -14.734384508414367,
+          "area": -0.29468769016828733,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:72",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:110",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:173",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:212",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 150,
+          "amplitude": 1.1851167003567138,
+          "area": 0.23702334007134276,
+          "width_s": 0.2
+        },
+        {
+          "start": 359,
+          "end": 369,
+          "amplitude": -1.676172731169312,
+          "area": -0.3352345462338624,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:159",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:54",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:280",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 156,
+          "end": 160,
+          "amplitude": 2.4264667126455146,
+          "area": 0.19411733701164116,
+          "width_s": 0.08
+        },
+        {
+          "start": 355,
+          "end": 359,
+          "amplitude": -3.020667623099298,
+          "area": -0.24165340984794384,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:126",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:13",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:353",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 143,
+          "end": 153,
+          "amplitude": 0.9113826724520404,
+          "area": 0.1822765344904081,
+          "width_s": 0.2
+        },
+        {
+          "start": 367,
+          "end": 377,
+          "amplitude": -0.9977643104282796,
+          "area": -0.19955286208565592,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:117",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:209",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 168,
+          "end": 178,
+          "amplitude": 0.7769067763278132,
+          "area": 0.15538135526556265,
+          "width_s": 0.2
+        },
+        {
+          "start": 374,
+          "end": 384,
+          "amplitude": -1.5351487746287762,
+          "area": -0.30702975492575524,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:321",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 157,
+          "end": 158,
+          "amplitude": 8.937305478555444,
+          "area": 0.1787461095711089,
+          "width_s": 0.02
+        },
+        {
+          "start": 333,
+          "end": 334,
+          "amplitude": -17.29121307085618,
+          "area": -0.34582426141712364,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:264",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 127,
+          "end": 128,
+          "amplitude": 10.272721622970261,
+          "area": 0.20545443245940523,
+          "width_s": 0.02
+        },
+        {
+          "start": 346,
+          "end": 347,
+          "amplitude": -15.005388467849656,
+          "area": -0.3001077693569931,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:50",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:193",
+      "family": "multisine+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 127,
+          "end": 131,
+          "amplitude": 3.18627819477246,
+          "area": 0.2549022555817968,
+          "width_s": 0.08
+        },
+        {
+          "start": 341,
+          "end": 345,
+          "amplitude": -4.00187003489001,
+          "area": -0.32014960279120086,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:127",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:268",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 160,
+          "end": 164,
+          "amplitude": 3.895066795934583,
+          "area": 0.31160534367476667,
+          "width_s": 0.08
+        },
+        {
+          "start": 325,
+          "end": 329,
+          "amplitude": -4.090102248887155,
+          "area": -0.32720817991097245,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:311",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 157,
+          "end": 167,
+          "amplitude": 1.7455518550187212,
+          "area": 0.34911037100374426,
+          "width_s": 0.2
+        },
+        {
+          "start": 366,
+          "end": 376,
+          "amplitude": -1.6370655481249798,
+          "area": -0.327413109624996,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:177",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:33",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:198",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 154,
+          "end": 155,
+          "amplitude": 15.1874785482683,
+          "area": 0.30374957096536603,
+          "width_s": 0.02
+        },
+        {
+          "start": 339,
+          "end": 340,
+          "amplitude": -17.41325593661105,
+          "area": -0.34826511873222105,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:60",
+      "family": "multisine+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:349",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 125,
+          "end": 129,
+          "amplitude": 2.82792916261585,
+          "area": 0.22623433300926798,
+          "width_s": 0.08
+        },
+        {
+          "start": 358,
+          "end": 362,
+          "amplitude": -4.309279659799273,
+          "area": -0.3447423727839419,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:131",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:352",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 150,
+          "amplitude": 2.903838000613844,
+          "area": 0.23230704004910752,
+          "width_s": 0.08
+        },
+        {
+          "start": 329,
+          "end": 333,
+          "amplitude": -4.1335824152324605,
+          "area": -0.33068659321859684,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:196",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 178,
+          "amplitude": 4.294306115763046,
+          "area": 0.3435444892610437,
+          "width_s": 0.08
+        },
+        {
+          "start": 338,
+          "end": 342,
+          "amplitude": -1.881754268569799,
+          "area": -0.15054034148558393,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:314",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 147,
+          "end": 157,
+          "amplitude": 1.0867955880296538,
+          "area": 0.21735911760593077,
+          "width_s": 0.2
+        },
+        {
+          "start": 365,
+          "end": 375,
+          "amplitude": -1.1458940115280867,
+          "area": -0.22917880230561735,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:191",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 153,
+          "end": 163,
+          "amplitude": 0.8739238328705142,
+          "area": 0.17478476657410286,
+          "width_s": 0.2
+        },
+        {
+          "start": 339,
+          "end": 349,
+          "amplitude": -0.8644690258410851,
+          "area": -0.17289380516821704,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:24",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:53",
+      "family": "multisine+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:125",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:310",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 166,
+          "end": 170,
+          "amplitude": 2.1228337885837094,
+          "area": 0.16982670308669676,
+          "width_s": 0.08
+        },
+        {
+          "start": 335,
+          "end": 339,
+          "amplitude": -4.12455082250951,
+          "area": -0.3299640658007608,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:207",
+      "family": "multisine+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 147,
+          "amplitude": 17.28293726372606,
+          "area": 0.3456587452745212,
+          "width_s": 0.02
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "amplitude": -12.763085310323088,
+          "area": -0.25526170620646177,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:312",
+      "family": "multisine+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 175,
+          "amplitude": 12.608226610081783,
+          "area": 0.25216453220163565,
+          "width_s": 0.02
+        },
+        {
+          "start": 370,
+          "end": 371,
+          "amplitude": -16.778483782402326,
+          "area": -0.3355696756480465,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:328",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 178,
+          "amplitude": 3.110429171696488,
+          "area": 0.24883433373571906,
+          "width_s": 0.08
+        },
+        {
+          "start": 353,
+          "end": 357,
+          "amplitude": -3.2743034703650906,
+          "area": -0.26194427762920725,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:197",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 133,
+          "end": 143,
+          "amplitude": 1.2037625224649597,
+          "area": 0.24075250449299196,
+          "width_s": 0.2
+        },
+        {
+          "start": 342,
+          "end": 352,
+          "amplitude": -0.8960031077405112,
+          "area": -0.17920062154810223,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:195",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 137,
+          "end": 138,
+          "amplitude": 8.948044924962476,
+          "area": 0.17896089849924954,
+          "width_s": 0.02
+        },
+        {
+          "start": 356,
+          "end": 357,
+          "amplitude": -15.677649730797679,
+          "area": -0.3135529946159536,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:63",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:294",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 160,
+          "end": 161,
+          "amplitude": 13.264410722542744,
+          "area": 0.2652882144508549,
+          "width_s": 0.02
+        },
+        {
+          "start": 347,
+          "end": 348,
+          "amplitude": -17.062685154463008,
+          "area": -0.3412537030892602,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:162",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:73",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:358",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 125,
+          "end": 129,
+          "amplitude": 3.6608114588376983,
+          "area": 0.29286491670701587,
+          "width_s": 0.08
+        },
+        {
+          "start": 354,
+          "end": 358,
+          "amplitude": -4.364160130765255,
+          "area": -0.3491328104612204,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:329",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 146,
+          "end": 156,
+          "amplitude": 1.5444040739861953,
+          "area": 0.30888081479723906,
+          "width_s": 0.2
+        },
+        {
+          "start": 331,
+          "end": 341,
+          "amplitude": -1.1906900231108712,
+          "area": -0.23813800462217427,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:153",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:58",
+      "family": "steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:152",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:87",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:252",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 126,
+          "end": 127,
+          "amplitude": 12.72293808670581,
+          "area": 0.2544587617341162,
+          "width_s": 0.02
+        },
+        {
+          "start": 352,
+          "end": 353,
+          "amplitude": -10.244953714288341,
+          "area": -0.20489907428576684,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:350",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 155,
+          "end": 165,
+          "amplitude": 1.1078856731439974,
+          "area": 0.22157713462879952,
+          "width_s": 0.2
+        },
+        {
+          "start": 354,
+          "end": 364,
+          "amplitude": -0.9851186203226848,
+          "area": -0.19702372406453697,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:61",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:160",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:199",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 144,
+          "amplitude": 3.1560215724148404,
+          "area": 0.25248172579318723,
+          "width_s": 0.08
+        },
+        {
+          "start": 349,
+          "end": 353,
+          "amplitude": -3.7029882830038163,
+          "area": -0.2962390626403053,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:351",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 174,
+          "end": 175,
+          "amplitude": 9.885107424528025,
+          "area": 0.1977021484905605,
+          "width_s": 0.02
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "amplitude": -11.339669939211074,
+          "area": -0.22679339878422147,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:227",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 148,
+          "end": 158,
+          "amplitude": 0.8914319759019804,
+          "area": 0.1782863951803961,
+          "width_s": 0.2
+        },
+        {
+          "start": 369,
+          "end": 379,
+          "amplitude": -1.224006249254658,
+          "area": -0.2448012498509316,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:150",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:251",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 140,
+          "end": 150,
+          "amplitude": 0.8878736749654143,
+          "area": 0.17757473499308285,
+          "width_s": 0.2
+        },
+        {
+          "start": 365,
+          "end": 375,
+          "amplitude": -1.3198437042802196,
+          "area": -0.26396874085604394,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:94",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:77",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:108",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:101",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:27",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:269",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 160,
+          "end": 170,
+          "amplitude": 0.8584147527656186,
+          "area": 0.17168295055312374,
+          "width_s": 0.2
+        },
+        {
+          "start": 354,
+          "end": 364,
+          "amplitude": -1.4200048279724002,
+          "area": -0.28400096559448007,
+          "width_s": 0.2
+        }
+      ]
+    },
+    {
+      "id": "111000:82",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:307",
+      "family": "multisine+chirp+steps",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 142,
+          "end": 146,
+          "amplitude": 3.857509559646963,
+          "area": 0.308600764771757,
+          "width_s": 0.08
+        },
+        {
+          "start": 337,
+          "end": 341,
+          "amplitude": -2.2572787215378045,
+          "area": -0.18058229772302437,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:89",
+      "family": "chirp+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:80",
+      "family": "multisine+chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:148",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    },
+    {
+      "id": "111000:246",
+      "family": "chirp",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 135,
+          "end": 136,
+          "amplitude": 14.78339993156278,
+          "area": 0.2956679986312556,
+          "width_s": 0.02
+        },
+        {
+          "start": 337,
+          "end": 338,
+          "amplitude": -16.35531900157856,
+          "area": -0.3271063800315712,
+          "width_s": 0.02
+        }
+      ]
+    },
+    {
+      "id": "111000:301",
+      "family": "multisine",
+      "collector": "regression",
+      "has_pulse": true,
+      "events": [
+        {
+          "start": 141,
+          "end": 145,
+          "amplitude": 2.7322373739231347,
+          "area": 0.21857898991385077,
+          "width_s": 0.08
+        },
+        {
+          "start": 366,
+          "end": 370,
+          "amplitude": -2.4163088965167527,
+          "area": -0.19330471172134023,
+          "width_s": 0.08
+        }
+      ]
+    },
+    {
+      "id": "111000:25",
+      "family": "multisine+steps",
+      "collector": "regression",
+      "has_pulse": false,
+      "events": []
+    }
+  ],
+  "cache_sha256": "cd15d53de9e1481f8e630616b6eed92893ac6c2adfd7d2e374fbe00d9542ca2b"
+}

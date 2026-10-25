@@ -12,9 +12,9 @@ class ResidualBlock(nn.Module):
 
 class WindowNet(nn.Module):
     """Dense temporal residual network. Flow state stays in R^L, no latent AE."""
-    def __init__(self,length=24,width=128,flow=True):
+    def __init__(self,length=24,width=128,flow=True,residual=False):
         super().__init__()
-        self.length=length; self.flow=flow
+        self.length=length; self.flow=flow; self.residual=residual
         dim=5*length+7 if flow else 4*length+3
         self.net=nn.Sequential(nn.Linear(dim,width),nn.SiLU(),ResidualBlock(width),
                                ResidualBlock(width),nn.LayerNorm(width),nn.Linear(width,length))
@@ -23,7 +23,8 @@ class WindowNet(nn.Module):
         inputs=[source,condition]
         if self.flow:
             inputs += [z,tau,torch.sin(torch.pi*tau),torch.cos(torch.pi*tau),tau*tau]
-        return self.net(torch.cat(inputs,dim=-1))
+        output=self.net(torch.cat(inputs,dim=-1))
+        return source+output if self.residual and not self.flow else output
 
 
 def integrate(model,source,condition,steps=4):
@@ -37,14 +38,30 @@ def integrate(model,source,condition,steps=4):
     return z
 
 
-def flow_loss(model,source,target,condition,endpoint_weight=1.,steps=4):
+def single_step(model,source,condition):
+    """One Euler step: evaluate velocity at tau=0, reach tau=1 in one call."""
+    tau=source.new_zeros((len(source),1))
+    return source+model(source,condition,source,tau)
+
+
+def predict_window(model,source,condition,steps=4,predictor='midpoint'):
+    if not model.flow:
+        return model(source,condition)
+    if predictor=='single_step':
+        return single_step(model,source,condition)
+    if predictor=='midpoint':
+        return integrate(model,source,condition,steps)
+    raise ValueError(f'Unknown predictor: {predictor}')
+
+
+def flow_loss(model,source,target,condition,endpoint_weight=1.,steps=4,predictor='midpoint'):
     tau=torch.rand((len(source),1),device=source.device)
     z=(1-tau)*source+tau*target
     vf=model(source,condition,z,tau)
     loss_fm=(vf-(target-source)).square().mean()
     # Integrate from the actual source: endpoint supervision cannot read target.
     if endpoint_weight:
-        pred=integrate(model,source,condition,steps)
+        pred=predict_window(model,source,condition,steps,predictor)
         loss_result=(pred-target).square().mean()+4*(pred[:,0]-target[:,0]).square().mean()
     else:
         loss_result=loss_fm.new_zeros(())

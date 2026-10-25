@@ -1,0 +1,8 @@
+{
+  "unit_tests_passed": 26,
+  "checkpoint_deployment_calls_checked": 36,
+  "adaptation_source_and_initial_weight_hashes": "matched",
+  "delay_source_hashes": "matched",
+  "zero_delay_matches_original_closed_loop": true,
+  "analysis_sha256": "1541969309853670b85dcb5933ba4348926e57b4ca6e1507f698b3798a9e0da8"
+}

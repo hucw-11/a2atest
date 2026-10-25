@@ -1,0 +1,110 @@
+[
+  {
+    "method": "single_fm",
+    "seed": 11,
+    "best_step": 11800,
+    "validation_rmse": 0.11795082688331604,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "single_fm",
+    "seed": 22,
+    "best_step": 14300,
+    "validation_rmse": 0.12013484537601471,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "single_fm",
+    "seed": 33,
+    "best_step": 13400,
+    "validation_rmse": 0.12263967096805573,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "midpoint_fm",
+    "seed": 11,
+    "best_step": 13500,
+    "validation_rmse": 0.1197887659072876,
+    "last_step": 15000,
+    "deployed_calls": 8,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "midpoint_fm",
+    "seed": 22,
+    "best_step": 13300,
+    "validation_rmse": 0.11745208501815796,
+    "last_step": 15000,
+    "deployed_calls": 8,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "midpoint_fm",
+    "seed": 33,
+    "best_step": 14900,
+    "validation_rmse": 0.1201566681265831,
+    "last_step": 15000,
+    "deployed_calls": 8,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "regression",
+    "seed": 11,
+    "best_step": 13900,
+    "validation_rmse": 0.11518508940935135,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "regression",
+    "seed": 22,
+    "best_step": 13600,
+    "validation_rmse": 0.11391737312078476,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "regression",
+    "seed": 33,
+    "best_step": 14600,
+    "validation_rmse": 0.1165148913860321,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "residual",
+    "seed": 11,
+    "best_step": 12900,
+    "validation_rmse": 0.11764099448919296,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "residual",
+    "seed": 22,
+    "best_step": 14600,
+    "validation_rmse": 0.11634547263383865,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  },
+  {
+    "method": "residual",
+    "seed": 33,
+    "best_step": 12600,
+    "validation_rmse": 0.11724194139242172,
+    "last_step": 15000,
+    "deployed_calls": 1,
+    "noise_free_deployment": true
+  }
+]

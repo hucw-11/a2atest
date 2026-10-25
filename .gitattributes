@@ -1,0 +1,5 @@
+# Keep recorded Python source hashes reproducible across Windows/Linux checkouts.
+*.py text eol=lf
+*.pt binary
+*.npz binary
+*.png binary

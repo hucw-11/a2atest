@@ -1,0 +1,127 @@
+{
+  "repetitions": 5000,
+  "seed": 20261021,
+  "unit": "trajectory",
+  "comparisons": [
+    {
+      "scenario": "gaussian_low",
+      "reference": "midpoint_fm",
+      "pooled_single_rmse": 0.10507550729065676,
+      "pooled_reference_rmse": 0.10474091589867575,
+      "delta_rmse": 0.0003345913919810123,
+      "ci95_low": -0.0008037430427578609,
+      "ci95_high": 0.0014258144812734005,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_low",
+      "reference": "regression",
+      "pooled_single_rmse": 0.10507550729065676,
+      "pooled_reference_rmse": 0.10480491791039986,
+      "delta_rmse": 0.00027058938025689705,
+      "ci95_low": -0.001081167926602444,
+      "ci95_high": 0.0016332995466203668,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_low",
+      "reference": "residual",
+      "pooled_single_rmse": 0.10507550729065676,
+      "pooled_reference_rmse": 0.10648951133854825,
+      "delta_rmse": -0.0014140040478914928,
+      "ci95_low": -0.002577941460225387,
+      "ci95_high": -0.0001263990505443924,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_mid",
+      "reference": "midpoint_fm",
+      "pooled_single_rmse": 0.11604980396126877,
+      "pooled_reference_rmse": 0.11471516581496519,
+      "delta_rmse": 0.0013346381463035795,
+      "ci95_low": 6.637811946006575e-05,
+      "ci95_high": 0.0025158546867486533,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_mid",
+      "reference": "regression",
+      "pooled_single_rmse": 0.11604980396126877,
+      "pooled_reference_rmse": 0.11140812653521158,
+      "delta_rmse": 0.004641677426057186,
+      "ci95_low": 0.003238435847446072,
+      "ci95_high": 0.0059646916920571185,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_mid",
+      "reference": "residual",
+      "pooled_single_rmse": 0.11604980396126877,
+      "pooled_reference_rmse": 0.11352257673358945,
+      "delta_rmse": 0.002527227227679313,
+      "ci95_low": 0.0013869569924266818,
+      "ci95_high": 0.0037246081326066803,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_high",
+      "reference": "midpoint_fm",
+      "pooled_single_rmse": 0.1379333119434955,
+      "pooled_reference_rmse": 0.13344155528405682,
+      "delta_rmse": 0.004491756659438684,
+      "ci95_low": 0.0030098459501384277,
+      "ci95_high": 0.005970179621789409,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_high",
+      "reference": "regression",
+      "pooled_single_rmse": 0.1379333119434955,
+      "pooled_reference_rmse": 0.12515994352223359,
+      "delta_rmse": 0.012773368421261921,
+      "ci95_low": 0.01088678891391129,
+      "ci95_high": 0.014689852770410877,
+      "trajectories": 56
+    },
+    {
+      "scenario": "gaussian_high",
+      "reference": "residual",
+      "pooled_single_rmse": 0.1379333119434955,
+      "pooled_reference_rmse": 0.131697738855106,
+      "delta_rmse": 0.006235573088389512,
+      "ci95_low": 0.00490780861395458,
+      "ci95_high": 0.007668919239638078,
+      "trajectories": 56
+    },
+    {
+      "scenario": "student_ood",
+      "reference": "midpoint_fm",
+      "pooled_single_rmse": 0.12432823137967666,
+      "pooled_reference_rmse": 0.11888242322814246,
+      "delta_rmse": 0.005445808151534198,
+      "ci95_low": 0.0018988359605419658,
+      "ci95_high": 0.00977016628349292,
+      "trajectories": 56
+    },
+    {
+      "scenario": "student_ood",
+      "reference": "regression",
+      "pooled_single_rmse": 0.12432823137967666,
+      "pooled_reference_rmse": 0.11122255479733702,
+      "delta_rmse": 0.013105676582339645,
+      "ci95_low": 0.0051229208077580145,
+      "ci95_high": 0.02398404214410708,
+      "trajectories": 56
+    },
+    {
+      "scenario": "student_ood",
+      "reference": "residual",
+      "pooled_single_rmse": 0.12432823137967666,
+      "pooled_reference_rmse": 0.12299701206819105,
+      "delta_rmse": 0.0013312193114856097,
+      "ci95_low": 5.317778484006945e-06,
+      "ci95_high": 0.0026929240409278095,
+      "trajectories": 56
+    }
+  ]
+}

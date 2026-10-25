@@ -1,7 +1,7 @@
 """Load only your own trusted checkpoint files."""
 import numpy as np
 import torch
-from .models import WindowNet,integrate
+from .models import WindowNet,predict_window
 from .data import Normalizer
 
 
@@ -10,8 +10,10 @@ class DisturbanceEstimator:
         ck=torch.load(checkpoint,map_location=device,weights_only=False)
         cfg=ck['config']; self.length=cfg['length']; self.device=device
         self.steps=cfg['flow_steps'] if steps is None else steps
+        self.predictor=cfg.get('predictor','midpoint')
         self.norm=Normalizer(state=ck['normalizer'])
-        self.model=WindowNet(self.length,cfg['width'],ck['kind']!='regression').to(device)
+        self.model=WindowNet(self.length,cfg['width'],ck['kind'] not in ['regression','residual'],
+                             residual=ck['kind']=='residual').to(device)
         self.model.load_state_dict(ck['model']); self.model.eval()
 
     def estimate(self,x,v,u,a_measured,params):
@@ -28,6 +30,6 @@ class DisturbanceEstimator:
               'condition':np.r_[x,v,u,params][None]}
         source,_,condition=self.norm.tensors(data,self.device)
         with torch.no_grad():
-            output=integrate(self.model,source,condition,self.steps) if self.model.flow else self.model(source,condition)
+            output=predict_window(self.model,source,condition,self.steps,self.predictor)
         future=self.norm.invert(output.cpu().numpy())[0]
         return float(future[0]),future

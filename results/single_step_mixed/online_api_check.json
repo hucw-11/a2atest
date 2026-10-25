@@ -1,0 +1,7 @@
+{
+  "trajectory_id": "91000:0",
+  "family": "multisine+chirp+steps",
+  "windows": 778,
+  "forward_calls": 778,
+  "rmse": 0.11515038689093092
+}

@@ -1,0 +1,12 @@
+{
+  "out": "results/computation_delay",
+  "adaptation": "results/closed_adaptation",
+  "initial": "results/single_step_mixed",
+  "threads": 4,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "test_trajectories": 24
+}

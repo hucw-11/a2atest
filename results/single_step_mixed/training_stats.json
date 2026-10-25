@@ -1,0 +1,65 @@
+{
+  "runs": [
+    {
+      "method": "single_fm",
+      "seed": 11,
+      "seconds": 32.98478350000005
+    },
+    {
+      "method": "single_fm",
+      "seed": 22,
+      "seconds": 32.57678139999916
+    },
+    {
+      "method": "single_fm",
+      "seed": 33,
+      "seconds": 6.352661299999454
+    },
+    {
+      "method": "midpoint_fm",
+      "seed": 11,
+      "seconds": 105.16576329999953
+    },
+    {
+      "method": "midpoint_fm",
+      "seed": 22,
+      "seconds": 107.24851320000016
+    },
+    {
+      "method": "midpoint_fm",
+      "seed": 33,
+      "seconds": 104.5795865
+    },
+    {
+      "method": "regression",
+      "seed": 11,
+      "seconds": 28.365450100001908
+    },
+    {
+      "method": "regression",
+      "seed": 22,
+      "seconds": 26.395068699999683
+    },
+    {
+      "method": "regression",
+      "seed": 33,
+      "seconds": 23.50309990000096
+    },
+    {
+      "method": "residual",
+      "seed": 11,
+      "seconds": 23.459069700002146
+    },
+    {
+      "method": "residual",
+      "seed": 22,
+      "seconds": 25.24970989999929
+    },
+    {
+      "method": "residual",
+      "seed": 33,
+      "seconds": 24.036931200000254
+    }
+  ],
+  "source_jitter_physical_std": 0.006553016901016236
+}

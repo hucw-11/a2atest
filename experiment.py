@@ -6,6 +6,7 @@ import hashlib
 import os
 from pathlib import Path
 import time
+import uuid
 from datetime import datetime,timezone,timedelta
 import numpy as np
 import torch
@@ -15,7 +16,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from a2afm.system import make_trajectories
 from a2afm.data import windows,Normalizer
-from a2afm.models import WindowNet,integrate,flow_loss
+from a2afm.models import WindowNet,integrate,flow_loss,predict_window
 from a2afm.baselines import estimate,tune
 
 ROOT=Path(__file__).resolve().parent
@@ -26,23 +27,52 @@ def log(message):
     print(line,flush=True)
     with (ROOT/'WORK_LOG.md').open('a',encoding='utf-8') as f: f.write('\n- '+line+'\n')
 
-def save_json(path,obj):
-    path=Path(path); tmp=path.with_suffix('.tmp')
-    tmp.write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf-8')
-    tmp.replace(path)
+def replace_with_retry(tmp,path):
+    """Windows scanners may briefly hold the destination without delete sharing."""
+    for attempt in range(100):
+        try:
+            tmp.replace(path)
+            return
+        except PermissionError:
+            if attempt==99: raise
+            time.sleep(.1)
 
-def predict(model,tensors,steps=4,batch=512):
+
+def save_json(path,obj):
+    path=Path(path); tmp=path.with_name(path.name+'.'+uuid.uuid4().hex+'.tmp')
+    try:
+        tmp.write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf-8')
+        replace_with_retry(tmp,path)
+    finally:
+        if tmp.exists(): tmp.unlink()
+
+def save_checkpoint(path,payload):
+    """Atomic checkpoint replacement; tolerate short Windows scanner file locks."""
+    path=Path(path)
+    tmp=path.with_name(path.name+'.'+uuid.uuid4().hex+'.tmp')
+    try:
+        # A Python file handle avoids the native torch path opener on Windows.
+        with tmp.open('wb') as stream:
+            torch.save(payload,stream)
+        replace_with_retry(tmp,path)
+    finally:
+        if tmp.exists(): tmp.unlink()
+
+
+def predict(model,tensors,steps=4,batch=512,predictor='midpoint'):
     src,_,cond=tensors; output=[]
     model.eval()
     with torch.no_grad():
         for i in range(0,len(src),batch):
             s=src[i:i+batch]; c=cond[i:i+batch]
-            output.append((integrate(model,s,c,steps) if model.flow else model(s,c)).cpu().numpy())
+            output.append(predict_window(model,s,c,steps,predictor).cpu().numpy())
     return np.concatenate(output)
 
 def train(args,kind,seed,train_data,val_data,norm,device,out):
     torch.manual_seed(seed); np.random.seed(seed)
-    model=WindowNet(args.length,args.width,kind!='regression').to(device)
+    model=WindowNet(args.length,args.width,kind not in ['regression','residual'],residual=kind=='residual').to(device)
+    predictor=getattr(args,'predictor','midpoint')
+    source_noise_std=getattr(args,'source_noise_std',0.)
     optimizer=torch.optim.AdamW(model.parameters(),lr=args.lr,weight_decay=1e-4)
     tensors=norm.tensors(train_data,device); validation=norm.tensors(val_data,device)
     source,target,condition=tensors
@@ -54,6 +84,12 @@ def train(args,kind,seed,train_data,val_data,norm,device,out):
             # Output directory and resume flag can change without invalidating parameters.
             for key in ['length','width','lr','batch','flow_steps','steps','train_trajectories']:
                 if ck['config'][key]!=vars(args)[key]: raise ValueError(f'Resume config mismatch: {key}')
+            for key,default in [('predictor','midpoint'),('source_noise_std',0.)]:
+                if ck['config'].get(key,default)!=vars(args).get(key,default):
+                    raise ValueError(f'Resume config mismatch: {key}')
+        if ck['normalizer'].keys()!=norm.state.keys() or any(
+                not np.array_equal(ck['normalizer'][key],value) for key,value in norm.state.items()):
+            raise ValueError('Resume normalizer mismatch; use the original training data')
         model.load_state_dict(ck['model']); optimizer.load_state_dict(ck['optimizer'])
         start=ck['step']; best=ck['best']; history=ck['history']
         torch.set_rng_state(ck['rng'].cpu())
@@ -64,17 +100,21 @@ def train(args,kind,seed,train_data,val_data,norm,device,out):
         model.train()
         idx=torch.randint(len(source),(args.batch,),device=device)
         s,y,c=source[idx],target[idx],condition[idx]
+        # Independent white noise in normalized source units, fresh for every batch.
+        # The same perturbed source is used by FM interpolation and endpoint prediction.
+        if source_noise_std:
+            s=s+source_noise_std*torch.randn_like(s)
         optimizer.zero_grad(set_to_none=True)
-        if kind=='regression':
+        if kind in ['regression','residual']:
             p=model(s,c)
             result=(p-y).square().mean()+4*(p[:,0]-y[:,0]).square().mean()
             fm=result.new_zeros(()); loss=result
         else:
-            loss,fm,result=flow_loss(model,s,y,c,0. if kind=='fm_only' else 1.,args.flow_steps)
+            loss,fm,result=flow_loss(model,s,y,c,0. if kind=='fm_only' else 1.,args.flow_steps,predictor)
         if not torch.isfinite(loss): raise RuntimeError(f'Non-finite loss at step {step}')
         loss.backward(); torch.nn.utils.clip_grad_norm_(model.parameters(),5.); optimizer.step()
         if step%100==0 or step==args.steps:
-            pred=norm.invert(predict(model,validation,args.flow_steps))
+            pred=norm.invert(predict(model,validation,args.flow_steps,predictor=predictor))
             rmse=float(np.sqrt(np.mean((pred[:,0]-val_data['target'][:,0])**2)))
             row={'step':step,'loss':float(loss.detach()),'fm_loss':float(fm.detach()),
                  'result_loss':float(result.detach()),'val_rmse':rmse}
@@ -82,10 +122,10 @@ def train(args,kind,seed,train_data,val_data,norm,device,out):
             ck={'model':model.state_dict(),'normalizer':norm.state,'config':vars(args),
                 'kind':kind,'seed':seed,'step':step,'val_rmse':rmse}
             if rmse<best:
-                best=rmse; torch.save(ck,path)
-            torch.save({**ck,'optimizer':optimizer.state_dict(),'best':best,'history':history,
+                best=rmse; save_checkpoint(path,ck)
+            save_checkpoint(last,{**ck,'optimizer':optimizer.state_dict(),'best':best,'history':history,
                         'rng':torch.get_rng_state(),
-                        'cuda_rng':torch.cuda.get_rng_state_all() if device=='cuda' else None},last)
+                        'cuda_rng':torch.cuda.get_rng_state_all() if device=='cuda' else None})
             save_json(out/f'{kind}_seed{seed}_history.json',history)
             log(f'{kind} seed={seed} step={step}/{args.steps} val_RMSE={rmse:.5f} best={best:.5f}')
     ck=torch.load(path,map_location=device,weights_only=False); model.load_state_dict(ck['model'])

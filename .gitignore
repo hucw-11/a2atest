@@ -4,3 +4,9 @@ reference/
 downloads/
 .mplconfig/
 *.pyc
+results/single_step_smoke/
+results/single_step_mixed/**/*.tmp
+results/adaptation_smoke/
+results/closed_adaptation/cache/
+results/closed_adaptation/**/*.tmp
+results/computation_delay/**/*.tmp

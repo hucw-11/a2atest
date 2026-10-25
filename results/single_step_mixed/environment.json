@@ -1,0 +1,9 @@
+{
+  "torch": "2.5.1+cpu",
+  "numpy": "2.2.6",
+  "device": "cpu",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "cpu_count": 32,
+  "torch_threads": 4
+}
