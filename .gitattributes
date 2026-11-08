@@ -7,3 +7,6 @@
 shock_validation/*.md text eol=lf
 results/shock_validation/**/*.json text eol=lf
 results/shock_validation/*.json text eol=lf
+LEARNING_SPEED_PROTOCOL.md text eol=lf
+results/learning_speed/**/*.json text eol=lf
+results/learning_speed/*.json text eol=lf

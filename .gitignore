@@ -13,3 +13,5 @@ results/computation_delay/**/*.tmp
 results/shock_validation/**/*_resume.pt
 results/shock_validation/**/*.tmp
 results/shock_smoke/
+results/learning_speed/**/*_resume.pt
+results/learning_speed/**/*.tmp

@@ -1,0 +1,44 @@
+[
+  {
+    "reference": "A",
+    "early_shock_improvement_percent": 1.66414570107426,
+    "interval": [
+      1.074505782962584,
+      2.255518149005948
+    ],
+    "confidence": 0.975,
+    "background_degradation_percent": -3.476498048168808,
+    "background_interval95": [
+      -5.228097936885407,
+      -1.7207095680730529
+    ]
+  },
+  {
+    "reference": "C",
+    "early_shock_improvement_percent": 1.8516854480936873,
+    "interval": [
+      1.3077016087128355,
+      2.346339048921729
+    ],
+    "confidence": 0.975,
+    "background_degradation_percent": -2.7185507026895817,
+    "background_interval95": [
+      -4.470416358093591,
+      -1.2482710588981623
+    ]
+  },
+  {
+    "reference": "direct",
+    "early_shock_improvement_percent": 14.74994670825156,
+    "interval": [
+      13.009549615362316,
+      16.500545208872733
+    ],
+    "confidence": 0.95,
+    "background_degradation_percent": 0.9665190337947882,
+    "background_interval95": [
+      -2.4131631527103874,
+      4.681398827146567
+    ]
+  }
+]

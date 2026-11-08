@@ -1,0 +1,68 @@
+{
+  "config": {
+    "budgets": [
+      100,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "replicas": [
+      0,
+      1,
+      2
+    ],
+    "methods": [
+      "A",
+      "B",
+      "C",
+      "direct"
+    ],
+    "train_seed": 310000,
+    "validation_seed": 320000,
+    "test_seed": 330000,
+    "batch": 128,
+    "lr": 0.001,
+    "source_noise": 0.01,
+    "primary_early_budgets": [
+      100,
+      250,
+      500,
+      1000,
+      2000
+    ],
+    "noise_budgets": [
+      1000,
+      8000
+    ],
+    "checkpoint_rule": "exact update, no selection",
+    "primary": "log-update averaged shock RMSE, B versus A and C; background guardrail",
+    "time_comparison": "log-time area over common measured optimizer-time range; interpolation exploratory"
+  },
+  "hashes": {
+    "E:\\Desktop\\MyCode\\A2AFM\\learning_speed_experiment.py": "cf915727b14a862bed8a9794dc6448f54ec0c2fb7533b9f8d5b9f4d6aa112193",
+    "shock_validation\\control.py": "286a422c02b85c38680a365e775690e072818797eeaeb5a759bc35b07ba5d369",
+    "shock_validation\\data.py": "1be1e5d1d9e4ab43c8019444ade8affa79b117b6763e7c7f8257944016d18b07",
+    "shock_validation\\filters.py": "35b7c663fae2fee4beaf0655d0f337fe70db9ff3aca753081ff4d3187e5689d7",
+    "shock_validation\\metrics.py": "655af3d8d8b45f949e9988e8f2ee1696402dbc4f548def45ab286b3dde718cc6",
+    "shock_validation\\training.py": "579d71c2d4e7374b824ff41ee107b11d6de1f9c5b0ad3f66504ebe5bb778a56f",
+    "shock_validation\\__init__.py": "5a8a73cd80fdc1050ed2d1db5eaaf146ce86b419f50739b985909492efba2d8b",
+    "a2afm\\baselines.py": "7655f184ea5f58bb0f9f2a0f75c4789a489b50ba03e8904a9c83ff8d3e9cc4c1",
+    "a2afm\\data.py": "29688d8e1d83cd7be2dc2aa2c8f87685cda0cb550e3a057f79a10ee649017baf",
+    "a2afm\\inference.py": "10bfcb2aa86ab6bb59cb2c45ee16937b6506e5dbecca7bc2e51471604f7c84bd",
+    "a2afm\\models.py": "c15886ca92492183b026970a70b14c7a7bb73cb8ad8ee0570ca5323c561aaae8",
+    "a2afm\\system.py": "d579c5b7f2d459f78c05151eec7dd70b656f3e7f7b62024d75c39e7059eb7583",
+    "a2afm\\__init__.py": "94839f0549a64b92b23431e896b3a87adf185876d9984060fa82d423b5b04d68",
+    "closed_loop\\core.py": "3ad44386f9944cd9e784b87f1bea525dbfa18c64b70f0a02c871130523c1ce9c",
+    "experiment.py": "bb0e3e8b118e66e057a099d73cdfba7dafbe4e8d939dd2d22b3341d9924ef012"
+  },
+  "torch": "2.5.1+cpu",
+  "numpy": "2.2.6"
+}

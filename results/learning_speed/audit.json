@@ -1,0 +1,12 @@
+{
+  "checkpoints": 252,
+  "exact_budget_verified": true,
+  "core_initialization_paired": true,
+  "finite_weights": true,
+  "source_hashes_match": true,
+  "training_trajectories": 1080,
+  "validation_trajectories": 432,
+  "test_trajectories": 720,
+  "splits_disjoint": true,
+  "reusable_core_unit_tests_passed": 10
+}
